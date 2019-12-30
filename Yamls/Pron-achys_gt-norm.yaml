@@ -1,0 +1,92 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun - ачыс: # Reflexive Pronoun 'hän itse / он(а) сам(а)'
+     ачыс+Pron+Refl+Nom+PxSg3: ачыс
+     ачыс+Pron+Refl+Acc+PxSg3: асьсӧ
+     ачыс+Pron+Refl+Gen+PxSg3: аслас
+     ачыс+Pron+Refl+Abl+PxSg3: ассис
+     ачыс+Pron+Refl+Dat+PxSg3: аслыс
+     ачыс+Pron+Refl+Ins+PxSg3: аснас 
+     ачыс+Pron+Refl+Com+PxSg3: [аскӧттяс, аскӧттис]
+     ачыс+Pron+Refl+Car+PxSg3: [астӧгьяс, астӧгйис]
+     ачыс+Pron+Refl+Cns+PxSg3: ачысла
+     ачыс+Pron+Refl+Cmpr+PxSg3: ассяс
+     ачыс+Pron+Refl+Ine+PxSg3: асас 
+     ачыс+Pron+Refl+Ela+PxSg3: ассис
+     ачыс+Pron+Refl+Ill+PxSg3: асас
+     ачыс+Pron+Refl+Apr+PxSg3: асланяс
+     ачыс+Pron+Refl+Apr+PxSg3+Comp: асланясжык # Comp muodot eivät esiinny teksteissä
+     ачыс+Pron+Refl+Egr+PxSg3: ассяняс
+     ачыс+Pron+Refl+Egr+PxSg3+Comp: ассянясжык
+     ачыс+Pron+Refl+Prl+PxSg3: [асӧттяс, асӧттис]
+     ачыс+Pron+Refl+Prl+PxSg3+Comp: [асӧттясжык, асӧттисжык]
+     ачыс+Pron+Refl+TerI+PxSg3: [асӧдззас, асӧдззис]
+     ачыс+Pron+Refl+TerI+PxSg3+Comp: [асӧдззасжык, асӧдззисжык]
+     ачыс+Pron+Refl+TerII+PxSg3: ачысви
+     ачыс+Pron+Refl+TerII+PxSg3+Comp: ачысвижык
+     ачыс+Pron+Refl+AprIne+PxSg3: асланяс # Muodot Apr+muut sijamuodot ivät esiinny teksteissä
+     ачыс+Pron+Refl+AprIne+PxSg3+Comp: [асланясжык, асланьжыкас]
+     ачыс+Pron+Refl+AprEla+PxSg3: асланьсис
+     ачыс+Pron+Refl+AprEla+PxSg3+Comp: [асланьсисжык, асланьжыксис]
+     ачыс+Pron+Refl+AprIll+PxSg3: асланяс 
+     ачыс+Pron+Refl+AprIll+PxSg3+Comp: [асланясжык, асланьжыкас]
+     ачыс+Pron+Refl+AprEgr+PxSg3: асланьсяняс
+     ачыс+Pron+Refl+AprEgr+PxSg3+Comp: [асланьсянясжык, асланьжыксяняс]
+     ачыс+Pron+Refl+AprPrl+PxSg3: [асланьӧттяс, асланьӧттис]    ачым+Pron+Refl+AprPrl+PxSg3+Comp: [асланьӧттясжык, асланьӧттисжык, асланьжыкӧттяс, асланьжыкӧттис]
+     ачыс+Pron+Refl+AprTerI+PxSg3: [асланьӧдззас, асланьӧдззис]
+     ачыс+Pron+Refl+AprTerI+PxSg3+Comp: [асланьӧдззасжык, асланьӧдззисжык, асланьжыкӧдззас, асланьжыкӧдззис]
+     ачыс+Pron+Refl+AprTerII+PxSg3: асланясви
+     ачыс+Pron+Refl+AprTerII+PxSg3+Comp: асланясвижык
+ 
+# Pronoun - асьныс: # Reflexive Pronoun 'he itse / они сами'
+     ачыс+Pron+Refl+Nom+PxPl3: асьныс
+     ачыс+Pron+Refl+Acc+PxPl3: асьнысӧ
+     ачыс+Pron+Refl+Gen+PxPl3: асланыс
+     ачыс+Pron+Refl+Abl+PxPl3: ассиныс
+     ачыс+Pron+Refl+Dat+PxPl3: аслыныс
+     ачыс+Pron+Refl+Ins+PxPl3: аснаныс 
+     ачыс+Pron+Refl+Com+PxPl3: [аскӧттяныс, аскӧттиныс]
+     ачыс+Pron+Refl+Car+PxPl3: [астӧгьяныс, астӧгйиныс]
+     ачыс+Pron+Refl+Cns+PxPl3: асьнысла
+     ачыс+Pron+Refl+Cmpr+PxPl3: ассяныс
+     ачыс+Pron+Refl+Ine+PxPl3: асаныс 
+     ачыс+Pron+Refl+Ela+PxPl3: ассиныс
+     ачыс+Pron+Refl+Ill+PxPl3: асаныс
+     ачыс+Pron+Refl+Apr+PxPl3: [асланяныс, асьныслань]
+     ачыс+Pron+Refl+Apr+PxPl3+Comp: [асланянысжык, асьнысланьжык] # Comp muodot eivät esiinny teksteissä
+     ачыс+Pron+Refl+Egr+PxPl3: [ассяняныс, асьныссянь]
+     ачыс+Pron+Refl+Egr+PxPl3+Comp: [ассянянысжык, асьныссяньжык]
+     ачыс+Pron+Refl+Prl+PxPl3: [асӧттяныс, асӧттиныс]
+     ачыс+Pron+Refl+Prl+PxPl3+Comp: [асӧттянысжык, асӧттинысжык]
+     ачыс+Pron+Refl+TerI+PxPl3: [асӧдззаныс, асӧдззиныс]
+     ачыс+Pron+Refl+TerI+PxPl3+Comp: [асӧдззанысжык, асӧдззинысжык]
+     ачыс+Pron+Refl+TerII+PxPl3: асьнысви
+     ачыс+Pron+Refl+TerII+PxPl3+Comp: асьнысвижык
+     ачыс+Pron+Refl+AprIne+PxPl3: [асланяныс, асьнысланьын] # Muodot Apr+muut sijamuodot ivät esiinny teksteissä
+     ачыс+Pron+Refl+AprIne+PxPl3+Comp: [асланянысжык, асланьжыканыс, асьнысланьынжык, асьнысжыкланьын]
+     ачыс+Pron+Refl+AprEla+PxPl3: [асланьсиныс, асьнысланись]
+     ачыс+Pron+Refl+AprEla+PxPl3+Comp: [асланьсинысжык, асланьжыксиныс, асьнысланисьжык, асьнысжыкланись]
+     ачыс+Pron+Refl+AprIll+PxPl3: [асланяныс, асьнысланьӧ] 
+     ачыс+Pron+Refl+AprIll+PxPl3+Comp: [асланянысжык, асланьжыканыс, асьнысланьӧжык, асьнысжыкланьӧ]
+     ачыс+Pron+Refl+AprEgr+PxPl3: [асланьсяняныс, асьнысланьсянь]
+     ачыс+Pron+Refl+AprEgr+PxPl3+Comp: [асланьсянянысжык, асланьжыксяняныс, асьнысланьсяньжык, асьнысжыкланьсянь]
+     ачыс+Pron+Refl+AprPrl+PxPl3: [асланьӧттяныс, асланьӧттиныс, асьнысланьӧт]
+     ачыс+Pron+Refl+AprPrl+PxPl3+Comp: [асланьӧттянысжык, асланьӧттинысжык, асланьжыкӧттяныс, асланьжыкӧттиныс, асьнысланьӧтжык, асьнысжыкланьӧт]
+     ачыс+Pron+Refl+AprTerI+PxPl3: [асланьӧдззаныс, асланьӧдззиныс, асьнысланьӧдз]
+     ачыс+Pron+Refl+AprTerI+PxPl3+Comp: [асланьӧдззанысжык, асланьӧдззинысжык, асланьжыкӧдззаныс, асланьжыкӧдззиныс, асьнысланьӧдзжык, асьнысжыкланьӧдз]
+     ачыс+Pron+Refl+AprTerII+PxPl3: асьнысланьви
+     ачыс+Pron+Refl+AprTerII+PxPl3+Comp: [асьнысланьвижык, асьнысжыкланьви]

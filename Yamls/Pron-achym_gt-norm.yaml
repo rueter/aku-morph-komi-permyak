@@ -1,0 +1,94 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun - ачым: # Reflexive Pronoun 'minä itse / я сам(а)'
+     ачым+Pron+Refl+Nom+PxSg1: ачым
+     ачым+Pron+Refl+Acc+PxSg1: [ачымӧс, асьӧс]
+     ачым+Pron+Refl+Gen+PxSg1: аслам
+     ачым+Pron+Refl+Abl+PxSg1: ассим
+     ачым+Pron+Refl+Dat+PxSg1: аслым
+     ачым+Pron+Refl+Ins+PxSg1: аснам 
+     ачым+Pron+Refl+Com+PxSg1: [аскӧттям, аскӧттим]
+     ачым+Pron+Refl+Car+PxSg1: [астӧгьям, астӧгйим]
+     ачым+Pron+Refl+Cns+PxSg1: ачымла
+     ачым+Pron+Refl+Cmpr+PxSg1: ассям
+     ачым+Pron+Refl+Ine+PxSg1: асам 
+     ачым+Pron+Refl+Ela+PxSg1: ассим
+     ачым+Pron+Refl+Ill+PxSg1: асам
+     ачым+Pron+Refl+Apr+PxSg1: асланям
+     ачым+Pron+Refl+Apr+PxSg1+Comp: асланямжык # Comp muodot eivät esiinny teksteissä
+     ачым+Pron+Refl+Egr+PxSg1: ассяням
+     ачым+Pron+Refl+Egr+PxSg1+Comp: ассянямжык
+     ачым+Pron+Refl+Prl+PxSg1: [асӧттям, асӧттим]
+     ачым+Pron+Refl+Prl+PxSg1+Comp: [асӧттямжык, асӧттимжык]
+     ачым+Pron+Refl+TerI+PxSg1: [асӧдззам, асӧдззим]
+     ачым+Pron+Refl+TerI+PxSg1+Comp: [асӧдззамжык, асӧдззимжык]
+     ачым+Pron+Refl+TerII+PxSg1: ачымви
+     ачым+Pron+Refl+TerII+PxSg1+Comp: ачымвижык
+     ачым+Pron+Refl+AprIne+PxSg1: асланям # Muodot Apr+muut sijamuodot ivät esiinny teksteissä
+      ачым+Pron+Refl+AprIne+PxSg1+Comp: [асланямжык, асланьжыкам]
+     ачым+Pron+Refl+AprEla+PxSg1: асланьсим
+     ачым+Pron+Refl+AprEla+PxSg1+Comp: [асланьсимжык, асланьжыксим]
+     ачым+Pron+Refl+AprIll+PxSg1: асланям 
+     ачым+Pron+Refl+AprIll+PxSg1+Comp: [асланямжык, асланьжыкам]
+     ачым+Pron+Refl+AprEgr+PxSg1: асланьсяням
+     ачым+Pron+Refl+AprEgr+PxSg1+Comp: [асланьсянямжык, асланьжыксяням]
+     ачым+Pron+Refl+AprPrl+PxSg1: [асланьӧттям, асланьӧттим]    ачым+Pron+Refl+AprPrl+PxSg1+Comp: [асланьӧттямжык, асланьӧттимжык, асланьжыкӧттям, асланьжыкӧттим]
+     ачым+Pron+Refl+AprTerI+PxSg1: [асланьӧдззам, асланьӧдззим]
+     ачым+Pron+Refl+AprTerI+PxSg1+Comp: [асланьӧдззамжык, асланьӧдззимжык, асланьжыкӧдззам, асланьжыкӧдззим]
+     ачым+Pron+Refl+AprTerII+PxSg1: асланямви
+     ачым+Pron+Refl+AprTerII+PxSg1+Comp: асланямвижык
+ 
+
+# Pronoun - асьным: # Reflexive Pronoun 'me itse / мы сами'
+     ачым+Pron+Refl+Nom+PxPl1: асьным
+     ачым+Pron+Refl+Acc+PxPl1: асьнымӧс
+     ачым+Pron+Refl+Gen+PxPl1: асланым
+     ачым+Pron+Refl+Abl+PxPl1: ассиным
+     ачым+Pron+Refl+Dat+PxPl1: аслыным
+     ачым+Pron+Refl+Ins+PxPl1: аснаным 
+     ачым+Pron+Refl+Com+PxPl1: [аскӧттяным, аскӧттиным]
+     ачым+Pron+Refl+Car+PxPl1: [астӧгьяным, астӧгйиным]
+     ачым+Pron+Refl+Cns+PxPl1: асьнымла
+     ачым+Pron+Refl+Cmpr+PxPl1: ассяным
+     ачым+Pron+Refl+Ine+PxPl1: асаным 
+     ачым+Pron+Refl+Ela+PxPl1: ассиным
+     ачым+Pron+Refl+Ill+PxPl1: асаным
+     ачым+Pron+Refl+Apr+PxPl1: [асланяным, асьнымлань]
+     ачым+Pron+Refl+Apr+PxPl1+Comp: [асланянымжык, асьнымланьжык, асьнымжыклань] # Comp muodot eivät esiinny teksteissä
+     ачым+Pron+Refl+Egr+PxPl1: [ассяняным, асьнымсянь]
+     ачым+Pron+Refl+Egr+PxPl1+Comp: [ассянянымжык, асьнымсяньжык, асьнымжыксянь]
+     ачым+Pron+Refl+Prl+PxPl1: [асӧттяным, асӧттиным]
+     ачым+Pron+Refl+Prl+PxPl1+Comp: [асӧттянымжык, асӧттинымжык]
+     ачым+Pron+Refl+TerI+PxPl1: [асӧдззаным, асӧдззиным]
+     ачым+Pron+Refl+TerI+PxPl1+Comp: [асӧдззанымжык, асӧдззинымжык]
+     ачым+Pron+Refl+TerII+PxPl1: асьнымви
+     ачым+Pron+Refl+TerII+PxPl1+Comp: [асьнымвижык, асьнымжыкви]
+     ачым+Pron+Refl+AprIne+PxPl1: [асланяным, асьнымланьын] # Muodot Apr+muut sijamuodot ivät esiinny teksteissä
+     ачым+Pron+Refl+AprIne+PxPl1+Comp: [асланянымжык, асланьжыканым, асьнымланьынжык, асьнымжыкланьын]
+     ачым+Pron+Refl+AprEla+PxPl1: [асланьсиным, асьнымланись]
+     ачым+Pron+Refl+AprEla+PxPl1+Comp: [асланьсинымжык, асланьжыксиным, асьнымланисьжык, асьнымжыкланись]
+     ачым+Pron+Refl+AprIll+PxPl1: [асланяным, асьнымланьӧ] 
+     ачым+Pron+Refl+AprIll+PxPl1+Comp: [асланянымжык, асланьжыканым, асьнымланьӧжык, асьнымжыкланьӧ]
+     ачым+Pron+Refl+AprEgr+PxPl1: [асланьсяняным, асьнымланьсянь]
+     ачым+Pron+Refl+AprEgr+PxPl1+Comp: [асланьсянянымжык, асланьжыксяняным, асьнымланьсяньжык, асьнымжыкланьсянь]
+     ачым+Pron+Refl+AprPrl+PxPl1: [асланьӧттяным, асланьӧттиным, асьнымланьӧт]
+     ачым+Pron+Refl+AprPrl+PxPl1+Comp: [асланьӧттянымжык, асланьӧттинымжык, асланьжыкӧттяным, асланьжыкӧттиным, асьнымланьӧтжык, асьнымжыкланьӧт]
+     ачым+Pron+Refl+AprTerI+PxPl1: [асланьӧдззаным, асланьӧдззиным, асьнымланьӧдз]
+     ачым+Pron+Refl+AprTerI+PxPl1+Comp: [асланьӧдззанымжык, асланьӧдззинымжык, асланьжыкӧдззаным, асланьжыкӧдззиным, асьнымланьӧдзжык, асьнымжыкланьӧдз]
+     ачым+Pron+Refl+AprTerII+PxPl1: асьнымланьви
+     ачым+Pron+Refl+AprTerII+PxPl1+Comp: [асьнымланьвижык, асьнымжыкланьви]
+ 

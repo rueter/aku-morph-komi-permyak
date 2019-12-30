@@ -1,0 +1,314 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  
+  Noun - туй: # Ordinary nouns - full paradigm 'road / tie / дорога'
+     туй+N+Sg+Nom: туй
+     туй+N+Sg+Acc: туй
+     туй+N+Sg+Gen: туйлӧн
+     туй+N+Sg+Abl: туйлісь
+     туй+N+Sg+Dat: туйлӧ
+     туй+N+Sg+Ins: туйӧн
+     туй+N+Sg+Com: туйкӧт
+     туй+N+Sg+Car: туйтӧг
+     туй+N+Sg+Cns: туйла
+     туй+N+Sg+Cmpr: туйся
+     туй+N+Sg+Ine: туйын
+     туй+N+Sg+Ela: туйісь
+     туй+N+Sg+Ill: туйӧ
+     туй+N+Sg+Apr: туйлань
+     туй+N+Sg+Egr: туйсянь
+     туй+N+Sg+Prl: туйӧт
+     туй+N+Sg+Ter: [туйӧдз, туйви]
+     туй+N+Sg+AprIne: туйланьын
+     туй+N+Sg+AprEla: туйланись
+     туй+N+Sg+AprIll: туйланьӧ
+     туй+N+Sg+AprEgr: туйланьсянь
+     туй+N+Sg+AprTer: туйланьӧдз
+     туй+N+Sg+Nom+PxSg1: туйӧ
+     туй+N+Sg+Gen+PxSg1: туйӧлӧн
+     туй+N+Sg+Abl+PxSg1: туйӧлісь
+     туй+N+Sg+Dat+PxSg1: туйӧлӧ
+     туй+N+Sg+Acc+PxSg1: туйӧс
+     туй+N+Sg+Ins+PxSg1: туйнам
+     туй+N+Sg+Com+PxSg1: туйӧкӧт
+     туй+N+Sg+Car+PxSg1: туйӧтӧг
+     туй+N+Sg+Cns+PxSg1: туйӧла
+     туй+N+Sg+Cmpr+PxSg1: туйӧся
+     туй+N+Sg+Ine+PxSg1: туям
+     туй+N+Sg+Ela+PxSg1: туйсим
+     туй+N+Sg+Ill+PxSg1: туям
+     туй+N+Sg+Apr+PxSg1: [туйӧлань, туйланям]
+     туй+N+Sg+Egr+PxSg1: туйӧсянь
+     туй+N+Sg+Prl+PxSg1: [туйӧттям, туйӧттим]
+     туй+N+Sg+Ter+PxSg1: [туйӧдззам, туйӧдззим]
+     туй+N+Sg+AprIne+PxSg1: туйланям
+     туй+N+Sg+AprEla+PxSg1: туйланьсим
+     туй+N+Sg+AprIll+PxSg1: туйланям
+     туй+N+Sg+AprEgr+PxSg1: [туйланьсям, туйӧланьсянь]
+     туй+N+Sg+AprTer+PxSg1: [туйланьӧдззам, туйланьӧдззим]
+     туй+N+Sg+Nom+PxSg2: туйыт
+     туй+N+Sg+Gen+PxSg2: туйытлӧн
+     туй+N+Sg+Abl+PxSg2: туйытлісь
+     туй+N+Sg+Dat+PxSg2: туйытлӧ
+     туй+N+Sg+Acc+PxSg2: туйтӧ
+     туй+N+Sg+Ins+PxSg2: туйнат
+     туй+N+Sg+Com+PxSg2: туйыткӧт
+     туй+N+Sg+Car+PxSg2: туйыттӧг
+     туй+N+Sg+Cns+PxSg2: туйытла
+     туй+N+Sg+Cmpr+PxSg2: туйытся
+     туй+N+Sg+Ine+PxSg2: туят
+     туй+N+Sg+Ela+PxSg2: туйсит
+     туй+N+Sg+Ill+PxSg2: туят
+     туй+N+Sg+Apr+PxSg2: [туйытлань, туйланят]
+     туй+N+Sg+Egr+PxSg2: туйсянят
+     туй+N+Sg+Prl+PxSg2: [туйӧттят, туйӧттит]
+     туй+N+Sg+Ter+PxSg2: [туйӧдззат, туйӧдззит]
+     туй+N+Sg+AprIne+PxSg2: туйланят
+     туй+N+Sg+AprEla+PxSg2: туйланьсят
+     туй+N+Sg+AprIll+PxSg2: туйланят
+     туй+N+Sg+AprEgr+PxSg2: туйланьсянят
+     туй+N+Sg+AprTer+PxSg2: [туйланьӧдззат, туйланьӧдззит]
+     туй+N+Sg+Nom+PxSg3: туйыс
+     туй+N+Sg+Gen+PxSg3: туйыслӧн
+     туй+N+Sg+Abl+PxSg3: туйыслісь
+     туй+N+Sg+Dat+PxSg3: туйыслӧ
+     туй+N+Sg+Acc+PxSg3: туйсӧ
+     туй+N+Sg+Ins+PxSg3: туйнас
+     туй+N+Sg+Com+PxSg3: туйыскӧт
+     туй+N+Sg+Car+PxSg3: туйыстӧг
+     туй+N+Sg+Cns+PxSg3: туйысла
+     туй+N+Sg+Cmpr+PxSg3: туйысся
+     
+     туй+N+Sg+Ine+PxSg3: туяс
+     туй+N+Sg+Ela+PxSg3: туйсис
+     туй+N+Sg+Ill+PxSg3: туяс
+     туй+N+Sg+Apr+PxSg3: [туйыслань, туйланяс]
+     туй+N+Sg+Egr+PxSg3: туйсяняс
+     туй+N+Sg+Ter+PxSg3: [туйӧдззас, туйӧдззис]
+     туй+N+Sg+AprIne+PxSg3: туйланяс
+     туй+N+Sg+AprEla+PxSg3: туйланьсис
+     туй+N+Sg+AprIll+PxSg3: туйланяс
+     туй+N+Sg+AprEgr+PxSg3: туйланьсяняс
+     туй+N+Sg+AprTer+PxSg3: [туйланьӧдззаc, туйланьӧдззиc]
+     туй+N+Sg+Nom+PxPl1: туйным
+     туй+N+Sg+Gen+PxPl1: туйнымлӧн
+     туй+N+Sg+Abl+PxPl1: туйнымлісь
+     туй+N+Sg+Dat+PxPl1: туйнымлӧ
+     туй+N+Sg+Acc+PxPl1: туйнымӧс
+     туй+N+Sg+Ins+PxPl1: туйнаным
+     туй+N+Sg+Com+PxPl1: туйнымкӧт
+     туй+N+Sg+Car+PxPl1: туйнымтӧг
+     туй+N+Sg+PxPl1+Cns: туйнымла
+     туй+N+Sg+Cmpr+PxPl1: туйнымся
+     туй+N+Sg+Ine+PxPl1: туяным
+     туй+N+Sg+Ela+PxPl1: туйсиным
+     туй+N+Sg+Ill+PxPl1: туяным
+     туй+N+Sg+Apr+PxPl1: [туйнымлань, туйланяным]
+     туй+N+Sg+Egr+PxPl1: туйнымсянь
+     туй+N+Sg+Ter+PxPl1: [туйӧдззаным, туйӧдззиным]
+     туй+N+Sg+AprIne+PxPl1: туйнымлань
+     туй+N+Sg+AprEla+PxPl1: туйланьсиным
+     туй+N+Sg+AprIll+PxPl1: туйнымлань
+     туй+N+Sg+AprEgr+PxPl1: туйланьсяньным
+     туй+N+Sg+AprTer+PxPl1: [туйланьӧдззаным, туйланьӧдззиным]
+     туй+N+Sg+Nom+PxPl2: туйныт
+     туй+N+Sg+Gen+PxPl2: туйнытлӧн
+     туй+N+Sg+Abl+PxPl2: туйнытлісь
+     туй+N+Sg+Dat+PxPl2: туйнытлӧ
+     туй+N+Sg+Acc+PxPl2: туйнытӧ
+     туй+N+Sg+Ins+PxPl2: туйнаныт
+     туй+N+Sg+Com+PxPl2: туйныткӧт
+     туй+N+Sg+Car+PxPl2: туйныттӧг
+     туй+N+Sg+Cns+PxPl2: туйнытла
+     туй+N+Sg+Cmpr+PxPl2: туйсянят
+     туй+N+Sg+Ine+PxPl2: туяныт
+     туй+N+Sg+Ela+PxPl2: туйсиныт
+     туй+N+Sg+Ill+PxPl2: туяныт
+     туй+N+Sg+Apr+PxPl2: [туйнытлань, туйланяныт]
+     туй+N+Sg+Egr+PxPl2: туйсяньныт
+     туй+N+Sg+Ter+PxPl2: [туйӧдззаныт, туйӧдззиныт]
+     туй+N+Sg+AprIne+PxPl2: туйланяныт
+     туй+N+Sg+AprEla+PxPl2: туйланьсиныт
+     туй+N+Sg+AprIll+PxPl2: туйланяныт
+     туй+N+Sg+AprEgr+PxPl2: туйланьсяньныт
+     туй+N+Sg+AprTer+PxPl2: [туйланьӧдззаныт, туйланьӧдззиныт]
+     туй+N+Sg+Nom+PxPl3: туйныс
+     туй+N+Sg+Gen+PxPl3: туйныслӧн
+     туй+N+Sg+Abl+PxPl3: туйныслісь
+     туй+N+Sg+Dat+PxPl3: туйныслӧ
+     туй+N+Sg+Acc+PxPl3: туйнысӧ
+     туй+N+Sg+Ins+PxPl3: туйнаныс
+     туй+N+Sg+Com+PxPl3: туйныскӧт
+     туй+N+Sg+Car+PxPl3: туйныстӧг
+     туй+N+Sg+Cns+PxPl3: туйнысла
+     туй+N+Sg+Cmpr+PxPl3: туйнысся
+     туй+N+Sg+Ine+PxPl3: туяныс
+     туй+N+Sg+Ela+PxPl3: туйсиныс
+     туй+N+Sg+Ill+PxPl3: туяныс
+     туй+N+Sg+Apr+PxPl3: [туйныслань, туйланяныс]
+     туй+N+Sg+Egr+PxPl3: туйсяньныс
+     туй+N+Sg+Ter+PxPl3: [туйӧдззаныс, туйӧдззиныс]
+     туй+N+Sg+AprIne+PxPl3: туйланяныс
+     туй+N+Sg+AprEla+PxPl3: туйланьсиныс
+     туй+N+Sg+AprIll+PxPl3: туйланяныс
+     туй+N+Sg+AprEgr+PxPl3: туйланьсяняныс
+     туй+N+Sg+AprTer+PxPl3: [туйланьӧдззаныс, туйланьӧдззиныс]
+     туй+N+Pl+Nom: туйез
+     туй+N+Pl+Acc: туйез
+     туй+N+Pl+Gen: туйезлӧн
+     туй+N+Pl+Abl: туйезлісь
+     туй+N+Pl+Dat: туйезлӧ
+     туй+N+Pl+Ins: туйезӧн
+     туй+N+Pl+Com: туйезкӧт
+     туй+N+Pl+Car: туйезтӧг
+     туй+N+Pl+Cns: туйезла
+     туй+N+Pl+Cmpr: туйезся
+     туй+N+Pl+Ine: туйезын
+     туй+N+Pl+Ela: туйезісь
+     туй+N+Pl+Ill: туйезӧ
+     туй+N+Pl+Apr: туйезлань
+     туй+N+Pl+Egr: туйезсянь
+     туй+N+Pl+Prl: туйезӧд
+     туй+N+Pl+Tra: туйезті
+     туй+N+Pl+Ter: туйезӧдз
+     туй+N+Pl+AprIne: туйезланьын
+     туй+N+Pl+AprEla: туйезланись
+     туй+N+Pl+AprIll: туйезланьӧ
+     туй+N+Pl+AprEgr: туйезланьсянь
+     туй+N+Pl+AprPrl: туйезланьӧт
+     туй+N+Pl+AprTer: туйезланьӧдз
+     туй+N+Pl+Nom+PxSg1: туйезӧ
+     туй+N+Pl+Gen+PxSg1: туйезӧлӧн
+     туй+N+Pl+Abl+PxSg1: туйезӧлісь
+     туй+N+Pl+Dat+PxSg1: туйезӧлӧ
+     туй+N+Pl+Acc+PxSg1: туйезӧс
+     туй+N+Pl+Ins+PxSg1: туйезнам
+     туй+N+Pl+Com+PxSg1: туйезӧкӧт
+     туй+N+Pl+Car+PxSg1: туйезӧтӧг
+     туй+N+Pl+Cns+PxSg1: туйезӧла
+     туй+N+Pl+Cmpr+PxSg1: туйезӧся
+     туй+N+Pl+Ine+PxSg1: туйезам
+     туй+N+Pl+Ela+PxSg1: туйезсим
+     туй+N+Pl+Ill+PxSg1: туйезам
+     туй+N+Pl+Apr+PxSg1: туйезӧлань
+     туй+N+Pl+Egr+PxSg1: туйезӧсянь
+     туй+N+Pl+Ter+PxSg1: [туйезӧдззам, туйезӧдззим]
+     туй+N+Pl+AprIne+PxSg1: туйезланям
+     туй+N+Pl+AprEla+PxSg1: туйезланьсим
+     туй+N+Pl+AprIll+PxSg1: туйезланям
+     туй+N+Pl+AprEgr+PxSg1: туйезӧланьсянь
+     туй+N+Pl+AprTer+PxSg1: [туйезланьӧдззам, туйезланьӧдззим]
+     туй+N+Pl+Nom+PxSg2: [туйезыт, туйет]
+     туй+N+Pl+Gen+PxSg2: [туйезытлӧн, туйетлӧн]
+     туй+N+Pl+Abl+PxSg2: [туйезытлісь, туйетлісь]
+     туй+N+Pl+Dat+PxSg2: [туйезытлӧ, туйетлӧ]
+     туй+N+Pl+Acc+PxSg2: [туйезтӧ, туйетӧ]
+     туй+N+Pl+Ins+PxSg2: туйезнат
+     туй+N+Pl+Com+PxSg2: [туйезыткӧт, туйеткӧт]
+     туй+N+Pl+Car+PxSg2: туйезыттӧг
+     туй+N+Pl+Cns+PxSg2: [туйезытла, туйетла]
+     туй+N+Pl+Cmpr+PxSg2: туйезытся
+     туй+N+Pl+Ine+PxSg2: туйезат
+     туй+N+Pl+Ela+PxSg2: туйезсит
+     туй+N+Pl+Ill+PxSg2: туйезат
+     туй+N+Pl+Apr+PxSg2: туйезланят
+     туй+N+Pl+Egr+PxSg2: туйезсянят
+     туй+N+Pl+Prl+PxSg2: [туйезӧттят, туйезӧттит]
+     туй+N+Pl+Ter+PxSg2: [туйезӧдззат, туйезӧдззит]
+     туй+N+Pl+AprIne+PxSg2: туйезланят
+     туй+N+Pl+AprEla+PxSg2: туйезланьсит
+     туй+N+Pl+AprIll+PxSg2: туйезланят
+     туй+N+Pl+AprEgr+PxSg2: туйезланьсянят
+     туй+N+Pl+AprTer+PxSg2: [туйезланьӧдззат, туйезланьӧдззит]
+     туй+N+Pl+Nom+PxSg3: [туйезыс, туйес]
+     туй+N+Pl+Gen+PxSg3: [туйезыслӧн, туйеслӧн]
+     туй+N+Pl+Abl+PxSg3: [туйезыслісь, туйеслісь]
+     туй+N+Pl+Dat+PxSg3: [туйезыслӧ, туйеслӧ]
+     туй+N+Pl+Acc+PxSg3: туйезсӧ
+     туй+N+Pl+Ins+PxSg3: туйезнас
+     туй+N+Pl+Com+PxSg3: [туйезыскӧт, туйескӧт]
+     туй+N+Pl+Car+PxSg3: [туйезыстӧг, туйестӧг]
+     туй+N+Pl+Cns+PxSg3: [туйезысла, туйесла]
+     туй+N+Pl+Cmpr+PxSg3: [туйезысся, туйесся]
+     туй+N+Pl+Ine+PxSg3: туйезас
+     туй+N+Pl+Ela+PxSg3: туйезсис
+     туй+N+Pl+Ill+PxSg3: туйезас
+     туй+N+Pl+Apr+PxSg3: туйезланяс
+     туй+N+Pl+Egr+PxSg3: туйезсяняс
+     туй+N+Pl+Ter+PxSg3: [туйезӧдззас, туйезӧдззис]
+     туй+N+Pl+AprIne+PxSg3: туйезланяс
+     туй+N+Pl+AprEla+PxSg3: туйезланьсис
+     туй+N+Pl+AprIll+PxSg3: туйезланяс
+     туй+N+Pl+AprEgr+PxSg3: туйезланьсяняс
+     туй+N+Pl+AprTer+PxSg3: [туйезланьӧдззаc, туйезланьӧдззиc]
+     туй+N+Pl+Nom+PxPl1: туйезным
+     туй+N+Pl+Gen+PxPl1: туйезнымлӧн
+     туй+N+Pl+Abl+PxPl1: туйезнымлісь
+     туй+N+Pl+Dat+PxPl1: туйезнымлӧ
+     туй+N+Pl+Acc+PxPl1: туйезнымӧс
+     туй+N+Pl+Ins+PxPl1: туйезнаным
+     туй+N+Pl+Com+PxPl1: туйезнымкӧт
+     туй+N+Pl+Car+PxPl1: туйезнымтӧг
+     туй+N+Pl+Cns+PxPl1: туйезнымла
+     туй+N+Pl+Cmpr+PxPl1: туйезнымся
+     туй+N+Pl+Ine+PxPl1: туйезаным
+     туй+N+Pl+Ela+PxPl1: туйезсиным
+     туй+N+Pl+Ill+PxPl1: туйезаным
+     туй+N+Pl+Apr+PxPl1: туйезнымлань
+     туй+N+Pl+Egr+PxPl1: туйезсяняным
+     туй+N+Pl+Ter+PxPl1: [туйезӧдззаным, туйезӧдззиным]
+     туй+N+Pl+AprIne+PxPl1: туйезланяным
+     туй+N+Pl+AprEla+PxPl1: туйезланьсиным
+     туй+N+Pl+AprIll+PxPl1: туйезланяным
+     туй+N+Pl+AprEgr+PxPl1: туйезланьсяняным
+     туй+N+Pl+AprTer+PxPl1: [туйезланьӧдззаным, туйезланьӧдззиным]
+     туй+N+Pl+Nom+PxPl2: туйезныт
+     туй+N+Pl+Gen+PxPl2: туйезнытлӧн
+     туй+N+Pl+Abl+PxPl2: туйезнытлісь
+     туй+N+Pl+Dat+PxPl2: туйезнытлӧ
+     туй+N+Pl+Acc+PxPl2: туйезнытӧ
+     туй+N+Pl+Ins+PxPl2: туйезнаныт
+     туй+N+Pl+Com+PxPl2: туйезныткӧт
+     туй+N+Pl+Car+PxPl2: туйезныттӧг
+     туй+N+Pl+Cns+PxPl2: туйезнытла
+     туй+N+Pl+Cmpr+PxPl2: туйезнытся
+     туй+N+Pl+Ine+PxPl2: туйезаныт
+     туй+N+Pl+Ela+PxPl2: туйезсиныт
+     туй+N+Pl+Ill+PxPl2: туйезаныт
+     туй+N+Pl+Apr+PxPl2: туйезнытлань
+     туй+N+Pl+Egr+PxPl2: туйезсяняныт
+     туй+N+Pl+Ter+PxPl2: [туйезӧдззаныт, туйезӧдззиныт]
+     туй+N+Pl+AprIne+PxPl2: туйезланяныт
+     туй+N+Pl+AprEla+PxPl2: туйезланьсиныт
+     туй+N+Pl+AprIll+PxPl2: туйезланяныт
+     туй+N+Pl+AprEgr+PxPl2: туйезланьсяняныт
+     туй+N+Pl+AprTer+PxPl2: [туйезланьӧдззаныт, туйезланьӧдззаныт]
+     туй+N+Pl+Nom+PxPl3: туйезныс
+     туй+N+Pl+Gen+PxPl3: туйезныслӧн
+     туй+N+Pl+Abl+PxPl3: туйезныслісь
+     туй+N+Pl+Dat+PxPl3: туйезныслӧ
+     туй+N+Pl+Acc+PxPl3: туйезнысӧ
+     туй+N+Pl+Ins+PxPl3: туйезнаныс
+     туй+N+Pl+Com+PxPl3: туйезныскӧт
+     туй+N+Pl+Car+PxPl3: туйезныстӧг
+     туй+N+Pl+Cns+PxPl3: туйезнысла
+     туй+N+Pl+Cmpr+PxPl3: туйезнысся
+     туй+N+Pl+Ine+PxPl3: туйезаныс
+     туй+N+Pl+Ela+PxPl3: туйезсиныс
+     туй+N+Pl+Ill+PxPl3: туйезаныс
+     туй+N+Pl+Apr+PxPl3: [туйезныслань, туйезланяныс]
+     туй+N+Pl+Egr+PxPl3: туйезсяняныс
+     туй+N+Pl+Ter+PxPl3: [туйезӧдззаныс, туйезӧдззиныс]
+     туй+N+Pl+AprIne+PxPl3: туйезланяныс
+     туй+N+Pl+AprEla+PxPl3: туйезланьсиныс
+     туй+N+Pl+AprIll+PxPl3: туйезланяныс
+     туй+N+Pl+AprEgr+PxPl3: туйезланьсяняныс
+     туй+N+Pl+AprTer+PxPl3: [туйезланьӧдззаныс, туйезланьӧдззиныс]

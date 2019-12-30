@@ -1,0 +1,363 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-14
+  
+  Noun - кага: # Nouns in vowels, inanimate noun, full paradigm 'child; baby / lapsi; vauva / ребёнок'
+     кага+N+Anim+Sg+Nom: кага
+     кага+N+Anim+Sg+Acc: кагаӧс
+     кага+N+Anim+Sg+Gen: кагалӧн
+     кага+N+Anim+Sg+Abl: кагалісь
+     кага+N+Anim+Sg+Dat: кагалӧ
+     кага+N+Anim+Sg+Ins: кагаӧн
+     кага+N+Anim+Sg+Com: кагакӧт
+     кага+N+Anim+Sg+Car: кагатӧг
+     кага+N+Anim+Sg+Cns: кагала
+     кага+N+Anim+Sg+Cmpr: кагася
+     кага+N+Anim+Sg+Ine: кагаын
+     кага+N+Anim+Sg+Ela: кагаись
+     кага+N+Anim+Sg+Ill: кагаӧ
+     кага+N+Anim+Sg+Apr: кагалань
+     кага+N+Anim+Sg+Egr: кагасянь
+     кага+N+Anim+Sg+Prl: кагаӧт
+     кага+N+Anim+Sg+TerI: кагаӧдз
+     кага+N+Anim+Sg+TerII: кагави
+     кага+N+Anim+Sg+AprIne: кагаланьын
+     кага+N+Anim+Sg+AprEla: кагаланись
+     кага+N+Anim+Sg+AprIll: кагаланьӧ
+     кага+N+Anim+Sg+AprEgr: кагаланьсянь
+     кага+N+Anim+Sg+AprPrl: кагаланьӧт
+     кага+N+Anim+Sg+AprTerI: кагаланьӧдз
+     кага+N+Anim+Sg+AprTerII: кагаланьви
+     кага+N+Anim+Sg+Nom+PxSg1: кагаӧ
+     кага+N+Anim+Sg+Gen+PxSg1: кагаӧлӧн
+     кага+N+Anim+Sg+Abl+PxSg1: кагаӧлісь
+     кага+N+Anim+Sg+Dat+PxSg1: кагаӧлӧ
+     кага+N+Anim+Sg+Acc+PxSg1: кагаӧс
+     кага+N+Anim+Sg+Ins+PxSg1: каганам
+     кага+N+Anim+Sg+Com+PxSg1: кагаӧкӧт
+     кага+N+Anim+Sg+Car+PxSg1: [кагаӧтӧг, кагатӧгьям]
+     кага+N+Anim+Sg+Cns+PxSg1: кагаӧла
+     кага+N+Anim+Sg+Cmpr+PxSg1: кагаӧся
+     кага+N+Anim+Sg+Ine+PxSg1: кагаам
+     кага+N+Anim+Sg+Ela+PxSg1: кагасим
+     кага+N+Anim+Sg+Ill+PxSg1: кагаам
+     кага+N+Anim+Sg+Apr+PxSg1: [кагаӧлань, кагаланям]
+     кага+N+Anim+Sg+Egr+PxSg1: [кагаӧсянь, кагасяням]
+     кага+N+Anim+Sg+Prl+PxSg1: [кагаӧттям, кагаӧттим]
+     кага+N+Anim+Sg+TerI+PxSg1: [кагаӧдззам, кагаӧдззим]
+     кага+N+Anim+Sg+TerII+PxSg1: кагаӧви
+     кага+N+Anim+Sg+AprIne+PxSg1: кагаланям
+     кага+N+Anim+Sg+AprEla+PxSg1: кагаланьсим
+     кага+N+Anim+Sg+AprIll+PxSg1: кагаланям
+     кага+N+Anim+Sg+AprEgr+PxSg1: [кагаланьсяням, кагаӧланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxSg1: [кагаланьӧттям, кагаланьӧттим, кагаӧланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxSg1: [кагаланьӧдззам, кагаланьӧдззим, кагаӧланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxSg1: кагаӧланьви
+     кага+N+Anim+Sg+Nom+PxSg2: кагаыт
+     кага+N+Anim+Sg+Gen+PxSg2: кагаытлӧн
+     кага+N+Anim+Sg+Abl+PxSg2: кагаытлісь
+     кага+N+Anim+Sg+Dat+PxSg2: кагаытлӧ
+     кага+N+Anim+Sg+Acc+PxSg2: кагатӧ
+     кага+N+Anim+Sg+Ins+PxSg2: каганат
+     кага+N+Anim+Sg+Com+PxSg2: кагаыткӧт
+     кага+N+Anim+Sg+Car+PxSg2: [кагаыттӧг, кагатӧгьят]
+     кага+N+Anim+Sg+Cns+PxSg2: кагаытла
+     кага+N+Anim+Sg+Cmpr+PxSg2: кагаытся
+     кага+N+Anim+Sg+Ine+PxSg2: кагаат
+     кага+N+Anim+Sg+Ela+PxSg2: кагасит
+     кага+N+Anim+Sg+Ill+PxSg2: кагаат
+     кага+N+Anim+Sg+Apr+PxSg2: [кагаытлань, кагаланят]
+     кага+N+Anim+Sg+Egr+PxSg2: [кагаытсянь, кагасянят]
+     кага+N+Anim+Sg+Prl+PxSg2: [кагаӧттят, кагаӧттит]
+     кага+N+Anim+Sg+TerI+PxSg2: [кагаӧдззат, кагаӧдззит]
+     кага+N+Anim+Sg+TerII+PxSg2: кагаытви
+     кага+N+Anim+Sg+AprIne+PxSg2: кагаланят
+     кага+N+Anim+Sg+AprEla+PxSg2: кагаланьсит
+     кага+N+Anim+Sg+AprIll+PxSg2: кагаланят
+     кага+N+Anim+Sg+AprEgr+PxSg2: [кагаланьсянят, кагаытланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxSg2: [кагаланьӧттят, кагаланьӧттит, кагаытланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxSg2: [кагаланьӧдззат, кагаланьӧдззит, кагаытланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxSg2: кагаытланьви
+     кага+N+Anim+Sg+Nom+PxSg3: кагаыс
+     кага+N+Anim+Sg+Gen+PxSg3: кагаыслӧн
+     кага+N+Anim+Sg+Abl+PxSg3: кагаыслісь
+     кага+N+Anim+Sg+Dat+PxSg3: кагаыслӧ
+     кага+N+Anim+Sg+Acc+PxSg3: кагасӧ
+     кага+N+Anim+Sg+Ins+PxSg3: каганас
+     кага+N+Anim+Sg+Com+PxSg3: кагаыскӧт
+     кага+N+Anim+Sg+Car+PxSg3: [кагаыстӧг, кагатӧгьяс]
+     кага+N+Anim+Sg+Cns+PxSg3: кагаысла
+     кага+N+Anim+Sg+Cmpr+PxSg3: кагаысся
+     кага+N+Anim+Sg+Ine+PxSg3: кагаас
+     кага+N+Anim+Sg+Ela+PxSg3: кагасис
+     кага+N+Anim+Sg+Ill+PxSg3: кагаас
+     кага+N+Anim+Sg+Apr+PxSg3: [кагаыслань, кагаланяс]
+     кага+N+Anim+Sg+Egr+PxSg3: [кагаыссянь, кагасяняс]
+     кага+N+Anim+Sg+Prl+PxSg3: [кагаӧттяс, кагаӧттис]
+     кага+N+Anim+Sg+TerI+PxSg3: [кагаӧдззас, кагаӧдззис]
+     кага+N+Anim+Sg+TerII+PxSg3: кагаысви
+     кага+N+Anim+Sg+AprIne+PxSg3: кагаланяс
+     кага+N+Anim+Sg+AprEla+PxSg3: кагаланьсис
+     кага+N+Anim+Sg+AprIll+PxSg3: кагаланяс
+     кага+N+Anim+Sg+AprEgr+PxSg3: [кагаланьсяняс, кагаысланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxSg3: [кагаланьӧттяc, кагаланьӧттиc, кагаысланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxSg3: [кагаланьӧдззаc, кагаланьӧдззиc, кагаысланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxSg3: кагаысланьви
+     кага+N+Anim+Sg+Nom+PxPl1: каганым
+     кага+N+Anim+Sg+Gen+PxPl1: каганымлӧн
+     кага+N+Anim+Sg+Abl+PxPl1: каганымлісь
+     кага+N+Anim+Sg+Dat+PxPl1: каганымлӧ
+     кага+N+Anim+Sg+Acc+PxPl1: каганымӧс
+     кага+N+Anim+Sg+Ins+PxPl1: кагананым
+     кага+N+Anim+Sg+Com+PxPl1: каганымкӧт
+     кага+N+Anim+Sg+Car+PxPl1: [каганымтӧг, кагатӧгьяным]
+     кага+N+Anim+Sg+Cns+PxPl1: каганымла
+     кага+N+Anim+Sg+Cmpr+PxPl1: каганымся
+     кага+N+Anim+Sg+Ine+PxPl1: кагааным
+     кага+N+Anim+Sg+Ela+PxPl1: кагасиным
+     кага+N+Anim+Sg+Ill+PxPl1: кагааным
+     кага+N+Anim+Sg+Apr+PxPl1: [каганымлань, кагаланяным]
+     кага+N+Anim+Sg+Egr+PxPl1: [каганымсянь, кагасяняным]
+     кага+N+Anim+Sg+Prl+PxPl1: [кагаӧттяным, кагаӧттиным]
+     кага+N+Anim+Sg+TerI+PxPl1: [кагаӧдззаным, кагаӧдззиным]
+     кага+N+Anim+Sg+TerII+PxPl1: каганымви
+     кага+N+Anim+Sg+AprIne+PxPl1: кагаланяным
+     кага+N+Anim+Sg+AprEla+PxPl1: кагаланьсиным
+     кага+N+Anim+Sg+AprIll+PxPl1: кагаланяным
+     кага+N+Anim+Sg+AprEgr+PxPl1: [кагаланьсяняным, каганымланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxPl1: [кагаланьӧттяным, кагаланьӧттиным, каганымланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxPl1: [кагаланьӧдззаным, кагаланьӧдззиным,  каганымланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxPl1: каганымланьви
+     кага+N+Anim+Sg+Nom+PxPl2: каганыт
+     кага+N+Anim+Sg+Gen+PxPl2: каганытлӧн
+     кага+N+Anim+Sg+Abl+PxPl2: каганытлісь
+     кага+N+Anim+Sg+Dat+PxPl2: каганытлӧ
+     кага+N+Anim+Sg+Acc+PxPl2: каганытӧ
+     кага+N+Anim+Sg+Ins+PxPl2: кагананыт
+     кага+N+Anim+Sg+Com+PxPl2: каганыткӧт
+     кага+N+Anim+Sg+Car+PxPl2: [каганыттӧг, кагатӧгьяныт]
+     кага+N+Anim+Sg+Cns+PxPl2: каганытла
+     кага+N+Anim+Sg+Cmpr+PxPl2: каганытся
+     кага+N+Anim+Sg+Ine+PxPl2: кагааныт
+     кага+N+Anim+Sg+Ela+PxPl2: кагасиныт
+     кага+N+Anim+Sg+Ill+PxPl2: кагааныт
+     кага+N+Anim+Sg+Apr+PxPl2: [каганытлань, кагаланяныт]
+     кага+N+Anim+Sg+Egr+PxPl2: [каганытсянь, кагасяняныт]
+     кага+N+Anim+Sg+Prl+PxPl2: [кагаӧттяныт, кагаӧттиныт]
+     кага+N+Anim+Sg+TerI+PxPl2: [кагаӧдззаныт, кагаӧдззиныт]
+     кага+N+Anim+Sg+TerII+PxPl2: каганытви
+     кага+N+Anim+Sg+AprIne+PxPl2: кагаланяныт
+     кага+N+Anim+Sg+AprEla+PxPl2: кагаланьсиныт
+     кага+N+Anim+Sg+AprIll+PxPl2: кагаланяныт
+     кага+N+Anim+Sg+AprEgr+PxPl2: [кагаланьсяняныт, каганытланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxPl2: [кагаланьӧттяныт, кагаланьӧттиныт, каганытланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxPl2: [кагаланьӧдззаныт, кагаланьӧдззиныт, каганытланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxPl2: каганытланьви
+     кага+N+Anim+Sg+Nom+PxPl3: каганыс
+     кага+N+Anim+Sg+Gen+PxPl3: каганыслӧн
+     кага+N+Anim+Sg+Abl+PxPl3: каганыслісь
+     кага+N+Anim+Sg+Dat+PxPl3: каганыслӧ
+     кага+N+Anim+Sg+Acc+PxPl3: каганысӧ
+     кага+N+Anim+Sg+Ins+PxPl3: кагананыс
+     кага+N+Anim+Sg+Com+PxPl3: каганыскӧт
+     кага+N+Anim+Sg+Car+PxPl3: [каганыстӧг, кагатӧгьяныс]
+     кага+N+Anim+Sg+Cns+PxPl3: каганысла
+     кага+N+Anim+Sg+Cmpr+PxPl3: каганысся
+     кага+N+Anim+Sg+Ine+PxPl3: кагааныс
+     кага+N+Anim+Sg+Ela+PxPl3: кагасиныс
+     кага+N+Anim+Sg+Ill+PxPl3: кагааныс
+     кага+N+Anim+Sg+Apr+PxPl3: [каганыслань, кагаланяныс]
+     кага+N+Anim+Sg+Egr+PxPl3: [каганыссянь, кагасяняныс]
+     кага+N+Anim+Sg+Prl+PxPl3: [кагаӧттяныс, кагаӧттиныс]
+     кага+N+Anim+Sg+TerI+PxPl3: [кагаӧдззаныс, кагаӧдззиныс]
+     кага+N+Anim+Sg+TerII+PxPl3: каганысви
+     кага+N+Anim+Sg+AprIne+PxPl3: кагаланяныс
+     кага+N+Anim+Sg+AprEla+PxPl3: кагаланьсиныс
+     кага+N+Anim+Sg+AprIll+PxPl3: кагаланяныс
+     кага+N+Anim+Sg+AprEgr+PxPl3: [кагаланьсяняныс, каганысланьсянь]
+     кага+N+Anim+Sg+AprPrl+PxPl3: [кагаланьӧттяныс, кагаланьӧттиныс, каганысланьӧт]
+     кага+N+Anim+Sg+AprTerI+PxPl3: [кагаланьӧдззаныс, кагаланьӧдззиныс, каганысланьӧдз]
+     кага+N+Anim+Sg+AprTerII+PxPl3: каганысланьви
+     кага+N+Anim+Pl+Nom: кагаэз
+     кага+N+Anim+Pl+Acc: кагаэзӧс
+     кага+N+Anim+Pl+Gen: кагаэзлӧн
+     кага+N+Anim+Pl+Abl: кагаэзлісь
+     кага+N+Anim+Pl+Dat: кагаэзлӧ
+     кага+N+Anim+Pl+Ins: кагаэзӧн
+     кага+N+Anim+Pl+Com: кагаэзкӧт
+     кага+N+Anim+Pl+Car: кагаэзтӧг
+     кага+N+Anim+Pl+Cns: кагаэзла
+     кага+N+Anim+Pl+Cmpr: кагаэзся
+     кага+N+Anim+Pl+Ine: кагаэзын
+     кага+N+Anim+Pl+Ela: кагаэзісь
+     кага+N+Anim+Pl+Ill: кагаэзӧ
+     кага+N+Anim+Pl+Apr: кагаэзлань
+     кага+N+Anim+Pl+Egr: кагаэзсянь
+     кага+N+Anim+Pl+Prl: кагаэзӧт
+     кага+N+Anim+Pl+TerI: кагаэзӧдз
+     кага+N+Anim+Pl+TerII: кагаэзви
+     кага+N+Anim+Pl+AprIne: кагаэзланьын
+     кага+N+Anim+Pl+AprEla: кагаэзланись
+     кага+N+Anim+Pl+AprIll: кагаэзланьӧ
+     кага+N+Anim+Pl+AprEgr: кагаэзланьсянь
+     кага+N+Anim+Pl+AprPrl: кагаэзланьӧт
+     кага+N+Anim+Pl+AprTerI: кагаэзланьӧдз
+     кага+N+Anim+Pl+AprTerII: кагаэзланьви
+     кага+N+Anim+Pl+Nom+PxSg1: кагаэзӧ
+     кага+N+Anim+Pl+Gen+PxSg1: кагаэзӧлӧн
+     кага+N+Anim+Pl+Abl+PxSg1: кагаэзӧлісь
+     кага+N+Anim+Pl+Dat+PxSg1: кагаэзӧлӧ
+     кага+N+Anim+Pl+Acc+PxSg1: кагаэзӧс
+     кага+N+Anim+Pl+Ins+PxSg1: кагаэзнам
+     кага+N+Anim+Pl+Com+PxSg1: кагаэзӧкӧт
+     кага+N+Anim+Pl+Car+PxSg1: [кагаэзӧтӧг, кагаэзтӧгьям]
+     кага+N+Anim+Pl+Cns+PxSg1: кагаэзӧла
+     кага+N+Anim+Pl+Cmpr+PxSg1: кагаэзӧся
+     кага+N+Anim+Pl+Ine+PxSg1: кагаэзам
+     кага+N+Anim+Pl+Ela+PxSg1: [кагаэзсим, кагаэсим]
+     кага+N+Anim+Pl+Ill+PxSg1: кагаэзам
+     кага+N+Anim+Pl+Apr+PxSg1: [кагаэзӧлань, кагаэзланям]
+     кага+N+Anim+Pl+Egr+PxSg1: [кагаэзӧсянь, кагаэзсяням]
+     кага+N+Anim+Pl+Prl+PxSg1: [кагаэзӧттям, кагаэзӧттим]
+     кага+N+Anim+Pl+TerI+PxSg1: [кагаэзӧдззам, кагаэзӧдззим]
+     кага+N+Anim+Pl+TerII+PxSg1: кагаэзӧви
+     кага+N+Anim+Pl+AprIne+PxSg1: кагаэзланям
+     кага+N+Anim+Pl+AprEla+PxSg1: кагаэзланьсим
+     кага+N+Anim+Pl+AprIll+PxSg1: кагаэзланям
+     кага+N+Anim+Pl+AprEgr+PxSg1: [кагаэзланьсяням, кагаэзӧланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxSg1: [кагаэзланьӧттям, кагаэзланьӧттим, кагаэзӧланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxSg1: [кагаэзланьӧдззам, кагаэзланьӧдззим, кагаэзӧланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxSg1: кагаэзӧланьви
+     кага+N+Anim+Pl+Nom+PxSg2: [кагаэт, кагаэзыт]
+     кага+N+Anim+Pl+Gen+PxSg2: [кагаэтлӧн, кагаэзытлӧн]
+     кага+N+Anim+Pl+Abl+PxSg2: [кагаэтлісь, кагаэзытлісь]
+     кага+N+Anim+Pl+Dat+PxSg2: [кагаэтлӧ, кагаэзытлӧ]
+     кага+N+Anim+Pl+Acc+PxSg2: [кагаэтӧ, кагаэзтӧ]
+     кага+N+Anim+Pl+Ins+PxSg2: кагаэзнат
+     кага+N+Anim+Pl+Com+PxSg2: [кагаэткӧт, кагаэзыткӧт]
+     кага+N+Anim+Pl+Car+PxSg2: [кагаэттӧг, кагаэзыттӧг, кагаэзтӧгьят]
+     кага+N+Anim+Pl+Cns+PxSg2: [кагаэтла, кагаэзытла]
+     кага+N+Anim+Pl+Cmpr+PxSg2: [кагаэтся, кагаэзытся]
+     кага+N+Anim+Pl+Ine+PxSg2: кагаэзат
+     кага+N+Anim+Pl+Ela+PxSg2: [кагаэзсит, кагаэсит]
+     кага+N+Anim+Pl+Ill+PxSg2: кагаэзат
+     кага+N+Anim+Pl+Apr+PxSg2: [кагаэтлань, кагаэзытлань, кагаэзланят]
+     кага+N+Anim+Pl+Egr+PxSg2: [кагаэтсянь, кагаэзытсянь, кагаэзсянят]
+     кага+N+Anim+Pl+Prl+PxSg2: [кагаэзӧттят, кагаэзӧттит]
+     кага+N+Anim+Pl+TerI+PxSg2: [кагаэзӧдззат, кагаэзӧдззит]
+     кага+N+Anim+Pl+TerII+PxSg2: [кагаэтви, кагаэзытви]
+     кага+N+Anim+Pl+AprIne+PxSg2: кагаэзланят
+     кага+N+Anim+Pl+AprEla+PxSg2: кагаэзланьсит
+     кага+N+Anim+Pl+AprIll+PxSg2: кагаэзланят
+     кага+N+Anim+Pl+AprEgr+PxSg2: [кагаэзланьсянят, кагаэтланьсянь, кагаэзытланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxSg2: [кагаэзланьӧттят, кагаэзланьӧттит, кагаэтланьӧт, кагаэзытланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxSg2: [кагаэзланьӧдззат, кагаэзланьӧдззит, кагаэтланьӧдз, кагаэзытланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxSg2: [кагаэтланьви, кагаэзытланьви]
+     кага+N+Anim+Pl+Nom+PxSg3: [кагаэс, кагаэзыс]
+     кага+N+Anim+Pl+Gen+PxSg3: [кагаэслӧн, кагаэзыслӧн]
+     кага+N+Anim+Pl+Abl+PxSg3: [кагаэслісь, кагаэзыслісь]
+     кага+N+Anim+Pl+Dat+PxSg3: [кагаэслӧ, кагаэзыслӧ]
+     кага+N+Anim+Pl+Acc+PxSg3: [кагаэсӧ, кагаэзсӧ]
+     кага+N+Anim+Pl+Ins+PxSg3: кагаэзнас
+     кага+N+Anim+Pl+Com+PxSg3: [кагаэскӧт, кагаэзыскӧт]
+     кага+N+Anim+Pl+Car+PxSg3: [кагаэстӧг, кагаэзыстӧг, кагаэзтӧгьяс]
+     кага+N+Anim+Pl+Cns+PxSg3: [кагаэсла, кагаэзысла]
+     кага+N+Anim+Pl+Cmpr+PxSg3: [кагаэсся, кагаэзысся]
+     кага+N+Anim+Pl+Ine+PxSg3: кагаэзас
+     кага+N+Anim+Pl+Ela+PxSg3: [кагаэзсис, кагаэсис]
+     кага+N+Anim+Pl+Ill+PxSg3: кагаэзас
+     кага+N+Anim+Pl+Apr+PxSg3: [кагаэслань, кагаэзыслань, кагаэзланяс]
+     кага+N+Anim+Pl+Egr+PxSg3: [кагаэссянь, кагаэзыссянь, кагаэзсяняс]
+     кага+N+Anim+Pl+Prl+PxSg3: [кагаэзӧттяс, кагаэзӧттис]
+     кага+N+Anim+Pl+TerI+PxSg3: [кагаэзӧдззас, кагаэзӧдззис]
+     кага+N+Anim+Pl+TerII+PxSg3: кагаэсви
+     кага+N+Anim+Pl+AprIne+PxSg3: кагаэзланяс
+     кага+N+Anim+Pl+AprEla+PxSg3: кагаэзланьсис
+     кага+N+Anim+Pl+AprIll+PxSg3: кагаэзланяс
+     кага+N+Anim+Pl+AprEgr+PxSg3: [кагаэзланьсяняс, кагаэсланьсянь, кагаэзысланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxSg3: [кагаэзланьӧттяс, кагаэзланьӧттис, кагаэсланьӧт, кагаэзысланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxSg3: [кагаэзланьӧдззаc, кагаэзланьӧдззиc, кагаэсланьӧдз, кагаэзысланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxSg3: кагаэсланьви
+     кага+N+Anim+Pl+Nom+PxPl1: кагаэзным
+     кага+N+Anim+Pl+Gen+PxPl1: кагаэзнымлӧн
+     кага+N+Anim+Pl+Abl+PxPl1: кагаэзнымлісь
+     кага+N+Anim+Pl+Dat+PxPl1: кагаэзнымлӧ
+     кага+N+Anim+Pl+Acc+PxPl1: кагаэзнымӧс
+     кага+N+Anim+Pl+Ins+PxPl1: кагаэзнаным
+     кага+N+Anim+Pl+Com+PxPl1: кагаэзнымкӧт
+     кага+N+Anim+Pl+Car+PxPl1: [кагаэзнымтӧг, кагаэзтӧгьяным]
+     кага+N+Anim+Pl+Cns+PxPl1: кагаэзнымла
+     кага+N+Anim+Pl+Cmpr+PxPl1: кагаэзнымся
+     кага+N+Anim+Pl+Ine+PxPl1: кагаэзаным
+     кага+N+Anim+Pl+Ela+PxPl1: [кагаэзсиным, кагаэсиным]
+     кага+N+Anim+Pl+Ill+PxPl1: кагаэзаным
+     кага+N+Anim+Pl+Apr+PxPl1: [кагаэзнымлань, кагаэзланяным]
+     кага+N+Anim+Pl+Egr+PxPl1: [кагаэзнымсянь, кагаэзсяняным]
+     кага+N+Anim+Pl+Prl+PxPl1: [кагаэзӧттяным, кагаэзӧттиным]
+     кага+N+Anim+Pl+TerI+PxPl1: [кагаэзӧдззаным, кагаэзӧдззиным]
+     кага+N+Anim+Pl+TerII+PxPl1: кагаэзнымви
+     кага+N+Anim+Pl+AprIne+PxPl1: кагаэзланяным
+     кага+N+Anim+Pl+AprEla+PxPl1: кагаэзланьсиным
+     кага+N+Anim+Pl+AprIll+PxPl1: кагаэзланяным
+     кага+N+Anim+Pl+AprEgr+PxPl1: [кагаэзланьсяняным, кагаэзнымланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxPl1: [кагаэзланьӧттяным, кагаэзланьӧттиным, кагаэзнымланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxPl1: [кагаэзланьӧдззаным, кагаэзланьӧдззиным, кагаэзнымланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxPl1: кагаэзнымланьви
+     кага+N+Anim+Pl+Nom+PxPl2: кагаэзныт
+     кага+N+Anim+Pl+Gen+PxPl2: кагаэзнытлӧн
+     кага+N+Anim+Pl+Abl+PxPl2: кагаэзнытлісь
+     кага+N+Anim+Pl+Dat+PxPl2: кагаэзнытлӧ
+     кага+N+Anim+Pl+Acc+PxPl2: кагаэзнытӧ
+     кага+N+Anim+Pl+Ins+PxPl2: кагаэзнаныт
+     кага+N+Anim+Pl+Com+PxPl2: кагаэзныткӧт
+     кага+N+Anim+Pl+Car+PxPl2: [кагаэзныттӧг, кагаэзтӧгьяныт]
+     кага+N+Anim+Pl+Cns+PxPl2: кагаэзнытла
+     кага+N+Anim+Pl+Cmpr+PxPl2: кагаэзнытся
+     кага+N+Anim+Pl+Ine+PxPl2: кагаэзаныт
+     кага+N+Anim+Pl+Ela+PxPl2: [кагаэзсиныт, кагаэсиныт]
+     кага+N+Anim+Pl+Ill+PxPl2: кагаэзаныт
+     кага+N+Anim+Pl+Apr+PxPl2: [кагаэзнытлань, кагаэзланяныт]
+     кага+N+Anim+Pl+Egr+PxPl2: [кагаэзнытсянь, кагаэзсяняныт]
+     кага+N+Anim+Pl+Prl+PxPl2: [кагаэзӧттяныт, кагаэзӧттиныт]
+     кага+N+Anim+Pl+TerI+PxPl2: [кагаэзӧдззаныт, кагаэзӧдззиныт]
+     кага+N+Anim+Pl+TerII+PxPl2: кагаэзнытви
+     кага+N+Anim+Pl+AprIne+PxPl2: кагаэзланяныт
+     кага+N+Anim+Pl+AprEla+PxPl2: кагаэзланьсиныт
+     кага+N+Anim+Pl+AprIll+PxPl2: кагаэзланяныт
+     кага+N+Anim+Pl+AprEgr+PxPl2: [кагаэзланьсяняныт, кагаэзнытланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxPl2: [кагаэзланьӧттяныт, кагаэзланьӧттиныт, кагаэзнытланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxPl2: [кагаэзланьӧдззаныт, кагаэзланьӧдззиныт, кагаэзнытланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxPl2: кагаэзнытланьви
+     кага+N+Anim+Pl+Nom+PxPl3: кагаэзныс
+     кага+N+Anim+Pl+Gen+PxPl3: кагаэзныслӧн
+     кага+N+Anim+Pl+Abl+PxPl3: кагаэзныслісь
+     кага+N+Anim+Pl+Dat+PxPl3: кагаэзныслӧ
+     кага+N+Anim+Pl+Acc+PxPl3: кагаэзнысӧ
+     кага+N+Anim+Pl+Ins+PxPl3: кагаэзнаныс
+     кага+N+Anim+Pl+Com+PxPl3: кагаэзныскӧт
+     кага+N+Anim+Pl+Car+PxPl3: [кагаэзныстӧг, кагаэзтӧгьяныс]
+     кага+N+Anim+Pl+Cns+PxPl3: кагаэзнысла
+     кага+N+Anim+Pl+Cmpr+PxPl3: кагаэзнысся
+     кага+N+Anim+Pl+Ine+PxPl3: кагаэзаныс
+     кага+N+Anim+Pl+Ela+PxPl3: [кагаэзсиныс, кагаэсиныс]
+     кага+N+Anim+Pl+Ill+PxPl3: кагаэзаныс
+     кага+N+Anim+Pl+Apr+PxPl3: [кагаэзныслань, кагаэзланяныс]
+     кага+N+Anim+Pl+Egr+PxPl3: [кагаэзныссянь, кагаэзсяняныс]
+     кага+N+Anim+Pl+Prl+PxPl3: [кагаэзӧттяныс, кагаэзӧттиныс]
+     кага+N+Anim+Pl+TerI+PxPl3: [кагаэзӧдззаныс, кагаэзӧдззиныс]
+     кага+N+Anim+Pl+TerII+PxPl3: кагаэзнысви
+     кага+N+Anim+Pl+AprIne+PxPl3: кагаэзланяныс
+     кага+N+Anim+Pl+AprEla+PxPl3: кагаэзланьсиныс
+     кага+N+Anim+Pl+AprIll+PxPl3: кагаэзланяныс
+     кага+N+Anim+Pl+AprEgr+PxPl3: [кагаэзланьсяняныс, кагаэзнысланьсянь]
+     кага+N+Anim+Pl+AprPrl+PxPl3: [кагаэзланьӧттяныс, кагаэзланьӧттиныс, кагаэзнысланьӧт]
+     кага+N+Anim+Pl+AprTerI+PxPl3: [кагаэзланьӧдззаныс, кагаэзланьӧдззиныс, кагаэзнысланьӧдз]
+     кага+N+Anim+Pl+AprTerII+PxPl3: кагаэзнысланьви

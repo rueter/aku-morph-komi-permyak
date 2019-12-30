@@ -1,0 +1,949 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+Pronoun – кин: # Interrogative Pronoun 'Kuka / Кто'
+    кин+Pron+Interr+Sg+Nom: кин
+    кин+Pron+Interr+Sg+Acc: кинӧс
+    кин+Pron+Interr+Sg+Gen: кинлӧн
+    кин+Pron+Interr+Sg+Abl: кинлісь
+    кин+Pron+Interr+Sg+Dat: кинлӧ
+    кин+Pron+Interr+Sg+Ins: кинӧн 
+    кин+Pron+Interr+Sg+Com: кинкӧт
+    кин+Pron+Interr+Sg+Car: кинтӧг
+    кин+Pron+Interr+Sg+Cns: кинла
+    кин+Pron+Interr+Sg+Cmpr: кинся
+    кин+Pron+Interr+Sg+Ine: кинын
+    кин+Pron+Interr+Sg+Ela: кинісь
+    кин+Pron+Interr+Sg+Ill: кинӧ
+    кин+Pron+Interr+Sg+Apr: кинлань
+    кин+Pron+Interr+Sg+Apr+Comp: [кинланьжык, кинжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    кин+Pron+Interr+Sg+Egr: кинсянь
+    кин+Pron+Interr+Sg+Egr+Comp: [кинсяньжык, кинжыксянь]
+    кин+Pron+Interr+Sg+Prl: кинӧт
+    кин+Pron+Interr+Sg+Prl+Comp: [кинӧтжык, кинжыкӧт]
+    кин+Pron+Interr+Sg+TerI: кинӧдз
+    кин+Pron+Interr+Sg+TerI+Comp: [кинӧдзжык, кинжыкӧдз]
+    кин+Pron+Interr+Sg+TerII: кинви
+    кин+Pron+Interr+Sg+TerII+Comp: [кинвижык, кинжыкви]
+    кин+Pron+Interr+Sg+AprIne: кинланьын
+    кин+Pron+Interr+Sg+AprIne+Comp: [кинланьынжык, кинланьжыкын, кинжыкланьын]
+    кин+Pron+Interr+Sg+AprEla: кинланись
+    кин+Pron+Interr+Sg+AprEla+Comp: [кинланисьжык, кинланьжыкись, кинжыкланись]
+    кин+Pron+Interr+Sg+AprIll: кинланьӧ
+    кин+Pron+Interr+Sg+AprIll+Comp: [кинланьӧжык, кинланьжыкӧ, кинжыкланьӧ]
+    кин+Pron+Interr+Sg+AprEgr: кинланьсянь
+    кин+Pron+Interr+Sg+AprEgr+Comp: [кинланьсяньжык, кинланьжыксянь, кинжыкланьсянь]
+    кин+Pron+Interr+Sg+AprPrl: кинланьӧт
+    кин+Pron+Interr+Sg+AprPrl+Comp: [кинланьӧтжык, кинланьжыкӧт, кинжыкланьӧт]
+    кин+Pron+Interr+Sg+AprTerI: кинланьӧдз
+    кин+Pron+Interr+Sg+AprTerI+Comp: [кинланьӧдзжык, кинланьжыкӧдз, кинжыкланьӧдз]
+    кин+Pron+Interr+Sg+AprTerII: кинланьви
+    кин+Pron+Interr+Sg+AprTerII+Comp: [кинланьвижык, кинланьжыкви, кинжыкланьви]
+
+
+
+    кин+Pron+Interr+Pl+Nom: киннэз
+    кин+Pron+Interr+Pl+Acc: киннэзӧс
+    кин+Pron+Interr+Pl+Gen: киннэзлӧн
+    кин+Pron+Interr+Pl+Abl: киннэзлісь
+    кин+Pron+Interr+Pl+Dat: киннэзлӧ
+    кин+Pron+Interr+Pl+Ins: киннэзӧн 
+    кин+Pron+Interr+Pl+Com: киннэзкӧт
+    кин+Pron+Interr+Pl+Car: киннэзтӧг
+    кин+Pron+Interr+Pl+Cns: киннэзла
+    кин+Pron+Interr+Pl+Cmpr: киннэзся
+    кин+Pron+Interr+Pl+Ine: киннэзын
+    кин+Pron+Interr+Pl+Ela: киннэзісь
+    кин+Pron+Interr+Pl+Ill: киннэзӧ
+    кин+Pron+Interr+Pl+Apr: киннэзлань
+    кин+Pron+Interr+Pl+Apr+Comp: [киннэзланьжык,  киннэзжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    кин+Pron+Interr+Pl+Egr: киннэзсянь
+    кин+Pron+Interr+Pl+Egr+Comp: [киннэзсяньжык, киннэзжыксянь]
+    кин+Pron+Interr+Pl+Prl: киннэзӧт
+    кин+Pron+Interr+Pl+Prl+Comp: [киннэзӧтжык, киннэзжыкӧт]
+    кин+Pron+Interr+Pl+TerI: киннэзӧдз
+    кин+Pron+Interr+Pl+TerI+Comp: [киннэзӧдзжык, киннэзжыкӧдз]
+    кин+Pron+Interr+Pl+TerII: киннэзви
+    кин+Pron+Interr+Pl+TerII+Comp: [киннэзвижык, киннэзжыкви]
+    кин+Pron+Interr+Pl+AprIne: киннэзланьын
+    кин+Pron+Interr+Pl+AprIne+Comp: [киннэзланьынжык, киннэзланьжыкын, киннэзжыкланьын]
+    кин+Pron+Interr+Pl+AprEla: киннэзланись
+    кин+Pron+Interr+Pl+AprEla+Comp: [киннэзланисьжык, киннэзланьжыкись, киннэзжыкланись]
+    кин+Pron+Interr+Pl+AprIll: киннэзланьӧ
+    кин+Pron+Interr+Pl+AprIll+Comp: [киннэзланьӧжык, киннэзланьжыкӧ, киннэзжыкланьӧ]
+    кин+Pron+Interr+Pl+AprEgr: киннэзланьсянь
+    кин+Pron+Interr+Pl+AprEgr+Comp: [киннэзланьсяньжык, киннэзланьжыксянь, киннэзжыкланьсянь]
+    кин+Pron+Interr+Pl+AprPrl: киннэзланьӧт
+    кин+Pron+Interr+Pl+AprPrl+Comp: [киннэзланьӧтжык, киннэзланьжыкӧт, киннэзжыкланьӧт]
+    кин+Pron+Interr+Pl+AprTerI: киннэзланьӧдз
+    кин+Pron+Interr+Pl+AprTerI+Comp: [киннэзланьӧдзжык, киннэзланьжыкӧдз, киннэзжыкланьӧдз]
+    кин+Pron+Interr+Pl+AprTerII: киннэзланьви
+    кин+Pron+Interr+Pl+AprTerII+Comp: [киннэзланьвижык, киннэзланьжыкви, киннэзжыкланьви]
+
+
+
+Pronoun – мый: # Interrogative Pronoun 'Mikä / Что'
+    мый+Pron+Interr+Sg+Nom: мый
+    мый+Pron+Interr+Sg+Acc: мый
+    мый+Pron+Interr+Sg+Gen: мыйлӧн
+    мый+Pron+Interr+Sg+Abl: мыйлісь
+    мый+Pron+Interr+Sg+Dat: мыйлӧ
+    мый+Pron+Interr+Sg+Ins: мыйӧн 
+    мый+Pron+Interr+Sg+Com: мыйкӧт
+    мый+Pron+Interr+Sg+Car: мыйтӧг
+    мый+Pron+Interr+Sg+Cns: мыйла
+    мый+Pron+Interr+Sg+Cmpr: мыйся
+    мый+Pron+Interr+Sg+Ine: мыйын
+    мый+Pron+Interr+Sg+Ela: мыйись
+    мый+Pron+Interr+Sg+Ill: мыйӧ
+    мый+Pron+Interr+Sg+Apr: мыйлань
+    мый+Pron+Interr+Sg+Apr+Comp: [мыйланьжык, мыйжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Interr+Sg+Egr: мыйсянь
+    мый+Pron+Interr+Sg+Egr: [мыйсяньжык, мыйжыксянь]
+    мый+Pron+Interr+Sg+Prl: мыйӧт
+    мый+Pron+Interr+Sg+Prl: [мыйӧтжык, мыйжыкӧт]
+    мый+Pron+Interr+Sg+TerI: мыйӧдз
+    мый+Pron+Interr+Sg+TerI: [мыйӧдзжык, мыйжыкӧдз]
+    мый+Pron+Interr+Sg+TerII: мыйви
+    мый+Pron+Interr+Sg+TerII: мыйвижык, мыйжыкви
+    мый+Pron+Interr+Sg+AprIne: мыйланьын
+    мый+Pron+Interr+Sg+AprIne: [мыйланьынжык, мыйланьжыкын, мыйжыкланьын]
+    мый+Pron+Interr+Sg+AprEla: мыйланись
+    мый+Pron+Interr+Sg+AprEla: [мыйланисьжык, мыйланьжыкись, мыйжыкланись]
+    мый+Pron+Interr+Sg+AprIll: мыйланьӧ
+    мый+Pron+Interr+Sg+AprIll: [мыйланьӧжык, мыйланьжыкӧ, мыйжыкланьӧ]
+    мый+Pron+Interr+Sg+AprEgr: мыйланьсянь
+    мый+Pron+Interr+Sg+AprEgr: [мыйланьсяньжык, мыйланьжыксянь, мыйжыкланьсянь]
+    мый+Pron+Interr+Sg+AprPrl: мыйланьӧт
+    мый+Pron+Interr+Sg+AprPrl: [мыйланьӧтжык, мыйланьжыкӧт, мыйжыкланьӧт]
+    мый+Pron+Interr+Sg+AprTerI: мыйланьӧдз
+    мый+Pron+Interr+Sg+AprTerI: [мыйланьӧдзжык, мыйланьжыкӧдз, мыйжыкланьӧдз]
+    мый+Pron+Interr+Sg+AprTerII: мыйланьви
+    мый+Pron+Interr+Sg+AprTerII: [мыйланьвижык, мыйланьжыкви, мыйжыкланьви]
+
+
+
+    мый+Pron+Interr+Sg+Nom+PxSg3: мыйыс
+    мый+Pron+Interr+Sg+Acc+PxSg3: мыйсӧ
+    мый+Pron+Interr+Sg+Gen+PxSg3: мыйыслӧн
+    мый+Pron+Interr+Sg+Abl+PxSg3: мыйыслісь
+    мый+Pron+Interr+Sg+Dat+PxSg3: мыйыслӧ
+    мый+Pron+Interr+Sg+Ins+PxSg3: мыйнас 
+    мый+Pron+Interr+Sg+Com+PxSg3: мыйыскӧт
+    мый+Pron+Interr+Sg+Car+PxSg3: мыйыстӧг
+    мый+Pron+Interr+Sg+Cns+PxSg3: мыйысла
+    мый+Pron+Interr+Sg+Cmpr+PxSg3: мыйысся
+    мый+Pron+Interr+Sg+Ine+PxSg3: мыяс
+    мый+Pron+Interr+Sg+Ela+PxSg3: мыйсис
+    мый+Pron+Interr+Sg+Ill+PxSg3: мыяс
+    мый+Pron+Interr+Sg+Apr+PxSg3: [мыйыслань, мыйланяс]
+    мый+Pron+Interr+Sg+Apr+PxSg3+Comp: [мыйысланьжык, мыйысжыклань, мыйланясжык, мыйжыкланяс] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Interr+Sg+Egr+PxSg3: [мыйыссянь, мыйсяняс]
+    мый+Pron+Interr+Sg+Egr+PxSg3+Comp: [мыйыссяньжык, мыйысжыксянь, мыйсянясжык, мыйжыксяняс]
+    мый+Pron+Interr+Sg+Prl+PxSg3: мыйӧттяс
+    мый+Pron+Interr+Sg+Prl+PxSg3+Comp: [мыйӧттясжык, мыйжыкӧттяс]
+    мый+Pron+Interr+Sg+TerI+PxSg3: мыйӧдззас
+    мый+Pron+Interr+Sg+TerI+PxSg3+Comp: [мыйӧдззасжык, мыйжыкӧдззас]
+    мый+Pron+Interr+Sg+TerII+PxSg3: мыйысви
+    мый+Pron+Interr+Sg+TerII+PxSg3+Comp: [мыйысвижык, мыйысжыкви]
+    мый+Pron+Interr+Sg+AprIne+PxSg3: мыйланяс
+    мый+Pron+Interr+Sg+AprIne+PxSg3+Comp: [мыйланясжык, мыйжыкланяс]
+    мый+Pron+Interr+Sg+AprEla+PxSg3: мыйланьсис
+    мый+Pron+Interr+Sg+AprEla+PxSg3+Comp: [мыйланьсисжык, мыйланьжыксис, мыйжыкланьсис]
+    мый+Pron+Interr+Sg+AprIll+PxSg3: мыйланяс
+    мый+Pron+Interr+Sg+AprIll+PxSg3+Comp: [мыйланясжык, мыйжыкланяс]
+    мый+Pron+Interr+Sg+AprEgr+PxSg3: [мыйысланьсянь, мыйланьсяняс]
+    мый+Pron+Interr+Sg+AprEgr+PxSg3+Comp: [мыйысланьсяньжык, мыйысланьжыксянь, мыйысжыкланьсянь, мыйланьсянясжык, мыйланьжыксяняс, мыйжыкланьсяняс]
+    мый+Pron+Interr+Sg+AprPrl+PxSg3: [мыйысланьӧт, мыйланьӧттяс]
+    мый+Pron+Interr+Sg+AprPrl+PxSg3+Comp: [мыйысланьӧтжык, мыйысланьжыкӧт, мыйысжыкланьӧт, мыйланьӧттясжык, мыйланьжыкӧттяс, мыйжыкланьӧттяс]
+    мый+Pron+Interr+Sg+AprTerI+PxSg3: [мыйысланьӧдз, мыйланьӧдззас]
+    мый+Pron+Interr+Sg+AprTerI+PxSg3+Comp: [мыйысланьӧдзжык, мыйысланьжыкӧдз, мыйысжыкланьӧдз, мыйланьӧдззасжык, мыйланьжыкӧдззас, мыйжыкланьӧдззас]
+    мый+Pron+Interr+Sg+AprTerII+PxSg3: мыйысланьви
+    мый+Pron+Interr+Sg+AprTerII+PxSg3+Comp: [мыйысланьвижык, мыйысланьжыкви, мыйысжыкланьви]
+
+
+
+    мый+Pron+Interr+Pl+Nom: мыйез
+    мый+Pron+Interr+Pl+Acc: мыйез
+    мый+Pron+Interr+Pl+Gen: мыйезлӧн
+    мый+Pron+Interr+Pl+Abl: мыйезлісь
+    мый+Pron+Interr+Pl+Dat: мыйезлӧ
+    мый+Pron+Interr+Pl+Ins: мыйезӧн 
+    мый+Pron+Interr+Pl+Com: мыйезкӧт
+    мый+Pron+Interr+Pl+Car: мыйезтӧг
+    мый+Pron+Interr+Pl+Cns: мыйезла
+    мый+Pron+Interr+Pl+Cmpr: мыйезся
+    мый+Pron+Interr+Pl+Ine: мыйезын
+    мый+Pron+Interr+Pl+Ela: мыйезісь
+    мый+Pron+Interr+Pl+Ill: мыйезӧ
+    мый+Pron+Interr+Pl+Apr: мыйезлань
+    мый+Pron+Interr+Pl+Apr+Comp: [мыйезланьжык, мыйезжыклань]  # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Interr+Pl+Egr: мыйезсянь
+    мый+Pron+Interr+Pl+Egr: [мыйезсяньжык, мыйезжыксянь]
+    мый+Pron+Interr+Pl+Prl: мыйезӧт
+    мый+Pron+Interr+Pl+Prl: [мыйезӧтжык, мыйезжыкӧт]
+    мый+Pron+Interr+Pl+TerI: мыйезӧдз
+    мый+Pron+Interr+Pl+TerI: [мыйезӧдзжык, мыйезжыкӧдз]
+    мый+Pron+Interr+Pl+TerII: мыйезви
+    мый+Pron+Interr+Pl+TerII: [мыйезвижык, мыйезжыкви]
+    мый+Pron+Interr+Pl+AprIne: мыйезланьын
+    мый+Pron+Interr+Pl+AprIne: [мыйезланьынжык, мыйезланьжыкын, мыйезжыкланьын]
+    мый+Pron+Interr+Pl+AprEla: мыйезланись
+    мый+Pron+Interr+Pl+AprEla: [мыйезланисьжык, мыйезланьжыкись, мыйезжыкланись]
+    мый+Pron+Interr+Pl+AprIll: мыйезланьӧ
+    мый+Pron+Interr+Pl+AprIll: [мыйезланьӧжык, мыйезланьжыкӧ, мыйезжыкланьӧ]
+    мый+Pron+Interr+Pl+AprEgr: мыйезланьсянь
+    мый+Pron+Interr+Pl+AprEgr: [мыйезланьсяньжык, мыйезланьжыксянь, мыйезжыкланьсянь]
+    мый+Pron+Interr+Pl+AprPrl: мыйезланьӧт
+    мый+Pron+Interr+Pl+AprPrl: [мыйезланьӧтжык, мыйезланьжыкӧт, мыйезжыкланьӧт]
+    мый+Pron+Interr+Pl+AprTerI: мыйезланьӧдз
+    мый+Pron+Interr+Pl+AprTerI: [мыйезланьӧдзжык, мыйезланьжыкӧдз, мыйезжыкланьӧдз]
+    мый+Pron+Interr+Pl+AprTerII: мыйезланьви
+    мый+Pron+Interr+Pl+AprTerII: [мыйезланьвижык, мыйезланьжыкви, мыйезжыкланьви]
+
+
+
+    мый+Pron+Interr+Pl+Nom+PxSg3: [мыйес, мыйезыс]
+    мый+Pron+Interr+Pl+Acc+PxSg3: мыйесӧ
+    мый+Pron+Interr+Pl+Gen+PxSg3: [мыйеслӧн, мыйезыслӧн]
+    мый+Pron+Interr+Pl+Abl+PxSg3: [мыйеслісь, мыйезыслісь]
+    мый+Pron+Interr+Pl+Dat+PxSg3: [мыйеслӧ, мыйезыслӧ]
+    мый+Pron+Interr+Pl+Ins+PxSg3: мыйезнас 
+    мый+Pron+Interr+Pl+Com+PxSg3: [мыйескӧт, мыйезыскӧт]
+    мый+Pron+Interr+Pl+Car+PxSg3: [мыйестӧг, мыйезыстӧг]
+    мый+Pron+Interr+Pl+Cns+PxSg3: [мыйесла, мыйезысла]
+    мый+Pron+Interr+Pl+Cmpr+PxSg3: [мыйесся, мыйезысся]
+    мый+Pron+Interr+Pl+Ine+PxSg3: мыйезас
+    мый+Pron+Interr+Pl+Ela+PxSg3: [мыйесис, мыйезсис]
+    мый+Pron+Interr+Pl+Ill+PxSg3: мыйезас
+    мый+Pron+Interr+Pl+Apr+PxSg3: [мыйеслань, мыйезыслань]
+    мый+Pron+Interr+Pl+Apr+PxSg3+Comp: [мыйесланьжык, мыйесжыклань, мыйезысланьжык] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Interr+Pl+Egr+PxSg3: [мыйессянь, мыйезыссянь]
+    мый+Pron+Interr+Pl+Egr+PxSg3+Comp: [мыйессяньжык, мыйесжыксянь, мыйезыссяньжык]
+    мый+Pron+Interr+Pl+Prl+PxSg3: мыйезӧттяс
+    мый+Pron+Interr+Pl+Prl+PxSg3+Comp: [мыйезӧттясжык, мыйезжыкӧттяс]
+    мый+Pron+Interr+Pl+TerI+PxSg3: мыйезӧдззас
+    мый+Pron+Interr+Pl+TerI+PxSg3+Comp: [мыйезӧдззасжык, мыйезжыкӧдззас]
+    мый+Pron+Interr+Pl+TerII+PxSg3: [мыйесви, мыйезысви]
+    мый+Pron+Interr+Pl+TerII+PxSg3+Comp: [мыйесвижык, мыйесжыкви, мыйезысвижык]
+    мый+Pron+Interr+Pl+AprIne+PxSg3: [мыйесланьын, мыйезысланьын]
+    мый+Pron+Interr+Pl+AprIne+PxSg3+Comp: [мыйесланьынжык, мыйесланьжыкын, мыйесжыкланьын, мыйезысланьынжык, мыйезысланьжыкын]
+    мый+Pron+Interr+Pl+AprEla+PxSg3: [мыйесланись, мыйезысланись]
+    мый+Pron+Interr+Pl+AprEla+PxSg3+Comp: [мыйесланисьжык, мыйесланьжыкись, мыйесжыкланись, мыйезысланисьжык, мыйезысланьжыкись]
+    мый+Pron+Interr+Pl+AprIll+PxSg3: [мыйесланьӧ, мыйезысланьӧ]
+    мый+Pron+Interr+Pl+AprIll+PxSg3+Comp: [мыйесланьӧжык, мыйесланьжыкӧ, мыйесжыкланьӧ, мыйезысланьӧжык, мыйезысланьжыкӧ, мыйезысжыкланьӧ]
+    мый+Pron+Interr+Pl+AprEgr+PxSg3: [мыйесланьсянь, мыйезысланьсянь]
+    мый+Pron+Interr+Pl+AprEgr+PxSg3+Comp: [мыйесланьсяньжык, мыйесланьжыксянь, мыйесжыкланьсянь, мыйезысланьсяньжык, мыйезысланьжыксянь, мыйезысжыкланьсянь]
+    мый+Pron+Interr+Pl+AprPrl+PxSg3: [мыйесланьӧт, мыйезысланьӧт]
+    мый+Pron+Interr+Pl+AprPrl+PxSg3+Comp: [мыйесланьӧтжык, мыйесланьжыкӧт, мыйесжыкланьӧт, мыйезысланьӧтжык, мыйезысланьжыкӧт, мыйезысжыкланьӧт]
+    мый+Pron+Interr+Pl+AprTerI+PxSg3: [мыйесланьӧдз, мыйезысланьӧдз]
+    мый+Pron+Interr+Pl+AprTerI+PxSg3+Comp: [мыйесланьӧдзжык, мыйезысланьжыкӧдз, мыйезысжыкланьӧдз, мыйезысланьӧдзжык, мыйезысланьжыкӧдз, мыйезысжыкланьӧдз]
+    мый+Pron+Interr+Sg+AprTerII+PxSg3: [мыйесланьви, мыйезысланьви]
+    мый+Pron+Interr+Sg+AprTerII+PxSg3+Comp: [мыйесланьвижык, мыйесланьжыкви, мыйесжыкланьви, мыйезысланьвижык, мыйезысланьжыкви, мыйезысжыкланьви]
+
+
+    мый+Pron+Interr+Pl+Nom+PxSg2: [мыйет, мыйезыт]
+    мый+Pron+Interr+Pl+Acc+PxSg2: мыйетӧ
+    мый+Pron+Interr+Pl+Gen+PxSg2: [мыйетлӧн, мыйезытлӧн]
+    мый+Pron+Interr+Pl+Abl+PxSg2: [мыйетлісь, мыйезытлісь]
+    мый+Pron+Interr+Pl+Dat+PxSg2: [мыйетлӧ, мыйезытлӧ]
+    мый+Pron+Interr+Pl+Ins+PxSg2: мыйезнат 
+    мый+Pron+Interr+Pl+Com+PxSg2: [мыйеткӧт, мыйезыткӧт]
+    мый+Pron+Interr+Pl+Car+PxSg2: [мыйеттӧг, мыйезыттӧг]
+    мый+Pron+Interr+Pl+Cns+PxSg2: [мыйетла, мыйезытла]
+    мый+Pron+Interr+Pl+Cmpr+PxSg2: [мыйется, мыйезытся]
+    мый+Pron+Interr+Pl+Ine+PxSg2: мыйезат
+    мый+Pron+Interr+Pl+Ela+PxSg2: [мыйесит, мыйезсит]
+    мый+Pron+Interr+Pl+Ill+PxSg2: мыйезат
+    мый+Pron+Interr+Pl+Apr+PxSg2: [мыйетлань, мыйезытлань]
+    мый+Pron+Interr+Pl+Apr+PxSg2+Comp: [мыйетланьжык, мыйетжыклань, мыйезытланьжык] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Interr+Pl+Egr+PxSg2: [мыйетсянь, мыйезытсянь]
+    мый+Pron+Interr+Pl+Egr+PxSg2+Comp: [мыйетсяньжык, мыйетжыксянь, мыйезытсяньжык]
+    мый+Pron+Interr+Pl+Prl+PxSg2: мыйезӧттят
+    мый+Pron+Interr+Pl+Prl+PxSg2+Comp: [мыйезӧттятжык, мыйезжыкӧттят]
+    мый+Pron+Interr+Pl+TerI+PxSg2: мыйезӧдззат
+    мый+Pron+Interr+Pl+TerI+PxSg2+Comp: [мыйезӧдззатжык, мыйезжыкӧдззат]
+    мый+Pron+Interr+Pl+TerII+PxSg2: [мыйетви, мыйезытви]
+    мый+Pron+Interr+Pl+TerII+PxSg2+Comp: [мыйетвижык, мыйетжыкви, мыйезытвижык]
+    мый+Pron+Interr+Pl+AprIne+PxSg2: [мыйетланьын, мыйезытланьын]
+    мый+Pron+Interr+Pl+AprIne+PxSg2+Comp: [мыйетланьынжык, мыйетланьжыкын, мыйетжыкланьын, мыйезытланьынжык, мыйезытланьжыкын]
+    мый+Pron+Interr+Pl+AprEla+PxSg2: [мыйетланись, мыйезытланись]
+    мый+Pron+Interr+Pl+AprEla+PxSg2+Comp: [мыйетланисьжык, мыйетланьжыкись, мыйетжыкланись, мыйезытланисьжык, мыйезытланьжыкись]
+    мый+Pron+Interr+Pl+AprIll+PxSg2: [мыйетланьӧ, мыйезытланьӧ]
+    мый+Pron+Interr+Pl+AprIll+PxSg2+Comp: [мыйетланьӧжык, мыйетланьжыкӧ, мыйетжыкланьӧ, мыйезытланьӧжык, мыйезытланьжыкӧ, мыйезытжыкланьӧ]
+    мый+Pron+Interr+Pl+AprEgr+PxSg2: [мыйетланьсянь, мыйезытланьсянь]
+    мый+Pron+Interr+Pl+AprEgr+PxSg2+Comp: [мыйетланьсяньжык, мыйетланьжыксянь, мыйетжыкланьсянь, мыйезытланьсяньжык, мыйезытланьжыксянь, мыйезытжыкланьсянь]
+    мый+Pron+Interr+Pl+AprPrl+PxSg2: [мыйетланьӧт, мыйезытланьӧт]
+    мый+Pron+Interr+Pl+AprPrl+PxSg2+Comp: [мыйетланьӧтжык, мыйетланьжыкӧт, мыйетжыкланьӧт, мыйезытланьӧтжык, мыйезытланьжыкӧт, мыйезытжыкланьӧт]
+    мый+Pron+Interr+Pl+AprTerI+PxSg2: [мыйетланьӧдз, мыйезытланьӧдз]
+    мый+Pron+Interr+Pl+AprTerI+PxSg2+Comp: [мыйетланьӧдзжык, мыйезытланьжыкӧдз, мыйезытжыкланьӧдз, мыйезытланьӧдзжык, мыйезытланьжыкӧдз, мыйезытжыкланьӧдз]
+    мый+Pron+Interr+Sg+AprTerII+PxSg2: [мыйетланьви, мыйезытланьви]
+    мый+Pron+Interr+Sg+AprTerII+PxSg2+Comp: [мыйетланьвижык, мыйетланьжыкви, мыйетжыкланьви, мыйезытланьвижык, мыйезытланьжыкви, мыйезытжыкланьви]
+
+
+Pronoun – кин: # Relative Pronoun 'Kuka / Кто'
+    кин+Pron+Rel+Sg+Nom: кин
+    кин+Pron+Rel+Sg+Acc: кинӧс
+    кин+Pron+Rel+Sg+Gen: кинлӧн
+    кин+Pron+Rel+Sg+Abl: кинлісь
+    кин+Pron+Rel+Sg+Dat: кинлӧ
+    кин+Pron+Rel+Sg+Ins: кинӧн 
+    кин+Pron+Rel+Sg+Com: кинкӧт
+    кин+Pron+Rel+Sg+Car: кинтӧг
+    кин+Pron+Rel+Sg+Cns: кинла
+    кин+Pron+Rel+Sg+Cmpr: кинся
+    кин+Pron+Rel+Sg+Ine: кинын
+    кин+Pron+Rel+Sg+Ela: кинісь
+    кин+Pron+Rel+Sg+Ill: кинӧ
+    кин+Pron+Rel+Sg+Apr: кинлань
+    кин+Pron+Rel+Sg+Apr+Comp: [кинланьжык, кинжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    кин+Pron+Rel+Sg+Egr: кинсянь
+    кин+Pron+Rel+Sg+Egr+Comp: [кинсяньжык, кинжыксянь]
+    кин+Pron+Rel+Sg+Prl: кинӧт
+    кин+Pron+Rel+Sg+Prl+Comp: [кинӧтжык, кинжыкӧт]
+    кин+Pron+Rel+Sg+TerI: кинӧдз
+    кин+Pron+Rel+Sg+TerI+Comp: [кинӧдзжык, кинжыкӧдз]
+    кин+Pron+Rel+Sg+TerII: кинви
+    кин+Pron+Rel+Sg+TerII+Comp: [кинвижык, кинжыкви]
+    кин+Pron+Rel+Sg+AprIne: кинланьын
+    кин+Pron+Rel+Sg+AprIne+Comp: [кинланьынжык, кинланьжыкын, кинжыкланьын]
+    кин+Pron+Rel+Sg+AprEla: кинланись
+    кин+Pron+Rel+Sg+AprEla+Comp: [кинланисьжык, кинланьжыкись, кинжыкланись]
+    кин+Pron+Rel+Sg+AprIll: кинланьӧ
+    кин+Pron+Rel+Sg+AprIll+Comp: [кинланьӧжык, кинланьжыкӧ, кинжыкланьӧ]
+    кин+Pron+Rel+Sg+AprEgr: кинланьсянь
+    кин+Pron+Rel+Sg+AprEgr+Comp: [кинланьсяньжык, кинланьжыксянь, кинжыкланьсянь]
+    кин+Pron+Rel+Sg+AprPrl: кинланьӧт
+    кин+Pron+Rel+Sg+AprPrl+Comp: [кинланьӧтжык, кинланьжыкӧт, кинжыкланьӧт]
+    кин+Pron+Rel+Sg+AprTerI: кинланьӧдз
+    кин+Pron+Rel+Sg+AprTerI+Comp: [кинланьӧдзжык, кинланьжыкӧдз, кинжыкланьӧдз]
+    кин+Pron+Rel+Sg+AprTerII: кинланьви
+    кин+Pron+Rel+Sg+AprTerII+Comp: [кинланьвижык, кинланьжыкви, кинжыкланьви]
+
+
+
+    кин+Pron+Rel+Pl+Nom: киннэз
+    кин+Pron+Rel+Pl+Acc: киннэзӧс
+    кин+Pron+Rel+Pl+Gen: киннэзлӧн
+    кин+Pron+Rel+Pl+Abl: киннэзлісь
+    кин+Pron+Rel+Pl+Dat: киннэзлӧ
+    кин+Pron+Rel+Pl+Ins: киннэзӧн 
+    кин+Pron+Rel+Pl+Com: киннэзкӧт
+    кин+Pron+Rel+Pl+Car: киннэзтӧг
+    кин+Pron+Rel+Pl+Cns: киннэзла
+    кин+Pron+Rel+Pl+Cmpr: киннэзся
+    кин+Pron+Rel+Pl+Ine: киннэзын
+    кин+Pron+Rel+Pl+Ela: киннэзісь
+    кин+Pron+Rel+Pl+Ill: киннэзӧ
+    кин+Pron+Rel+Pl+Apr: киннэзлань
+    кин+Pron+Rel+Pl+Apr+Comp: [киннэзланьжык,  киннэзжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    кин+Pron+Rel+Pl+Egr: киннэзсянь
+    кин+Pron+Rel+Pl+Egr+Comp: [киннэзсяньжык, киннэзжыксянь]
+    кин+Pron+Rel+Pl+Prl: киннэзӧт
+    кин+Pron+Rel+Pl+Prl+Comp: [киннэзӧтжык, киннэзжыкӧт]
+    кин+Pron+Rel+Pl+TerI: киннэзӧдз
+    кин+Pron+Rel+Pl+TerI+Comp: [киннэзӧдзжык, киннэзжыкӧдз]
+    кин+Pron+Rel+Pl+TerII: киннэзви
+    кин+Pron+Rel+Pl+TerII+Comp: [киннэзвижык, киннэзжыкви]
+    кин+Pron+Rel+Pl+AprIne: киннэзланьын
+    кин+Pron+Rel+Pl+AprIne+Comp: [киннэзланьынжык, киннэзланьжыкын, киннэзжыкланьын]
+    кин+Pron+Rel+Pl+AprEla: киннэзланись
+    кин+Pron+Rel+Pl+AprEla+Comp: [киннэзланисьжык, киннэзланьжыкись, киннэзжыкланись]
+    кин+Pron+Rel+Pl+AprIll: киннэзланьӧ
+    кин+Pron+Rel+Pl+AprIll+Comp: [киннэзланьӧжык, киннэзланьжыкӧ, киннэзжыкланьӧ]
+    кин+Pron+Rel+Pl+AprEgr: киннэзланьсянь
+    кин+Pron+Rel+Pl+AprEgr+Comp: [киннэзланьсяньжык, киннэзланьжыксянь, киннэзжыкланьсянь]
+    кин+Pron+Rel+Pl+AprPrl: киннэзланьӧт
+    кин+Pron+Rel+Pl+AprPrl+Comp: [киннэзланьӧтжык, киннэзланьжыкӧт, киннэзжыкланьӧт]
+    кин+Pron+Rel+Pl+AprTerI: киннэзланьӧдз
+    кин+Pron+Rel+Pl+AprTerI+Comp: [киннэзланьӧдзжык, киннэзланьжыкӧдз, киннэзжыкланьӧдз]
+    кин+Pron+Rel+Pl+AprTerII: киннэзланьви
+    кин+Pron+Rel+Pl+AprTerII+Comp: [киннэзланьвижык, киннэзланьжыкви, киннэзжыкланьви]
+
+
+
+Pronoun – мый: # Interrogative Pronoun 'Mikä / Что'
+    мый+Pron+Rel+Sg+Nom: мый
+    мый+Pron+Rel+Sg+Acc: мый
+    мый+Pron+Rel+Sg+Gen: мыйлӧн
+    мый+Pron+Rel+Sg+Abl: мыйлісь
+    мый+Pron+Rel+Sg+Dat: мыйлӧ
+    мый+Pron+Rel+Sg+Ins: мыйӧн 
+    мый+Pron+Rel+Sg+Com: мыйкӧт
+    мый+Pron+Rel+Sg+Car: мыйтӧг
+    мый+Pron+Rel+Sg+Cns: мыйла
+    мый+Pron+Rel+Sg+Cmpr: мыйся
+    мый+Pron+Rel+Sg+Ine: мыйын
+    мый+Pron+Rel+Sg+Ela: мыйись
+    мый+Pron+Rel+Sg+Ill: мыйӧ
+    мый+Pron+Rel+Sg+Apr: мыйлань
+    мый+Pron+Rel+Sg+Apr+Comp: [мыйланьжык, мыйжыклань] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Rel+Sg+Egr: мыйсянь
+    мый+Pron+Rel+Sg+Egr: [мыйсяньжык, мыйжыксянь]
+    мый+Pron+Rel+Sg+Prl: мыйӧт
+    мый+Pron+Rel+Sg+Prl: [мыйӧтжык, мыйжыкӧт]
+    мый+Pron+Rel+Sg+TerI: мыйӧдз
+    мый+Pron+Rel+Sg+TerI: [мыйӧдзжык, мыйжыкӧдз]
+    мый+Pron+Rel+Sg+TerII: мыйви
+    мый+Pron+Rel+Sg+TerII: мыйвижык, мыйжыкви
+    мый+Pron+Rel+Sg+AprIne: мыйланьын
+    мый+Pron+Rel+Sg+AprIne: [мыйланьынжык, мыйланьжыкын, мыйжыкланьын]
+    мый+Pron+Rel+Sg+AprEla: мыйланись
+    мый+Pron+Rel+Sg+AprEla: [мыйланисьжык, мыйланьжыкись, мыйжыкланись]
+    мый+Pron+Rel+Sg+AprIll: мыйланьӧ
+    мый+Pron+Rel+Sg+AprIll: [мыйланьӧжык, мыйланьжыкӧ, мыйжыкланьӧ]
+    мый+Pron+Rel+Sg+AprEgr: мыйланьсянь
+    мый+Pron+Rel+Sg+AprEgr: [мыйланьсяньжык, мыйланьжыксянь, мыйжыкланьсянь]
+    мый+Pron+Rel+Sg+AprPrl: мыйланьӧт
+    мый+Pron+Rel+Sg+AprPrl: [мыйланьӧтжык, мыйланьжыкӧт, мыйжыкланьӧт]
+    мый+Pron+Rel+Sg+AprTerI: мыйланьӧдз
+    мый+Pron+Rel+Sg+AprTerI: [мыйланьӧдзжык, мыйланьжыкӧдз, мыйжыкланьӧдз]
+    мый+Pron+Rel+Sg+AprTerII: мыйланьви
+    мый+Pron+Rel+Sg+AprTerII: [мыйланьвижык, мыйланьжыкви, мыйжыкланьви]
+
+
+
+    мый+Pron+Rel+Sg+Nom+PxSg3: мыйыс
+    мый+Pron+Rel+Sg+Acc+PxSg3: мыйсӧ
+    мый+Pron+Rel+Sg+Gen+PxSg3: мыйыслӧн
+    мый+Pron+Rel+Sg+Abl+PxSg3: мыйыслісь
+    мый+Pron+Rel+Sg+Dat+PxSg3: мыйыслӧ
+    мый+Pron+Rel+Sg+Ins+PxSg3: мыйнас 
+    мый+Pron+Rel+Sg+Com+PxSg3: мыйыскӧт
+    мый+Pron+Rel+Sg+Car+PxSg3: мыйыстӧг
+    мый+Pron+Rel+Sg+Cns+PxSg3: мыйысла
+    мый+Pron+Rel+Sg+Cmpr+PxSg3: мыйысся
+    мый+Pron+Rel+Sg+Ine+PxSg3: мыяс
+    мый+Pron+Rel+Sg+Ela+PxSg3: мыйсис
+    мый+Pron+Rel+Sg+Ill+PxSg3: мыяс
+    мый+Pron+Rel+Sg+Apr+PxSg3: [мыйыслань, мыйланяс]
+    мый+Pron+Rel+Sg+Apr+PxSg3+Comp: [мыйысланьжык, мыйысжыклань, мыйланясжык, мыйжыкланяс] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Rel+Sg+Egr+PxSg3: [мыйыссянь, мыйсяняс]
+    мый+Pron+Rel+Sg+Egr+PxSg3+Comp: [мыйыссяньжык, мыйысжыксянь, мыйсянясжык, мыйжыксяняс]
+    мый+Pron+Rel+Sg+Prl+PxSg3: мыйӧттяс
+    мый+Pron+Rel+Sg+Prl+PxSg3+Comp: [мыйӧттясжык, мыйжыкӧттяс]
+    мый+Pron+Rel+Sg+TerI+PxSg3: мыйӧдззас
+    мый+Pron+Rel+Sg+TerI+PxSg3+Comp: [мыйӧдззасжык, мыйжыкӧдззас]
+    мый+Pron+Rel+Sg+TerII+PxSg3: мыйысви
+    мый+Pron+Rel+Sg+TerII+PxSg3+Comp: [мыйысвижык, мыйысжыкви]
+    мый+Pron+Rel+Sg+AprIne+PxSg3: мыйланяс
+    мый+Pron+Rel+Sg+AprIne+PxSg3+Comp: [мыйланясжык, мыйжыкланяс]
+    мый+Pron+Rel+Sg+AprEla+PxSg3: мыйланьсис
+    мый+Pron+Rel+Sg+AprEla+PxSg3+Comp: [мыйланьсисжык, мыйланьжыксис, мыйжыкланьсис]
+    мый+Pron+Rel+Sg+AprIll+PxSg3: мыйланяс
+    мый+Pron+Rel+Sg+AprIll+PxSg3+Comp: [мыйланясжык, мыйжыкланяс]
+    мый+Pron+Rel+Sg+AprEgr+PxSg3: [мыйысланьсянь, мыйланьсяняс]
+    мый+Pron+Rel+Sg+AprEgr+PxSg3+Comp: [мыйысланьсяньжык, мыйысланьжыксянь, мыйысжыкланьсянь, мыйланьсянясжык, мыйланьжыксяняс, мыйжыкланьсяняс]
+    мый+Pron+Rel+Sg+AprPrl+PxSg3: [мыйысланьӧт, мыйланьӧттяс]
+    мый+Pron+Rel+Sg+AprPrl+PxSg3+Comp: [мыйысланьӧтжык, мыйысланьжыкӧт, мыйысжыкланьӧт, мыйланьӧттясжык, мыйланьжыкӧттяс, мыйжыкланьӧттяс]
+    мый+Pron+Rel+Sg+AprTerI+PxSg3: [мыйысланьӧдз, мыйланьӧдззас]
+    мый+Pron+Rel+Sg+AprTerI+PxSg3+Comp: [мыйысланьӧдзжык, мыйысланьжыкӧдз, мыйысжыкланьӧдз, мыйланьӧдззасжык, мыйланьжыкӧдззас, мыйжыкланьӧдззас]
+    мый+Pron+Rel+Sg+AprTerII+PxSg3: мыйысланьви
+    мый+Pron+Rel+Sg+AprTerII+PxSg3+Comp: [мыйысланьвижык, мыйысланьжыкви, мыйысжыкланьви]
+
+
+    мый+Pron+Rel+Pl+Nom: мыйез
+    мый+Pron+Rel+Pl+Acc: мыйез
+    мый+Pron+Rel+Pl+Gen: мыйезлӧн
+    мый+Pron+Rel+Pl+Abl: мыйезлісь
+    мый+Pron+Rel+Pl+Dat: мыйезлӧ
+    мый+Pron+Rel+Pl+Ins: мыйезӧн 
+    мый+Pron+Rel+Pl+Com: мыйезкӧт
+    мый+Pron+Rel+Pl+Car: мыйезтӧг
+    мый+Pron+Rel+Pl+Cns: мыйезла
+    мый+Pron+Rel+Pl+Cmpr: мыйезся
+    мый+Pron+Rel+Pl+Ine: мыйезын
+    мый+Pron+Rel+Pl+Ela: мыйезісь
+    мый+Pron+Rel+Pl+Ill: мыйезӧ
+    мый+Pron+Rel+Pl+Apr: мыйезлань
+    мый+Pron+Rel+Pl+Apr+Comp: [мыйезланьжык, мыйезжыклань]  # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Rel+Pl+Egr: мыйезсянь
+    мый+Pron+Rel+Pl+Egr: [мыйезсяньжык, мыйезжыксянь]
+    мый+Pron+Rel+Pl+Prl: мыйезӧт
+    мый+Pron+Rel+Pl+Prl: [мыйезӧтжык, мыйезжыкӧт]
+    мый+Pron+Rel+Pl+TerI: мыйезӧдз
+    мый+Pron+Rel+Pl+TerI: [мыйезӧдзжык, мыйезжыкӧдз]
+    мый+Pron+Rel+Pl+TerII: мыйезви
+    мый+Pron+Rel+Pl+TerII: [мыйезвижык, мыйезжыкви]
+    мый+Pron+Rel+Pl+AprIne: мыйезланьын
+    мый+Pron+Rel+Pl+AprIne: [мыйезланьынжык, мыйезланьжыкын, мыйезжыкланьын]
+    мый+Pron+Rel+Pl+AprEla: мыйезланись
+    мый+Pron+Rel+Pl+AprEla: [мыйезланисьжык, мыйезланьжыкись, мыйезжыкланись]
+    мый+Pron+Rel+Pl+AprIll: мыйезланьӧ
+    мый+Pron+Rel+Pl+AprIll: [мыйезланьӧжык, мыйезланьжыкӧ, мыйезжыкланьӧ]
+    мый+Pron+Rel+Pl+AprEgr: мыйезланьсянь
+    мый+Pron+Rel+Pl+AprEgr: [мыйезланьсяньжык, мыйезланьжыксянь, мыйезжыкланьсянь]
+    мый+Pron+Rel+Pl+AprPrl: мыйезланьӧт
+    мый+Pron+Rel+Pl+AprPrl: [мыйезланьӧтжык, мыйезланьжыкӧт, мыйезжыкланьӧт]
+    мый+Pron+Rel+Pl+AprTerI: мыйезланьӧдз
+    мый+Pron+Rel+Pl+AprTerI: [мыйезланьӧдзжык, мыйезланьжыкӧдз, мыйезжыкланьӧдз]
+    мый+Pron+Rel+Pl+AprTerII: мыйезланьви
+    мый+Pron+Rel+Pl+AprTerII: [мыйезланьвижык, мыйезланьжыкви, мыйезжыкланьви]
+
+
+
+    мый+Pron+Rel+Pl+Nom+PxSg3: [мыйес, мыйезыс]
+    мый+Pron+Rel+Pl+Acc+PxSg3: мыйесӧ
+    мый+Pron+Rel+Pl+Gen+PxSg3: [мыйеслӧн, мыйезыслӧн]
+    мый+Pron+Rel+Pl+Abl+PxSg3: [мыйеслісь, мыйезыслісь]
+    мый+Pron+Rel+Pl+Dat+PxSg3: [мыйеслӧ, мыйезыслӧ]
+    мый+Pron+Rel+Pl+Ins+PxSg3: мыйезнас 
+    мый+Pron+Rel+Pl+Com+PxSg3: [мыйескӧт, мыйезыскӧт]
+    мый+Pron+Rel+Pl+Car+PxSg3: [мыйестӧг, мыйезыстӧг]
+    мый+Pron+Rel+Pl+Cns+PxSg3: [мыйесла, мыйезысла]
+    мый+Pron+Rel+Pl+Cmpr+PxSg3: [мыйесся, мыйезысся]
+    мый+Pron+Rel+Pl+Ine+PxSg3: мыйезас
+    мый+Pron+Rel+Pl+Ela+PxSg3: [мыйесис, мыйезсис]
+    мый+Pron+Rel+Pl+Ill+PxSg3: мыйезас
+    мый+Pron+Rel+Pl+Apr+PxSg3: [мыйеслань, мыйезыслань]
+    мый+Pron+Rel+Pl+Apr+PxSg3+Comp: [мыйесланьжык, мыйесжыклань, мыйезысланьжык] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Rel+Pl+Egr+PxSg3: [мыйессянь, мыйезыссянь]
+    мый+Pron+Rel+Pl+Egr+PxSg3+Comp: [мыйессяньжык, мыйесжыксянь, мыйезыссяньжык]
+    мый+Pron+Rel+Pl+Prl+PxSg3: мыйезӧттяс
+    мый+Pron+Rel+Pl+Prl+PxSg3+Comp: [мыйезӧттясжык, мыйезжыкӧттяс]
+    мый+Pron+Rel+Pl+TerI+PxSg3: мыйезӧдззас
+    мый+Pron+Rel+Pl+TerI+PxSg3+Comp: [мыйезӧдззасжык, мыйезжыкӧдззас]
+    мый+Pron+Rel+Pl+TerII+PxSg3: [мыйесви, мыйезысви]
+    мый+Pron+Rel+Pl+TerII+PxSg3+Comp: [мыйесвижык, мыйесжыкви, мыйезысвижык]
+    мый+Pron+Rel+Pl+AprIne+PxSg3: [мыйесланьын, мыйезысланьын]
+    мый+Pron+Rel+Pl+AprIne+PxSg3+Comp: [мыйесланьынжык, мыйесланьжыкын, мыйесжыкланьын, мыйезысланьынжык, мыйезысланьжыкын]
+    мый+Pron+Rel+Pl+AprEla+PxSg3: [мыйесланись, мыйезысланись]
+    мый+Pron+Rel+Pl+AprEla+PxSg3+Comp: [мыйесланисьжык, мыйесланьжыкись, мыйесжыкланись, мыйезысланисьжык, мыйезысланьжыкись]
+    мый+Pron+Rel+Pl+AprIll+PxSg3: [мыйесланьӧ, мыйезысланьӧ]
+    мый+Pron+Rel+Pl+AprIll+PxSg3+Comp: [мыйесланьӧжык, мыйесланьжыкӧ, мыйесжыкланьӧ, мыйезысланьӧжык, мыйезысланьжыкӧ, мыйезысжыкланьӧ]
+    мый+Pron+Rel+Pl+AprEgr+PxSg3: [мыйесланьсянь, мыйезысланьсянь]
+    мый+Pron+Rel+Pl+AprEgr+PxSg3+Comp: [мыйесланьсяньжык, мыйесланьжыксянь, мыйесжыкланьсянь, мыйезысланьсяньжык, мыйезысланьжыксянь, мыйезысжыкланьсянь]
+    мый+Pron+Rel+Pl+AprPrl+PxSg3: [мыйесланьӧт, мыйезысланьӧт]
+    мый+Pron+Rel+Pl+AprPrl+PxSg3+Comp: [мыйесланьӧтжык, мыйесланьжыкӧт, мыйесжыкланьӧт, мыйезысланьӧтжык, мыйезысланьжыкӧт, мыйезысжыкланьӧт]
+    мый+Pron+Rel+Pl+AprTerI+PxSg3: [мыйесланьӧдз, мыйезысланьӧдз]
+    мый+Pron+Rel+Pl+AprTerI+PxSg3+Comp: [мыйесланьӧдзжык, мыйезысланьжыкӧдз, мыйезысжыкланьӧдз, мыйезысланьӧдзжык, мыйезысланьжыкӧдз, мыйезысжыкланьӧдз]
+    мый+Pron+Rel+Sg+AprTerII+PxSg3: [мыйесланьви, мыйезысланьви]
+    мый+Pron+Rel+Sg+AprTerII+PxSg3+Comp: [мыйесланьвижык, мыйесланьжыкви, мыйесжыкланьви, мыйезысланьвижык, мыйезысланьжыкви, мыйезысжыкланьви]
+
+
+    мый+Pron+Rel+Pl+Nom+PxSg2: [мыйет, мыйезыт]
+    мый+Pron+Rel+Pl+Acc+PxSg2: мыйетӧ
+    мый+Pron+Rel+Pl+Gen+PxSg2: [мыйетлӧн, мыйезытлӧн]
+    мый+Pron+Rel+Pl+Abl+PxSg2: [мыйетлісь, мыйезытлісь]
+    мый+Pron+Rel+Pl+Dat+PxSg2: [мыйетлӧ, мыйезытлӧ]
+    мый+Pron+Rel+Pl+Ins+PxSg2: мыйезнат 
+    мый+Pron+Rel+Pl+Com+PxSg2: [мыйеткӧт, мыйезыткӧт]
+    мый+Pron+Rel+Pl+Car+PxSg2: [мыйеттӧг, мыйезыттӧг]
+    мый+Pron+Rel+Pl+Cns+PxSg2: [мыйетла, мыйезытла]
+    мый+Pron+Rel+Pl+Cmpr+PxSg2: [мыйется, мыйезытся]
+    мый+Pron+Rel+Pl+Ine+PxSg2: мыйезат
+    мый+Pron+Rel+Pl+Ela+PxSg2: [мыйесит, мыйезсит]
+    мый+Pron+Rel+Pl+Ill+PxSg2: мыйезат
+    мый+Pron+Rel+Pl+Apr+PxSg2: [мыйетлань, мыйезытлань]
+    мый+Pron+Rel+Pl+Apr+PxSg2+Comp: [мыйетланьжык, мыйетжыклань, мыйезытланьжык] # Comp muodot eivät esiinny teksteissä, ne ovat mahdollisia teoreettisesti.
+    мый+Pron+Rel+Pl+Egr+PxSg2: [мыйетсянь, мыйезытсянь]
+    мый+Pron+Rel+Pl+Egr+PxSg2+Comp: [мыйетсяньжык, мыйетжыксянь, мыйезытсяньжык]
+    мый+Pron+Rel+Pl+Prl+PxSg2: мыйезӧттят
+    мый+Pron+Rel+Pl+Prl+PxSg2+Comp: [мыйезӧттятжык, мыйезжыкӧттят]
+    мый+Pron+Rel+Pl+TerI+PxSg2: мыйезӧдззат
+    мый+Pron+Rel+Pl+TerI+PxSg2+Comp: [мыйезӧдззатжык, мыйезжыкӧдззат]
+    мый+Pron+Rel+Pl+TerII+PxSg2: [мыйетви, мыйезытви]
+    мый+Pron+Rel+Pl+TerII+PxSg2+Comp: [мыйетвижык, мыйетжыкви, мыйезытвижык]
+    мый+Pron+Rel+Pl+AprIne+PxSg2: [мыйетланьын, мыйезытланьын]
+    мый+Pron+Rel+Pl+AprIne+PxSg2+Comp: [мыйетланьынжык, мыйетланьжыкын, мыйетжыкланьын, мыйезытланьынжык, мыйезытланьжыкын]
+    мый+Pron+Rel+Pl+AprEla+PxSg2: [мыйетланись, мыйезытланись]
+    мый+Pron+Rel+Pl+AprEla+PxSg2+Comp: [мыйетланисьжык, мыйетланьжыкись, мыйетжыкланись, мыйезытланисьжык, мыйезытланьжыкись]
+    мый+Pron+Rel+Pl+AprIll+PxSg2: [мыйетланьӧ, мыйезытланьӧ]
+    мый+Pron+Rel+Pl+AprIll+PxSg2+Comp: [мыйетланьӧжык, мыйетланьжыкӧ, мыйетжыкланьӧ, мыйезытланьӧжык, мыйезытланьжыкӧ, мыйезытжыкланьӧ]
+    мый+Pron+Rel+Pl+AprEgr+PxSg2: [мыйетланьсянь, мыйезытланьсянь]
+    мый+Pron+Rel+Pl+AprEgr+PxSg2+Comp: [мыйетланьсяньжык, мыйетланьжыксянь, мыйетжыкланьсянь, мыйезытланьсяньжык, мыйезытланьжыксянь, мыйезытжыкланьсянь]
+    мый+Pron+Rel+Pl+AprPrl+PxSg2: [мыйетланьӧт, мыйезытланьӧт]
+    мый+Pron+Rel+Pl+AprPrl+PxSg2+Comp: [мыйетланьӧтжык, мыйетланьжыкӧт, мыйетжыкланьӧт, мыйезытланьӧтжык, мыйезытланьжыкӧт, мыйезытжыкланьӧт]
+    мый+Pron+Rel+Pl+AprTerI+PxSg2: [мыйетланьӧдз, мыйезытланьӧдз]
+    мый+Pron+Rel+Pl+AprTerI+PxSg2+Comp: [мыйетланьӧдзжык, мыйезытланьжыкӧдз, мыйезытжыкланьӧдз, мыйезытланьӧдзжык, мыйезытланьжыкӧдз, мыйезытжыкланьӧдз]
+    мый+Pron+Rel+Sg+AprTerII+PxSg2: [мыйетланьви, мыйезытланьви]
+    мый+Pron+Rel+Sg+AprTerII+PxSg2+Comp: [мыйетланьвижык, мыйетланьжыкви, мыйетжыкланьви, мыйезытланьвижык, мыйезытланьжыкви, мыйезытжыкланьви]
+
+
+
+##Pronoun – кин-либо: # Indefinite Pronoun 'Joku / Кто-либо'
+    кин-либо+Pron+Indef+Sg+Nom: кин-либо
+    кин-либо+Pron+Indef+Sg+Acc: кинӧс-либо
+    кин-либо+Pron+Indef+Sg+Gen: кинлӧн-либо
+    кин-либо+Pron+Indef+Sg+Abl: кинлісь-либо
+    кин-либо+Pron+Indef+Sg+Dat: кинлӧ-либо
+    кин-либо+Pron+Indef+Sg+Ins: кинӧн-либо 
+    кин-либо+Pron+Indef+Sg+Com: кинкӧт-либо
+    кин-либо+Pron+Indef+Sg+Car: кинтӧг-либо
+    кин-либо+Pron+Indef+Sg+Cns: кинла-либо
+    кин-либо+Pron+Indef+Sg+Cmpr: кинся-либо
+    кин-либо+Pron+Indef+Sg+Ine: кинын-либо
+    кин-либо+Pron+Indef+Sg+Ela: кинісь-либо
+    кин-либо+Pron+Indef+Sg+Ill: кинӧ-либо
+    кин-либо+Pron+Indef+Sg+Apr: кинлань-либо
+    кин-либо+Pron+Indef+Sg+Egr: кинсянь-либо
+    кин-либо+Pron+Indef+Sg+Prl: кинӧт-либо
+    кин-либо+Pron+Indef+Sg+TerI: кинӧдз-либо
+    кин-либо+Pron+Indef+Sg+TerII: кинви-либо 
+    кин-либо+Pron+Indef+Sg+AprIne: кинланьын-либо
+    кин-либо+Pron+Indef+Sg+AprEla: кинланись-либо
+    кин-либо+Pron+Indef+Sg+AprIll: кинланьӧ-либо
+    кин-либо+Pron+Indef+Sg+AprEgr: кинланьсянь-либо
+    кин-либо+Pron+Indef+Sg+AprPrl: кинланьӧт-либо
+    кин-либо+Pron+Indef+Sg+AprTerI: кинланьӧдз-либо
+    кин-либо+Pron+Indef+Sg+AprTerII: кинланьви-либо
+
+    кин-либо+Pron+Indef+Pl+Nom: киннэз-либо
+    кин-либо+Pron+Indef+Pl+Acc: киннэзӧс-либо
+    кин-либо+Pron+Indef+Pl+Gen: киннэзлӧн-либо
+    кин-либо+Pron+Indef+Pl+Abl: киннэзлісь-либо
+    кин-либо+Pron+Indef+Pl+Dat: киннэзлӧ-либо
+    кин-либо+Pron+Indef+Pl+Ins: киннэзӧн-либо 
+    кин-либо+Pron+Indef+Pl+Com: киннэзкӧт-либо
+    кин-либо+Pron+Indef+Pl+Car: киннэзтӧг-либо
+    кин-либо+Pron+Indef+Pl+Cns: киннэзла-либо
+    кин-либо+Pron+Indef+Pl+Cmpr: киннэзся-либо
+    кин-либо+Pron+Indef+Pl+Ine: киннэзын-либо
+    кин-либо+Pron+Indef+Pl+Ela: киннэзісь-либо
+    кин-либо+Pron+Indef+Pl+Ill: киннэзӧ-либо
+    кин-либо+Pron+Indef+Pl+Apr: киннэзлань-либо
+    кин-либо+Pron+Indef+Pl+Egr: киннэзсянь-либо
+    кин-либо+Pron+Indef+Pl+Prl: киннэзӧт-либо
+    кин-либо+Pron+Indef+Pl+TerI: киннэзӧдз-либо
+    кин-либо+Pron+Indef+Pl+TerII: киннэзви-либо
+    кин-либо+Pron+Indef+Pl+AprIne: киннэзланьын-либо
+    кин-либо+Pron+Indef+Pl+AprEla: киннэзланись-либо
+    кин-либо+Pron+Indef+Pl+AprIll: киннэзланьӧ-либо
+    кин-либо+Pron+Indef+Pl+AprEgr: киннэзланьсянь-либо
+    кин-либо+Pron+Indef+Pl+AprPrl: киннэзланьӧт-либо
+    кин-либо+Pron+Indef+Pl+AprTerI: киннэзланьӧдз-либо
+    кин-либо+Pron+Indef+Pl+AprTerII: киннэзланьви-либо
+
+Pronoun – мый-либо: # Indefinite Pronoun 'Jokin / что-либо'
+    мый-либо+Pron+Indef+Sg+Nom: мый-либо
+    мый-либо+Pron+Indef+Sg+Acc: мый-либо
+    мый-либо+Pron+Indef+Sg+Gen: мыйлӧн-либо
+    мый-либо+Pron+Indef+Sg+Abl: мыйлісь-либо
+    мый-либо+Pron+Indef+Sg+Dat: мыйлӧ-либо
+    мый-либо+Pron+Indef+Sg+Ins: мыйӧн-либо 
+    мый-либо+Pron+Indef+Sg+Com: мыйкӧт-либо
+    мый-либо+Pron+Indef+Sg+Car: мыйтӧг-либо
+    мый-либо+Pron+Indef+Sg+Cns: мыйла-либо
+    мый-либо+Pron+Indef+Sg+Cmpr: мыйся-либо
+    мый-либо+Pron+Indef+Sg+Ine: мыйын-либо
+    мый-либо+Pron+Indef+Sg+Ela: мыйись-либо
+    мый-либо+Pron+Indef+Sg+Ill: мыйӧ-либо
+    мый-либо+Pron+Indef+Sg+Apr: мыйлань-либо
+    мый-либо+Pron+Indef+Sg+Egr: мыйсянь-либо
+    мый-либо+Pron+Indef+Sg+Prl: мыйӧт-либо
+    мый-либо+Pron+Indef+Sg+TerI: мыйӧдз-либо
+    мый-либо+Pron+Indef+Sg+TerII: мыйви-либо
+    мый-либо+Pron+Indef+Sg+AprIne: мыйланьын-либо
+    мый-либо+Pron+Indef+Sg+AprEla: мыйланись-либо
+    мый-либо+Pron+Indef+Sg+AprIll: мыйланьӧ-либо
+    мый-либо+Pron+Indef+Sg+AprEgr: мыйланьсянь-либо
+    мый-либо+Pron+Indef+Sg+AprPrl: мыйланьӧт-либо
+    мый-либо+Pron+Indef+Sg+AprTerI: мыйланьӧдз-либо
+    мый-либо+Pron+Indef+Sg+AprTerII: мыйланьви-либо
+
+    мый-либо+Pron+Indef+Pl+Nom: мыйез-либо
+    мый-либо+Pron+Indef+Pl+Acc: мыйез-либо
+    мый-либо+Pron+Indef+Pl+Gen: мыйезлӧн-либо
+    мый-либо+Pron+Indef+Pl+Abl: мыйезлісь-либо
+    мый-либо+Pron+Indef+Pl+Dat: мыйезлӧ-либо
+    мый-либо+Pron+Indef+Pl+Ins: мыйезӧн-либо 
+    мый-либо+Pron+Indef+Pl+Com: мыйезкӧт-либо
+    мый-либо+Pron+Indef+Pl+Car: мыйезтӧг-либо
+    мый-либо+Pron+Indef+Pl+Cns: мыйезла-либо
+    мый-либо+Pron+Indef+Pl+Cmpr: мыйезся-либо
+    мый-либо+Pron+Indef+Pl+Ine: мыйезын-либо
+    мый-либо+Pron+Indef+Pl+Ela: мыйезісь-либо
+    мый-либо+Pron+Indef+Pl+Ill: мыйезӧ-либо
+    мый-либо+Pron+Indef+Pl+Apr: мыйезлань-либо
+    мый-либо+Pron+Indef+Pl+Egr: мыйезсянь-либо
+    мый-либо+Pron+Indef+Pl+Prl: мыйезӧт-либо
+    мый-либо+Pron+Indef+Pl+TerI: мыйезӧдз-либо
+    мый-либо+Pron+Indef+Pl+TerII: мыйезви-либо
+    мый-либо+Pron+Indef+Pl+AprIne: мыйезланьын-либо
+    мый-либо+Pron+Indef+Pl+AprEla: мыйезланись-либо
+    мый-либо+Pron+Indef+Pl+AprIll: мыйезланьӧ-либо
+    мый-либо+Pron+Indef+Pl+AprEgr: мыйезланьсянь-либо
+    мый-либо+Pron+Indef+Pl+AprPrl: мыйезланьӧт-либо
+    мый-либо+Pron+Indef+Pl+AprTerI: мыйезланьӧдз-либо
+    мый-либо+Pron+Indef+Pl+AprTerII: мыйезланьви-либо
+
+##Pronoun – кин-нибудь: # Indefinite Pronoun 'Joku / Кто-нибудь'
+    кин-нибудь+Pron+Indef+Sg+Nom: кин-нибудь
+    кин-нибудь+Pron+Indef+Sg+Acc: кинӧс-нибудь
+    кин-нибудь+Pron+Indef+Sg+Gen: кинлӧн-нибудь
+    кин-нибудь+Pron+Indef+Sg+Abl: кинлісь-нибудь
+    кин-нибудь+Pron+Indef+Sg+Dat: кинлӧ-нибудь
+    кин-нибудь+Pron+Indef+Sg+Ins: кинӧн-нибудь 
+    кин-нибудь+Pron+Indef+Sg+Com: кинкӧт-нибудь
+    кин-нибудь+Pron+Indef+Sg+Car: кинтӧг-нибудь
+    кин-нибудь+Pron+Indef+Sg+Cns: кинла-нибудь
+    кин-нибудь+Pron+Indef+Sg+Cmpr: кинся-нибудь
+    кин-нибудь+Pron+Indef+Sg+Ine: кинын-нибудь
+    кин-нибудь+Pron+Indef+Sg+Ela: кинісь-нибудь
+    кин-нибудь+Pron+Indef+Sg+Ill: кинӧ-нибудь
+    кин-нибудь+Pron+Indef+Sg+Apr: кинлань-нибудь
+    кин-нибудь+Pron+Indef+Sg+Egr: кинсянь-нибудь
+    кин-нибудь+Pron+Indef+Sg+Prl: кинӧт-нибудь
+    кин-нибудь+Pron+Indef+Sg+TerI: кинӧдз-нибудь
+    кин-нибудь+Pron+Indef+Sg+TerII: кинви-нибудь 
+    кин-нибудь+Pron+Indef+Sg+AprIne: кинланьын-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprEla: кинланись-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprIll: кинланьӧ-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprEgr: кинланьсянь-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprPrl: кинланьӧт-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprTerI: кинланьӧдз-нибудь
+    кин-нибудь+Pron+Indef+Sg+AprTerII: кинланьви-нибудь
+
+    кин-нибудь+Pron+Indef+Pl+Nom: киннэз-нибудь
+    кин-нибудь+Pron+Indef+Pl+Acc: киннэзӧс-нибудь
+    кин-нибудь+Pron+Indef+Pl+Gen: киннэзлӧн-нибудь
+    кин-нибудь+Pron+Indef+Pl+Abl: киннэзлісь-нибудь
+    кин-нибудь+Pron+Indef+Pl+Dat: киннэзлӧ-нибудь
+    кин-нибудь+Pron+Indef+Pl+Ins: киннэзӧн-нибудь 
+    кин-нибудь+Pron+Indef+Pl+Com: киннэзкӧт-нибудь
+    кин-нибудь+Pron+Indef+Pl+Car: киннэзтӧг-нибудь
+    кин-нибудь+Pron+Indef+Pl+Cns: киннэзла-нибудь
+    кин-нибудь+Pron+Indef+Pl+Cmpr: киннэзся-нибудь
+    кин-нибудь+Pron+Indef+Pl+Ine: киннэзын-нибудь
+    кин-нибудь+Pron+Indef+Pl+Ela: киннэзісь-нибудь
+    кин-нибудь+Pron+Indef+Pl+Ill: киннэзӧ-нибудь
+    кин-нибудь+Pron+Indef+Pl+Apr: киннэзлань-нибудь
+    кин-нибудь+Pron+Indef+Pl+Egr: киннэзсянь-нибудь
+    кин-нибудь+Pron+Indef+Pl+Prl: киннэзӧт-нибудь
+    кин-нибудь+Pron+Indef+Pl+TerI: киннэзӧдз-нибудь
+    кин-нибудь+Pron+Indef+Pl+TerII: киннэзви-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprIne: киннэзланьын-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprEla: киннэзланись-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprIll: киннэзланьӧ-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprEgr: киннэзланьсянь-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprPrl: киннэзланьӧт-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprTerI: киннэзланьӧдз-нибудь
+    кин-нибудь+Pron+Indef+Pl+AprTerII: киннэзланьви-нибудь
+
+Pronoun – мый-нибудь: # Indefinite Pronoun 'Jokin / что-нибудь'
+    мый-нибудь+Pron+Indef+Sg+Nom: мый-нибудь
+    мый-нибудь+Pron+Indef+Sg+Acc: мый-нибудь
+    мый-нибудь+Pron+Indef+Sg+Gen: мыйлӧн-нибудь
+    мый-нибудь+Pron+Indef+Sg+Abl: мыйлісь-нибудь
+    мый-нибудь+Pron+Indef+Sg+Dat: мыйлӧ-нибудь
+    мый-нибудь+Pron+Indef+Sg+Ins: мыйӧн-нибудь 
+    мый-нибудь+Pron+Indef+Sg+Com: мыйкӧт-нибудь
+    мый-нибудь+Pron+Indef+Sg+Car: мыйтӧг-нибудь
+    мый-нибудь+Pron+Indef+Sg+Cns: мыйла-нибудь
+    мый-нибудь+Pron+Indef+Sg+Cmpr: мыйся-нибудь
+    мый-нибудь+Pron+Indef+Sg+Ine: мыйын-нибудь
+    мый-нибудь+Pron+Indef+Sg+Ela: мыйись-нибудь
+    мый-нибудь+Pron+Indef+Sg+Ill: мыйӧ-нибудь
+    мый-нибудь+Pron+Indef+Sg+Apr: мыйлань-нибудь
+    мый-нибудь+Pron+Indef+Sg+Egr: мыйсянь-нибудь
+    мый-нибудь+Pron+Indef+Sg+Prl: мыйӧт-нибудь
+    мый-нибудь+Pron+Indef+Sg+TerI: мыйӧдз-нибудь
+    мый-нибудь+Pron+Indef+Sg+TerII: мыйви-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprIne: мыйланьын-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprEla: мыйланись-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprIll: мыйланьӧ-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprEgr: мыйланьсянь-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprPrl: мыйланьӧт-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprTerI: мыйланьӧдз-нибудь
+    мый-нибудь+Pron+Indef+Sg+AprTerII: мыйланьви-нибудь
+
+    мый-нибудь+Pron+Indef+Pl+Nom: мыйез-нибудь
+    мый-нибудь+Pron+Indef+Pl+Acc: мыйез-нибудь
+    мый-нибудь+Pron+Indef+Pl+Gen: мыйезлӧн-нибудь
+    мый-нибудь+Pron+Indef+Pl+Abl: мыйезлісь-нибудь
+    мый-нибудь+Pron+Indef+Pl+Dat: мыйезлӧ-нибудь
+    мый-нибудь+Pron+Indef+Pl+Ins: мыйезӧн-нибудь 
+    мый-нибудь+Pron+Indef+Pl+Com: мыйезкӧт-нибудь
+    мый-нибудь+Pron+Indef+Pl+Car: мыйезтӧг-нибудь
+    мый-нибудь+Pron+Indef+Pl+Cns: мыйезла-нибудь
+    мый-нибудь+Pron+Indef+Pl+Cmpr: мыйезся-нибудь
+    мый-нибудь+Pron+Indef+Pl+Ine: мыйезын-нибудь
+    мый-нибудь+Pron+Indef+Pl+Ela: мыйезісь-нибудь
+    мый-нибудь+Pron+Indef+Pl+Ill: мыйезӧ-нибудь
+    мый-нибудь+Pron+Indef+Pl+Apr: мыйезлань-нибудь
+    мый-нибудь+Pron+Indef+Pl+Egr: мыйезсянь-нибудь
+    мый-нибудь+Pron+Indef+Pl+Prl: мыйезӧт-нибудь
+    мый-нибудь+Pron+Indef+Pl+TerI: мыйезӧдз-нибудь
+    мый-нибудь+Pron+Indef+Pl+TerII: мыйезви-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprIne: мыйезланьын-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprEla: мыйезланись-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprIll: мыйезланьӧ-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprEgr: мыйезланьсянь-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprPrl: мыйезланьӧт-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprTerI: мыйезланьӧдз-нибудь
+    мый-нибудь+Pron+Indef+Pl+AprTerII: мыйезланьви-нибудь
+
+##Pronoun – некин: # Negative Pronoun 'Ei kukaan / Никто'
+    некин+Pron+Neg+Sg+Nom: некин
+    некин+Pron+Neg+Sg+Acc: некинӧс
+    некин+Pron+Neg+Sg+Gen: некинлӧн
+    некин+Pron+Neg+Sg+Abl: некинлісь
+    некин+Pron+Neg+Sg+Dat: некинлӧ
+    некин+Pron+Neg+Sg+Ins: некинӧн 
+    некин+Pron+Neg+Sg+Com: некинкӧт
+    некин+Pron+Neg+Sg+Car: некинтӧг
+    некин+Pron+Neg+Sg+Cns: некинла
+    некин+Pron+Neg+Sg+Cmpr: некинся
+    некин+Pron+Neg+Sg+Ine: некинын
+    некин+Pron+Neg+Sg+Ela: некинісь
+    некин+Pron+Neg+Sg+Ill: некинӧ
+    некин+Pron+Neg+Sg+Apr: некинлань
+    некин+Pron+Neg+Sg+Egr: некинсянь
+    некин+Pron+Neg+Sg+Prl: некинӧт
+    некин+Pron+Neg+Sg+TerI: некинӧдз
+    некин+Pron+Neg+Sg+TerII: некинви
+    некин+Pron+Neg+Sg+AprIne: некинланьын
+    некин+Pron+Neg+Sg+AprEla: некинланись
+    некин+Pron+Neg+Sg+AprIll: некинланьӧ
+    некин+Pron+Neg+Sg+AprEgr: некинланьсянь
+    некин+Pron+Neg+Sg+AprPrl: некинланьӧт
+    некин+Pron+Neg+Sg+AprTerI: некинланьӧдз
+    некин+Pron+Neg+Sg+AprTerII: некинланьви
+    
+Pronoun – нем: # Negative Pronoun 'Ei mikään / Ничто'
+    нем+Pron+Neg+Sg+Nom: нем
+    нем+Pron+Neg+Sg+Acc: нем
+    нем+Pron+Neg+Sg+Gen: немлӧн
+    нем+Pron+Neg+Sg+Abl: немлісь
+    нем+Pron+Neg+Sg+Dat: немлӧ
+    нем+Pron+Neg+Sg+Ins: немӧн 
+    нем+Pron+Neg+Sg+Com: немкӧт
+    нем+Pron+Neg+Sg+Car: немтӧг
+    нем+Pron+Neg+Sg+Cns: немла
+    нем+Pron+Neg+Sg+Cmpr: немся
+    нем+Pron+Neg+Sg+Ine: немын
+    нем+Pron+Neg+Sg+Ela: немись
+    нем+Pron+Neg+Sg+Ill: немӧ
+    нем+Pron+Neg+Sg+Apr: немлань
+    нем+Pron+Neg+Sg+Egr: немсянь
+    нем+Pron+Neg+Sg+Prl: немӧт
+    нем+Pron+Neg+Sg+TerI: немӧдз
+    нем+Pron+Neg+Sg+TerII: немви
+    нем+Pron+Neg+Sg+AprIne: немланьын
+    нем+Pron+Neg+Sg+AprEla: немланись
+    нем+Pron+Neg+Sg+AprIll: немланьӧ
+    нем+Pron+Neg+Sg+AprEgr: немланьсянь
+    нем+Pron+Neg+Sg+AprPrl: немланьӧт
+    нем+Pron+Neg+Sg+AprTerI: немланьӧдз
+    нем+Pron+Neg+Sg+AprTerII: немланьви
+
+##Pronoun – кинкӧ: # Indefinite Pronoun 'Joku / кто-то'
+    кинкӧ+Pron+Indef+Sg+Nom: кинкӧ
+    кинкӧ+Pron+Indef+Sg+Acc: кинӧскӧ
+    кинкӧ+Pron+Indef+Sg+Gen: кинлӧнкӧ
+    кинкӧ+Pron+Indef+Sg+Abl: кинліськӧ
+    кинкӧ+Pron+Indef+Sg+Dat: кинлӧкӧ
+    кинкӧ+Pron+Indef+Sg+Ins: кинӧнкӧ 
+    кинкӧ+Pron+Indef+Sg+Com: кинкӧткӧ
+    кинкӧ+Pron+Indef+Sg+Car: кинкӧтӧг
+    кинкӧ+Pron+Indef+Sg+Cns: кинлакӧ
+    кинкӧ+Pron+Indef+Sg+Cmpr: [кинсякӧ, кинкӧся]
+    кинкӧ+Pron+Indef+Sg+Ine: кинынкӧ
+    кинкӧ+Pron+Indef+Sg+Ela: киніськӧ
+    кинкӧ+Pron+Indef+Sg+Ill: кинӧкӧ
+    кинкӧ+Pron+Indef+Sg+Apr: [кинланькӧ, кинкӧлань]
+    кинкӧ+Pron+Indef+Sg+Egr: [кинсянькӧ, кинкӧсянь]
+    кинкӧ+Pron+Indef+Sg+Prl: кинӧткӧ
+    кинкӧ+Pron+Indef+Sg+TerI: кинӧдзкӧ
+    кинкӧ+Pron+Indef+Sg+TerII: [кинвикӧ, кинкӧви]
+    кинкӧ+Pron+Indef+Sg+AprIne: кинкӧланьын
+    кинкӧ+Pron+Indef+Sg+AprEla: кинкӧланись
+    кинкӧ+Pron+Indef+Sg+AprIll: кинкӧланьӧ
+    кинкӧ+Pron+Indef+Sg+AprEgr: кинкӧланьсянь
+    кинкӧ+Pron+Indef+Sg+AprPrl: кинкӧланьӧт
+    кинкӧ+Pron+Indef+Sg+AprTerI: кинкӧланьӧдз
+    кинкӧ+Pron+Indef+Sg+AprTerII: кинкӧланьви
+
+    кинкӧ+Pron+Indef+Pl+Nom: киннэзкӧ
+    кинкӧ+Pron+Indef+Pl+Acc: киннэзӧскӧ
+    кинкӧ+Pron+Indef+Pl+Gen: киннэзлӧнкӧ
+    кинкӧ+Pron+Indef+Pl+Abl: киннэзліськӧ
+    кинкӧ+Pron+Indef+Pl+Dat: киннэзлӧкӧ
+    кинкӧ+Pron+Indef+Pl+Ins: киннэзӧнкӧ 
+    кинкӧ+Pron+Indef+Pl+Com: киннэзкӧткӧ
+    кинкӧ+Pron+Indef+Pl+Car: киннэзкӧтӧг
+    кинкӧ+Pron+Indef+Pl+Cns: киннэзлакӧ
+    кинкӧ+Pron+Indef+Pl+Cmpr: [киннэзсякӧ, киннэзкӧся]
+    кинкӧ+Pron+Indef+Pl+Ine: киннэзынкӧ
+    кинкӧ+Pron+Indef+Pl+Ela: киннэзіськӧ
+    кинкӧ+Pron+Indef+Pl+Ill: киннэзӧкӧ
+    кинкӧ+Pron+Indef+Pl+Apr: [киннэзланькӧ, киннэзкӧлань]
+    кинкӧ+Pron+Indef+Pl+Egr: [киннэзсянькӧ, киннэзкӧсянь]
+    кинкӧ+Pron+Indef+Pl+Prl: киннэзӧткӧ
+    кинкӧ+Pron+Indef+Pl+TerI: киннэзӧдзкӧ
+    кинкӧ+Pron+Indef+Pl+TerII: [киннэзвикӧ, киннэзкӧви]
+    кинкӧ+Pron+Indef+Pl+AprIne: киннэзкӧланьын
+    кинкӧ+Pron+Indef+Pl+AprEla: киннэзкӧланись
+    кинкӧ+Pron+Indef+Pl+AprIll: киннэзкӧланьӧ
+    кинкӧ+Pron+Indef+Pl+AprEgr: киннэзкӧланьсянь
+    кинкӧ+Pron+Indef+Pl+AprPrl: киннэзкӧланьӧт
+    кинкӧ+Pron+Indef+Pl+AprTerI: киннэзкӧланьӧдз
+    кинкӧ+Pron+Indef+Pl+AprTerII: киннэзкӧланьви
+
+Pronoun – мыйкӧ: # Indefinite Pronoun 'Jokin / что-то'
+    мыйкӧ+Pron+Indef+Sg+Nom: мыйкӧ
+    мыйкӧ+Pron+Indef+Sg+Acc: мыйкӧ
+    мыйкӧ+Pron+Indef+Sg+Gen: мыйлӧнкӧ
+    мыйкӧ+Pron+Indef+Sg+Abl: мыйліськӧ
+    мыйкӧ+Pron+Indef+Sg+Dat: мыйлӧкӧ
+    мыйкӧ+Pron+Indef+Sg+Ins: мыйӧнкӧ 
+    мыйкӧ+Pron+Indef+Sg+Com: мыйкӧткӧ
+    мыйкӧ+Pron+Indef+Sg+Car: мыйкӧтӧг
+    мыйкӧ+Pron+Indef+Sg+Cns: мыйлакӧ
+    мыйкӧ+Pron+Indef+Sg+Cmpr: [мыйсякӧ, мыйкӧся]
+    мыйкӧ+Pron+Indef+Sg+Ine: мыйынкӧ
+    мыйкӧ+Pron+Indef+Sg+Ela: мыйиськӧ
+    мыйкӧ+Pron+Indef+Sg+Ill: мыйӧкӧ
+    мыйкӧ+Pron+Indef+Sg+Apr: [мыйланькӧ, мыйкӧлань]
+    мыйкӧ+Pron+Indef+Sg+Egr: [мыйсянькӧ, мыйкӧсянь]
+    мыйкӧ+Pron+Indef+Sg+Prl: мыйӧткӧ
+    мыйкӧ+Pron+Indef+Sg+TerI: мыйӧдзкӧ
+    мыйкӧ+Pron+Indef+Sg+TerII: [мыйвикӧ, мыйкӧви]
+    мыйкӧ+Pron+Indef+Sg+AprIne: мыйкӧланьын
+    мыйкӧ+Pron+Indef+Sg+AprEla: мыйкӧланись
+    мыйкӧ+Pron+Indef+Sg+AprIll: мыйкӧланьӧ
+    мыйкӧ+Pron+Indef+Sg+AprEgr: мыйкӧланьсянь
+    мыйкӧ+Pron+Indef+Sg+AprPrl: мыйкӧланьӧт
+    мыйкӧ+Pron+Indef+Sg+AprTerI: мыйкӧланьӧдз
+    мыйкӧ+Pron+Indef+Sg+AprTerII: мыйкӧланьви
+
+    мыйкӧ+Pron+Indef+Pl+Nom: мыйезкӧ
+    мыйкӧ+Pron+Indef+Pl+Acc: мыйезкӧ
+    мыйкӧ+Pron+Indef+Pl+Gen: мыйезлӧнкӧ
+    мыйкӧ+Pron+Indef+Pl+Abl: мыйезліськӧ
+    мыйкӧ+Pron+Indef+Pl+Dat: мыйезлӧкӧ
+    мыйкӧ+Pron+Indef+Pl+Ins: мыйезӧнкӧ 
+    мыйкӧ+Pron+Indef+Pl+Com: мыйезкӧткӧ
+    мыйкӧ+Pron+Indef+Pl+Car: мыйезкӧтӧг
+    мыйкӧ+Pron+Indef+Pl+Cns: мыйезлакӧ
+    мыйкӧ+Pron+Indef+Pl+Cmpr: [мыйезсякӧ, мыйезкӧся]
+    мыйкӧ+Pron+Indef+Pl+Ine: мыйезынкӧ
+    мыйкӧ+Pron+Indef+Pl+Ela: мыйезіськӧ
+    мыйкӧ+Pron+Indef+Pl+Ill: мыйезӧкӧ
+    мыйкӧ+Pron+Indef+Pl+Apr: [мыйезланькӧ, мыйезкӧлань]
+    мыйкӧ+Pron+Indef+Pl+Egr: [мыйезсянькӧ, мыйезкӧсянь]
+    мыйкӧ+Pron+Indef+Pl+Prl: мыйезӧткӧ
+    мыйкӧ+Pron+Indef+Pl+TerI: мыйезӧдзкӧ
+    мыйкӧ+Pron+Indef+Pl+TerII: [мыйезвикӧ, мыйезкӧви]
+    мыйкӧ+Pron+Indef+Pl+AprIne: мыйезкӧланьын
+    мыйкӧ+Pron+Indef+Pl+AprEla: мыйезкӧланись
+    мыйкӧ+Pron+Indef+Pl+AprIll: мыйезкӧланьӧ
+    мыйкӧ+Pron+Indef+Pl+AprEgr: мыйезкӧланьсянь
+    мыйкӧ+Pron+Indef+Pl+AprPrl: мыйезкӧланьӧт
+    мыйкӧ+Pron+Indef+Pl+AprTerI: мыйезкӧланьӧдз
+    мыйкӧ+Pron+Indef+Pl+AprTerII: мыйезкӧланьви
+
+

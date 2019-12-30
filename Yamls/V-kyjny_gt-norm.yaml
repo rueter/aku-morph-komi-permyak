@@ -1,0 +1,197 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+  Verb – кыйны '1. to fish, to hunt; 2.1. to weave; 2.2.to braid'/ '1. pyytää kaloja, kalastaa; metsästää; 2.1. kutoa, 2.2. punoa'/ '1. ловить; 2.1. ткать; 2.2. плести': # Verb in -j + inf. suff. –ны / Sanavartalon lopussa on –й + inf. suff. –ны / Глагольная основа заканчивается на –й + инфинитивный суффикс –ны.
+     кыйны+V+Inf: кыйны
+     кыйны+V+Inf+PxSg2: кыйныт
+     кыйны+V+Inf+Acc+PxSg2: кыйнытӧ
+     кыйны+V+Inf+PxSg3: кыйныс
+     кыйны+V+Inf+Acc+PxSg3: кыйнысӧ 
+     кыйны+V+ConNeg+Pl: кыйӧ 
+     кыйны+V+ConNeg+Sg: кый
+     кыйны+V+Imprt+Sg2: кый
+     кыйны+V+Prec+Sg2: кый-ко
+     кыйны+V+Imprt+Pl1: [кыям, кыямӧ, кыямте, кыямӧте]
+     кыйны+V+Prec+Pl1: [кыям-ко, кыямӧ-ко]
+     кыйны+V+Imprt+Pl2: [кыйӧ, кыйӧте]
+     кыйны+V+Prec+Pl2: кыйӧ-ко
+     кыйны+V+Ind+Prs+Sg1: кыя
+     кыйны+V+Ind+Prs+Sg2: кыян
+     кыйны+V+Ind+Prs+Sg3: кыйӧ
+     кыйны+V+Ind+Prs+Pl1: [кыям, кыямӧ]
+     кыйны+V+Ind+Prs+Pl2: [кыят, кыятӧ]
+     кыйны+V+Ind+Prs+Pl3: [кыйӧн, кыйӧны]
+     кыйны+V+Ind+Fut+Sg1: кыя
+     кыйны+V+Ind+Fut+Sg2: кыян
+     кыйны+V+Ind+Fut+Sg3: кыяс
+     кыйны+V+Ind+Fut+Pl1: [кыям, кыямӧ]
+     кыйны+V+Ind+Fut+Pl2: [кыят, кыятӧ]
+     кыйны+V+Ind+Fut+Pl3: кыясӧ
+     кыйны+V+Ind+Prt1+Sg1: кыйи
+     кыйны+V+Ind+Prt1+Sg2: кыйин
+     кыйны+V+Ind+Prt1+Sg3: кыйис
+     кыйны+V+Ind+Prt1+Pl1: [кыйим, кыйимӧ]
+     кыйны+V+Ind+Prt1+Pl2: [кыйит, кыйитӧ]
+     кыйны+V+Ind+Prt1+Pl3: кыйисӧ
+     кыйны+V+Ind+Prt2+Sg2: [кыйӧмыт, кыйӧмат]
+     кыйны+V+Ind+Prt2+Sg3: [кыйӧм, кыйӧма]
+     кыйны+V+Ind+Prt2+Pl2: [кыйӧмныт, кыйӧмась]
+     кыйны+V+Ind+Prt2+Pl3: кыйӧмась
+     кыйны+V+Inf+Comp: кыйныжык
+     кыйны+V+Ind+Prs+Sg1+Comp: кыяжык
+     кыйны+V+Ind+Prs+Sg2+Comp: кыянжык
+     кыйны+V+Ind+Prs+Sg3+Comp: кыйӧжык
+     кыйны+V+Ind+Prs+Pl1+Comp: [кыямжык, кыямӧжык]
+     кыйны+V+Ind+Prs+Pl2+Comp: [кыятжык, кыятӧжык]
+     кыйны+V+Ind+Prs+Pl3+Comp: [кыйӧнжык, кыйӧныжык]
+     кыйны+V+Ind+Fut+Sg1+Comp: кыяжык
+     кыйны+V+Ind+Fut+Sg2+Comp: кыянжык
+     кыйны+V+Ind+Fut+Sg3+Comp: кыясжык
+     кыйны+V+Ind+Fut+Pl1+Comp: [кыямжык, кыямӧжык]
+     кыйны+V+Ind+Fut+Pl2+Comp: [кыятжык, кыятӧжык]
+     кыйны+V+Ind+Fut+Pl3+Comp: кыясӧжык
+     кыйны+V+Ind+Prt1+Sg1+Comp: кыйижык
+     кыйны+V+Ind+Prt1+Sg2+Comp: кыйинжык
+     кыйны+V+Ind+Prt1+Sg3+Comp: кыйисжык
+     кыйны+V+Ind+Prt1+Pl1+Comp: [кыйимжык, кыйимӧжык]
+     кыйны+V+Ind+Prt1+Pl2+Comp: [кыйитжык, кыйитӧжык]
+     кыйны+V+Ind+Prt1+Pl3+Comp: кыйисӧжык
+     кыйны+V+Ind+Prt2+Sg2+Comp: [кыйӧмытжык, кыйӧматжык]
+     кыйны+V+Ind+Prt2+Sg3+Comp: [кыйӧмжык, кыйӧмажык]
+     кыйны+V+Ind+Prt2+Pl2+Comp: [кыйӧмнытжык, кыйӧмасьжык]
+     кыйны+V+Ind+Prt2+Pl3+Comp: кыйӧмасьжык
+      кыйны+V+Inf+Der/моз: кыйнымоз
+     кыйны+V+Ind+Prs+Sg1+Der/моз: кыямоз
+     кыйны+V+Ind+Prs+Sg2+Der/моз: кыянмоз
+     кыйны+V+Ind+Prs+Sg3+Der/моз: кыйӧмоз
+     кыйны+V+Ind+Prs+Pl1+Der/моз: [кыяммоз, кыямӧмоз]
+     кыйны+V+Ind+Prs+Pl2+Der/моз: [кыятмоз, кыятӧмоз]
+     кыйны+V+Ind+Prs+Pl3+Der/моз: [кыйӧнмоз, кыйӧнымоз]
+     кыйны+V+Ind+Fut+Sg1+Der/моз: кыямоз
+     кыйны+V+Ind+Fut+Sg2+Der/моз: кыянмоз
+     кыйны+V+Ind+Fut+Sg3+Der/моз: кыясмоз
+     кыйны+V+Ind+Fut+Pl1+Der/моз: [кыяммоз, кыямӧмоз]
+     кыйны+V+Ind+Fut+Pl2+Der/моз: [кыятмоз, кыятӧмоз]
+     кыйны+V+Ind+Fut+Pl3+Der/моз: кыясӧмоз
+     кыйны+V+Ind+Prt1+Sg1+Der/моз: кыйимоз
+     кыйны+V+Ind+Prt1+Sg2+Der/моз: кыйинмоз
+     кыйны+V+Ind+Prt1+Sg3+Der/моз: кыйисмоз
+     кыйны+V+Ind+Prt1+Pl1+Der/моз: [кыйиммоз, кыйимӧмоз]
+     кыйны+V+Ind+Prt1+Pl2+Der/моз: [кыйитмоз, кыйитӧмоз]
+     кыйны+V+Ind+Prt1+Pl3+Der/моз: кыйисӧмоз
+     кыйны+V+Ind+Prt2+Sg2+Der/моз: [кыйӧмытмоз, кыйӧматмоз]
+     кыйны+V+Ind+Prt2+Sg3+Der/моз: [кыйӧммоз, кыйӧмамоз]
+     кыйны+V+Ind+Prt2+Pl2+Der/моз: [кыйӧмнытмоз, кыйӧмасьмоз]
+     кыйны+V+Ind+Prt2+Pl3+Der/моз: кыйӧмасьмоз
+     кыйны+V+Inf+Der/кодь: кыйныкодь 
+     кыйны+V+Ind+Prs+Sg1+Der/кодь: кыякодь
+     кыйны+V+Ind+Prs+Sg2+Der/кодь: кыянкодь
+     кыйны+V+Ind+Prs+Sg3+Der/кодь: кыйӧкодь
+     кыйны+V+Ind+Prs+Pl1+Der/кодь: [кыямкодь, кыямӧкодь]
+     кыйны+V+Ind+Prs+Pl2+Der/кодь: [кыяткодь, кыятӧкодь]
+     кыйны+V+Ind+Prs+Pl3+Der/кодь: [кыйӧнкодь, кыйӧныкодь]
+     кыйны+V+Ind+Fut+Sg1+Der/кодь: кыякодь
+     кыйны+V+Ind+Fut+Sg2+Der/кодь: кыянкодь
+     кыйны+V+Ind+Fut+Sg3+Der/кодь: кыяскодь
+     кыйны+V+Ind+Fut+Pl1+Der/кодь: [кыямкодь, кыямӧкодь]
+     кыйны+V+Ind+Fut+Pl2+Der/кодь: [кыяткодь, кыятӧкодь]
+     кыйны+V+Ind+Fut+Pl3+Der/кодь: кыясӧкодь
+     кыйны+V+Ind+Prt1+Sg1+Der/кодь: кыйикодь
+     кыйны+V+Ind+Prt1+Sg2+Der/кодь: кыйинкодь
+     кыйны+V+Ind+Prt1+Sg3+Der/кодь: кыйискодь
+     кыйны+V+Ind+Prt1+Pl1+Der/кодь: [кыйимкодь, кыйимӧкодь]
+     кыйны+V+Ind+Prt1+Pl2+Der/кодь: [кыйиткодь, кыйитӧкодь]
+     кыйны+V+Ind+Prt1+Pl3+Der/кодь: кыйисӧкодь
+     кыйны+V+Ind+Prt2+Sg2+Der/кодь: [кыйӧмыткодь, кыйӧматкодь]
+     кыйны+V+Ind+Prt2+Sg3+Der/кодь: [кыйӧмкодь, кыйӧмакодь]
+     кыйны+V+Ind+Prt2+Pl2+Der/кодь: [кыйӧмныткодь, кыйӧмаськодь]
+     кыйны+V+Ind+Prt2+Pl3+Der/кодь: кыйӧмаськодь
+   
+     кыйны+V+Der/ик+Ger+Compl: кыйик
+     кыйны+V+Der/ик+Ger+Ill: кыйикӧ
+     кыйны+V+Der/ик+Ger+Ill+PxSg1: кыйикам
+     кыйны+V+Der/ик+Ger+Ill+PxSg2: кыйикат
+     кыйны+V+Der/ик+Ger+Ill+PxSg3: кыйикас
+     кыйны+V+Der/ик+Ger+Ill+PxPl1: кыйиканым
+     кыйны+V+Der/ик+Ger+Ill+PxPl2: кыйиканыт
+     кыйны+V+Der/ик+Ger+Ill+PxPl3: кыйиканыс
+     кыйны+V+Der/ӧмӧн+Ger: кыйӧмӧн
+     кыйны+V+Der/ӧмӧн+Ger+Comp: кыйӧмӧнжык 
+     кыйны+V+Der/ӧмӧн+Ger+Der/кодь: кыйӧмӧнкодь
+     кыйны+V+Der/ӧмӧн+Ger+Der/моз: кыйӧмӧнмоз
+     кыйны+V+Der/тӧдз+Ger: кыйтӧдз
+     кыйны+V+Der/тӧдз+Ger+PxSg1: [кыйтӧдззам, кыйтӧдззим]
+     кыйны+V+Der/тӧдз+Ger+PxSg2: [кыйтӧдззат, кыйтӧдззит]
+     кыйны+V+Der/тӧдз+Ger+PxSg3: [кыйтӧдззас, кыйтӧдззис]
+     кыйны+V+Der/тӧдз+Ger+PxPl1: [кыйтӧдззаным, кыйтӧдззиным]
+     кыйны+V+Der/тӧдз+Ger+PxPl2: [кыйтӧдззаныт, кыйтӧдззиныт]
+     кыйны+V+Der/тӧдз+Ger+PxPl3: [кыйтӧдззаныс, кыйтӧдззиныс]
+     кыйны+V+Der/тӧн+Ger: кыйтӧн
+     кыйны+V+Der/тӧн+Ger+PxSg1: [кыйтӧнням, кыйтӧнним]
+     кыйны+V+Der/тӧн+Ger+PxSg2: [кыйтӧннят, кыйтӧннит]
+     кыйны+V+Der/тӧн+Ger+PxSg3: [кыйтӧнняс, кыйтӧннис]
+     кыйны+V+Der/тӧн+Ger+PxPl1: [кыйтӧнняным, кыйтӧнниным]
+     кыйны+V+Der/тӧн+Ger+PxPl2: [кыйтӧнняныт, кыйтӧнниныт]
+     кыйны+V+Der/тӧн+Ger+PxPl3: [кыйтӧнняныс, кыйтӧнниныс]
+     кыйны+V+Der/тӧг+Car+Ger: кыйтӧг
+     кыйны+V+Der/тӧг+Car+Ger+PxSg1: кыйтӧгьям
+     кыйны+V+Der/тӧг+Car+Ger+PxSg2: кыйтӧгьят
+     кыйны+V+Der/тӧг+Car+Ger+PxSg3: кыйтӧгьяс
+     кыйны+V+Der/тӧг+Car+Ger+PxPl1: кыйтӧгьяным
+     кыйны+V+Der/тӧг+Car+Ger+PxPl2: кыйтӧгьяныт
+     кыйны+V+Der/тӧг+Car+Ger+PxPl3: кыйтӧгьяныс
+     
+     кыйны+V+Der/ӧм+PrfPrc+Sg: кыйӧм
+     кыйны+V+Der/ӧм+PrfPrc+Pl: кыйӧмӧсь
+     кыйны+V+Der/ӧм+PrfPrc+Sg+Der/кодь: кыйӧмкодь
+     кыйны+V+Der/ӧм+PrfPrc+Pl+Der/кодь: кыйӧмкодьӧсь
+     кыйны+V+Der/ӧм+PrfPrc+Sg+Comp: кыйӧмжык
+     кыйны+V+Der/ӧм+PrfPrc+Pl+Comp: кыйӧмжыкӧсь
+     кыйны+V+Der/ӧм+PrfPrc+Sg+Comp+Der/кодь: [кыйӧмжыккодь, кыйӧмкодьжык]
+     кыйны+V+Der/ӧм+PrfPrc+Pl+Comp+Der/кодь: [кыйӧмжыккодьӧсь, кыйӧмкодьжыкӧсь]
+     кыйны+V+Der/ись+Act+PrsPrc+Sg: кыйись
+     кыйны+V+Der/ись+Act+PrsPrc+Pl: кыйисьӧсь
+     кыйны+V+Der/ись+Act+PrsPrc+Sg+Der/кодь: кыйиськодь
+     кыйны+V+Der/ись+Act+PrsPrc+Pl+Der/кодь: кыйиськодьӧсь
+     кыйны+V+Der/ись+Act+PrsPrc+Sg+Comp: кыйисьжык
+     кыйны+V+Der/ись+Act+PrsPrc+Pl+Comp: кыйисьжыкӧсь
+     кыйны+V+Der/ись+Act+PrsPrc+Sg+Comp+Der/кодь: [кыйисьжыккодь, кыйиськодьжык]
+     кыйны+V+Der/ись+Act+PrsPrc+Pl+Comp+Der/кодь: [кыйисьжыккодьӧсь, кыйиськодьжыкӧсь]
+     кыйны+V+Der/ян+PrsPrc+Sg: кыян
+     кыйны+V+Der/ян+PrsPrc+Pl: кыянӧсь
+     кыйны+V+Der/ян+PrsPrc+Sg+Der/кодь: кыянкодь
+     кыйны+V+Der/ян+PrsPrc+Pl+Der/кодь: кыянкодьӧсь
+     кыйны+V+Der/ян+PrsPrc+Sg+Comp: кыянжык
+     кыйны+V+Der/ян+PrsPrc+Pl+Comp: кыянжыкӧсь
+     кыйны+V+Der/ян+PrsPrc+Sg+Comp+Der/кодь: [кыянжыккодь, кыянкодьжык]
+     кыйны+V+Der/ян+PrsPrc+Pl+Comp+Der/кодь: [кыянжыккодьӧсь, кыянкодьжыкӧсь]
+     кыйны+V+Der/яна+PrsPrc+Sg: кыяна
+     кыйны+V+Der/яна+PrsPrc+Pl: кыянаӧсь
+     кыйны+V+Der/яна+PrsPrc+Sg+Der/кодь: кыянакодь
+     кыйны+V+Der/яна+PrsPrc+Pl+Der/кодь: кыянакодьӧсь
+     кыйны+V+Der/яна+PrsPrc+Sg+Comp: кыянажык
+     кыйны+V+Der/яна+PrsPrc+Pl+Comp: кыянажыкӧсь
+     кыйны+V+Der/яна+PrsPrc+Sg+Comp+Der/кодь: [кыянажыккодь, кыянакодьжык]
+     кыйны+V+Der/яна+PrsPrc+Pl+Comp+Der/кодь: [кыянажыккодьӧсь, кыянакодьжыкӧсь]
+     кыйны+V+Der/тӧм+PrivPrc+Sg: кыйтӧм
+     кыйны+V+Der/тӧм+PrivPrc+Pl: кыйтӧмӧсь
+     кыйны+V+Der/тӧм+PrivPrc+Sg+Der/кодь: кыйтӧмкодь
+     кыйны+V+Der/тӧм+PrivPrc+Pl+Der/кодь: кыйтӧмкодьӧсь
+     кыйны+V+Der/тӧм+PrivPrc+Sg+Comp: кыйтӧмжык
+     кыйны+V+Der/тӧм+PrivPrc+Pl+Comp: кыйтӧмжыкӧсь
+     кыйны+V+Der/тӧм+PrivPrc+Sg+Comp+Der/кодь: [кыйтӧмжыккодь, кыйтӧмкодьжык]
+     кыйны+V+Der/тӧм+PrivPrc+Pl+Comp+Der/кодь: [кыйтӧмжыккодьӧсь, кыйтӧмкодьжыкӧсь]
+

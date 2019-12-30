@@ -1,0 +1,106 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-11-06
+# Then: run analyser, then correct. 
+
+  Verb - вӧвны 'to be'/ 'olla'/ 'быть':
+     вӧвны+V+Inf: вӧвны
+     вӧвны+V+Inf+PxSg2: вӧвныт
+     вӧвны+V+Inf+Acc+PxSg2: вӧвнытӧ
+     вӧвны+V+Inf+PxSg3: вӧвныс
+     вӧвны+V+Inf+Acc+PxSg3: вӧвнысӧ 
+     вӧвны+V+ConNeg+Pl: вӧлӧ 
+     вӧвны+V+ConNeg+Sg: вӧв
+     вӧвны+V+Imprt+Sg2: вӧв 
+     вӧвны+V+Prec+Sg2: вӧв-ко 
+     вӧвны+V+Imprt+Pl1: [вӧлам, вӧламӧ, вӧламте, вӧламӧте] 
+     вӧвны+V+Prec+Pl1: [вӧлам-ко, вӧламӧ-ко] 
+     вӧвны+V+Imprt+Pl2: [вӧлӧ, вӧлӧте] 
+     вӧвны+V+Prec+Pl2: вӧлӧ-ко
+     вӧвны+V+Ind+Fut+Sg1: вӧла
+     вӧвны+V+Ind+Fut+Sg2: вӧлан
+     вӧвны+V+Ind+Fut+Sg3: вӧлас
+     вӧвны+V+Ind+Fut+Pl1: [вӧлам, вӧламӧ]
+     вӧвны+V+Ind+Fut+Pl2: [вӧлат, вӧлатӧ]
+     вӧвны+V+Ind+Fut+Pl3: вӧласӧ
+     вӧвны+V+Ind+Prt1+Sg1: вӧлі
+     вӧвны+V+Ind+Prt1+Sg2: вӧлін
+     вӧвны+V+Ind+Prt1+Sg3: вӧлі
+     вӧвны+V+Ind+Prt1+Pl1: [вӧлім, вӧлімӧ]
+     вӧвны+V+Ind+Prt1+Pl2: [вӧліт, вӧлітӧ]
+     вӧвны+V+Ind+Prt1+Pl3: вӧлісӧ
+     вӧвны+V+Ind+Prt2+Sg2: [вӧлӧмыт, вӧлӧмат]
+     вӧвны+V+Ind+Prt2+Sg3: [вӧлӧм, вӧлӧма]
+     вӧвны+V+Ind+Prt2+Pl2: [вӧлӧмныт, вӧлӧмась]
+     вӧвны+V+Ind+Prt2+Pl3: вӧлӧмась
+     вӧвны+V+Inf+Comp: вӧвныжык
+     вӧвны+V+Ind+Fut+Sg1+Comp: вӧлажык
+     вӧвны+V+Ind+Fut+Sg2+Comp: вӧланжык
+     вӧвны+V+Ind+Fut+Sg3+Comp: вӧласжык
+     вӧвны+V+Ind+Fut+Pl1+Comp: [вӧламжык, вӧламӧжык]
+     вӧвны+V+Ind+Fut+Pl2+Comp: [вӧлатжык, вӧлатӧжык]
+     вӧвны+V+Ind+Fut+Pl3+Comp: вӧласӧжык
+     вӧвны+V+Ind+Prt1+Sg1+Comp: вӧліжык
+     вӧвны+V+Ind+Prt1+Sg2+Comp: вӧлінжык
+     вӧвны+V+Ind+Prt1+Sg3+Comp: вӧліжык
+     вӧвны+V+Ind+Prt1+Pl1+Comp: [вӧлімжык, вӧлімӧжык]
+     вӧвны+V+Ind+Prt1+Pl2+Comp: [вӧлітжык, вӧлітӧжык]
+     вӧвны+V+Ind+Prt1+Pl3+Comp: вӧлісӧжык
+     вӧвны+V+Ind+Prt2+Sg2+Comp: [вӧлӧмытжык, вӧлӧматжык]
+     вӧвны+V+Ind+Prt2+Sg3+Comp: [вӧлӧмжык, вӧлӧмажык]
+     вӧвны+V+Ind+Prt2+Pl2+Comp: [вӧлӧмнытжык, вӧлӧмасьжык]
+     вӧвны+V+Ind+Prt2+Pl3+Comp: вӧлӧмасьжык
+    
+     вӧвны+V+Der/ік+Ger+Compl: вӧлік 
+     вӧвны+V+Der/ік+Ger+Ill: вӧлікӧ
+     вӧвны+V+Der/ік+Ger+Ill+PxSg1: вӧлікам
+     вӧвны+V+Der/ік+Ger+Ill+PxSg2: вӧлікат
+     вӧвны+V+Der/ік+Ger+Ill+PxSg3: вӧлікас
+     вӧвны+V+Der/ік+Ger+Ill+PxPl1: вӧліканым
+     вӧвны+V+Der/ік+Ger+Ill+PxPl2: вӧліканыт
+     вӧвны+V+Der/ік+Ger+Ill+PxPl3: вӧліканыс
+     вӧвны+V+Der/ӧмӧн+Ger: вӧлӧмӧн # Ei esiinny teksteissä
+     вӧвны+V+Der/ӧмӧн+Ger+Comp: вӧлӧмӧнжык # Ei esiinny teksteissä  
+     вӧвны+V+Der/тӧдз+Ger: вӧвтӧдз
+     вӧвны+V+Der/тӧдз+Ger+PxSg1: [вӧвтӧдззам, вӧвтӧдззим]
+     вӧвны+V+Der/тӧдз+Ger+PxSg2: [вӧвтӧдззат, вӧвтӧдззит]
+     вӧвны+V+Der/тӧдз+Ger+PxSg3: [вӧвтӧдззас, вӧвтӧдззис]
+     вӧвны+V+Der/тӧдз+Ger+PxPl1: [вӧвтӧдззаным, вӧвтӧдззиным]
+     вӧвны+V+Der/тӧдз+Ger+PxPl2: [вӧвтӧдззаныт, вӧвтӧдззиныт]
+     вӧвны+V+Der/тӧдз+Ger+PxPl3: [вӧвтӧдззаныс, вӧвтӧдззиныс]
+     вӧвны+V+Der/тӧн+Ger: вӧвтӧн
+     вӧвны+V+Der/тӧн+Ger+PxSg1: [вӧвтӧнням, вӧвтӧнним]
+     вӧвны+V+Der/тӧн+Ger+PxSg2: [вӧвтӧннят, вӧвтӧннит]
+     вӧвны+V+Der/тӧн+Ger+PxSg3: [вӧвтӧнняс, вӧвтӧннис]
+     вӧвны+V+Der/тӧн+Ger+PxPl1: [вӧвтӧнняным, вӧвтӧнниным]
+     вӧвны+V+Der/тӧн+Ger+PxPl2: [вӧвтӧнняныт, вӧвтӧнниныт]
+     вӧвны+V+Der/тӧн+Ger+PxPl3: [вӧвтӧнняныс, вӧвтӧнниныс]
+     вӧвны+V+Der/тӧг+Car+Ger: вӧвтӧг 
+     вӧвны+V+Der/тӧг+Car+Ger+PxSg1: вӧвтӧгьям
+     вӧвны+V+Der/тӧг+Car+Ger+PxSg2: вӧвтӧгьят 
+     вӧвны+V+Der/тӧг+Car+Ger+PxSg3: вӧвтӧгьяс
+     вӧвны+V+Der/тӧг+Car+Ger+PxPl1: вӧвтӧгьяным
+     вӧвны+V+Der/тӧг+Car+Ger+PxPl2: вӧвтӧгьяныт
+     вӧвны+V+Der/тӧг+Car+Ger+PxPl3: вӧвтӧгьяныс
+     
+     вӧвны+V+Der/ӧм+PrfPrc+Sg: вӧлӧм
+     вӧвны+V+Der/ӧм+PrfPrc+Pl: вӧлӧмӧсь
+     вӧвны+V+Der/ісь+Act+PrsPrc+Sg: вӧлісь
+     вӧвны+V+Der/ісь+Act+PrsPrc+Pl: вӧлісьӧсь
+     вӧвны+V+Der/ан+PrsPrc+Sg: вӧлан
+     вӧвны+V+Der/ан+PrsPrc+Pl: вӧланӧсь 
+     вӧвны+V+Der/ана+PrsPrc+Sg: вӧлана
+     вӧвны+V+Der/ана+PrsPrc+Pl: вӧланаӧсь 
+     вӧвны+V+Der/тӧм+PrivPrc+Sg: вӧвтӧм
+     вӧвны+V+Der/тӧм+PrivPrc+Pl: вӧвтӧмӧсь
+

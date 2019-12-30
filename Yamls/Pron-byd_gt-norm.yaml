@@ -1,0 +1,71 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – быд: # Total Pronoun 'Jokainen / Всякий, любой'
+    быд+Pron+Tot+Sg+Nom+Compl: быд
+    быд+Pron+Tot+Sg+Acc: быдӧс
+    быд+Pron+Tot+Sg+Gen: быдлӧн
+    быд+Pron+Tot+Sg+Abl: быдлісь
+    быд+Pron+Tot+Sg+Dat: быдлӧ
+    быд+Pron+Tot+Sg+Ins: быдӧн 
+    быд+Pron+Tot+Sg+Com: быдкӧт
+    быд+Pron+Tot+Sg+Car: быдтӧг
+    быд+Pron+Tot+Sg+Cns: быдла
+    быд+Pron+Tot+Sg+Cmpr: быдся
+    быд+Pron+Tot+Sg+Ine: быдын
+    быд+Pron+Tot+Sg+Ela: быдісь
+    быд+Pron+Tot+Sg+Ill: быдӧ
+    быд+Pron+Tot+Sg+Apr: быдлань
+    быд+Pron+Tot+Sg+Egr: быдсянь
+    быд+Pron+Tot+Sg+Prl: быдӧт
+    быд+Pron+Tot+Sg+TerI: быдӧдз
+    быд+Pron+Tot+Sg+TerII: быдви
+    быд+Pron+Tot+Sg+AprIne: быдланьын
+    быд+Pron+Tot+Sg+AprEla: быдланись
+    быд+Pron+Tot+Sg+AprIll: быдланьӧ
+    быд+Pron+Tot+Sg+AprEgr: быдланьсянь
+    быд+Pron+Tot+Sg+AprPrl: быдланьӧт
+    быд+Pron+Tot+Sg+AprTerI: быдланьӧдз
+    быд+Pron+Tot+Sg+AprTerII: быдланьви
+
+
+    быд+Pron+Tot+Sg+Nom+PxSg3: быдыс
+    быд+Pron+Tot+Sg+Acc+PxSg3: быдсӧ
+    быд+Pron+Tot+Sg+Gen+PxSg3: быдыслӧн
+    быд+Pron+Tot+Sg+Abl+PxSg3: быдыслісь
+    быд+Pron+Tot+Sg+Dat+PxSg3: быдыслӧ
+    быд+Pron+Tot+Sg+Ins+PxSg3: быднас 
+    быд+Pron+Tot+Sg+Com+PxSg3: быдыскӧт
+    быд+Pron+Tot+Sg+Car+PxSg3: быдыстӧг
+    быд+Pron+Tot+Sg+Cns+PxSg3: быдысла
+    быд+Pron+Tot+Sg+Cmpr+PxSg3: быдысся
+    быд+Pron+Tot+Sg+Ine+PxSg3: быдас
+    быд+Pron+Tot+Sg+Ela+PxSg3: быдсис
+    быд+Pron+Tot+Sg+Ill+PxSg3: быдас
+    быд+Pron+Tot+Sg+Apr+PxSg3: [быдыслань, быдланяс]
+    быд+Pron+Tot+Sg+Egr+PxSg3: [быдыссянь, быдсяняс]
+    быд+Pron+Tot+Sg+Prl+PxSg3: [быдӧттяс, быдӧттис]
+    быд+Pron+Tot+Sg+TerI+PxSg3: [быдӧдззас, быдӧдззис]
+    быд+Pron+Tot+Sg+TerII+PxSg3: быдысви
+    быд+Pron+Tot+Sg+AprIne+PxSg3: [быдланяс, быдысланьын]
+    быд+Pron+Tot+Sg+AprEla+PxSg3: [быдланьсис, быдысланись]
+    быд+Pron+Tot+Sg+AprIll+PxSg3: [быдланяс, быдысланьӧ]
+    быд+Pron+Tot+Sg+AprEgr+PxSg3: [быдысланьсянь, быдланьсяняс]
+    быд+Pron+Tot+Sg+AprPrl+PxSg3: [быдланьӧттяс, быдланьӧттис, быдысланьӧт]
+    быд+Pron+Tot+Sg+AprTerI+PxSg3: [быдланьӧдззас, быдланьӧдззис, быдысланьӧдз]
+    быд+Pron+Tot+Sg+AprTerII+PxSg3: быдысланьви
+
+

@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – та: # Demonstrative Pronoun 'Tämä / Этот, эта, это'
+    та+Pron+Dem+Sg+Apr: талань
+    та+Pron+Dem+Sg+Apr+Comp: таланьжык # Comp muodot eivät esiinny teksteissä
+    та+Pron+Dem+Sg+Egr: тасянь
+    та+Pron+Dem+Sg+Egr+Comp: тасяньжык 
+    та+Pron+Dem+Sg+AprIne: таланьын
+    та+Pron+Dem+Sg+AprIne+Comp: [таланьынжык, таланьжыкын]
+    та+Pron+Dem+Sg+AprEla: таланись
+    та+Pron+Dem+Sg+AprEla+Comp: [таланисьжык, таланьжыкись]
+    та+Pron+Dem+Sg+AprIll: таланьӧ
+    та+Pron+Dem+Sg+AprIll+Comp: [таланьӧжык, таланьжыкӧ]
+    та+Pron+Dem+Sg+AprEgr: таланьсянь
+    та+Pron+Dem+Sg+AprEgr+Comp: [таланьсяньжык, таланьжыксянь] 
+    та+Pron+Dem+Sg+AprPrl: таланьӧт
+    та+Pron+Dem+Sg+AprPrl+Comp: [таланьӧтжык, таланьжыкӧт]
+    та+Pron+Dem+Sg+AprTerI: таланьӧдз
+    та+Pron+Dem+Sg+AprTerI+Comp: [таланьӧдзжык, таланьжыкӧдз] 
+    та+Pron+Dem+Sg+AprTerII: таланьви
+    та+Pron+Dem+Sg+AprTerII+Comp: [таланьвижык, таланьжыкви]
+
+

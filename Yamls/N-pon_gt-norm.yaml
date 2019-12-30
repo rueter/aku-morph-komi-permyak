@@ -1,0 +1,381 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-14
+  
+  Noun - пон: # Nouns in hard consonants: д, з, л, н, с, т - animate noun, full paradigm 'dog / koira / собака'
+     пон+N+Anim+Sg+Nom: пон
+     пон+N+Anim+Sg+Acc: понӧс
+     пон+N+Anim+Sg+Gen: понлӧн
+     пон+N+Anim+Sg+Abl: понлісь
+     пон+N+Anim+Sg+Dat: понлӧ
+     пон+N+Anim+Sg+Ins: понӧн
+     пон+N+Anim+Sg+Com: понкӧт
+     пон+N+Anim+Sg+Car: понтӧг
+     пон+N+Anim+Sg+Cns: понла
+     пон+N+Anim+Sg+Cmpr: понся
+     пон+N+Anim+Sg+Ine: понын
+     пон+N+Anim+Sg+Ela: понісь
+     пон+N+Anim+Sg+Ill: понӧ
+     пон+N+Anim+Sg+Apr: понлань
+     пон+N+Anim+Sg+Egr: понсянь
+     пон+N+Anim+Sg+Prl: понӧт
+# Deal with two terminatives: How are they semantically distinguished? 2019-10-03
+     пон+N+Anim+Sg+TerI: понӧдз
+     пон+N+Anim+Sg+TerII: понви
+     пон+N+Anim+Sg+AprIne: понланьын
+     пон+N+Anim+Sg+AprEla: понланись
+     пон+N+Anim+Sg+AprIll: понланьӧ
+     пон+N+Anim+Sg+AprEgr: понланьсянь
+     пон+N+Anim+Sg+AprPrl: понланьӧт
+     пон+N+Anim+Sg+AprTerI: понланьӧдз
+     пон+N+Anim+Sg+AprTerII: понланьви
+     пон+N+Anim+Sg+Nom+PxSg1: понӧ
+     пон+N+Anim+Sg+Gen+PxSg1: понӧлӧн
+     пон+N+Anim+Sg+Abl+PxSg1: понӧлісь
+     пон+N+Anim+Sg+Dat+PxSg1: понӧлӧ
+     пон+N+Anim+Sg+Acc+PxSg1: понӧс
+     пон+N+Anim+Sg+Ins+PxSg1: поннам
+     пон+N+Anim+Sg+Com+PxSg1: понӧкӧт
+     пон+N+Anim+Sg+Car+PxSg1: [понӧтӧг, понтӧгьям]
+     пон+N+Anim+Sg+Cns+PxSg1: понӧла
+     пон+N+Anim+Sg+Cmpr+PxSg1: понӧся
+     пон+N+Anim+Sg+Ine+PxSg1: понам
+     пон+N+Anim+Sg+Ela+PxSg1: понсим
+     пон+N+Anim+Sg+Ill+PxSg1: понам
+     пон+N+Anim+Sg+Apr+PxSg1: [понӧлань, понланям]
+     пон+N+Anim+Sg+Egr+PxSg1: [понӧсянь, понсяням]
+     пон+N+Anim+Sg+Prl+PxSg1: [понӧттям, понӧттим]
+     пон+N+Anim+Sg+TerI+PxSg1: [понӧдззам, понӧдззим]
+     пон+N+Anim+Sg+TerII+PxSg1: понӧви
+     пон+N+Anim+Sg+AprIne+PxSg1: понланям
+     пон+N+Anim+Sg+AprEla+PxSg1: понланьсим
+     пон+N+Anim+Sg+AprIll+PxSg1: понланям
+     пон+N+Anim+Sg+AprEgr+PxSg1: [понланьсяням, понӧланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxSg1: [понланьӧттям, понланьӧттим, понӧланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxSg1: [понланьӧдззам, понланьӧдззим, понӧланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxSg1: понӧланьви
+     пон+N+Anim+Sg+Nom+PxSg2: поныт
+     пон+N+Anim+Sg+Gen+PxSg2: понытлӧн
+     пон+N+Anim+Sg+Abl+PxSg2: понытлісь
+     пон+N+Anim+Sg+Dat+PxSg2: понытлӧ
+     пон+N+Anim+Sg+Acc+PxSg2: понтӧ
+     пон+N+Anim+Sg+Ins+PxSg2: поннат
+     пон+N+Anim+Sg+Com+PxSg2: поныткӧт
+     пон+N+Anim+Sg+Car+PxSg2: [поныттӧг, понтӧгьят]
+     пон+N+Anim+Sg+Cns+PxSg2: понытла
+     пон+N+Anim+Sg+Cmpr+PxSg2: понытся
+     пон+N+Anim+Sg+Ine+PxSg2: понат
+     пон+N+Anim+Sg+Ela+PxSg2: понсит
+     пон+N+Anim+Sg+Ill+PxSg2: понат
+     пон+N+Anim+Sg+Apr+PxSg2: [понытлань, понланят]
+     пон+N+Anim+Sg+Egr+PxSg2: [понытсянь, понсянят]
+     пон+N+Anim+Sg+Prl+PxSg2: [понӧттят, понӧттит]
+     пон+N+Anim+Sg+TerI+PxSg2: [понӧдззат, понӧдззит]
+     пон+N+Anim+Sg+TerII+PxSg2: понытви
+     пон+N+Anim+Sg+AprIne+PxSg2: понланят
+     пон+N+Anim+Sg+AprEla+PxSg2: понланьсит
+     пон+N+Anim+Sg+AprIll+PxSg2: понланят
+     пон+N+Anim+Sg+AprEgr+PxSg2: [понланьсянят, понытланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxSg2: [понланьӧттят, понланьӧттит, понытланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxSg2: [понланьӧдззат, понланьӧдззит, понытланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxSg2: понытланьви
+# 
+     пон+N+Anim+Sg+Nom+PxSg3: поныс
+     пон+N+Anim+Sg+Gen+PxSg3: поныслӧн
+     пон+N+Anim+Sg+Abl+PxSg3: поныслісь
+     пон+N+Anim+Sg+Dat+PxSg3: поныслӧ
+     пон+N+Anim+Sg+Acc+PxSg3: понсӧ
+     пон+N+Anim+Sg+Ins+PxSg3: поннас
+     пон+N+Anim+Sg+Com+PxSg3: поныскӧт
+     пон+N+Anim+Sg+Car+PxSg3: [поныстӧг, понтӧгьяс]
+     пон+N+Anim+Sg+Cns+PxSg3: понысла
+     пон+N+Anim+Sg+Cmpr+PxSg3: понысся
+     
+     пон+N+Anim+Sg+Ine+PxSg3: понас
+     пон+N+Anim+Sg+Ela+PxSg3: понсис
+     пон+N+Anim+Sg+Ill+PxSg3: понас
+     пон+N+Anim+Sg+Apr+PxSg3: [поныслань, понланяс]
+     пон+N+Anim+Sg+Egr+PxSg3: [поныссянь, понсяняс]
+     пон+N+Anim+Sg+Prl+PxSg3: [понӧттяс, понӧттис]
+     пон+N+Anim+Sg+TerI+PxSg3: [понӧдззас, понӧдззис]
+     пон+N+Anim+Sg+TerII+PxSg3: понысви
+     пон+N+Anim+Sg+AprIne+PxSg3: понланяс
+     пон+N+Anim+Sg+AprEla+PxSg3: понланьсис
+     пон+N+Anim+Sg+AprIll+PxSg3: понланяс
+     пон+N+Anim+Sg+AprEgr+PxSg3: [понланьсяняс, понысланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxSg3: [понланьӧттяc, понланьӧттиc, понысланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxSg3: [понланьӧдззаc, понланьӧдззиc, понысланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxSg3: понысланьви
+     пон+N+Anim+Sg+Nom+PxPl1: понным
+     пон+N+Anim+Sg+Gen+PxPl1: поннымлӧн
+     пон+N+Anim+Sg+Abl+PxPl1: поннымлісь
+     пон+N+Anim+Sg+Dat+PxPl1: поннымлӧ
+     пон+N+Anim+Sg+Acc+PxPl1: поннымӧс
+     пон+N+Anim+Sg+Ins+PxPl1: поннаным
+     пон+N+Anim+Sg+Com+PxPl1: поннымкӧт
+     пон+N+Anim+Sg+Car+PxPl1: [поннымтӧг, понтӧгьяным]
+     пон+N+Anim+Sg+Cns+PxPl1: поннымла
+     пон+N+Anim+Sg+Cmpr+PxPl1: поннымся
+     пон+N+Anim+Sg+Ine+PxPl1: понаным
+     пон+N+Anim+Sg+Ela+PxPl1: понсиным
+     пон+N+Anim+Sg+Ill+PxPl1: понаным
+     пон+N+Anim+Sg+Apr+PxPl1: [поннымлань, понланяным]
+     пон+N+Anim+Sg+Egr+PxPl1: [поннымсянь, понсяняным]
+     пон+N+Anim+Sg+Prl+PxPl1: [понӧттяным, понӧттиным]
+     пон+N+Anim+Sg+TerI+PxPl1: [понӧдззаным, понӧдззиным]
+     пон+N+Anim+Sg+TerII+PxPl1: поннымви
+     пон+N+Anim+Sg+AprIne+PxPl1: понланяным
+     пон+N+Anim+Sg+AprEla+PxPl1: понланьсиным
+     пон+N+Anim+Sg+AprIll+PxPl1: понланяным
+     пон+N+Anim+Sg+AprEgr+PxPl1: [понланьсяняным, поннымланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxPl1: [понланьӧттяным, понланьӧттиным, поннымланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxPl1: [понланьӧдззаным, понланьӧдззиным,  поннымланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxPl1: поннымланьви
+     пон+N+Anim+Sg+Nom+PxPl2: понныт
+     пон+N+Anim+Sg+Gen+PxPl2: поннытлӧн
+     пон+N+Anim+Sg+Abl+PxPl2: поннытлісь
+     пон+N+Anim+Sg+Dat+PxPl2: поннытлӧ
+     пон+N+Anim+Sg+Acc+PxPl2: поннытӧ
+     пон+N+Anim+Sg+Ins+PxPl2: поннаныт
+     пон+N+Anim+Sg+Com+PxPl2: понныткӧт
+     пон+N+Anim+Sg+Car+PxPl2: [понныттӧг, понтӧгьяныт]
+     пон+N+Anim+Sg+Cns+PxPl2: поннытла
+     пон+N+Anim+Sg+Cmpr+PxPl2: поннытся
+     пон+N+Anim+Sg+Ine+PxPl2: понаныт
+     пон+N+Anim+Sg+Ela+PxPl2: понсиныт
+     пон+N+Anim+Sg+Ill+PxPl2: понаныт
+     пон+N+Anim+Sg+Apr+PxPl2: [поннытлань, понланяныт]
+     пон+N+Anim+Sg+Egr+PxPl2: [поннытсянь, понсяняныт]
+     пон+N+Anim+Sg+Prl+PxPl2: [понӧттяныт, понӧттиныт]
+     пон+N+Anim+Sg+TerI+PxPl2: [понӧдззаныт, понӧдззиныт]
+     пон+N+Anim+Sg+TerII+PxPl2: поннытви
+     пон+N+Anim+Sg+AprIne+PxPl2: понланяныт
+     пон+N+Anim+Sg+AprEla+PxPl2: понланьсиныт
+     пон+N+Anim+Sg+AprIll+PxPl2: понланяныт
+     пон+N+Anim+Sg+AprEgr+PxPl2: [понланьсяняныт, поннытланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxPl2: [понланьӧттяныт, понланьӧттиныт, поннытланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxPl2: [понланьӧдззаныт, понланьӧдззиныт, поннытланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxPl2: поннытланьви
+     пон+N+Anim+Sg+Nom+PxPl3: понныс
+     пон+N+Anim+Sg+Gen+PxPl3: понныслӧн
+     пон+N+Anim+Sg+Abl+PxPl3: понныслісь
+     пон+N+Anim+Sg+Dat+PxPl3: понныслӧ
+     пон+N+Anim+Sg+Acc+PxPl3: поннысӧ
+     пон+N+Anim+Sg+Ins+PxPl3: поннаныс
+     пон+N+Anim+Sg+Com+PxPl3: понныскӧт
+     пон+N+Anim+Sg+Car+PxPl3: [понныстӧг, понтӧгьяныс]
+     пон+N+Anim+Sg+Cns+PxPl3: поннысла
+     пон+N+Anim+Sg+Cmpr+PxPl3: поннысся
+     пон+N+Anim+Sg+Ine+PxPl3: понаныс
+     пон+N+Anim+Sg+Ela+PxPl3: понсиныс
+     пон+N+Anim+Sg+Ill+PxPl3: понаныс
+     пон+N+Anim+Sg+Apr+PxPl3: [понныслань, понланяныс]
+     пон+N+Anim+Sg+Egr+PxPl3: [понныссянь, понсяняныс]
+     пон+N+Anim+Sg+Prl+PxPl3: [понӧттяныс, понӧттиныс]
+     пон+N+Anim+Sg+TerI+PxPl3: [понӧдззаныс, понӧдззиныс]
+     пон+N+Anim+Sg+TerII+PxPl3: поннысви
+     пон+N+Anim+Sg+AprIne+PxPl3: понланяныс
+     пон+N+Anim+Sg+AprEla+PxPl3: понланьсиныс
+     пон+N+Anim+Sg+AprIll+PxPl3: понланяныс
+     пон+N+Anim+Sg+AprEgr+PxPl3: [понланьсяняныс, поннысланьсянь]
+     пон+N+Anim+Sg+AprPrl+PxPl3: [понланьӧттяныс, понланьӧттиныс, поннысланьӧт]
+     пон+N+Anim+Sg+AprTerI+PxPl3: [понланьӧдззаныс, понланьӧдззиныс, поннысланьӧдз]
+     пон+N+Anim+Sg+AprTerII+PxPl3: поннысланьви
+     пон+N+Anim+Pl+Nom: поннэз
+     пон+N+Anim+Pl+Acc: поннэзӧс
+     пон+N+Anim+Pl+Gen: поннэзлӧн
+     пон+N+Anim+Pl+Abl: поннэзлісь
+     пон+N+Anim+Pl+Dat: поннэзлӧ
+     пон+N+Anim+Pl+Ins: поннэзӧн
+     пон+N+Anim+Pl+Com: поннэзкӧт
+     пон+N+Anim+Pl+Car: поннэзтӧг
+     пон+N+Anim+Pl+Cns: поннэзла
+     пон+N+Anim+Pl+Cmpr: поннэзся
+     пон+N+Anim+Pl+Ine: поннэзын
+     пон+N+Anim+Pl+Ela: поннэзісь
+     пон+N+Anim+Pl+Ill: поннэзӧ
+     пон+N+Anim+Pl+Apr: поннэзлань
+     пон+N+Anim+Pl+Egr: поннэзсянь
+     пон+N+Anim+Pl+Prl: поннэзӧт
+     пон+N+Anim+Pl+TerI: поннэзӧдз
+     пон+N+Anim+Pl+TerII: поннэзви
+     пон+N+Anim+Pl+AprIne: поннэзланьын
+     пон+N+Anim+Pl+AprEla: поннэзланись
+     пон+N+Anim+Pl+AprIll: поннэзланьӧ
+     пон+N+Anim+Pl+AprEgr: поннэзланьсянь
+     пон+N+Anim+Pl+AprPrl: поннэзланьӧт
+     пон+N+Anim+Pl+AprTerI: поннэзланьӧдз
+     пон+N+Anim+Pl+AprTerII: поннэзланьви
+     пон+N+Anim+Pl+Nom+PxSg1: поннэзӧ
+     пон+N+Anim+Pl+Gen+PxSg1: поннэзӧлӧн
+     пон+N+Anim+Pl+Abl+PxSg1: поннэзӧлісь
+     пон+N+Anim+Pl+Dat+PxSg1: поннэзӧлӧ
+     пон+N+Anim+Pl+Acc+PxSg1: поннэзӧс
+     пон+N+Anim+Pl+Ins+PxSg1: поннэзнам
+     пон+N+Anim+Pl+Com+PxSg1: поннэзӧкӧт
+     пон+N+Anim+Pl+Car+PxSg1: [поннэзӧтӧг, поннэзтӧгьям]
+     пон+N+Anim+Pl+Cns+PxSg1: поннэзӧла
+     пон+N+Anim+Pl+Cmpr+PxSg1: поннэзӧся
+     пон+N+Anim+Pl+Ine+PxSg1: поннэзам
+     пон+N+Anim+Pl+Ela+PxSg1: [поннэзсим, поннэсим]
+     пон+N+Anim+Pl+Ill+PxSg1: поннэзам
+     пон+N+Anim+Pl+Apr+PxSg1: [поннэзӧлань, поннэзланям]
+     пон+N+Anim+Pl+Egr+PxSg1: [поннэзӧсянь, поннэзсяням]
+     пон+N+Anim+Pl+Prl+PxSg1: [поннэзӧттям, поннэзӧттим]
+     пон+N+Anim+Pl+TerI+PxSg1: [поннэзӧдззам, поннэзӧдззим]
+     пон+N+Anim+Pl+TerII+PxSg1: поннэзӧви
+     пон+N+Anim+Pl+AprIne+PxSg1: поннэзланям
+     пон+N+Anim+Pl+AprEla+PxSg1: поннэзланьсим
+     пон+N+Anim+Pl+AprIll+PxSg1: поннэзланям
+     пон+N+Anim+Pl+AprEgr+PxSg1: [поннэзланьсяням, поннэзӧланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxSg1: [поннэзланьӧттям, поннэзланьӧттим, поннэзӧланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxSg1: [поннэзланьӧдззам, поннэзланьӧдззим, поннэзӧланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxSg1: поннэзӧланьви
+# Esimerkkien järjestys vaihdettu, koska поннэт on useammin käytetty muoto
+     пон+N+Anim+Pl+Nom+PxSg2: [поннэт, поннэзыт]
+# Esimerkkien järjestys vaihdettu, koska поннэтлӧн on useammin käytetty muoto
+     пон+N+Anim+Pl+Gen+PxSg2: [поннэтлӧн, поннэзытлӧн]
+# Esimerkkien järjestys vaihdettu, koska поннэтлісь on useammin käytetty muoto
+     пон+N+Anim+Pl+Abl+PxSg2: [поннэтлісь, поннэзытлісь]
+# Esimerkkien järjestys vaihdettu, koska поннэтлӧ on useammin käytetty muoto
+     пон+N+Anim+Pl+Dat+PxSg2: [поннэтлӧ, поннэзытлӧ]
+# Esimerkkien järjestys vaihdettu, koska поннэтӧ on useammin käytetty muoto
+     пон+N+Anim+Pl+Acc+PxSg2: [поннэтӧ, поннэзтӧ]
+     пон+N+Anim+Pl+Ins+PxSg2: поннэзнат
+# Esimerkkien järjestys vaihdettu, koska поннэткӧт on useammin käytetty muoto
+     пон+N+Anim+Pl+Com+PxSg2: [поннэткӧт, поннэзыткӧт]
+     пон+N+Anim+Pl+Car+PxSg2: [поннэттӧг, поннэзыттӧг, поннэзтӧгьят]
+# Esimerkkien järjestys vaihdettu, koska поннэтла on useammin käytetty muoto
+     пон+N+Anim+Pl+Cns+PxSg2: [поннэтла, поннэзытла]
+     пон+N+Anim+Pl+Cmpr+PxSg2: [поннэтся, поннэзытся]
+     пон+N+Anim+Pl+Ine+PxSg2: поннэзат
+     пон+N+Anim+Pl+Ela+PxSg2: [поннэзсит, поннэсит]
+     пон+N+Anim+Pl+Ill+PxSg2: поннэзат
+     пон+N+Anim+Pl+Apr+PxSg2: [поннэтлань, поннэзланят]
+     пон+N+Anim+Pl+Egr+PxSg2: [поннэтсянь, поннэзсянят]
+     пон+N+Anim+Pl+Prl+PxSg2: [поннэзӧттят, поннэзӧттит]
+     пон+N+Anim+Pl+TerI+PxSg2: [поннэзӧдззат, поннэзӧдззит]
+     пон+N+Anim+Pl+TerII+PxSg2: [поннэтви, поннэзытви]
+     пон+N+Anim+Pl+AprIne+PxSg2: поннэзланят
+     пон+N+Anim+Pl+AprEla+PxSg2: поннэзланьсит
+     пон+N+Anim+Pl+AprIll+PxSg2: поннэзланят
+     пон+N+Anim+Pl+AprEgr+PxSg2: [поннэзланьсянят, поннэтланьсянь, поннэзытланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxSg2: [поннэзланьӧттят, поннэзланьӧттит, поннэтланьӧт, поннэзытланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxSg2: [поннэзланьӧдззат, поннэзланьӧдззит, поннэтланьӧдз, поннэзытланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxSg2: [поннэтланьви, поннэзытланьви]
+# Esimerkkien järjestys vaihdettu, koska поннэс on useammin käytetty muoto
+     пон+N+Anim+Pl+Nom+PxSg3: [поннэс, поннэзыс]
+# Esimerkkien järjestys vaihdettu, koska поннэслӧн on useammin käytetty muoto
+     пон+N+Anim+Pl+Gen+PxSg3: [поннэслӧн, поннэзыслӧн]
+# Esimerkkien järjestys vaihdettu, koska поннэслісь on useammin käytetty muoto
+     пон+N+Anim+Pl+Abl+PxSg3: [поннэслісь, поннэзыслісь]
+# Esimerkkien järjestys vaihdettu, koska поннэслӧ on useammin käytetty muoto
+     пон+N+Anim+Pl+Dat+PxSg3: [поннэслӧ, поннэзыслӧ]
+     пон+N+Anim+Pl+Acc+PxSg3: [поннэсӧ, поннэзсӧ]
+     пон+N+Anim+Pl+Ins+PxSg3: поннэзнас
+# Esimerkkien järjestys vaihdettu, koska поннэскӧт on useammin käytetty muoto
+     пон+N+Anim+Pl+Com+PxSg3: [поннэскӧт, поннэзыскӧт]
+# Esimerkkien järjestys vaihdettu, koska поннэстӧг on useammin käytetty muoto
+     пон+N+Anim+Pl+Car+PxSg3: [поннэстӧг, поннэзыстӧг, поннэзтӧгьяс]
+# Esimerkkien järjestys vaihdettu, koska поннэсла on useammin käytetty muoto
+     пон+N+Anim+Pl+Cns+PxSg3: [поннэсла, поннэзысла]
+# Esimerkkien järjestys vaihdettu, koska поннэсся on useammin käytetty muoto
+     пон+N+Anim+Pl+Cmpr+PxSg3: [поннэсся, поннэзысся]
+     пон+N+Anim+Pl+Ine+PxSg3: поннэзас
+     пон+N+Anim+Pl+Ela+PxSg3: [поннэзсис, поннэсис]
+     пон+N+Anim+Pl+Ill+PxSg3: поннэзас
+     пон+N+Anim+Pl+Apr+PxSg3: [поннэслань, поннэзланяс]
+     пон+N+Anim+Pl+Egr+PxSg3: [поннэссянь, поннэзсяняс]
+     пон+N+Anim+Pl+Prl+PxSg3: [поннэзӧттяс, поннэзӧттис]
+     пон+N+Anim+Pl+TerI+PxSg3: [поннэзӧдззас, поннэзӧдззис]
+     пон+N+Anim+Pl+TerII+PxSg3: поннэсви
+     пон+N+Anim+Pl+AprIne+PxSg3: поннэзланяс
+     пон+N+Anim+Pl+AprEla+PxSg3: поннэзланьсис
+     пон+N+Anim+Pl+AprIll+PxSg3: поннэзланяс
+     пон+N+Anim+Pl+AprEgr+PxSg3: [поннэзланьсяняс, поннэсланьсянь, поннэзысланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxSg3: [поннэзланьӧттяс, поннэзланьӧттис, поннэсланьӧт, поннэзысланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxSg3: [поннэзланьӧдззаc, поннэзланьӧдззиc, поннэсланьӧдз, поннэзысланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxSg3: поннэсланьви
+     пон+N+Anim+Pl+Nom+PxPl1: поннэзным
+     пон+N+Anim+Pl+Gen+PxPl1: поннэзнымлӧн
+     пон+N+Anim+Pl+Abl+PxPl1: поннэзнымлісь
+     пон+N+Anim+Pl+Dat+PxPl1: поннэзнымлӧ
+     пон+N+Anim+Pl+Acc+PxPl1: поннэзнымӧс
+     пон+N+Anim+Pl+Ins+PxPl1: поннэзнаным
+     пон+N+Anim+Pl+Com+PxPl1: поннэзнымкӧт
+     пон+N+Anim+Pl+Car+PxPl1: [поннэзнымтӧг, поннэзтӧгьяным]
+     пон+N+Anim+Pl+Cns+PxPl1: поннэзнымла
+     пон+N+Anim+Pl+Cmpr+PxPl1: поннэзнымся
+     пон+N+Anim+Pl+Ine+PxPl1: поннэзаным
+     пон+N+Anim+Pl+Ela+PxPl1: [поннэзсиным, поннэсиным]
+     пон+N+Anim+Pl+Ill+PxPl1: поннэзаным
+     пон+N+Anim+Pl+Apr+PxPl1: [поннэзнымлань, поннэзланяным]
+     пон+N+Anim+Pl+Egr+PxPl1: [поннэзнымсянь, поннэзсяняным]
+     пон+N+Anim+Pl+Prl+PxPl1: [поннэзӧттяным, поннэзӧттиным]
+     пон+N+Anim+Pl+TerI+PxPl1: [поннэзӧдззаным, поннэзӧдззиным]
+     пон+N+Anim+Pl+TerII+PxPl1: поннэзнымви
+     пон+N+Anim+Pl+AprIne+PxPl1: поннэзланяным
+     пон+N+Anim+Pl+AprEla+PxPl1: поннэзланьсиным
+     пон+N+Anim+Pl+AprIll+PxPl1: поннэзланяным
+     пон+N+Anim+Pl+AprEgr+PxPl1: [поннэзланьсяняным, поннэзнымланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxPl1: [поннэзланьӧттяным, поннэзланьӧттиным, поннэзнымланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxPl1: [поннэзланьӧдззаным, поннэзланьӧдззиным, поннэзнымланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxPl1: поннэзнымланьви
+     пон+N+Anim+Pl+Nom+PxPl2: поннэзныт
+     пон+N+Anim+Pl+Gen+PxPl2: поннэзнытлӧн
+     пон+N+Anim+Pl+Abl+PxPl2: поннэзнытлісь
+     пон+N+Anim+Pl+Dat+PxPl2: поннэзнытлӧ
+     пон+N+Anim+Pl+Acc+PxPl2: поннэзнытӧ
+     пон+N+Anim+Pl+Ins+PxPl2: поннэзнаныт
+     пон+N+Anim+Pl+Com+PxPl2: поннэзныткӧт
+     пон+N+Anim+Pl+Car+PxPl2: [поннэзныттӧг, поннэзтӧгьяныт]
+     пон+N+Anim+Pl+Cns+PxPl2: поннэзнытла
+     пон+N+Anim+Pl+Cmpr+PxPl2: поннэзнытся
+     пон+N+Anim+Pl+Ine+PxPl2: поннэзаныт
+     пон+N+Anim+Pl+Ela+PxPl2: [поннэзсиныт, поннэсиныт]
+     пон+N+Anim+Pl+Ill+PxPl2: поннэзаныт
+     пон+N+Anim+Pl+Apr+PxPl2: [поннэзнытлань, поннэзланяныт
+     пон+N+Anim+Pl+Egr+PxPl2: [поннэзнытсянь, поннэзсяняныт]
+     пон+N+Anim+Pl+Prl+PxPl2: [поннэзӧттяныт, поннэзӧттиныт]
+     пон+N+Anim+Pl+TerI+PxPl2: [поннэзӧдззаныт, поннэзӧдззиныт]
+     пон+N+Anim+Pl+TerII+PxPl2: поннэзнытви
+     пон+N+Anim+Pl+AprIne+PxPl2: поннэзланяныт
+     пон+N+Anim+Pl+AprEla+PxPl2: поннэзланьсиныт
+     пон+N+Anim+Pl+AprIll+PxPl2: поннэзланяныт
+     пон+N+Anim+Pl+AprEgr+PxPl2: [поннэзланьсяняныт, поннэзнытланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxPl2: [поннэзланьӧттяныт, поннэзланьӧттиныт, поннэзнытланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxPl2: [поннэзланьӧдззаныт, поннэзланьӧдззиныт, поннэзнытланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxPl2: поннэзнытланьви
+     пон+N+Anim+Pl+Nom+PxPl3: поннэзныс
+     пон+N+Anim+Pl+Gen+PxPl3: поннэзныслӧн
+     пон+N+Anim+Pl+Abl+PxPl3: поннэзныслісь
+     пон+N+Anim+Pl+Dat+PxPl3: поннэзныслӧ
+     пон+N+Anim+Pl+Acc+PxPl3: поннэзнысӧ
+     пон+N+Anim+Pl+Ins+PxPl3: поннэзнаныс
+     пон+N+Anim+Pl+Com+PxPl3: поннэзныскӧт
+     пон+N+Anim+Pl+Car+PxPl3: [поннэзныстӧг, поннэзтӧгьяныс]
+     пон+N+Anim+Pl+Cns+PxPl3: поннэзнысла
+     пон+N+Anim+Pl+Cmpr+PxPl3: поннэзнысся
+     пон+N+Anim+Pl+Ine+PxPl3: поннэзаныс
+     пон+N+Anim+Pl+Ela+PxPl3: [поннэзсиныс, поннэсиныс]
+     пон+N+Anim+Pl+Ill+PxPl3: поннэзаныс
+     пон+N+Anim+Pl+Apr+PxPl3: [поннэзныслань, поннэзланяныс]
+     пон+N+Anim+Pl+Egr+PxPl3: [поннэзныссянь, поннэзсяняныс]
+     пон+N+Anim+Pl+Prl+PxPl3: [поннэзӧттяныс, поннэзӧттиныс]
+     пон+N+Anim+Pl+TerI+PxPl3: [поннэзӧдззаныс, поннэзӧдззиныс]
+     пон+N+Anim+Pl+TerII+PxPl3: поннэзнысви
+     пон+N+Anim+Pl+AprIne+PxPl3: поннэзланяныс
+     пон+N+Anim+Pl+AprEla+PxPl3: поннэзланьсиныс
+     пон+N+Anim+Pl+AprIll+PxPl3: поннэзланяныс
+     пон+N+Anim+Pl+AprEgr+PxPl3: [поннэзланьсяняныс, поннэзнысланьсянь]
+     пон+N+Anim+Pl+AprPrl+PxPl3: [поннэзланьӧттяныс, поннэзланьӧттиныс, поннэзнысланьӧт]
+     пон+N+Anim+Pl+AprTerI+PxPl3: [поннэзланьӧдззаныс, поннэзланьӧдззиныс, поннэзнысланьӧдз]
+     пон+N+Anim+Pl+AprTerII+PxPl3: поннэзнысланьви

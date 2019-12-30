@@ -1,0 +1,124 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – быдӧн: # Total Pronoun 'Jokainen / Каждый'
+    быдӧн+Pron+Tot+Sg+Nom+Compl: быдӧн
+    быдӧн+Pron+Tot+Sg+Acc: быдӧнӧс
+    быдӧн+Pron+Tot+Sg+Gen: быдӧнлӧн
+    быдӧн+Pron+Tot+Sg+Abl: быдӧнлісь
+    быдӧн+Pron+Tot+Sg+Dat: быдӧнлӧ
+    быдӧн+Pron+Tot+Sg+Ins: быдӧнӧн 
+    быдӧн+Pron+Tot+Sg+Com: быдӧнкӧт
+    быдӧн+Pron+Tot+Sg+Car: быдӧнтӧг
+    быдӧн+Pron+Tot+Sg+Cns: быдӧнла
+    быдӧн+Pron+Tot+Sg+Cmpr: быдӧнся
+    быдӧн+Pron+Tot+Sg+Ine: быдӧнын
+    быдӧн+Pron+Tot+Sg+Ela: быдӧнісь
+    быдӧн+Pron+Tot+Sg+Ill: быдӧнӧ
+    быдӧн+Pron+Tot+Sg+Apr: быдӧнлань
+    быдӧн+Pron+Tot+Sg+Egr: быдӧнсянь
+    быдӧн+Pron+Tot+Sg+Prl: быдӧнӧт
+    быдӧн+Pron+Tot+Sg+TerI: быдӧнӧдз
+    быдӧн+Pron+Tot+Sg+TerII: быдӧнви
+    быдӧн+Pron+Tot+Sg+AprIne: быдӧнланьын
+    быдӧн+Pron+Tot+Sg+AprEla: быдӧнланись
+    быдӧн+Pron+Tot+Sg+AprIll: быдӧнланьӧ
+    быдӧн+Pron+Tot+Sg+AprEgr: быдӧнланьсянь
+    быдӧн+Pron+Tot+Sg+AprPrl: быдӧнланьӧт
+    быдӧн+Pron+Tot+Sg+AprTerI: быдӧнланьӧдз
+    быдӧн+Pron+Tot+Sg+AprTerII: быдӧнланьви
+
+
+    быдӧн+Pron+Tot+Sg+Nom+PxPl1: быдӧнным
+    быдӧн+Pron+Tot+Sg+Acc+PxPl1: быдӧннымӧс
+    быдӧн+Pron+Tot+Sg+Gen+PxPl1: быдӧннымлӧн
+    быдӧн+Pron+Tot+Sg+Abl+PxPl1: быдӧннымлісь
+    быдӧн+Pron+Tot+Sg+Dat+PxPl1: быдӧннымлӧ
+    быдӧн+Pron+Tot+Sg+Ins+PxPl1: [быдӧннаным, быдӧннымӧн] 
+    быдӧн+Pron+Tot+Sg+Com+PxPl1: быдӧннымкӧт
+    быдӧн+Pron+Tot+Sg+Car+PxPl1: быдӧннымтӧг
+    быдӧн+Pron+Tot+Sg+Cns+PxPl1: быдӧннымла
+    быдӧн+Pron+Tot+Sg+Cmpr+PxPl1: быдӧннымся
+    быдӧн+Pron+Tot+Sg+Ine+PxPl1: [быдӧнаным, быдӧннымын]
+    быдӧн+Pron+Tot+Sg+Ela+PxPl1: [быдӧнсиным, быдӧннымись]
+    быдӧн+Pron+Tot+Sg+Ill+PxPl1: [быдӧнаным, быдӧннымӧ]
+    быдӧн+Pron+Tot+Sg+Apr+PxPl1: быдӧннымлань 
+    быдӧн+Pron+Tot+Sg+Egr+PxPl1: быдӧннымсянь
+    быдӧн+Pron+Tot+Sg+Prl+PxPl1: быдӧннымӧт
+    быдӧн+Pron+Tot+Sg+TerI+PxPl1: быдӧннымӧдз
+    быдӧн+Pron+Tot+Sg+TerII+PxPl1: быдӧннымви
+    быдӧн+Pron+Tot+Sg+AprIne+PxPl1: быдӧннымланьын
+    быдӧн+Pron+Tot+Sg+AprEla+PxPl1: быдӧннымланись
+    быдӧн+Pron+Tot+Sg+AprIll+PxPl1: быдӧннымланьӧ
+    быдӧн+Pron+Tot+Sg+AprEgr+PxPl1: быдӧннымланьсянь
+    быдӧн+Pron+Tot+Sg+AprPrl+PxPl1: быдӧннымланьӧт
+    быдӧн+Pron+Tot+Sg+AprTerI+PxPl1: быдӧннымланьӧдз
+    быдӧн+Pron+Tot+Sg+AprTerII+PxPl1: быдӧннымланьви
+
+
+    быдӧн+Pron+Tot+Sg+Nom+PxPl2: быдӧнныт
+    быдӧн+Pron+Tot+Sg+Acc+PxPl2: быдӧннытӧ
+    быдӧн+Pron+Tot+Sg+Gen+PxPl2: быдӧннытлӧн
+    быдӧн+Pron+Tot+Sg+Abl+PxPl2: быдӧннытлісь
+    быдӧн+Pron+Tot+Sg+Dat+PxPl2: быдӧннытлӧ
+    быдӧн+Pron+Tot+Sg+Ins+PxPl2: [быдӧннаныт, быдӧннытӧн] 
+    быдӧн+Pron+Tot+Sg+Com+PxPl2: быдӧнныткӧт
+    быдӧн+Pron+Tot+Sg+Car+PxPl2: быдӧнныттӧг
+    быдӧн+Pron+Tot+Sg+Cns+PxPl2: быдӧннытла
+    быдӧн+Pron+Tot+Sg+Cmpr+PxPl2: быдӧннытся
+    быдӧн+Pron+Tot+Sg+Ine+PxPl2: [быдӧнаныт, быдӧннытын]
+    быдӧн+Pron+Tot+Sg+Ela+PxPl2: [быдӧнсиныт, быдӧннытісь]
+    быдӧн+Pron+Tot+Sg+Ill+PxPl2: [быдӧнаныт, быдӧннытӧ]
+    быдӧн+Pron+Tot+Sg+Apr+PxPl2: быдӧннытлань 
+    быдӧн+Pron+Tot+Sg+Egr+PxPl2: быдӧннытсянь
+    быдӧн+Pron+Tot+Sg+Prl+PxPl2: быдӧннытӧт
+    быдӧн+Pron+Tot+Sg+TerI+PxPl2: быдӧннытӧдз
+    быдӧн+Pron+Tot+Sg+TerII+PxPl2: быдӧннытви
+    быдӧн+Pron+Tot+Sg+AprIne+PxPl2: быдӧннытланьын
+    быдӧн+Pron+Tot+Sg+AprEla+PxPl2: быдӧннытланись
+    быдӧн+Pron+Tot+Sg+AprIll+PxPl2: быдӧннытланьӧ
+    быдӧн+Pron+Tot+Sg+AprEgr+PxPl2: быдӧннытланьсянь
+    быдӧн+Pron+Tot+Sg+AprPrl+PxPl2: быдӧннытланьӧт
+    быдӧн+Pron+Tot+Sg+AprTerI+PxPl2: быдӧннытланьӧдз
+    быдӧн+Pron+Tot+Sg+AprTerII+PxPl2: быдӧннытланьви
+
+
+    быдӧн+Pron+Tot+Sg+Nom+PxPl3: быдӧнныс
+    быдӧн+Pron+Tot+Sg+Acc+PxPl3: быдӧннысӧ
+    быдӧн+Pron+Tot+Sg+Gen+PxPl3: быдӧнныслӧн
+    быдӧн+Pron+Tot+Sg+Abl+PxPl3: быдӧнныслісь
+    быдӧн+Pron+Tot+Sg+Dat+PxPl3: быдӧнныслӧ
+    быдӧн+Pron+Tot+Sg+Ins+PxPl3: [быдӧннаныс, быдӧннысӧн] 
+    быдӧн+Pron+Tot+Sg+Com+PxPl3: быдӧнныскӧт
+    быдӧн+Pron+Tot+Sg+Car+PxPl3: быдӧнныстӧг
+    быдӧн+Pron+Tot+Sg+Cns+PxPl3: быдӧннысла
+    быдӧн+Pron+Tot+Sg+Cmpr+PxPl3: быдӧннысся
+    быдӧн+Pron+Tot+Sg+Ine+PxPl3: [быдӧнаныс, быдӧннысын]
+    быдӧн+Pron+Tot+Sg+Ela+PxPl3: [быдӧнсиныс, быдӧннысісь]
+    быдӧн+Pron+Tot+Sg+Ill+PxPl3: [быдӧнаныс, быдӧннысӧ]
+    быдӧн+Pron+Tot+Sg+Apr+PxPl3: быдӧнныслань 
+    быдӧн+Pron+Tot+Sg+Egr+PxPl3: быдӧнныссянь
+    быдӧн+Pron+Tot+Sg+Prl+PxPl3: быдӧннысӧт
+    быдӧн+Pron+Tot+Sg+TerI+PxPl3: быдӧннысӧдз
+    быдӧн+Pron+Tot+Sg+TerII+PxPl3: быдӧннысви
+    быдӧн+Pron+Tot+Sg+AprIne+PxPl3: быдӧннысланьын
+    быдӧн+Pron+Tot+Sg+AprEla+PxPl3: быдӧннысланись
+    быдӧн+Pron+Tot+Sg+AprIll+PxPl3: быдӧннысланьӧ
+    быдӧн+Pron+Tot+Sg+AprEgr+PxPl3: быдӧннысланьсянь
+    быдӧн+Pron+Tot+Sg+AprPrl+PxPl3: быдӧннысланьӧт
+    быдӧн+Pron+Tot+Sg+AprTerI+PxPl3: быдӧннысланьӧдз
+    быдӧн+Pron+Tot+Sg+AprTerII+PxPl3: быдӧннысланьви
+

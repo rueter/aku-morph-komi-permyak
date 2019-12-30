@@ -1,0 +1,363 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-09
+  
+  Noun - кар: # Nouns in hard consonants: б, г, ж, к, м, п, р, ф, х, ц, ч, щ, ш - inanimate noun, full paradigm 'city / kaupunki / город'
+     кар+N+Inan+Sg+Nom: кар
+     кар+N+Inan+Sg+Acc: кар
+     кар+N+Inan+Sg+Gen: карлӧн
+     кар+N+Inan+Sg+Abl: карлісь
+     кар+N+Inan+Sg+Dat: карлӧ
+     кар+N+Inan+Sg+Ins: карӧн
+     кар+N+Inan+Sg+Com: каркӧт
+     кар+N+Inan+Sg+Car: картӧг
+     кар+N+Inan+Sg+Cns: карла
+     кар+N+Inan+Sg+Cmpr: карся
+     кар+N+Inan+Sg+Ine: карын
+     кар+N+Inan+Sg+Ela: карись
+     кар+N+Inan+Sg+Ill: карӧ
+     кар+N+Inan+Sg+Apr: карлань
+     кар+N+Inan+Sg+Egr: карсянь
+     кар+N+Inan+Sg+Prl: карӧт
+     кар+N+Inan+Sg+TerI: карӧдз
+     кар+N+Inan+Sg+TerII: карви
+     кар+N+Inan+Sg+AprIne: карланьын
+     кар+N+Inan+Sg+AprEla: карланись
+     кар+N+Inan+Sg+AprIll: карланьӧ
+     кар+N+Inan+Sg+AprEgr: карланьсянь
+     кар+N+Inan+Sg+AprPrl: карланьӧт
+     кар+N+Inan+Sg+AprTerI: карланьӧдз
+     кар+N+Inan+Sg+AprTerII: карланьви
+     кар+N+Inan+Sg+Nom+PxSg1: карӧ
+     кар+N+Inan+Sg+Gen+PxSg1: карӧлӧн
+     кар+N+Inan+Sg+Abl+PxSg1: карӧлісь
+     кар+N+Inan+Sg+Dat+PxSg1: карӧлӧ
+     кар+N+Inan+Sg+Acc+PxSg1: карӧс
+     кар+N+Inan+Sg+Ins+PxSg1: карнам
+     кар+N+Inan+Sg+Com+PxSg1: карӧкӧт
+     кар+N+Inan+Sg+Car+PxSg1: [карӧтӧг, картӧгьям]
+     кар+N+Inan+Sg+Cns+PxSg1: карӧла
+     кар+N+Inan+Sg+Cmpr+PxSg1: карӧся
+     кар+N+Inan+Sg+Ine+PxSg1: карам
+     кар+N+Inan+Sg+Ela+PxSg1: карсим
+     кар+N+Inan+Sg+Ill+PxSg1: карам
+     кар+N+Inan+Sg+Apr+PxSg1: [карӧлань, карланям]
+     кар+N+Inan+Sg+Egr+PxSg1: [карӧсянь, карсяням]
+     кар+N+Inan+Sg+Prl+PxSg1: [карӧттям, карӧттим]
+     кар+N+Inan+Sg+TerI+PxSg1: [карӧдззам, карӧдззим]
+     кар+N+Inan+Sg+TerII+PxSg1: карӧви
+     кар+N+Inan+Sg+AprIne+PxSg1: карланям
+     кар+N+Inan+Sg+AprEla+PxSg1: карланьсим
+     кар+N+Inan+Sg+AprIll+PxSg1: карланям
+     кар+N+Inan+Sg+AprEgr+PxSg1: [карланьсяням, карӧланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxSg1: [карланьӧттям, карланьӧттим, карӧланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxSg1: [карланьӧдззам, карланьӧдззим, карӧланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxSg1: карӧланьви
+     кар+N+Inan+Sg+Nom+PxSg2: карыт
+     кар+N+Inan+Sg+Gen+PxSg2: карытлӧн
+     кар+N+Inan+Sg+Abl+PxSg2: карытлісь
+     кар+N+Inan+Sg+Dat+PxSg2: карытлӧ
+     кар+N+Inan+Sg+Acc+PxSg2: картӧ
+     кар+N+Inan+Sg+Ins+PxSg2: карнат
+     кар+N+Inan+Sg+Com+PxSg2: карыткӧт
+     кар+N+Inan+Sg+Car+PxSg2: [карыттӧг, картӧгьят]
+     кар+N+Inan+Sg+Cns+PxSg2: карытла
+     кар+N+Inan+Sg+Cmpr+PxSg2: карытся
+     кар+N+Inan+Sg+Ine+PxSg2: карат
+     кар+N+Inan+Sg+Ela+PxSg2: карсит
+     кар+N+Inan+Sg+Ill+PxSg2: карат
+     кар+N+Inan+Sg+Apr+PxSg2: [карытлань, карланят]
+     кар+N+Inan+Sg+Egr+PxSg2: [карытсянь, карсянят]
+     кар+N+Inan+Sg+Prl+PxSg2: [карӧттят, карӧттит]
+     кар+N+Inan+Sg+TerI+PxSg2: [карӧдззат, карӧдззит]
+     кар+N+Inan+Sg+TerII+PxSg2: карытви
+     кар+N+Inan+Sg+AprIne+PxSg2: карланят
+     кар+N+Inan+Sg+AprEla+PxSg2: карланьсит
+     кар+N+Inan+Sg+AprIll+PxSg2: карланят
+     кар+N+Inan+Sg+AprEgr+PxSg2: [карланьсянят, карытланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxSg2: [карланьӧттят, карланьӧттит, карытланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxSg2: [карланьӧдззат, карланьӧдззит, карытланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxSg2: карытланьви
+     кар+N+Inan+Sg+Nom+PxSg3: карыс
+     кар+N+Inan+Sg+Gen+PxSg3: карыслӧн
+     кар+N+Inan+Sg+Abl+PxSg3: карыслісь
+     кар+N+Inan+Sg+Dat+PxSg3: карыслӧ
+     кар+N+Inan+Sg+Acc+PxSg3: карсӧ
+     кар+N+Inan+Sg+Ins+PxSg3: карнас
+     кар+N+Inan+Sg+Com+PxSg3: карыскӧт
+     кар+N+Inan+Sg+Car+PxSg3: [карыстӧг, картӧгьяс]
+     кар+N+Inan+Sg+Cns+PxSg3: карысла
+     кар+N+Inan+Sg+Cmpr+PxSg3: карысся
+     кар+N+Inan+Sg+Ine+PxSg3: карас
+     кар+N+Inan+Sg+Ela+PxSg3: карсис
+     кар+N+Inan+Sg+Ill+PxSg3: карас
+     кар+N+Inan+Sg+Apr+PxSg3: [карыслань, карланяс]
+     кар+N+Inan+Sg+Egr+PxSg3: [карыссянь, карсяняс]
+     кар+N+Inan+Sg+Prl+PxSg3: [карӧттяс, карӧттис]
+     кар+N+Inan+Sg+TerI+PxSg3: [карӧдззас, карӧдззис]
+     кар+N+Inan+Sg+TerII+PxSg3: карысви
+     кар+N+Inan+Sg+AprIne+PxSg3: карланяс
+     кар+N+Inan+Sg+AprEla+PxSg3: карланьсис
+     кар+N+Inan+Sg+AprIll+PxSg3: карланяс
+     кар+N+Inan+Sg+AprEgr+PxSg3: [карланьсяняс, карысланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxSg3: [карланьӧттяc, карланьӧттиc, карысланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxSg3: [карланьӧдззаc, карланьӧдззиc, карысланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxSg3: карысланьви
+     кар+N+Inan+Sg+Nom+PxPl1: карным
+     кар+N+Inan+Sg+Gen+PxPl1: карнымлӧн
+     кар+N+Inan+Sg+Abl+PxPl1: карнымлісь
+     кар+N+Inan+Sg+Dat+PxPl1: карнымлӧ
+     кар+N+Inan+Sg+Acc+PxPl1: карнымӧс
+     кар+N+Inan+Sg+Ins+PxPl1: карнаным
+     кар+N+Inan+Sg+Com+PxPl1: карнымкӧт
+     кар+N+Inan+Sg+Car+PxPl1: [карнымтӧг, картӧгьяным]
+     кар+N+Inan+Sg+Cns+PxPl1: карнымла
+     кар+N+Inan+Sg+Cmpr+PxPl1: карнымся
+     кар+N+Inan+Sg+Ine+PxPl1: караным
+     кар+N+Inan+Sg+Ela+PxPl1: карсиным
+     кар+N+Inan+Sg+Ill+PxPl1: караным
+     кар+N+Inan+Sg+Apr+PxPl1: [карнымлань, карланяным]
+     кар+N+Inan+Sg+Egr+PxPl1: [карнымсянь, карсяняным]
+     кар+N+Inan+Sg+Prl+PxPl1: [карӧттяным, карӧттиным]
+     кар+N+Inan+Sg+TerI+PxPl1: [карӧдззаным, карӧдззиным]
+     кар+N+Inan+Sg+TerII+PxPl1: карнымви
+     кар+N+Inan+Sg+AprIne+PxPl1: карланяным
+     кар+N+Inan+Sg+AprEla+PxPl1: карланьсиным
+     кар+N+Inan+Sg+AprIll+PxPl1: карланяным
+     кар+N+Inan+Sg+AprEgr+PxPl1: [карланьсяняным, карнымланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxPl1: [карланьӧттяным, карланьӧттиным, карнымланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxPl1: [карланьӧдззаным, карланьӧдззиным,  карнымланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxPl1: карнымланьви
+     кар+N+Inan+Sg+Nom+PxPl2: карныт
+     кар+N+Inan+Sg+Gen+PxPl2: карнытлӧн
+     кар+N+Inan+Sg+Abl+PxPl2: карнытлісь
+     кар+N+Inan+Sg+Dat+PxPl2: карнытлӧ
+     кар+N+Inan+Sg+Acc+PxPl2: карнытӧ
+     кар+N+Inan+Sg+Ins+PxPl2: карнаныт
+     кар+N+Inan+Sg+Com+PxPl2: карныткӧт
+     кар+N+Inan+Sg+Car+PxPl2: [карныттӧг, картӧгьяныт]
+     кар+N+Inan+Sg+Cns+PxPl2: карнытла
+     кар+N+Inan+Sg+Cmpr+PxPl2: карнытся
+     кар+N+Inan+Sg+Ine+PxPl2: караныт
+     кар+N+Inan+Sg+Ela+PxPl2: карсиныт
+     кар+N+Inan+Sg+Ill+PxPl2: караныт
+     кар+N+Inan+Sg+Apr+PxPl2: [карнытлань, карланяныт]
+     кар+N+Inan+Sg+Egr+PxPl2: [карнытсянь, карсяняныт]
+     кар+N+Inan+Sg+Prl+PxPl2: [карӧттяныт, карӧттиныт]
+     кар+N+Inan+Sg+TerI+PxPl2: [карӧдззаныт, карӧдззиныт]
+     кар+N+Inan+Sg+TerII+PxPl2: карнытви
+     кар+N+Inan+Sg+AprIne+PxPl2: карланяныт
+     кар+N+Inan+Sg+AprEla+PxPl2: карланьсиныт
+     кар+N+Inan+Sg+AprIll+PxPl2: карланяныт
+     кар+N+Inan+Sg+AprEgr+PxPl2: [карланьсяняныт, карнытланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxPl2: [карланьӧттяныт, карланьӧттиныт, карнытланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxPl2: [карланьӧдззаныт, карланьӧдззиныт, карнытланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxPl2: карнытланьви
+     кар+N+Inan+Sg+Nom+PxPl3: карныс
+     кар+N+Inan+Sg+Gen+PxPl3: карныслӧн
+     кар+N+Inan+Sg+Abl+PxPl3: карныслісь
+     кар+N+Inan+Sg+Dat+PxPl3: карныслӧ
+     кар+N+Inan+Sg+Acc+PxPl3: карнысӧ
+     кар+N+Inan+Sg+Ins+PxPl3: карнаныс
+     кар+N+Inan+Sg+Com+PxPl3: карныскӧт
+     кар+N+Inan+Sg+Car+PxPl3: [карныстӧг, картӧгьяныс]
+     кар+N+Inan+Sg+Cns+PxPl3: карнысла
+     кар+N+Inan+Sg+Cmpr+PxPl3: карнысся
+     кар+N+Inan+Sg+Ine+PxPl3: караныс
+     кар+N+Inan+Sg+Ela+PxPl3: карсиныс
+     кар+N+Inan+Sg+Ill+PxPl3: караныс
+     кар+N+Inan+Sg+Apr+PxPl3: [карныслань, карланяныс]
+     кар+N+Inan+Sg+Egr+PxPl3: [карныссянь, карсяняныс]
+     кар+N+Inan+Sg+Prl+PxPl3: [карӧттяныс, карӧттиныс]
+     кар+N+Inan+Sg+TerI+PxPl3: [карӧдззаныс, карӧдззиныс]
+     кар+N+Inan+Sg+TerII+PxPl3: карнысви
+     кар+N+Inan+Sg+AprIne+PxPl3: карланяныс
+     кар+N+Inan+Sg+AprEla+PxPl3: карланьсиныс
+     кар+N+Inan+Sg+AprIll+PxPl3: карланяныс
+     кар+N+Inan+Sg+AprEgr+PxPl3: [карланьсяняныс, карнысланьсянь]
+     кар+N+Inan+Sg+AprPrl+PxPl3: [карланьӧттяныс, карланьӧттиныс, карнысланьӧт]
+     кар+N+Inan+Sg+AprTerI+PxPl3: [карланьӧдззаныс, карланьӧдззиныс, карнысланьӧдз]
+     кар+N+Inan+Sg+AprTerII+PxPl3: карнысланьви
+     кар+N+Inan+Pl+Nom: каррез
+     кар+N+Inan+Pl+Acc: каррез
+     кар+N+Inan+Pl+Gen: каррезлӧн
+     кар+N+Inan+Pl+Abl: каррезлісь
+     кар+N+Inan+Pl+Dat: каррезлӧ
+     кар+N+Inan+Pl+Ins: каррезӧн
+     кар+N+Inan+Pl+Com: каррезкӧт
+     кар+N+Inan+Pl+Car: каррезтӧг
+     кар+N+Inan+Pl+Cns: каррезла
+     кар+N+Inan+Pl+Cmpr: каррезся
+     кар+N+Inan+Pl+Ine: каррезын
+     кар+N+Inan+Pl+Ela: каррезісь
+     кар+N+Inan+Pl+Ill: каррезӧ
+     кар+N+Inan+Pl+Apr: каррезлань
+     кар+N+Inan+Pl+Egr: каррезсянь
+     кар+N+Inan+Pl+Prl: каррезӧт
+     кар+N+Inan+Pl+TerI: каррезӧдз
+     кар+N+Inan+Pl+TerII: каррезви
+     кар+N+Inan+Pl+AprIne: каррезланьын
+     кар+N+Inan+Pl+AprEla: каррезланись
+     кар+N+Inan+Pl+AprIll: каррезланьӧ
+     кар+N+Inan+Pl+AprEgr: каррезланьсянь
+     кар+N+Inan+Pl+AprPrl: каррезланьӧт
+     кар+N+Inan+Pl+AprTerI: каррезланьӧдз
+     кар+N+Inan+Pl+AprTerII: каррезланьви
+     кар+N+Inan+Pl+Nom+PxSg1: каррезӧ
+     кар+N+Inan+Pl+Gen+PxSg1: каррезӧлӧн
+     кар+N+Inan+Pl+Abl+PxSg1: каррезӧлісь
+     кар+N+Inan+Pl+Dat+PxSg1: каррезӧлӧ
+     кар+N+Inan+Pl+Acc+PxSg1: каррезӧс
+     кар+N+Inan+Pl+Ins+PxSg1: каррезнам
+     кар+N+Inan+Pl+Com+PxSg1: каррезӧкӧт
+     кар+N+Inan+Pl+Car+PxSg1: [каррезӧтӧг, каррезтӧгьям]
+     кар+N+Inan+Pl+Cns+PxSg1: каррезӧла
+     кар+N+Inan+Pl+Cmpr+PxSg1: каррезӧся
+     кар+N+Inan+Pl+Ine+PxSg1: каррезам
+     кар+N+Inan+Pl+Ela+PxSg1: [каррезсим, карресим]
+     кар+N+Inan+Pl+Ill+PxSg1: каррезам
+     кар+N+Inan+Pl+Apr+PxSg1: [каррезӧлань, каррезланям]
+     кар+N+Inan+Pl+Egr+PxSg1: [каррезӧсянь, каррезсяням]
+     кар+N+Inan+Pl+Prl+PxSg1: [каррезӧттям, каррезӧттим]
+     кар+N+Inan+Pl+TerI+PxSg1: [каррезӧдззам, каррезӧдззим]
+     кар+N+Inan+Pl+TerII+PxSg1: каррезӧви
+     кар+N+Inan+Pl+AprIne+PxSg1: каррезланям
+     кар+N+Inan+Pl+AprEla+PxSg1: каррезланьсим
+     кар+N+Inan+Pl+AprIll+PxSg1: каррезланям
+     кар+N+Inan+Pl+AprEgr+PxSg1: [каррезланьсяням, каррезӧланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxSg1: [каррезланьӧттям, каррезланьӧттим, каррезӧланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxSg1: [каррезланьӧдззам, каррезланьӧдззим, каррезӧланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxSg1: каррезӧланьви
+     кар+N+Inan+Pl+Nom+PxSg2: [каррет, каррезыт]
+     кар+N+Inan+Pl+Gen+PxSg2: [карретлӧн, каррезытлӧн]
+     кар+N+Inan+Pl+Abl+PxSg2: [карретлісь, каррезытлісь]
+     кар+N+Inan+Pl+Dat+PxSg2: [карретлӧ, каррезытлӧ]
+     кар+N+Inan+Pl+Acc+PxSg2: [карретӧ, каррезтӧ]
+     кар+N+Inan+Pl+Ins+PxSg2: каррезнат
+     кар+N+Inan+Pl+Com+PxSg2: [карреткӧт, каррезыткӧт]
+     кар+N+Inan+Pl+Car+PxSg2: [карреттӧг, каррезыттӧг, каррезтӧгьят]
+     кар+N+Inan+Pl+Cns+PxSg2: [карретла, каррезытла]
+     кар+N+Inan+Pl+Cmpr+PxSg2: [каррется, каррезытся]
+     кар+N+Inan+Pl+Ine+PxSg2: каррезат
+     кар+N+Inan+Pl+Ela+PxSg2: [каррезсит, карресит]
+     кар+N+Inan+Pl+Ill+PxSg2: каррезат
+     кар+N+Inan+Pl+Apr+PxSg2: [карретлань, каррезытлань, каррезланят]
+     кар+N+Inan+Pl+Egr+PxSg2: [карретсянь, каррезытсянь, каррезсянят]
+     кар+N+Inan+Pl+Prl+PxSg2: [каррезӧттят, каррезӧттит]
+     кар+N+Inan+Pl+TerI+PxSg2: [каррезӧдззат, каррезӧдззит]
+     кар+N+Inan+Pl+TerII+PxSg2: [карретви, каррезытви]
+     кар+N+Inan+Pl+AprIne+PxSg2: каррезланят
+     кар+N+Inan+Pl+AprEla+PxSg2: каррезланьсит
+     кар+N+Inan+Pl+AprIll+PxSg2: каррезланят
+     кар+N+Inan+Pl+AprEgr+PxSg2: [каррезланьсянят, карретланьсянь, каррезытланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxSg2: [каррезланьӧттят, каррезланьӧттит, карретланьӧт, каррезытланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxSg2: [каррезланьӧдззат, каррезланьӧдззит, карретланьӧдз, каррезытланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxSg2: [карретланьви, каррезытланьви]
+     кар+N+Inan+Pl+Nom+PxSg3: [каррес, каррезыс]
+     кар+N+Inan+Pl+Gen+PxSg3: [карреслӧн, каррезыслӧн]
+     кар+N+Inan+Pl+Abl+PxSg3: [карреслісь, каррезыслісь]
+     кар+N+Inan+Pl+Dat+PxSg3: [карреслӧ, каррезыслӧ]
+     кар+N+Inan+Pl+Acc+PxSg3: [карресӧ, каррезсӧ]
+     кар+N+Inan+Pl+Ins+PxSg3: каррезнас
+     кар+N+Inan+Pl+Com+PxSg3: [каррескӧт, каррезыскӧт]
+     кар+N+Inan+Pl+Car+PxSg3: [каррестӧг, каррезыстӧг, каррезтӧгьяс]
+     кар+N+Inan+Pl+Cns+PxSg3: [карресла, каррезысла]
+     кар+N+Inan+Pl+Cmpr+PxSg3: [карресся, каррезысся]
+     кар+N+Inan+Pl+Ine+PxSg3: каррезас
+     кар+N+Inan+Pl+Ela+PxSg3: [каррезсис, карресис]
+     кар+N+Inan+Pl+Ill+PxSg3: каррезас
+     кар+N+Inan+Pl+Apr+PxSg3: [карреслань, каррезыслань, каррезланяс]
+     кар+N+Inan+Pl+Egr+PxSg3: [каррессянь, каррезыссянь, каррезсяняс]
+     кар+N+Inan+Pl+Prl+PxSg3: [каррезӧттяс, каррезӧттис]
+     кар+N+Inan+Pl+TerI+PxSg3: [каррезӧдззас, каррезӧдззис]
+     кар+N+Inan+Pl+TerII+PxSg3: карресви
+     кар+N+Inan+Pl+AprIne+PxSg3: каррезланяс
+     кар+N+Inan+Pl+AprEla+PxSg3: каррезланьсис
+     кар+N+Inan+Pl+AprIll+PxSg3: каррезланяс
+     кар+N+Inan+Pl+AprEgr+PxSg3: [каррезланьсяняс, карресланьсянь, каррезысланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxSg3: [каррезланьӧттяс, каррезланьӧттис, карресланьӧт, каррезысланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxSg3: [каррезланьӧдззаc, каррезланьӧдззиc, карресланьӧдз, каррезысланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxSg3: карресланьви
+     кар+N+Inan+Pl+Nom+PxPl1: каррезным
+     кар+N+Inan+Pl+Gen+PxPl1: каррезнымлӧн
+     кар+N+Inan+Pl+Abl+PxPl1: каррезнымлісь
+     кар+N+Inan+Pl+Dat+PxPl1: каррезнымлӧ
+     кар+N+Inan+Pl+Acc+PxPl1: каррезнымӧс
+     кар+N+Inan+Pl+Ins+PxPl1: каррезнаным
+     кар+N+Inan+Pl+Com+PxPl1: каррезнымкӧт
+     кар+N+Inan+Pl+Car+PxPl1: [каррезнымтӧг, каррезтӧгьяным]
+     кар+N+Inan+Pl+Cns+PxPl1: каррезнымла
+     кар+N+Inan+Pl+Cmpr+PxPl1: каррезнымся
+     кар+N+Inan+Pl+Ine+PxPl1: каррезаным
+     кар+N+Inan+Pl+Ela+PxPl1: [каррезсиным, карресиным]
+     кар+N+Inan+Pl+Ill+PxPl1: каррезаным
+     кар+N+Inan+Pl+Apr+PxPl1: [каррезнымлань, каррезланяным]
+     кар+N+Inan+Pl+Egr+PxPl1: [каррезнымсянь, каррезсяняным]
+     кар+N+Inan+Pl+Prl+PxPl1: [каррезӧттяным, каррезӧттиным]
+     кар+N+Inan+Pl+TerI+PxPl1: [каррезӧдззаным, каррезӧдззиным]
+     кар+N+Inan+Pl+TerII+PxPl1: каррезнымви
+     кар+N+Inan+Pl+AprIne+PxPl1: каррезланяным
+     кар+N+Inan+Pl+AprEla+PxPl1: каррезланьсиным
+     кар+N+Inan+Pl+AprIll+PxPl1: каррезланяным
+     кар+N+Inan+Pl+AprEgr+PxPl1: [каррезланьсяняным, каррезнымланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxPl1: [каррезланьӧттяным, каррезланьӧттиным, каррезнымланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxPl1: [каррезланьӧдззаным, каррезланьӧдззиным, каррезнымланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxPl1: каррезнымланьви
+     кар+N+Inan+Pl+Nom+PxPl2: каррезныт
+     кар+N+Inan+Pl+Gen+PxPl2: каррезнытлӧн
+     кар+N+Inan+Pl+Abl+PxPl2: каррезнытлісь
+     кар+N+Inan+Pl+Dat+PxPl2: каррезнытлӧ
+     кар+N+Inan+Pl+Acc+PxPl2: каррезнытӧ
+     кар+N+Inan+Pl+Ins+PxPl2: каррезнаныт
+     кар+N+Inan+Pl+Com+PxPl2: каррезныткӧт
+     кар+N+Inan+Pl+Car+PxPl2: [каррезныттӧг, каррезтӧгьяныт]
+     кар+N+Inan+Pl+Cns+PxPl2: каррезнытла
+     кар+N+Inan+Pl+Cmpr+PxPl2: каррезнытся
+     кар+N+Inan+Pl+Ine+PxPl2: каррезаныт
+     кар+N+Inan+Pl+Ela+PxPl2: [каррезсиныт, карресиныт]
+     кар+N+Inan+Pl+Ill+PxPl2: каррезаныт
+     кар+N+Inan+Pl+Apr+PxPl2: [каррезнытлань, каррезланяныт]
+     кар+N+Inan+Pl+Egr+PxPl2: [каррезнытсянь, каррезсяняныт]
+     кар+N+Inan+Pl+Prl+PxPl2: [каррезӧттяныт, каррезӧттиныт]
+     кар+N+Inan+Pl+TerI+PxPl2: [каррезӧдззаныт, каррезӧдззиныт]
+     кар+N+Inan+Pl+TerII+PxPl2: каррезнытви
+     кар+N+Inan+Pl+AprIne+PxPl2: каррезланяныт
+     кар+N+Inan+Pl+AprEla+PxPl2: каррезланьсиныт
+     кар+N+Inan+Pl+AprIll+PxPl2: каррезланяныт
+     кар+N+Inan+Pl+AprEgr+PxPl2: [каррезланьсяняныт, каррезнытланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxPl2: [каррезланьӧттяныт, каррезланьӧттиныт, каррезнытланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxPl2: [каррезланьӧдззаныт, каррезланьӧдззиныт, каррезнытланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxPl2: каррезнытланьви
+     кар+N+Inan+Pl+Nom+PxPl3: каррезныс
+     кар+N+Inan+Pl+Gen+PxPl3: каррезныслӧн
+     кар+N+Inan+Pl+Abl+PxPl3: каррезныслісь
+     кар+N+Inan+Pl+Dat+PxPl3: каррезныслӧ
+     кар+N+Inan+Pl+Acc+PxPl3: каррезнысӧ
+     кар+N+Inan+Pl+Ins+PxPl3: каррезнаныс
+     кар+N+Inan+Pl+Com+PxPl3: каррезныскӧт
+     кар+N+Inan+Pl+Car+PxPl3: [каррезныстӧг, каррезтӧгьяныс]
+     кар+N+Inan+Pl+Cns+PxPl3: каррезнысла
+     кар+N+Inan+Pl+Cmpr+PxPl3: каррезнысся
+     кар+N+Inan+Pl+Ine+PxPl3: каррезаныс
+     кар+N+Inan+Pl+Ela+PxPl3: [каррезсиныс, карресиныс]
+     кар+N+Inan+Pl+Ill+PxPl3: каррезаныс
+     кар+N+Inan+Pl+Apr+PxPl3: [каррезныслань, каррезланяныс]
+     кар+N+Inan+Pl+Egr+PxPl3: [каррезныссянь, каррезсяняныс]
+     кар+N+Inan+Pl+Prl+PxPl3: [каррезӧттяныс, каррезӧттиныс]
+     кар+N+Inan+Pl+TerI+PxPl3: [каррезӧдззаныс, каррезӧдззиныс]
+     кар+N+Inan+Pl+TerII+PxPl3: каррезнысви
+     кар+N+Inan+Pl+AprIne+PxPl3: каррезланяныс
+     кар+N+Inan+Pl+AprEla+PxPl3: каррезланьсиныс
+     кар+N+Inan+Pl+AprIll+PxPl3: каррезланяныс
+     кар+N+Inan+Pl+AprEgr+PxPl3: [каррезланьсяняныс, каррезнысланьсянь]
+     кар+N+Inan+Pl+AprPrl+PxPl3: [каррезланьӧттяныс, каррезланьӧттиныс, каррезнысланьӧт]
+     кар+N+Inan+Pl+AprTerI+PxPl3: [каррезланьӧдззаныс, каррезланьӧдззиныс, каррезнысланьӧдз]
+     кар+N+Inan+Pl+AprTerII+PxPl3: каррезнысланьви

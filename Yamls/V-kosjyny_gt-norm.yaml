@@ -1,0 +1,117 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-25
+# Then: run analyser, then correct. 
+
+
+  Verb - кӧсйыны 'to promise'/ 'luvata'/ 'обещать': 
+# Inf. suff. –ыны. Verb in –j, preceded by hard consonants: д, з, л, н, с, т. / Inf. suff. –ыны. Sanavartalon lopussa on –й, jonka edessä ovat kovat konsonantit: д, з, л, н, с, т.
+     кӧсйыны+V+Inf: кӧсйыны
+     кӧсйыны+V+Inf+PxSg2: кӧсйыныт
+     кӧсйыны+V+Inf+Acc+PxSg2: кӧсйынытӧ
+     кӧсйыны+V+Inf+PxSg3: кӧсйыныс
+     кӧсйыны+V+Inf+Acc+PxSg3: кӧсйынысӧ 
+     кӧсйыны+V+ConNeg+Pl: кӧсйӧ 
+     кӧсйыны+V+ConNeg+Sg: кӧсйы
+     кӧсйыны+V+Imprt+Sg2: [кӧсйы, кӧсйы-ко]
+     кӧсйыны+V+Imprt+Pl1: [кӧсъям, кӧсъямӧ, кӧсъямӧ-ко, кӧсъямте, кӧсъямӧте]
+     кӧсйыны+V+Imprt+Pl2: [кӧсйӧ, кӧсйӧ-ко, кӧсйӧте]
+     кӧсйыны+V+Ind+Prs+Sg1: кӧсъя
+     кӧсйыны+V+Ind+Prs+Sg2: кӧсъян
+     кӧсйыны+V+Ind+Prs+Sg3: кӧсйӧ
+     кӧсйыны+V+Ind+Prs+Pl1: [кӧсъям, кӧсъямӧ]
+     кӧсйыны+V+Ind+Prs+Pl2: [кӧсъят, кӧсъятӧ]
+     кӧсйыны+V+Ind+Prs+Pl3: [кӧсйӧн, кӧсйӧны]
+     кӧсйыны+V+Ind+Fut+Sg1: кӧсъя
+     кӧсйыны+V+Ind+Fut+Sg2: кӧсъян
+     кӧсйыны+V+Ind+Fut+Sg3: кӧсъяс
+     кӧсйыны+V+Ind+Fut+Pl1: [кӧсъям, кӧсъямӧ]
+     кӧсйыны+V+Ind+Fut+Pl2: [кӧсъят, кӧсъятӧ]
+     кӧсйыны+V+Ind+Fut+Pl3: кӧсъясӧ
+     кӧсйыны+V+Ind+Prt1+Sg1: кӧсйи
+     кӧсйыны+V+Ind+Prt1+Sg2: кӧсйин
+     кӧсйыны+V+Ind+Prt1+Sg3: кӧсйис
+     кӧсйыны+V+Ind+Prt1+Pl1: [кӧсйим, кӧсйимӧ]
+     кӧсйыны+V+Ind+Prt1+Pl2: [кӧсйит, кӧсйитӧ]
+     кӧсйыны+V+Ind+Prt1+Pl3: кӧсйисӧ
+     кӧсйыны+V+Ind+Prt2+Sg2: [кӧсйӧмыт, кӧсйӧмат]
+     кӧсйыны+V+Ind+Prt2+Sg3: [кӧсйӧм, кӧсйӧма]
+     кӧсйыны+V+Ind+Prt2+Pl2: [кӧсйӧмныт, кӧсйӧмась]
+     кӧсйыны+V+Ind+Prt2+Pl3: кӧсйӧмась
+     кӧсйыны+V+Inf+Comp: кӧсйыныжык
+     кӧсйыны+V+Ind+Prs+Sg1+Comp: кӧсъяжык
+     кӧсйыны+V+Ind+Prs+Sg2+Comp: кӧсъянжык
+     кӧсйыны+V+Ind+Prs+Sg3+Comp: кӧсйӧжык
+     кӧсйыны+V+Ind+Prs+Pl1+Comp: [кӧсъямжык, кӧсъямӧжык]
+     кӧсйыны+V+Ind+Prs+Pl2+Comp: [кӧсъятжык, кӧсъятӧжык]
+     кӧсйыны+V+Ind+Prs+Pl3+Comp: [кӧсйӧнжык, кӧсйӧныжык]
+     кӧсйыны+V+Ind+Fut+Sg1+Comp: кӧсъяжык
+     кӧсйыны+V+Ind+Fut+Sg2+Comp: кӧсъянжык
+     кӧсйыны+V+Ind+Fut+Sg3+Comp: кӧсъясжык
+     кӧсйыны+V+Ind+Fut+Pl1+Comp: [кӧсъямжык, кӧсъямӧжык]
+     кӧсйыны+V+Ind+Fut+Pl2+Comp: [кӧсъятжык, кӧсъятӧжык]
+     кӧсйыны+V+Ind+Fut+Pl3+Comp: кӧсъясӧжык
+     кӧсйыны+V+Ind+Prt1+Sg1+Comp: кӧсйижык
+     кӧсйыны+V+Ind+Prt1+Sg2+Comp: кӧсйинжык
+     кӧсйыны+V+Ind+Prt1+Sg3+Comp: кӧсйисжык
+     кӧсйыны+V+Ind+Prt1+Pl1+Comp: [кӧсйимжык, кӧсйимӧжык]
+     кӧсйыны+V+Ind+Prt1+Pl2+Comp: [кӧсйитжык, кӧсйитӧжык]
+     кӧсйыны+V+Ind+Prt1+Pl3+Comp: кӧсйисӧжык
+     кӧсйыны+V+Ind+Prt2+Sg2+Comp: [кӧсйӧмытжык, кӧсйӧматжык]
+     кӧсйыны+V+Ind+Prt2+Sg3+Comp: [кӧсйӧмжык, кӧсйӧмажык]
+     кӧсйыны+V+Ind+Prt2+Pl2+Comp: [кӧсйӧмнытжык, кӧсйӧмасьжык]
+     кӧсйыны+V+Ind+Prt2+Pl3+Comp: кӧсйӧмасьжык
+    
+     кӧсйыны+V+Der/ик+Ger+Compl: кӧсйик
+     кӧсйыны+V+Der/ик+Ger+Ill: кӧсйикӧ
+     кӧсйыны+V+Der/ик+Ger+Ill+PxSg1: кӧсйикам
+     кӧсйыны+V+Der/ик+Ger+Ill+PxSg2: кӧсйикат
+     кӧсйыны+V+Der/ик+Ger+Ill+PxSg3: кӧсйикас
+     кӧсйыны+V+Der/ик+Ger+Ill+PxPl1: кӧсйиканым
+     кӧсйыны+V+Der/ик+Ger+Ill+PxPl2: кӧсйиканыт
+     кӧсйыны+V+Der/ик+Ger+Ill+PxPl3: кӧсйиканыс
+     кӧсйыны+V+Der/ӧмӧн+Ger: кӧсйӧмӧн
+     кӧсйыны+V+Der/ӧмӧн+Ger+Comp: кӧсйӧмӧнжык  
+     кӧсйыны+V+Der/тӧдз+Ger: кӧсйытӧдз
+     кӧсйыны+V+Der/тӧдз+Ger+PxSg1: [кӧсйытӧдззам, кӧсйытӧдззим]
+     кӧсйыны+V+Der/тӧдз+Ger+PxSg2: [кӧсйытӧдззат, кӧсйытӧдззит]
+     кӧсйыны+V+Der/тӧдз+Ger+PxSg3: [кӧсйытӧдззас, кӧсйытӧдззис]
+     кӧсйыны+V+Der/тӧдз+Ger+PxPl1: [кӧсйытӧдззаным, кӧсйытӧдззиным]
+     кӧсйыны+V+Der/тӧдз+Ger+PxPl2: [кӧсйытӧдззаныт, кӧсйытӧдззиныт]
+     кӧсйыны+V+Der/тӧдз+Ger+PxPl3: [кӧсйытӧдззаныс, кӧсйытӧдззиныс]
+     кӧсйыны+V+Der/тӧн+Ger: кӧсйытӧн
+     кӧсйыны+V+Der/тӧн+Ger+PxSg1: [кӧсйытӧнням, кӧсйытӧнним]
+     кӧсйыны+V+Der/тӧн+Ger+PxSg2: [кӧсйытӧннят, кӧсйытӧннит]
+     кӧсйыны+V+Der/тӧн+Ger+PxSg3: [кӧсйытӧнняс, кӧсйытӧннис]
+     кӧсйыны+V+Der/тӧн+Ger+PxPl1: [кӧсйытӧнняным, кӧсйытӧнниным]
+     кӧсйыны+V+Der/тӧн+Ger+PxPl2: [кӧсйытӧнняныт, кӧсйытӧнниныт]
+     кӧсйыны+V+Der/тӧн+Ger+PxPl3: [кӧсйытӧнняныс, кӧсйытӧнниныс]
+     кӧсйыны+V+Der/тӧг+Car+Ger: кӧсйытӧг
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxSg1: кӧсйытӧгьям
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxSg2: кӧсйытӧгьят
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxSg3: кӧсйытӧгьяс
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxPl1: кӧсйытӧгьяным
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxPl2: кӧсйытӧгьяныт
+     кӧсйыны+V+Der/тӧг+Car+Ger+PxPl3: кӧсйытӧгьяныс
+     
+     кӧсйыны+V+Der/ӧм+PrfPrc+Sg: кӧсйӧм
+     кӧсйыны+V+Der/ӧм+PrfPrc+Pl: кӧсйӧмӧсь
+     кӧсйыны+V+Der/ись+Act+PrsPrc+Sg: кӧсйись
+     кӧсйыны+V+Der/ись+Act+PrsPrc+Pl: кӧсйисьӧсь
+     кӧсйыны+V+Der/ян+PrsPrc+Sg: кӧсъян
+     кӧсйыны+V+Der/ян+PrsPrc+Pl: кӧсъянӧсь
+     кӧсйыны+V+Der/яна+PrsPrc+Sg: кӧсъяна
+     кӧсйыны+V+Der/яна+PrsPrc+Pl: кӧсъянаӧсь
+     кӧсйыны+V+Der/тӧм+PrivPrc+Sg: кӧсйытӧм
+     кӧсйыны+V+Der/тӧм+PrivPrc+Pl: кӧсйытӧмӧсь
+

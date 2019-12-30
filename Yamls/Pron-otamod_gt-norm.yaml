@@ -1,0 +1,151 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – ӧтамӧд: # Reciprocal Pronoun 'Toisiaan / Друг друга'
+    ӧтамӧд+Pron+Recipr+Sg+Nom+Compl: ӧтамӧд
+    ӧтамӧд+Pron+Recipr+Sg+Acc: ӧтамӧдӧс
+    ӧтамӧд+Pron+Recipr+Sg+Gen: ӧтамӧдлӧн
+    ӧтамӧд+Pron+Recipr+Sg+Abl: ӧтамӧдлісь
+    ӧтамӧд+Pron+Recipr+Sg+Dat: ӧтамӧдлӧ
+    ӧтамӧд+Pron+Recipr+Sg+Ins: ӧтамӧдӧн 
+    ӧтамӧд+Pron+Recipr+Sg+Com: ӧтамӧдкӧт
+    ӧтамӧд+Pron+Recipr+Sg+Car: ӧтамӧдтӧг
+    ӧтамӧд+Pron+Recipr+Sg+Cns: ӧтамӧдла
+    ӧтамӧд+Pron+Recipr+Sg+Cmpr: ӧтамӧдся
+    ӧтамӧд+Pron+Recipr+Sg+Ine: ӧтамӧдын
+    ӧтамӧд+Pron+Recipr+Sg+Ela: ӧтамӧдісь
+    ӧтамӧд+Pron+Recipr+Sg+Ill: ӧтамӧдӧ
+    ӧтамӧд+Pron+Recipr+Sg+Apr: ӧтамӧдлань
+    ӧтамӧд+Pron+Recipr+Sg+Egr: ӧтамӧдсянь
+    ӧтамӧд+Pron+Recipr+Sg+Prl: ӧтамӧдӧт
+    ӧтамӧд+Pron+Recipr+Sg+TerI: ӧтамӧдӧдз
+    ӧтамӧд+Pron+Recipr+Sg+TerII: ӧтамӧдви
+    ӧтамӧд+Pron+Recipr+Sg+AprIne: ӧтамӧдланьын
+    ӧтамӧд+Pron+Recipr+Sg+AprEla: ӧтамӧдланись
+    ӧтамӧд+Pron+Recipr+Sg+AprIll: ӧтамӧдланьӧ
+    ӧтамӧд+Pron+Recipr+Sg+AprEgr: ӧтамӧдланьсянь
+    ӧтамӧд+Pron+Recipr+Sg+AprPrl: ӧтамӧдланьӧт
+    ӧтамӧд+Pron+Recipr+Sg+AprTerI: ӧтамӧдланьӧдз
+    ӧтамӧд+Pron+Recipr+Sg+AprTerII: ӧтамӧдланьви
+
+
+    ӧтамӧд+Pron+Recipr+Sg+Nom+PxSg3: ӧтамӧдыс
+    ӧтамӧд+Pron+Recipr+Sg+Acc+PxSg3: ӧтамӧдсӧ
+    ӧтамӧд+Pron+Recipr+Sg+Gen+PxSg3: ӧтамӧдыслӧн
+    ӧтамӧд+Pron+Recipr+Sg+Abl+PxSg3: ӧтамӧдыслісь
+    ӧтамӧд+Pron+Recipr+Sg+Dat+PxSg3: ӧтамӧдыслӧ
+    ӧтамӧд+Pron+Recipr+Sg+Ins+PxSg3: ӧтамӧднас 
+    ӧтамӧд+Pron+Recipr+Sg+Com+PxSg3: ӧтамӧдыскӧт
+    ӧтамӧд+Pron+Recipr+Sg+Car+PxSg3: ӧтамӧдыстӧг
+    ӧтамӧд+Pron+Recipr+Sg+Cns+PxSg3: ӧтамӧдысла
+    ӧтамӧд+Pron+Recipr+Sg+Cmpr+PxSg3: ӧтамӧдысся
+    ӧтамӧд+Pron+Recipr+Sg+Ine+PxSg3: ӧтамӧдас
+    ӧтамӧд+Pron+Recipr+Sg+Ela+PxSg3: ӧтамӧдсис
+    ӧтамӧд+Pron+Recipr+Sg+Ill+PxSg3: ӧтамӧдас
+    ӧтамӧд+Pron+Recipr+Sg+Apr+PxSg3: [ӧтамӧдыслань, ӧтамӧдланяс] 
+    ӧтамӧд+Pron+Recipr+Sg+Egr+PxSg3: [ӧтамӧдыссянь, ӧтамӧдсяняс]
+    ӧтамӧд+Pron+Recipr+Sg+Prl+PxSg3: [ӧтамӧдӧттяс, ӧтамӧдӧттис]
+    ӧтамӧд+Pron+Recipr+Sg+TerI+PxSg3: [ӧтамӧдӧдззас, ӧтамӧдӧдззис]
+    ӧтамӧд+Pron+Recipr+Sg+TerII+PxSg3: ӧтамӧдысви
+    ӧтамӧд+Pron+Recipr+Sg+AprIne+PxSg3: [ӧтамӧдланяс, ӧтамӧдысланьын]
+    ӧтамӧд+Pron+Recipr+Sg+AprEla+PxSg3: [ӧтамӧдланьсис, ӧтамӧдысланись]
+    ӧтамӧд+Pron+Recipr+Sg+AprIll+PxSg3: [ӧтамӧдланяс, ӧтамӧдысланьӧ]
+    ӧтамӧд+Pron+Recipr+Sg+AprEgr+PxSg3: [ӧтамӧдысланьсянь, ӧтамӧдланьсяняс]
+    ӧтамӧд+Pron+Recipr+Sg+AprPrl+PxSg3: [ӧтамӧдланьӧттяс, ӧтамӧдланьӧттис]
+    ӧтамӧд+Pron+Recipr+Sg+AprTerI+PxSg3: [ӧтамӧдланьӧдззас, ӧтамӧдланьӧдззис]
+    ӧтамӧд+Pron+Recipr+Sg+AprTerII+PxSg3: ӧтамӧдысланьви
+
+
+    ӧтамӧд+Pron+Recipr+Sg+Nom+PxPl1: ӧтамӧдным
+    ӧтамӧд+Pron+Recipr+Sg+Acc+PxPl1: ӧтамӧднымӧс
+    ӧтамӧд+Pron+Recipr+Sg+Gen+PxPl1: ӧтамӧднымлӧн
+    ӧтамӧд+Pron+Recipr+Sg+Abl+PxPl1: ӧтамӧднымлісь
+    ӧтамӧд+Pron+Recipr+Sg+Dat+PxPl1: ӧтамӧднымлӧ
+    ӧтамӧд+Pron+Recipr+Sg+Ins+PxPl1: ӧтамӧднаным 
+    ӧтамӧд+Pron+Recipr+Sg+Com+PxPl1: ӧтамӧднымкӧт
+    ӧтамӧд+Pron+Recipr+Sg+Car+PxPl1: ӧтамӧднымтӧг
+    ӧтамӧд+Pron+Recipr+Sg+Cns+PxPl1: ӧтамӧднымла
+    ӧтамӧд+Pron+Recipr+Sg+Cmpr+PxPl1: ӧтамӧднымся
+    ӧтамӧд+Pron+Recipr+Sg+Ine+PxPl1: ӧтамӧданым
+    ӧтамӧд+Pron+Recipr+Sg+Ela+PxPl1: ӧтамӧдсиным
+    ӧтамӧд+Pron+Recipr+Sg+Ill+PxPl1: ӧтамӧданым
+    ӧтамӧд+Pron+Recipr+Sg+Apr+PxPl1: [ӧтамӧднымлань, ӧтамӧдланяным]
+    ӧтамӧд+Pron+Recipr+Sg+Egr+PxPl1: [ӧтамӧднымсянь, ӧтамӧдсяняным]
+    ӧтамӧд+Pron+Recipr+Sg+Prl+PxPl1: [ӧтамӧдӧттяным, ӧтамӧдӧттиным]
+    ӧтамӧд+Pron+Recipr+Sg+TerI+PxPl1: [ӧтамӧдӧдззаным, ӧтамӧдӧдззиным] 
+    ӧтамӧд+Pron+Recipr+Sg+TerII+PxPl1: ӧтамӧднымви
+    ӧтамӧд+Pron+Recipr+Sg+AprIne+PxPl1: [ӧтамӧдланяным, ӧтамӧднымланьын]
+    ӧтамӧд+Pron+Recipr+Sg+AprEla+PxPl1: [ӧтамӧдланьсиным, ӧтамӧднымланись]
+    ӧтамӧд+Pron+Recipr+Sg+AprIll+PxPl1: [ӧтамӧдланяным, ӧтамӧднымланьӧ]
+    ӧтамӧд+Pron+Recipr+Sg+AprEgr+PxPl1: [ӧтамӧднымланьсянь, ӧтамӧдланьсяняным]
+    ӧтамӧд+Pron+Recipr+Sg+AprPrl+PxPl1: [ӧтамӧдланьӧттяным, ӧтамӧдланьӧттиным, ӧтамӧднымланьӧт]
+    ӧтамӧд+Pron+Recipr+Sg+AprTerI+PxPl1: [ӧтамӧдланьӧдззаным, ӧтамӧдланьӧдззиным, ӧтамӧднымланьӧдз] 
+    ӧтамӧд+Pron+Recipr+Sg+AprTerII+PxPl1: ӧтамӧднымланьви
+
+
+    ӧтамӧд+Pron+Recipr+Sg+Nom+PxPl2: ӧтамӧдныт
+    ӧтамӧд+Pron+Recipr+Sg+Acc+PxPl2: ӧтамӧднытӧ
+    ӧтамӧд+Pron+Recipr+Sg+Gen+PxPl2: ӧтамӧднытлӧн
+    ӧтамӧд+Pron+Recipr+Sg+Abl+PxPl2: ӧтамӧднытлісь
+    ӧтамӧд+Pron+Recipr+Sg+Dat+PxPl2: ӧтамӧднытлӧ
+    ӧтамӧд+Pron+Recipr+Sg+Ins+PxPl2: ӧтамӧднаныт 
+    ӧтамӧд+Pron+Recipr+Sg+Com+PxPl2: ӧтамӧдныткӧт
+    ӧтамӧд+Pron+Recipr+Sg+Car+PxPl2: ӧтамӧдныттӧг
+    ӧтамӧд+Pron+Recipr+Sg+Cns+PxPl2: ӧтамӧднытла
+    ӧтамӧд+Pron+Recipr+Sg+Cmpr+PxPl2: ӧтамӧднытся
+    ӧтамӧд+Pron+Recipr+Sg+Ine+PxPl2: ӧтамӧданыт
+    ӧтамӧд+Pron+Recipr+Sg+Ela+PxPl2: ӧтамӧдсиныт
+    ӧтамӧд+Pron+Recipr+Sg+Ill+PxPl2: ӧтамӧданыт
+    ӧтамӧд+Pron+Recipr+Sg+Apr+PxPl2: [ӧтамӧднытлань, ӧтамӧдланяныт]
+    ӧтамӧд+Pron+Recipr+Sg+Egr+PxPl2: [ӧтамӧднытсянь, ӧтамӧдсяняныт]
+    ӧтамӧд+Pron+Recipr+Sg+Prl+PxPl2: [ӧтамӧдӧттяныт, ӧтамӧдӧттиныт]
+    ӧтамӧд+Pron+Recipr+Sg+TerI+PxPl2: [ӧтамӧдӧдззаныт, ӧтамӧдӧдззиныт] 
+    ӧтамӧд+Pron+Recipr+Sg+TerII+PxPl2: ӧтамӧднытви
+    ӧтамӧд+Pron+Recipr+Sg+AprIne+PxPl2: [ӧтамӧдланяныт, ӧтамӧднытланьын]
+    ӧтамӧд+Pron+Recipr+Sg+AprEla+PxPl2: [ӧтамӧдланьсиныт, ӧтамӧднытланись]
+    ӧтамӧд+Pron+Recipr+Sg+AprIll+PxPl2: [ӧтамӧдланяныт, ӧтамӧднытланьӧ]
+    ӧтамӧд+Pron+Recipr+Sg+AprEgr+PxPl2: [ӧтамӧднытланьсянь, ӧтамӧдланьсяняныт]
+    ӧтамӧд+Pron+Recipr+Sg+AprPrl+PxPl2: [ӧтамӧдланьӧттяныт, ӧтамӧдланьӧттиныт, ӧтамӧднытланьӧт]
+    ӧтамӧд+Pron+Recipr+Sg+AprTerI+PxPl2: [ӧтамӧдланьӧдззаныт, ӧтамӧдланьӧдззиныт, ӧтамӧднытланьӧдз] 
+    ӧтамӧд+Pron+Recipr+Sg+AprTerII+PxPl2: ӧтамӧднытланьви
+
+
+    ӧтамӧд+Pron+Recipr+Sg+Nom+PxPl3: ӧтамӧдныс
+    ӧтамӧд+Pron+Recipr+Sg+Acc+PxPl3: ӧтамӧднысӧ
+    ӧтамӧд+Pron+Recipr+Sg+Gen+PxPl3: ӧтамӧдныслӧн
+    ӧтамӧд+Pron+Recipr+Sg+Abl+PxPl3: ӧтамӧдныслісь
+    ӧтамӧд+Pron+Recipr+Sg+Dat+PxPl3: ӧтамӧдныслӧ
+    ӧтамӧд+Pron+Recipr+Sg+Ins+PxPl3: ӧтамӧднаныс 
+    ӧтамӧд+Pron+Recipr+Sg+Com+PxPl3: ӧтамӧдныскӧт
+    ӧтамӧд+Pron+Recipr+Sg+Car+PxPl3: ӧтамӧдныстӧг
+    ӧтамӧд+Pron+Recipr+Sg+Cns+PxPl3: ӧтамӧднысла
+    ӧтамӧд+Pron+Recipr+Sg+Cmpr+PxPl3: ӧтамӧднысся
+    ӧтамӧд+Pron+Recipr+Sg+Ine+PxPl3: ӧтамӧданыс
+    ӧтамӧд+Pron+Recipr+Sg+Ela+PxPl3: ӧтамӧдсиныс
+    ӧтамӧд+Pron+Recipr+Sg+Ill+PxPl3: ӧтамӧданыс
+    ӧтамӧд+Pron+Recipr+Sg+Apr+PxPl3: [ӧтамӧдныслань, ӧтамӧдланяныс]
+    ӧтамӧд+Pron+Recipr+Sg+Egr+PxPl3: [ӧтамӧдныссянь, ӧтамӧдсяняныс]
+    ӧтамӧд+Pron+Recipr+Sg+Prl+PxPl3: [ӧтамӧдӧттяныс, ӧтамӧдӧттиныс]
+    ӧтамӧд+Pron+Recipr+Sg+TerI+PxPl3: [ӧтамӧдӧдззаныс, ӧтамӧдӧдззиныс] 
+    ӧтамӧд+Pron+Recipr+Sg+TerII+PxPl3: ӧтамӧднысви
+    ӧтамӧд+Pron+Recipr+Sg+AprIne+PxPl3: [ӧтамӧдланяныс, ӧтамӧднысланьын]
+    ӧтамӧд+Pron+Recipr+Sg+AprEla+PxPl3: [ӧтамӧдланьсиныс, ӧтамӧднысланись]
+    ӧтамӧд+Pron+Recipr+Sg+AprIll+PxPl3: [ӧтамӧдланяныс, ӧтамӧднысланьӧ]
+    ӧтамӧд+Pron+Recipr+Sg+AprEgr+PxPl3: [ӧтамӧднысланьсянь, ӧтамӧдланьсяняныс]
+    ӧтамӧд+Pron+Recipr+Sg+AprPrl+PxPl3: [ӧтамӧдланьӧттяныс, ӧтамӧдланьӧттиныс, ӧтамӧднысланьӧт]
+    ӧтамӧд+Pron+Recipr+Sg+AprTerI+PxPl3: [ӧтамӧдланьӧдззаныс, ӧтамӧдланьӧдззиныс, ӧтамӧднысланьӧдз] 
+    ӧтамӧд+Pron+Recipr+Sg+AprTerII+PxPl3: ӧтамӧднысланьви
+

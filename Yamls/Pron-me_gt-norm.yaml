@@ -1,0 +1,257 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun - ме: # Personal Pronoun 'I / minä / я'
+    ме+Pron+Pers+Sg1+Nom: ме
+    ме+Pron+Pers+Sg1+Nom+Clt: ме-ту
+    ме+Pron+Pers+Sg1+Nom+Clt: ме-то
+    ме+Pron+Pers+Sg1+Acc: менӧ
+    ме+Pron+Pers+Sg1+Gen: [менам, мелӧн]
+    ме+Pron+Pers+Sg1+Abl: менчим
+    ме+Pron+Pers+Sg1+Dat: меным
+    ме+Pron+Pers+Sg1+Ins: меӧн 
+    ме+Pron+Pers+Sg1+Com: мекӧт
+    ме+Pron+Pers+Sg1+Car: метӧг
+    ме+Pron+Pers+Sg1+Cns: мела
+    ме+Pron+Pers+Sg1+Cmpr: месся
+    ме+Pron+Pers+Sg1+Ine: меын
+    ме+Pron+Pers+Sg1+Ela: меись
+    ме+Pron+Pers+Sg1+Ill: меӧ
+    ме+Pron+Pers+Sg1+Apr: мелань
+    ме+Pron+Pers+Sg1+Apr+Comp: меланьжык # Comp muodot eivät esiinny teksteissä
+    ме+Pron+Pers+Sg1+Egr: месянь
+    ме+Pron+Pers+Sg1+Egr+Comp: месяньжык
+    ме+Pron+Pers+Sg1+Prl: меӧт
+    ме+Pron+Pers+Sg1+Prl+Comp: меӧтжык
+    ме+Pron+Pers+Sg1+TerI: меӧдз
+    ме+Pron+Pers+Sg1+TerI+Comp: меӧдзжык
+    ме+Pron+Pers+Sg1+TerII: меви
+    ме+Pron+Pers+Sg1+TerII+Comp: мевижык
+    ме+Pron+Pers+Sg1+AprIne: меланьын
+    ме+Pron+Pers+Sg1+AprIne+Comp: [меланьынжык, меланьжыкын]
+    ме+Pron+Pers+Sg1+AprEla: меланись
+    ме+Pron+Pers+Sg1+AprEla+Comp: [меланисьжык, меланьжыкись]
+    ме+Pron+Pers+Sg1+AprIll: меланьӧ
+    ме+Pron+Pers+Sg1+AprIll+Comp: [меланьӧжык, меланьжыкӧ]
+    ме+Pron+Pers+Sg1+AprEgr: меланьсянь
+    ме+Pron+Pers+Sg1+AprEgr+Comp: [меланьсяньжык, меланьжыксянь]
+    ме+Pron+Pers+Sg1+AprPrl: меланьӧт
+    ме+Pron+Pers+Sg1+AprPrl+Comp: [меланьӧтжык, меланьжыкӧт]
+    ме+Pron+Pers+Sg1+AprTerI: меланьӧдз
+    ме+Pron+Pers+Sg1+AprTerI+Comp: [меланьӧдзжык, меланьжыкӧдз]
+    ме+Pron+Pers+Sg1+AprTerII: меланьви
+    ме+Pron+Pers+Sg1+AprTerII+Comp: [меланьвижык, меланьжыкви]
+
+Pronoun - тэ: # Personal Pronoun 'You / sinä / ты'
+    тэ+Pron+Pers+Sg2+Nom: тэ
+    тэ+Pron+Pers+Sg2+Acc: тэнӧ
+    тэ+Pron+Pers+Sg2+Gen: тэнат
+    тэ+Pron+Pers+Sg2+Abl: тэнчит
+    тэ+Pron+Pers+Sg2+Dat: тэныт
+    тэ+Pron+Pers+Sg2+Ins: тэӧн 
+    тэ+Pron+Pers+Sg2+Com: тэкӧт
+    тэ+Pron+Pers+Sg2+Car: тэтӧг
+    тэ+Pron+Pers+Sg2+Cns: тэла
+    тэ+Pron+Pers+Sg2+Cmpr: тэсся
+    тэ+Pron+Pers+Sg2+Ine: тэын
+    тэ+Pron+Pers+Sg2+Ela: тэись
+    тэ+Pron+Pers+Sg2+Ill: тэӧ
+    тэ+Pron+Pers+Sg2+Apr: тэлань
+    тэ+Pron+Pers+Sg2+Apr+Comp: тэланьжык # Comp muodot eivät esiinny teksteissä
+    тэ+Pron+Pers+Sg2+Egr: тэсянь
+    тэ+Pron+Pers+Sg2+Egr+Comp: тэсяньжык
+    тэ+Pron+Pers+Sg2+Prl: тэӧт
+    тэ+Pron+Pers+Sg2+Prl+Comp: тэӧтжык
+    тэ+Pron+Pers+Sg2+TerI: тэӧдз
+    тэ+Pron+Pers+Sg2+TerI+Comp: тэӧдзжык
+    тэ+Pron+Pers+Sg2+TerII: тэви
+    тэ+Pron+Pers+Sg2+TerII+Comp: тэвижык
+    тэ+Pron+Pers+Sg2+AprIne: тэланьын
+    тэ+Pron+Pers+Sg2+AprIne+Comp: [тэланьынжык, тэланьжыкын]
+    тэ+Pron+Pers+Sg2+AprEla: тэланись
+    тэ+Pron+Pers+Sg2+AprEla+Comp: [тэланисьжык, тэланьжыкись]
+    тэ+Pron+Pers+Sg2+AprIll: тэланьӧ
+    тэ+Pron+Pers+Sg2+AprIll+Comp: [тэланьӧжык, тэланьжыкӧ]
+    тэ+Pron+Pers+Sg2+AprEgr: тэланьсянь
+    тэ+Pron+Pers+Sg2+AprEgr+Comp: [тэланьсяньжык, тэланьжыксянь]
+    тэ+Pron+Pers+Sg2+AprPrl: тэланьӧт
+    тэ+Pron+Pers+Sg2+AprPrl+Comp: [тэланьӧтжык, тэланьжыкӧт]
+    тэ+Pron+Pers+Sg2+AprTerI: тэланьӧдз
+    тэ+Pron+Pers+Sg2+AprTerI+Comp: [тэланьӧдзжык, тэланьжыкӧдз]
+    тэ+Pron+Pers+Sg2+AprTerII: тэланьви
+    тэ+Pron+Pers+Sg2+AprTerII+Comp: [тэланьвижык, тэланьжыкви]
+
+
+Pronoun - сія: # Personal Pronoun 'He, she, it / hän / он, она, оно'
+    сія+Pron+Pers+Sg3+Nom: сія
+    сія+Pron+Pers+Sg3+Acc: сійӧ
+    сія+Pron+Pers+Sg3+Gen: сылӧн
+    сія+Pron+Pers+Sg3+Abl: сылісь
+    сія+Pron+Pers+Sg3+Dat: сылӧ
+    сія+Pron+Pers+Sg3+Ins: [сыӧн, сійӧн]
+    сія+Pron+Pers+Sg3+Com: сыкӧт
+    сія+Pron+Pers+Sg3+Car: сытӧг
+    сія+Pron+Pers+Sg3+Cns: сыла
+    сія+Pron+Pers+Sg3+Cmpr: сысся
+    сія+Pron+Pers+Sg3+Ine: сыын
+    сія+Pron+Pers+Sg3+Ela: сыись
+    сія+Pron+Pers+Sg3+Ill: сыӧ
+    сія+Pron+Pers+Sg3+Apr: сылань
+    сія+Pron+Pers+Sg3+Apr+Comp: сыланьжык # Comp muodot eivät esiinny teksteissä
+    сія+Pron+Pers+Sg3+Egr: сысянь
+    сія+Pron+Pers+Sg3+Egr+Comp: сысяньжык
+    сія+Pron+Pers+Sg3+Prl: сыӧт
+    сія+Pron+Pers+Sg3+Prl+Comp: сыӧтжык
+    сія+Pron+Pers+Sg3+TerI: сыӧдз
+    сія+Pron+Pers+Sg3+TerI+Comp: сыӧдзжык
+    сія+Pron+Pers+Sg3+TerII: сыви
+    сія+Pron+Pers+Sg3+TerII+Comp: сывижык
+    сія+Pron+Pers+Sg3+AprIne: сыланьын
+    сія+Pron+Pers+Sg3+AprIne+Comp: [сыланьынжык, сыланьжыкын]
+    сія+Pron+Pers+Sg3+AprEla: сыланись
+    сія+Pron+Pers+Sg3+AprEla+Comp: [сыланисьжык, сыланьжыкись] 
+    сія+Pron+Pers+Sg3+AprIll: сыланьӧ
+    сія+Pron+Pers+Sg3+AprIll+Comp: [сыланьӧжык, сыланьжыкӧ]
+    сія+Pron+Pers+Sg3+AprEgr: сыланьсянь
+    сія+Pron+Pers+Sg3+AprEgr+Comp: [сыланьсяньжык, сыланьжыксянь]
+    сія+Pron+Pers+Sg3+AprPrl: сыланьӧт
+    сія+Pron+Pers+Sg3+AprPrl+Comp: [сыланьӧтжык, сыланьжыкӧт]
+    сія+Pron+Pers+Sg3+AprTerI: сыланьӧдз
+    сія+Pron+Pers+Sg3+AprTerI+Comp: [сыланьӧдзжык, сыланьжыкӧдз]
+    сія+Pron+Pers+Sg3+AprTerII: сыланьви
+    сія+Pron+Pers+Sg3+AprTerII+Comp: [сыланьвижык, сыланьжыкви]
+
+
+Pronoun – мийӧ, ми: # Personal Pronoun 'We / me / мы'
+    ме+Pron+Pers+Pl1+Nom: [мийӧ, ми]
+    ме+Pron+Pers+Pl1+Acc: миянӧс
+    ме+Pron+Pers+Pl1+Gen: миян
+    ме+Pron+Pers+Pl1+Abl: миянлісь
+    ме+Pron+Pers+Pl1+Dat: миянлӧ
+    ме+Pron+Pers+Pl1+Ins: миянӧн 
+    ме+Pron+Pers+Pl1+Com: миянкӧт
+    ме+Pron+Pers+Pl1+Car: миянтӧг
+    ме+Pron+Pers+Pl1+Cns: миянла 
+    ме+Pron+Pers+Pl1+Cmpr: миянся 
+    ме+Pron+Pers+Pl1+Ine: миянын
+    ме+Pron+Pers+Pl1+Ela: миянісь
+    ме+Pron+Pers+Pl1+Ill: миянӧ
+    ме+Pron+Pers+Pl1+Apr: [миянлань, милань] # ми+sijamuodot eivät esiinny teksteissä
+    ме+Pron+Pers+Pl1+Apr+Comp: [миянланьжык, миянжыклань, миланьжык] # Comp muodot eivät esiinny teksteissä
+    ме+Pron+Pers+Pl1+Egr: [миянсянь, мисянь]
+    ме+Pron+Pers+Pl1+Egr+Comp: [миянсяньжык, миянжыксянь, мисяньжык] 
+    ме+Pron+Pers+Pl1+Prl: миянӧт
+    ме+Pron+Pers+Pl1+Prl+Comp: [миянӧтжык, миянжыкӧт]
+    ме+Pron+Pers+Pl1+TerI: миянӧдз
+    ме+Pron+Pers+Pl1+TerI+Comp: [миянӧдзжык, миянжыкӧдз]
+    ме+Pron+Pers+Pl1+TerII: миянви
+    ме+Pron+Pers+Pl1+TerII+Comp: [миянвижык, миянжыкви]
+    ме+Pron+Pers+Pl1+AprIne: [миянланьын, миланьын] 
+    ме+Pron+Pers+Pl1+AprIne+Comp: [миянланьынжык, миянланьжыкын, миянжыкланьын, миланьынжык, миланьжыкын]
+    ме+Pron+Pers+Pl1+AprEla: [миянланись, миланись]
+    ме+Pron+Pers+Pl1+AprEla+Comp: [миянланисьжык, миянланьжыкись, миянжыкланись, миланисьжык, миланьжыкись]
+    ме+Pron+Pers+Pl1+AprIll: [миянланьӧ, миланьӧ]
+    ме+Pron+Pers+Pl1+AprIll+Comp: [миянланьӧжык, миянланьжыкӧ, миянжыкланьӧ, миланьӧжык, миланьжыкӧ]
+    ме+Pron+Pers+Pl1+AprEgr: [миянланьсянь, миланьсянь]
+    ме+Pron+Pers+Pl1+AprEgr+Comp: [миянланьсяньжык, миянланьжыксянь, миянжыкланьсянь, миланьсяньжык, миланьжыксянь]
+    ме+Pron+Pers+Pl1+AprPrl: [миянланьӧт, миланьӧт]
+    ме+Pron+Pers+Pl1+AprPrl+Comp: [миянланьӧтжык, миянланьжыкӧт, миянжыкланьӧт, миланьӧтжык, миланьжыкӧт]
+    ме+Pron+Pers+Pl1+AprTerI: [миянланьӧдз, миланьӧдз]
+    ме+Pron+Pers+Pl1+AprTerI+Comp: [миянланьӧдзжык, миянланьжыкӧдз, миянжыкланьӧдз, миланьӧдзжык, миланьжыкӧдз]
+    ме+Pron+Pers+Pl1+AprTerII: [миянланьви, миланьви]
+    ме+Pron+Pers+Pl1+AprTerII+Comp: [миянланьвижык, миянланьжыкви, миянжыкланьви, миланьвижык, миланьжыкви]
+
+
+Pronoun – тійӧ, ті: # Personal Pronoun 'You / te / вы'
+    тэ+Pron+Pers+Pl2+Nom: [тійӧ, ті]
+    тэ+Pron+Pers+Pl2+Acc: тіянӧс
+    тэ+Pron+Pers+Pl2+Gen: тіян
+    тэ+Pron+Pers+Pl2+Abl: тіянлісь
+    тэ+Pron+Pers+Pl2+Dat: тіянлӧ
+    тэ+Pron+Pers+Pl2+Ins: тіянӧн 
+    тэ+Pron+Pers+Pl2+Com: тіянкӧт
+    тэ+Pron+Pers+Pl2+Car: тіянтӧг
+    тэ+Pron+Pers+Pl2+Cns: тіянла
+    тэ+Pron+Pers+Pl2+Cmpr: тіянся
+    тэ+Pron+Pers+Pl2+Ine: тіянын
+    тэ+Pron+Pers+Pl2+Ela: тіянісь
+    тэ+Pron+Pers+Pl2+Ill: тіянӧ
+    тэ+Pron+Pers+Pl2+Apr: [тіянлань, тілань] # ті+sijamuodot eivät esiinny teksteissä
+    тэ+Pron+Pers+Pl2+Apr+Comp: [тіянланьжык, тіянжыклань, тіланьжык] # Comp muodot eivät esiinny teksteissä
+    тэ+Pron+Pers+Pl2+Egr: [тіянсянь, тісянь]
+    тэ+Pron+Pers+Pl2+Egr+Comp: [тіянсяньжык, тіянжыксянь, тісяньжык] 
+    тэ+Pron+Pers+Pl2+Prl: тіянӧт
+    тэ+Pron+Pers+Pl2+Prl+Comp: [тіянӧтжык, тіянжыкӧт]
+    тэ+Pron+Pers+Pl2+TerI: тіянӧдз
+    тэ+Pron+Pers+Pl2+TerI+Comp: [тіянӧдзжык, тіянжыкӧдз]
+    тэ+Pron+Pers+Pl2+TerII: тіянви
+    тэ+Pron+Pers+Pl2+TerII+Comp: [тіянвижык, тіянжыкви]
+    тэ+Pron+Pers+Pl2+AprIne: [тіянланьын, тіланьын] 
+    тэ+Pron+Pers+Pl2+AprIne+Comp: [тіянланьынжык, тіянланьжыкын, тіянжыкланьын, тіланьынжык, тіланьжыкын]
+    тэ+Pron+Pers+Pl2+AprEla: [тіянланись, тіланись]
+    тэ+Pron+Pers+Pl2+AprEla+Comp: [тіянланисьжык, тіянланьжыкись, тіянжыкланись, тіланисьжык, тіланьжыкись]
+    тэ+Pron+Pers+Pl2+AprIll: [тіянланьӧ, тіланьӧ]
+    тэ+Pron+Pers+Pl2+AprIll+Comp: [тіянланьӧжык, тіянланьжыкӧ, тіянжыкланьӧ, тіланьӧжык, тіланьжыкӧ]
+    тэ+Pron+Pers+Pl2+AprEgr: [тіянланьсянь, тіланьсянь]
+    тэ+Pron+Pers+Pl2+AprEgr+Comp: [тіянланьсяньжык, тіянланьжыксянь, тіянжыкланьсянь, тіланьсяньжык, тіланьжыксянь]
+    тэ+Pron+Pers+Pl2+AprPrl: [тіянланьӧт, тіланьӧт]
+    тэ+Pron+Pers+Pl2+AprPrl+Comp: [тіянланьӧтжык, тіянланьжыкӧт, тіянжыкланьӧт, тіланьӧтжык, тіланьжыкӧт]
+    тэ+Pron+Pers+Pl2+AprTerI: [тіянланьӧдз, тіланьӧдз]
+    тэ+Pron+Pers+Pl2+AprTerI+Comp: [тіянланьӧдзжык, тіянланьжыкӧдз, тіянжыкланьӧдз, тіланьӧдзжык, тіланьжыкӧдз]
+    тэ+Pron+Pers+Pl2+AprTerII: [тіянланьви, тіланьви]
+    тэ+Pron+Pers+Pl2+AprTerII+Comp: [тіянланьвижык, тіянланьжыкви, тіянжыкланьви, тіланьвижык, тіланьжыкви]
+
+
+
+Pronoun – нія: # Personal Pronoun 'They / he / они'
+    сія+Pron+Pers+Pl3+Nom: нія
+    сія+Pron+Pers+Pl3+Acc: нійӧ
+    сія+Pron+Pers+Pl3+Gen: нылӧн
+    сія+Pron+Pers+Pl3+Abl: нылісь
+    сія+Pron+Pers+Pl3+Dat: нылӧ
+    сія+Pron+Pers+Pl3+Ins: [ныӧн, нійӧн] 
+    сія+Pron+Pers+Pl3+Com: ныкӧт
+    сія+Pron+Pers+Pl3+Car: нытӧг
+    сія+Pron+Pers+Pl3+Cns: ныла
+    сія+Pron+Pers+Pl3+Cmpr: нысся
+    сія+Pron+Pers+Pl3+Ine: ныын
+    сія+Pron+Pers+Pl3+Ela: ныись
+    сія+Pron+Pers+Pl3+Ill: ныӧ
+    сія+Pron+Pers+Pl3+Apr: нылань 
+    сія+Pron+Pers+Pl3+Apr+Comp: ныланьжык # Comp muodot eivät esiinny teksteissä
+    сія+Pron+Pers+Pl3+Egr: нысянь
+    сія+Pron+Pers+Pl3+Egr+Comp: нысяньжык
+    сія+Pron+Pers+Pl3+Prl: ныӧт
+    сія+Pron+Pers+Pl3+Prl+Comp: ныӧтжык
+    сія+Pron+Pers+Pl3+TerI: ныӧдз
+    сія+Pron+Pers+Pl3+TerI+Comp: ныӧдзжык
+    сія+Pron+Pers+Pl3+TerII: ныви
+    сія+Pron+Pers+Pl3+TerII+Comp: нывижык
+    сія+Pron+Pers+Pl3+AprIne: ныланьын
+    сія+Pron+Pers+Pl3+AprIne+Comp: [ныланьынжык, ныланьжыкын] 
+    сія+Pron+Pers+Pl3+AprEla: ныланись
+    сія+Pron+Pers+Pl3+AprEla+Comp: [ныланисьжык, ныланьжыкись]
+    сія+Pron+Pers+Pl3+AprIll: ныланьӧ
+    сія+Pron+Pers+Pl3+AprIll+Comp: [ныланьӧжык, ныланьжыкӧ]
+    сія+Pron+Pers+Pl3+AprEgr: ныланьсянь
+    сія+Pron+Pers+Pl3+AprEgr+Comp: [ныланьсяньжык, ныланьжыксянь]
+    сія+Pron+Pers+Pl3+AprPrl: ныланьӧт
+    сія+Pron+Pers+Pl3+AprPrl+Comp: [ныланьӧтжык, ныланьжыкӧт]
+    сія+Pron+Pers+Pl3+AprTerI: ныланьӧдз
+    сія+Pron+Pers+Pl3+AprTerI+Comp: [ныланьӧдзжык, ныланьжыкӧдз]
+    сія+Pron+Pers+Pl3+AprTerII: ныланьви
+    сія+Pron+Pers+Pl3+AprTerII+Comp: [ныланьвижык, ныланьжыкви]
+

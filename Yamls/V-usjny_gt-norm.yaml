@@ -1,0 +1,114 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-30
+# Then: run analyser, then correct. 
+
+  Verb - усьны 'to fall' / '1) pudota; 2) kaatua' / 'падать, упасть': # Inf. suff. –ны. Verb in paired soft consonants: дь, зь, ль, нь, сь, ть / Inf. suff. -ны. Sanavartalon lopussa ovat pehmeät konsonantit: дь, зь, ль, нь, сь, ть / Инф. суфф.-ны. Основа глагола заканчивается на мягкие парные согласные: дь, зь, ль, нь, сь, ть.  
+     усьны+V+Inf: усьны
+     усьны+V+Inf+PxSg2: усьныт
+     усьны+V+Inf+Acc+PxSg2: усьнытӧ
+     усьны+V+Inf+PxSg3: усьныс
+     усьны+V+Inf+Acc+PxSg3: усьнысӧ 
+     усьны+V+ConNeg+Pl: усьӧ 
+     усьны+V+ConNeg+Sg: усь
+     усьны+V+Imprt+Sg2: [усь, усь-ко]
+     усьны+V+Imprt+Pl1: [усям, усямӧ, усям-ко, усямӧ-ко, усямте, усямӧте]
+     усьны+V+Imprt+Pl2: [усьӧ, усьӧ-ко, усьӧте]
+     усьны+V+Ind+Prs+Sg1: уся
+     усьны+V+Ind+Prs+Sg2: усян
+     усьны+V+Ind+Prs+Sg3: усьӧ
+     усьны+V+Ind+Prs+Pl1: [усям, усямӧ]
+     усьны+V+Ind+Prs+Pl2: [усят, усятӧ]
+     усьны+V+Ind+Prs+Pl3: [усьӧн, усьӧны]
+     усьны+V+Ind+Fut+Sg1: уся
+     усьны+V+Ind+Fut+Sg2: усян
+     усьны+V+Ind+Fut+Sg3: усяс
+     усьны+V+Ind+Fut+Pl1: [усям, усямӧ]
+     усьны+V+Ind+Fut+Pl2: [усят, усятӧ]
+     усьны+V+Ind+Fut+Pl3: усясӧ
+     усьны+V+Ind+Prt1+Sg1: уси
+     усьны+V+Ind+Prt1+Sg2: усин
+     усьны+V+Ind+Prt1+Sg3: усис
+     усьны+V+Ind+Prt1+Pl1: [усим, усимӧ]
+     усьны+V+Ind+Prt1+Pl2: [усит, уситӧ]
+     усьны+V+Ind+Prt1+Pl3: усисӧ
+     усьны+V+Ind+Prt2+Sg2: [усьӧмыт, усьӧмат]
+     усьны+V+Ind+Prt2+Sg3: [усьӧм, усьӧма]
+     усьны+V+Ind+Prt2+Pl2: [усьӧмныт, усьӧмась]
+     усьны+V+Ind+Prt2+Pl3: усьӧмась
+     усьны+V+Inf+Comp: усьныжык
+     усьны+V+Ind+Prs+Sg1+Comp: усяжык
+     усьны+V+Ind+Prs+Sg2+Comp: усянжык
+     усьны+V+Ind+Prs+Sg3+Comp: усьӧжык
+     усьны+V+Ind+Prs+Pl1+Comp: [усямжык, усямӧжык]
+     усьны+V+Ind+Prs+Pl2+Comp: [усятжык, усятӧжык]
+     усьны+V+Ind+Prs+Pl3+Comp: [усьӧнжык, усьӧныжык]
+     усьны+V+Ind+Fut+Sg1+Comp: усяжык
+     усьны+V+Ind+Fut+Sg2+Comp: усянжык
+     усьны+V+Ind+Fut+Sg3+Comp: усясжык
+     усьны+V+Ind+Fut+Pl1+Comp: [усямжык, усямӧжык]
+     усьны+V+Ind+Fut+Pl2+Comp: [усятжык, усятӧжык]
+     усьны+V+Ind+Fut+Pl3+Comp: усясӧжык
+     усьны+V+Ind+Prt1+Sg1+Comp: усижык
+     усьны+V+Ind+Prt1+Sg2+Comp: усинжык
+     усьны+V+Ind+Prt1+Sg3+Comp: усисжык
+     усьны+V+Ind+Prt1+Pl1+Comp: [усимжык, усимӧжык]
+     усьны+V+Ind+Prt1+Pl2+Comp: [уситжык, уситӧжык]
+     усьны+V+Ind+Prt1+Pl3+Comp: усисӧжык
+     усьны+V+Ind+Prt2+Sg2+Comp: [усьӧмытжык, усьӧматжык]
+     усьны+V+Ind+Prt2+Sg3+Comp: [усьӧмжык, усьӧмажык]
+     усьны+V+Ind+Prt2+Pl2+Comp: [усьӧмнытжык, усьӧмасьжык]
+     усьны+V+Ind+Prt2+Pl3+Comp: усьӧмасьжык
+    
+     усьны+V+Der/ик+Ger+Compl: усик
+     усьны+V+Der/ик+Ger+Ill: усикӧ
+     усьны+V+Der/ик+Ger+Ill+PxSg1: усикам
+     усьны+V+Der/ик+Ger+Ill+PxSg2: усикат
+     усьны+V+Der/ик+Ger+Ill+PxSg3: усикас
+     усьны+V+Der/ик+Ger+Ill+PxPl1: усиканым
+     усьны+V+Der/ик+Ger+Ill+PxPl2: усиканыт
+     усьны+V+Der/ик+Ger+Ill+PxPl3: усиканыс
+     усьны+V+Der/ӧмӧн+Ger: усьӧмӧн
+     усьны+V+Der/ӧмӧн+Ger+Comp: усьӧмӧнжык  
+     усьны+V+Der/тӧдз+Ger: усьтӧдз
+     усьны+V+Der/тӧдз+Ger+PxSg1: [усьтӧдззам, усьтӧдззим]
+     усьны+V+Der/тӧдз+Ger+PxSg2: [усьтӧдззат, усьтӧдззит]
+     усьны+V+Der/тӧдз+Ger+PxSg3: [усьтӧдззас, усьтӧдззис]
+     усьны+V+Der/тӧдз+Ger+PxPl1: [усьтӧдззаным, усьтӧдззиным]
+     усьны+V+Der/тӧдз+Ger+PxPl2: [усьтӧдззаныт, усьтӧдззиныт]
+     усьны+V+Der/тӧдз+Ger+PxPl3: [усьтӧдззаныс, усьтӧдззиныс]
+     усьны+V+Der/тӧн+Ger: усьтӧн
+     усьны+V+Der/тӧн+Ger+PxSg1: [усьтӧнням, усьтӧнним]
+     усьны+V+Der/тӧн+Ger+PxSg2: [усьтӧннят, усьтӧннит]
+     усьны+V+Der/тӧн+Ger+PxSg3: [усьтӧнняс, усьтӧннис]
+     усьны+V+Der/тӧн+Ger+PxPl1: [усьтӧнняным, усьтӧнниным]
+     усьны+V+Der/тӧн+Ger+PxPl2: [усьтӧнняныт, усьтӧнниныт]
+     усьны+V+Der/тӧн+Ger+PxPl3: [усьтӧнняныс, усьтӧнниныс]
+     усьны+V+Der/тӧг+Car+Ger: усьтӧг
+     усьны+V+Der/тӧг+Car+Ger+PxSg1: усьтӧгьям
+     усьны+V+Der/тӧг+Car+Ger+PxSg2: усьтӧгьят
+     усьны+V+Der/тӧг+Car+Ger+PxSg3: усьтӧгьяс
+     усьны+V+Der/тӧг+Car+Ger+PxPl1: усьтӧгьяным
+     усьны+V+Der/тӧг+Car+Ger+PxPl2: усьтӧгьяныт
+     усьны+V+Der/тӧг+Car+Ger+PxPl3: усьтӧгьяныс
+     
+     усьны+V+Der/ӧм+PrfPrc+Sg: усьӧм
+     усьны+V+Der/ӧм+PrfPrc+Pl: усьӧмӧсь
+     усьны+V+Der/ись+Act+PrsPrc+Sg: усись
+     усьны+V+Der/ись+Act+PrsPrc+Pl: усисьӧсь
+     усьны+V+Der/ян+PrsPrc+Sg: усян
+     усьны+V+Der/ян+PrsPrc+Pl: усянӧсь
+     усьны+V+Der/яна+PrsPrc+Sg: усяна
+     усьны+V+Der/яна+PrsPrc+Pl: усянаӧсь
+     усьны+V+Der/тӧм+PrivPrc+Sg: усьтӧм
+     усьны+V+Der/тӧм+PrivPrc+Pl: усьтӧмӧсь

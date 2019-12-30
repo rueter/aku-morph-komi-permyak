@@ -1,0 +1,363 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-09
+  
+  Noun - баб: # Nouns in the consonants: б, г, ж, к, м, п, р, ф, х, ц, ч, щ, ш - inanimate noun, full paradigm 'grandma / mummo / бабушка'
+     баб+N+Anim+Sg+Nom: баб
+     баб+N+Anim+Sg+Acc: бабӧс
+     баб+N+Anim+Sg+Gen: баблӧн
+     баб+N+Anim+Sg+Abl: баблісь
+     баб+N+Anim+Sg+Dat: баблӧ
+     баб+N+Anim+Sg+Ins: бабӧн
+     баб+N+Anim+Sg+Com: бабкӧт
+     баб+N+Anim+Sg+Car: бабтӧг
+     баб+N+Anim+Sg+Cns: бабла
+     баб+N+Anim+Sg+Cmpr: бабся
+     баб+N+Anim+Sg+Ine: бабын
+     баб+N+Anim+Sg+Ela: бабись
+     баб+N+Anim+Sg+Ill: бабӧ
+     баб+N+Anim+Sg+Apr: баблань
+     баб+N+Anim+Sg+Egr: бабсянь
+     баб+N+Anim+Sg+Prl: бабӧт
+     баб+N+Anim+Sg+TerI: бабӧдз
+     баб+N+Anim+Sg+TerII: бабви
+     баб+N+Anim+Sg+AprIne: бабланьын
+     баб+N+Anim+Sg+AprEla: бабланись
+     баб+N+Anim+Sg+AprIll: бабланьӧ
+     баб+N+Anim+Sg+AprEgr: бабланьсянь
+     баб+N+Anim+Sg+AprPrl: бабланьӧт
+     баб+N+Anim+Sg+AprTerI: бабланьӧдз
+     баб+N+Anim+Sg+AprTerII: бабланьви
+     баб+N+Anim+Sg+Nom+PxSg1: бабӧ
+     баб+N+Anim+Sg+Gen+PxSg1: бабӧлӧн
+     баб+N+Anim+Sg+Abl+PxSg1: бабӧлісь
+     баб+N+Anim+Sg+Dat+PxSg1: бабӧлӧ
+     баб+N+Anim+Sg+Acc+PxSg1: бабӧс
+     баб+N+Anim+Sg+Ins+PxSg1: бабнам
+     баб+N+Anim+Sg+Com+PxSg1: бабӧкӧт
+     баб+N+Anim+Sg+Car+PxSg1: [бабӧтӧг, бабтӧгьям]
+     баб+N+Anim+Sg+Cns+PxSg1: бабӧла
+     баб+N+Anim+Sg+Cmpr+PxSg1: бабӧся
+     баб+N+Anim+Sg+Ine+PxSg1: бабам
+     баб+N+Anim+Sg+Ela+PxSg1: бабсим
+     баб+N+Anim+Sg+Ill+PxSg1: бабам
+     баб+N+Anim+Sg+Apr+PxSg1: [бабӧлань, бабланям]
+     баб+N+Anim+Sg+Egr+PxSg1: [бабӧсянь, бабсяням]
+     баб+N+Anim+Sg+Prl+PxSg1: [бабӧттям, бабӧттим]
+     баб+N+Anim+Sg+TerI+PxSg1: [бабӧдззам, бабӧдззим]
+     баб+N+Anim+Sg+TerII+PxSg1: бабӧви
+     баб+N+Anim+Sg+AprIne+PxSg1: бабланям
+     баб+N+Anim+Sg+AprEla+PxSg1: бабланьсим
+     баб+N+Anim+Sg+AprIll+PxSg1: бабланям
+     баб+N+Anim+Sg+AprEgr+PxSg1: [бабланьсяням, бабӧланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxSg1: [бабланьӧттям, бабланьӧттим, бабӧланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxSg1: [бабланьӧдззам, бабланьӧдззим, бабӧланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxSg1: бабӧланьви
+     баб+N+Anim+Sg+Nom+PxSg2: бабыт
+     баб+N+Anim+Sg+Gen+PxSg2: бабытлӧн
+     баб+N+Anim+Sg+Abl+PxSg2: бабытлісь
+     баб+N+Anim+Sg+Dat+PxSg2: бабытлӧ
+     баб+N+Anim+Sg+Acc+PxSg2: бабтӧ
+     баб+N+Anim+Sg+Ins+PxSg2: бабнат
+     баб+N+Anim+Sg+Com+PxSg2: бабыткӧт
+     баб+N+Anim+Sg+Car+PxSg2: [бабыттӧг, бабтӧгьят]
+     баб+N+Anim+Sg+Cns+PxSg2: бабытла
+     баб+N+Anim+Sg+Cmpr+PxSg2: бабытся
+     баб+N+Anim+Sg+Ine+PxSg2: бабат
+     баб+N+Anim+Sg+Ela+PxSg2: бабсит
+     баб+N+Anim+Sg+Ill+PxSg2: бабат
+     баб+N+Anim+Sg+Apr+PxSg2: [бабытлань, бабланят]
+     баб+N+Anim+Sg+Egr+PxSg2: [бабытсянь, бабсянят]
+     баб+N+Anim+Sg+Prl+PxSg2: [бабӧттят, бабӧттит]
+     баб+N+Anim+Sg+TerI+PxSg2: [бабӧдззат, бабӧдззит]
+     баб+N+Anim+Sg+TerII+PxSg2: бабытви
+     баб+N+Anim+Sg+AprIne+PxSg2: бабланят
+     баб+N+Anim+Sg+AprEla+PxSg2: бабланьсит
+     баб+N+Anim+Sg+AprIll+PxSg2: бабланят
+     баб+N+Anim+Sg+AprEgr+PxSg2: [бабланьсянят, бабытланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxSg2: [бабланьӧттят, бабланьӧттит, бабытланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxSg2: [бабланьӧдззат, бабланьӧдззит, бабытланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxSg2: бабытланьви
+     баб+N+Anim+Sg+Nom+PxSg3: бабыс
+     баб+N+Anim+Sg+Gen+PxSg3: бабыслӧн
+     баб+N+Anim+Sg+Abl+PxSg3: бабыслісь
+     баб+N+Anim+Sg+Dat+PxSg3: бабыслӧ
+     баб+N+Anim+Sg+Acc+PxSg3: бабсӧ
+     баб+N+Anim+Sg+Ins+PxSg3: бабнас
+     баб+N+Anim+Sg+Com+PxSg3: бабыскӧт
+     баб+N+Anim+Sg+Car+PxSg3: [бабыстӧг, бабтӧгьяс]
+     баб+N+Anim+Sg+Cns+PxSg3: бабысла
+     баб+N+Anim+Sg+Cmpr+PxSg3: бабысся
+     баб+N+Anim+Sg+Ine+PxSg3: бабас
+     баб+N+Anim+Sg+Ela+PxSg3: бабсис
+     баб+N+Anim+Sg+Ill+PxSg3: бабас
+     баб+N+Anim+Sg+Apr+PxSg3: [бабыслань, бабланяс]
+     баб+N+Anim+Sg+Egr+PxSg3: [бабыссянь, бабсяняс]
+     баб+N+Anim+Sg+Prl+PxSg3: [бабӧттяс, бабӧттис]
+     баб+N+Anim+Sg+TerI+PxSg3: [бабӧдззас, бабӧдззис]
+     баб+N+Anim+Sg+TerII+PxSg3: бабысви
+     баб+N+Anim+Sg+AprIne+PxSg3: бабланяс
+     баб+N+Anim+Sg+AprEla+PxSg3: бабланьсис
+     баб+N+Anim+Sg+AprIll+PxSg3: бабланяс
+     баб+N+Anim+Sg+AprEgr+PxSg3: [бабланьсяняс, бабысланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxSg3: [бабланьӧттяc, бабланьӧттиc, бабысланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxSg3: [бабланьӧдззаc, бабланьӧдззиc, бабысланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxSg3: бабысланьви
+     баб+N+Anim+Sg+Nom+PxPl1: бабным
+     баб+N+Anim+Sg+Gen+PxPl1: бабнымлӧн
+     баб+N+Anim+Sg+Abl+PxPl1: бабнымлісь
+     баб+N+Anim+Sg+Dat+PxPl1: бабнымлӧ
+     баб+N+Anim+Sg+Acc+PxPl1: бабнымӧс
+     баб+N+Anim+Sg+Ins+PxPl1: бабнаным
+     баб+N+Anim+Sg+Com+PxPl1: бабнымкӧт
+     баб+N+Anim+Sg+Car+PxPl1: [бабнымтӧг, бабтӧгьяным]
+     баб+N+Anim+Sg+Cns+PxPl1: бабнымла
+     баб+N+Anim+Sg+Cmpr+PxPl1: бабнымся
+     баб+N+Anim+Sg+Ine+PxPl1: бабаным
+     баб+N+Anim+Sg+Ela+PxPl1: бабсиным
+     баб+N+Anim+Sg+Ill+PxPl1: бабаным
+     баб+N+Anim+Sg+Apr+PxPl1: [бабнымлань, бабланяным]
+     баб+N+Anim+Sg+Egr+PxPl1: [бабнымсянь, бабсяняным]
+     баб+N+Anim+Sg+Prl+PxPl1: [бабӧттяным, бабӧттиным]
+     баб+N+Anim+Sg+TerI+PxPl1: [бабӧдззаным, бабӧдззиным]
+     баб+N+Anim+Sg+TerII+PxPl1: бабнымви
+     баб+N+Anim+Sg+AprIne+PxPl1: бабланяным
+     баб+N+Anim+Sg+AprEla+PxPl1: бабланьсиным
+     баб+N+Anim+Sg+AprIll+PxPl1: бабланяным
+     баб+N+Anim+Sg+AprEgr+PxPl1: [бабланьсяняным, бабнымланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxPl1: [бабланьӧттяным, бабланьӧттиным, бабнымланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxPl1: [бабланьӧдззаным, бабланьӧдззиным,  бабнымланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxPl1: бабнымланьви
+     баб+N+Anim+Sg+Nom+PxPl2: бабныт
+     баб+N+Anim+Sg+Gen+PxPl2: бабнытлӧн
+     баб+N+Anim+Sg+Abl+PxPl2: бабнытлісь
+     баб+N+Anim+Sg+Dat+PxPl2: бабнытлӧ
+     баб+N+Anim+Sg+Acc+PxPl2: бабнытӧ
+     баб+N+Anim+Sg+Ins+PxPl2: бабнаныт
+     баб+N+Anim+Sg+Com+PxPl2: бабныткӧт
+     баб+N+Anim+Sg+Car+PxPl2: [бабныттӧг, бабтӧгьяныт]
+     баб+N+Anim+Sg+Cns+PxPl2: бабнытла
+     баб+N+Anim+Sg+Cmpr+PxPl2: бабнытся
+     баб+N+Anim+Sg+Ine+PxPl2: бабаныт
+     баб+N+Anim+Sg+Ela+PxPl2: бабсиныт
+     баб+N+Anim+Sg+Ill+PxPl2: бабаныт
+     баб+N+Anim+Sg+Apr+PxPl2: [бабнытлань, бабланяныт]
+     баб+N+Anim+Sg+Egr+PxPl2: [бабнытсянь, бабсяняныт]
+     баб+N+Anim+Sg+Prl+PxPl2: [бабӧттяныт, бабӧттиныт]
+     баб+N+Anim+Sg+TerI+PxPl2: [бабӧдззаныт, бабӧдззиныт]
+     баб+N+Anim+Sg+TerII+PxPl2: бабнытви
+     баб+N+Anim+Sg+AprIne+PxPl2: бабланяныт
+     баб+N+Anim+Sg+AprEla+PxPl2: бабланьсиныт
+     баб+N+Anim+Sg+AprIll+PxPl2: бабланяныт
+     баб+N+Anim+Sg+AprEgr+PxPl2: [бабланьсяняныт, бабнытланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxPl2: [бабланьӧттяныт, бабланьӧттиныт, бабнытланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxPl2: [бабланьӧдззаныт, бабланьӧдззиныт, бабнытланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxPl2: бабнытланьви
+     баб+N+Anim+Sg+Nom+PxPl3: бабныс
+     баб+N+Anim+Sg+Gen+PxPl3: бабныслӧн
+     баб+N+Anim+Sg+Abl+PxPl3: бабныслісь
+     баб+N+Anim+Sg+Dat+PxPl3: бабныслӧ
+     баб+N+Anim+Sg+Acc+PxPl3: бабнысӧ
+     баб+N+Anim+Sg+Ins+PxPl3: бабнаныс
+     баб+N+Anim+Sg+Com+PxPl3: бабныскӧт
+     баб+N+Anim+Sg+Car+PxPl3: [бабныстӧг, бабтӧгьяныс]
+     баб+N+Anim+Sg+Cns+PxPl3: бабнысла
+     баб+N+Anim+Sg+Cmpr+PxPl3: бабнысся
+     баб+N+Anim+Sg+Ine+PxPl3: бабаныс
+     баб+N+Anim+Sg+Ela+PxPl3: бабсиныс
+     баб+N+Anim+Sg+Ill+PxPl3: бабаныс
+     баб+N+Anim+Sg+Apr+PxPl3: [бабныслань, бабланяныс]
+     баб+N+Anim+Sg+Egr+PxPl3: [бабныссянь, бабсяняныс]
+     баб+N+Anim+Sg+Prl+PxPl3: [бабӧттяныс, бабӧттиныс]
+     баб+N+Anim+Sg+TerI+PxPl3: [бабӧдззаныс, бабӧдззиныс]
+     баб+N+Anim+Sg+TerII+PxPl3: бабнысви
+     баб+N+Anim+Sg+AprIne+PxPl3: бабланяныс
+     баб+N+Anim+Sg+AprEla+PxPl3: бабланьсиныс
+     баб+N+Anim+Sg+AprIll+PxPl3: бабланяныс
+     баб+N+Anim+Sg+AprEgr+PxPl3: [бабланьсяняныс, бабнысланьсянь]
+     баб+N+Anim+Sg+AprPrl+PxPl3: [бабланьӧттяныс, бабланьӧттиныс, бабнысланьӧт]
+     баб+N+Anim+Sg+AprTerI+PxPl3: [бабланьӧдззаныс, бабланьӧдззиныс, бабнысланьӧдз]
+     баб+N+Anim+Sg+AprTerII+PxPl3: бабнысланьви
+     баб+N+Anim+Pl+Nom: баббез
+     баб+N+Anim+Pl+Acc: баббезӧс
+     баб+N+Anim+Pl+Gen: баббезлӧн
+     баб+N+Anim+Pl+Abl: баббезлісь
+     баб+N+Anim+Pl+Dat: баббезлӧ
+     баб+N+Anim+Pl+Ins: баббезӧн
+     баб+N+Anim+Pl+Com: баббезкӧт
+     баб+N+Anim+Pl+Car: баббезтӧг
+     баб+N+Anim+Pl+Cns: баббезла
+     баб+N+Anim+Pl+Cmpr: баббезся
+     баб+N+Anim+Pl+Ine: баббезын
+     баб+N+Anim+Pl+Ela: баббезісь
+     баб+N+Anim+Pl+Ill: баббезӧ
+     баб+N+Anim+Pl+Apr: баббезлань
+     баб+N+Anim+Pl+Egr: баббезсянь
+     баб+N+Anim+Pl+Prl: баббезӧт
+     баб+N+Anim+Pl+TerI: баббезӧдз
+     баб+N+Anim+Pl+TerII: баббезви
+     баб+N+Anim+Pl+AprIne: баббезланьын
+     баб+N+Anim+Pl+AprEla: баббезланись
+     баб+N+Anim+Pl+AprIll: баббезланьӧ
+     баб+N+Anim+Pl+AprEgr: баббезланьсянь
+     баб+N+Anim+Pl+AprPrl: баббезланьӧт
+     баб+N+Anim+Pl+AprTerI: баббезланьӧдз
+     баб+N+Anim+Pl+AprTerII: баббезланьви
+     баб+N+Anim+Pl+Nom+PxSg1: баббезӧ
+     баб+N+Anim+Pl+Gen+PxSg1: баббезӧлӧн
+     баб+N+Anim+Pl+Abl+PxSg1: баббезӧлісь
+     баб+N+Anim+Pl+Dat+PxSg1: баббезӧлӧ
+     баб+N+Anim+Pl+Acc+PxSg1: баббезӧс
+     баб+N+Anim+Pl+Ins+PxSg1: баббезнам
+     баб+N+Anim+Pl+Com+PxSg1: баббезӧкӧт
+     баб+N+Anim+Pl+Car+PxSg1: [баббезӧтӧг, баббезтӧгьям]
+     баб+N+Anim+Pl+Cns+PxSg1: баббезӧла
+     баб+N+Anim+Pl+Cmpr+PxSg1: баббезӧся
+     баб+N+Anim+Pl+Ine+PxSg1: баббезам
+     баб+N+Anim+Pl+Ela+PxSg1: [баббезсим, баббесим]
+     баб+N+Anim+Pl+Ill+PxSg1: баббезам
+     баб+N+Anim+Pl+Apr+PxSg1: [баббезӧлань, баббезланям]
+     баб+N+Anim+Pl+Egr+PxSg1: [баббезӧсянь, баббезсяням]
+     баб+N+Anim+Pl+Prl+PxSg1: [баббезӧттям, баббезӧттим]
+     баб+N+Anim+Pl+TerI+PxSg1: [баббезӧдззам, баббезӧдззим]
+     баб+N+Anim+Pl+TerII+PxSg1: баббезӧви
+     баб+N+Anim+Pl+AprIne+PxSg1: баббезланям
+     баб+N+Anim+Pl+AprEla+PxSg1: баббезланьсим
+     баб+N+Anim+Pl+AprIll+PxSg1: баббезланям
+     баб+N+Anim+Pl+AprEgr+PxSg1: [баббезланьсяням, баббезӧланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxSg1: [баббезланьӧттям, баббезланьӧттим, баббезӧланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxSg1: [баббезланьӧдззам, баббезланьӧдззим, баббезӧланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxSg1: баббезӧланьви
+     баб+N+Anim+Pl+Nom+PxSg2: [баббет, баббезыт]
+     баб+N+Anim+Pl+Gen+PxSg2: [баббетлӧн, баббезытлӧн]
+     баб+N+Anim+Pl+Abl+PxSg2: [баббетлісь, баббезытлісь]
+     баб+N+Anim+Pl+Dat+PxSg2: [баббетлӧ, баббезытлӧ]
+     баб+N+Anim+Pl+Acc+PxSg2: [баббетӧ, баббезтӧ]
+     баб+N+Anim+Pl+Ins+PxSg2: баббезнат
+     баб+N+Anim+Pl+Com+PxSg2: [баббеткӧт, баббезыткӧт]
+     баб+N+Anim+Pl+Car+PxSg2: [баббеттӧг, баббезыттӧг, баббезтӧгьят]
+     баб+N+Anim+Pl+Cns+PxSg2: [баббетла, баббезытла]
+     баб+N+Anim+Pl+Cmpr+PxSg2: [баббется, баббезытся]
+     баб+N+Anim+Pl+Ine+PxSg2: баббезат
+     баб+N+Anim+Pl+Ela+PxSg2: [баббезсит, баббесит]
+     баб+N+Anim+Pl+Ill+PxSg2: баббезат
+     баб+N+Anim+Pl+Apr+PxSg2: [баббетлань, баббезытлань, баббезланят]
+     баб+N+Anim+Pl+Egr+PxSg2: [баббетсянь, баббезытсянь, баббезсянят]
+     баб+N+Anim+Pl+Prl+PxSg2: [баббезӧттят, баббезӧттит]
+     баб+N+Anim+Pl+TerI+PxSg2: [баббезӧдззат, баббезӧдззит]
+     баб+N+Anim+Pl+TerII+PxSg2: [баббетви, баббезытви]
+     баб+N+Anim+Pl+AprIne+PxSg2: баббезланят
+     баб+N+Anim+Pl+AprEla+PxSg2: баббезланьсит
+     баб+N+Anim+Pl+AprIll+PxSg2: баббезланят
+     баб+N+Anim+Pl+AprEgr+PxSg2: [баббезланьсянят, баббетланьсянь, баббезытланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxSg2: [баббезланьӧттят, баббезланьӧттит, баббетланьӧт, баббезытланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxSg2: [баббезланьӧдззат, баббезланьӧдззит, баббетланьӧдз, баббезытланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxSg2: [баббетланьви, баббезытланьви]
+     баб+N+Anim+Pl+Nom+PxSg3: [баббес, баббезыс]
+     баб+N+Anim+Pl+Gen+PxSg3: [баббеслӧн, баббезыслӧн]
+     баб+N+Anim+Pl+Abl+PxSg3: [баббеслісь, баббезыслісь]
+     баб+N+Anim+Pl+Dat+PxSg3: [баббеслӧ, баббезыслӧ]
+     баб+N+Anim+Pl+Acc+PxSg3: [баббесӧ, баббезсӧ]
+     баб+N+Anim+Pl+Ins+PxSg3: баббезнас
+     баб+N+Anim+Pl+Com+PxSg3: [баббескӧт, баббезыскӧт]
+     баб+N+Anim+Pl+Car+PxSg3: [баббестӧг, баббезыстӧг, баббезтӧгьяс]
+     баб+N+Anim+Pl+Cns+PxSg3: [баббесла, баббезысла]
+     баб+N+Anim+Pl+Cmpr+PxSg3: [баббесся, баббезысся]
+     баб+N+Anim+Pl+Ine+PxSg3: баббезас
+     баб+N+Anim+Pl+Ela+PxSg3: [баббезсис, баббесис]
+     баб+N+Anim+Pl+Ill+PxSg3: баббезас
+     баб+N+Anim+Pl+Apr+PxSg3: [баббеслань, баббезыслань, баббезланяс]
+     баб+N+Anim+Pl+Egr+PxSg3: [баббессянь, баббезыссянь, баббезсяняс]
+     баб+N+Anim+Pl+Prl+PxSg3: [баббезӧттяс, баббезӧттис]
+     баб+N+Anim+Pl+TerI+PxSg3: [баббезӧдззас, баббезӧдззис]
+     баб+N+Anim+Pl+TerII+PxSg3: баббесви
+     баб+N+Anim+Pl+AprIne+PxSg3: баббезланяс
+     баб+N+Anim+Pl+AprEla+PxSg3: баббезланьсис
+     баб+N+Anim+Pl+AprIll+PxSg3: баббезланяс
+     баб+N+Anim+Pl+AprEgr+PxSg3: [баббезланьсяняс, баббесланьсянь, баббезысланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxSg3: [баббезланьӧттяс, баббезланьӧттис, баббесланьӧт, баббезысланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxSg3: [баббезланьӧдззаc, баббезланьӧдззиc, баббесланьӧдз, баббезысланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxSg3: баббесланьви
+     баб+N+Anim+Pl+Nom+PxPl1: баббезным
+     баб+N+Anim+Pl+Gen+PxPl1: баббезнымлӧн
+     баб+N+Anim+Pl+Abl+PxPl1: баббезнымлісь
+     баб+N+Anim+Pl+Dat+PxPl1: баббезнымлӧ
+     баб+N+Anim+Pl+Acc+PxPl1: баббезнымӧс
+     баб+N+Anim+Pl+Ins+PxPl1: баббезнаным
+     баб+N+Anim+Pl+Com+PxPl1: баббезнымкӧт
+     баб+N+Anim+Pl+Car+PxPl1: [баббезнымтӧг, баббезтӧгьяным]
+     баб+N+Anim+Pl+Cns+PxPl1: баббезнымла
+     баб+N+Anim+Pl+Cmpr+PxPl1: баббезнымся
+     баб+N+Anim+Pl+Ine+PxPl1: баббезаным
+     баб+N+Anim+Pl+Ela+PxPl1: [баббезсиным, баббесиным]
+     баб+N+Anim+Pl+Ill+PxPl1: баббезаным
+     баб+N+Anim+Pl+Apr+PxPl1: [баббезнымлань, баббезланяным]
+     баб+N+Anim+Pl+Egr+PxPl1: [баббезнымсянь, баббезсяняным]
+     баб+N+Anim+Pl+Prl+PxPl1: [баббезӧттяным, баббезӧттиным]
+     баб+N+Anim+Pl+TerI+PxPl1: [баббезӧдззаным, баббезӧдззиным]
+     баб+N+Anim+Pl+TerII+PxPl1: баббезнымви
+     баб+N+Anim+Pl+AprIne+PxPl1: баббезланяным
+     баб+N+Anim+Pl+AprEla+PxPl1: баббезланьсиным
+     баб+N+Anim+Pl+AprIll+PxPl1: баббезланяным
+     баб+N+Anim+Pl+AprEgr+PxPl1: [баббезланьсяняным, баббезнымланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxPl1: [баббезланьӧттяным, баббезланьӧттиным, баббезнымланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxPl1: [баббезланьӧдззаным, баббезланьӧдззиным, баббезнымланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxPl1: баббезнымланьви
+     баб+N+Anim+Pl+Nom+PxPl2: баббезныт
+     баб+N+Anim+Pl+Gen+PxPl2: баббезнытлӧн
+     баб+N+Anim+Pl+Abl+PxPl2: баббезнытлісь
+     баб+N+Anim+Pl+Dat+PxPl2: баббезнытлӧ
+     баб+N+Anim+Pl+Acc+PxPl2: баббезнытӧ
+     баб+N+Anim+Pl+Ins+PxPl2: баббезнаныт
+     баб+N+Anim+Pl+Com+PxPl2: баббезныткӧт
+     баб+N+Anim+Pl+Car+PxPl2: [баббезныттӧг, баббезтӧгьяныт]
+     баб+N+Anim+Pl+Cns+PxPl2: баббезнытла
+     баб+N+Anim+Pl+Cmpr+PxPl2: баббезнытся
+     баб+N+Anim+Pl+Ine+PxPl2: баббезаныт
+     баб+N+Anim+Pl+Ela+PxPl2: [баббезсиныт, баббесиныт]
+     баб+N+Anim+Pl+Ill+PxPl2: баббезаныт
+     баб+N+Anim+Pl+Apr+PxPl2: [баббезнытлань, баббезланяныт]
+     баб+N+Anim+Pl+Egr+PxPl2: [баббезнытсянь, баббезсяняныт]
+     баб+N+Anim+Pl+Prl+PxPl2: [баббезӧттяныт, баббезӧттиныт]
+     баб+N+Anim+Pl+TerI+PxPl2: [баббезӧдззаныт, баббезӧдззиныт]
+     баб+N+Anim+Pl+TerII+PxPl2: баббезнытви
+     баб+N+Anim+Pl+AprIne+PxPl2: баббезланяныт
+     баб+N+Anim+Pl+AprEla+PxPl2: баббезланьсиныт
+     баб+N+Anim+Pl+AprIll+PxPl2: баббезланяныт
+     баб+N+Anim+Pl+AprEgr+PxPl2: [баббезланьсяняныт, баббезнытланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxPl2: [баббезланьӧттяныт, баббезланьӧттиныт, баббезнытланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxPl2: [баббезланьӧдззаныт, баббезланьӧдззиныт, баббезнытланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxPl2: баббезнытланьви
+     баб+N+Anim+Pl+Nom+PxPl3: баббезныс
+     баб+N+Anim+Pl+Gen+PxPl3: баббезныслӧн
+     баб+N+Anim+Pl+Abl+PxPl3: баббезныслісь
+     баб+N+Anim+Pl+Dat+PxPl3: баббезныслӧ
+     баб+N+Anim+Pl+Acc+PxPl3: баббезнысӧ
+     баб+N+Anim+Pl+Ins+PxPl3: баббезнаныс
+     баб+N+Anim+Pl+Com+PxPl3: баббезныскӧт
+     баб+N+Anim+Pl+Car+PxPl3: [баббезныстӧг, баббезтӧгьяныс]
+     баб+N+Anim+Pl+Cns+PxPl3: баббезнысла
+     баб+N+Anim+Pl+Cmpr+PxPl3: баббезнысся
+     баб+N+Anim+Pl+Ine+PxPl3: баббезаныс
+     баб+N+Anim+Pl+Ela+PxPl3: [баббезсиныс, баббесиныс]
+     баб+N+Anim+Pl+Ill+PxPl3: баббезаныс
+     баб+N+Anim+Pl+Apr+PxPl3: [баббезныслань, баббезланяныс]
+     баб+N+Anim+Pl+Egr+PxPl3: [баббезныссянь, баббезсяняныс]
+     баб+N+Anim+Pl+Prl+PxPl3: [баббезӧттяныс, баббезӧттиныс]
+     баб+N+Anim+Pl+TerI+PxPl3: [баббезӧдззаныс, баббезӧдззиныс]
+     баб+N+Anim+Pl+TerII+PxPl3: баббезнысви
+     баб+N+Anim+Pl+AprIne+PxPl3: баббезланяныс
+     баб+N+Anim+Pl+AprEla+PxPl3: баббезланьсиныс
+     баб+N+Anim+Pl+AprIll+PxPl3: баббезланяныс
+     баб+N+Anim+Pl+AprEgr+PxPl3: [баббезланьсяняныс, баббезнысланьсянь]
+     баб+N+Anim+Pl+AprPrl+PxPl3: [баббезланьӧттяныс, баббезланьӧттиныс, баббезнысланьӧт]
+     баб+N+Anim+Pl+AprTerI+PxPl3: [баббезланьӧдззаныс, баббезланьӧдззиныс, баббезнысланьӧдз]
+     баб+N+Anim+Pl+AprTerII+PxPl3: баббезнысланьви

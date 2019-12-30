@@ -1,0 +1,395 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – cэтшӧм: # Demonstrative Pronoun 'Sellainen / Такой'
+    cэтшӧм+Det+Dem+Sg+Nom: cэтшӧм
+    cэтшӧм+Det+Dem+Pl+Nom: cэтшӧмӧсь
+    cэтшӧм+Det+Dem+Sg+Acc: [cэтшӧмӧ, cэтшӧмӧс]
+    cэтшӧм+Det+Dem+Sg+Gen: cэтшӧмлӧн
+    cэтшӧм+Det+Dem+Sg+Abl: cэтшӧмлісь
+    cэтшӧм+Det+Dem+Sg+Dat: cэтшӧмлӧ
+    cэтшӧм+Det+Dem+Sg+Ins: cэтшӧмӧн 
+    cэтшӧм+Det+Dem+Sg+Com: cэтшӧмкӧт
+    cэтшӧм+Det+Dem+Sg+Car: cэтшӧмтӧг
+    cэтшӧм+Det+Dem+Sg+Cns: cэтшӧмла
+    cэтшӧм+Det+Dem+Sg+Cmpr: cэтшӧмся
+    cэтшӧм+Det+Dem+Sg+Ine: cэтшӧмын
+    cэтшӧм+Det+Dem+Sg+Ela: cэтшӧмись
+    cэтшӧм+Det+Dem+Sg+Ill: cэтшӧмӧ
+    cэтшӧм+Det+Dem+Sg+Apr: cэтшӧмлань
+    cэтшӧм+Det+Dem+Sg+Egr: cэтшӧмсянь
+    cэтшӧм+Det+Dem+Sg+Prl: cэтшӧмӧт
+    cэтшӧм+Det+Dem+Sg+TerI: cэтшӧмӧдз
+    cэтшӧм+Det+Dem+Sg+TerII: cэтшӧмви
+    cэтшӧм+Det+Dem+Sg+AprIne: cэтшӧмланьын
+    cэтшӧм+Det+Dem+Sg+AprEla: cэтшӧмланись
+    cэтшӧм+Det+Dem+Sg+AprIll: cэтшӧмланьӧ
+    cэтшӧм+Det+Dem+Sg+AprEgr: cэтшӧмланьсянь
+    cэтшӧм+Det+Dem+Sg+AprPrl: cэтшӧмланьӧт
+    cэтшӧм+Det+Dem+Sg+AprTerI: cэтшӧмланьӧдз
+    cэтшӧм+Det+Dem+Sg+AprTerII: cэтшӧмланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxSg1: cэтшӧмӧ
+    cэтшӧм+Det+Dem+Sg+Acc+PxSg1: cэтшӧмӧс
+    cэтшӧм+Det+Dem+Sg+Gen+PxSg1: cэтшӧмӧлӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxSg1: cэтшӧмӧлісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxSg1: cэтшӧмӧлӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxSg1: cэтшӧмнам 
+    cэтшӧм+Det+Dem+Sg+Com+PxSg1: cэтшӧмӧкӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxSg1: [cэтшӧмӧтӧг, cэтшӧмтӧгьям] 
+    cэтшӧм+Det+Dem+Sg+Cns+PxSg1: cэтшӧмӧла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxSg1: cэтшӧмӧся
+    cэтшӧм+Det+Dem+Sg+Ine+PxSg1: cэтшӧмам
+    cэтшӧм+Det+Dem+Sg+Ela+PxSg1: cэтшӧмсим
+    cэтшӧм+Det+Dem+Sg+Ill+PxSg1: cэтшӧмам
+    cэтшӧм+Det+Dem+Sg+Apr+PxSg1: [cэтшӧмӧлань, cэтшӧмланям]
+    cэтшӧм+Det+Dem+Sg+Egr+PxSg1: [cэтшӧмӧсянь, cэтшӧмсяням]
+    cэтшӧм+Det+Dem+Sg+Prl+PxSg1: [cэтшӧмӧттям, cэтшӧмӧттим]
+    cэтшӧм+Det+Dem+Sg+TerI+PxSg1: [cэтшӧмӧдззам, cэтшӧмӧдззим]
+    cэтшӧм+Det+Dem+Sg+TerII+PxSg1: cэтшӧмӧви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxSg1: [cэтшӧмланям, cэтшӧмӧланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxSg1: [cэтшӧмланьсим, cэтшӧмӧланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxSg1: [cэтшӧмланям, cэтшӧмӧланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxSg1: [cэтшӧмӧланьсянь, cэтшӧмланьсяням] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxSg1: [cэтшӧмӧланьӧт, cэтшӧмланьӧттям, cэтшӧмланьӧттим]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxSg1: [cэтшӧмӧланьӧдз, cэтшӧмланьӧдззам, cэтшӧмланьӧдззим]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxSg1: cэтшӧмӧланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxSg2: cэтшӧмыт
+    cэтшӧм+Det+Dem+Sg+Acc+PxSg2: cэтшӧмтӧ
+    cэтшӧм+Det+Dem+Sg+Gen+PxSg2: cэтшӧмытлӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxSg2: cэтшӧмытлісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxSg2: cэтшӧмытлӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxSg2: cэтшӧмнат 
+    cэтшӧм+Det+Dem+Sg+Com+PxSg2: cэтшӧмыткӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxSg2: [cэтшӧмыттӧг, cэтшӧмтӧгьят]
+    cэтшӧм+Det+Dem+Sg+Cns+PxSg2: cэтшӧмытла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxSg2: cэтшӧмытся
+    cэтшӧм+Det+Dem+Sg+Ine+PxSg2: cэтшӧмат
+    cэтшӧм+Det+Dem+Sg+Ela+PxSg2: cэтшӧмсит
+    cэтшӧм+Det+Dem+Sg+Ill+PxSg2: cэтшӧмат
+    cэтшӧм+Det+Dem+Sg+Apr+PxSg2: [cэтшӧмытлань, cэтшӧмланят]
+    cэтшӧм+Det+Dem+Sg+Egr+PxSg2: [cэтшӧмытсянь, cэтшӧмсянят]
+    cэтшӧм+Det+Dem+Sg+Prl+PxSg2: [cэтшӧмӧттят, cэтшӧмӧттит]
+    cэтшӧм+Det+Dem+Sg+TerI+PxSg2: [cэтшӧмӧдззат, cэтшӧмӧдззит]
+    cэтшӧм+Det+Dem+Sg+TerII+PxSg2: cэтшӧмытви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxSg2: [cэтшӧмланят, cэтшӧмытланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxSg2: [cэтшӧмланьсит, cэтшӧмытланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxSg2: [cэтшӧмланят, cэтшӧмытланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxSg2: [cэтшӧмытланьсянь, cэтшӧмланьсянят] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxSg2: [cэтшӧмытланьӧт, cэтшӧмланьӧттят, cэтшӧмланьӧттит]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxSg2: [cэтшӧмытланьӧдз, cэтшӧмланьӧдззат, cэтшӧмланьӧдззит]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxSg2: cэтшӧмытланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxSg3: cэтшӧмыс
+    cэтшӧм+Det+Dem+Sg+Acc+PxSg3: cэтшӧмсӧ
+    cэтшӧм+Det+Dem+Sg+Gen+PxSg3: cэтшӧмыслӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxSg3: cэтшӧмыслісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxSg3: cэтшӧмыслӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxSg3: cэтшӧмнас 
+    cэтшӧм+Det+Dem+Sg+Com+PxSg3: cэтшӧмыскӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxSg3: [cэтшӧмыстӧг, cэтшӧмтӧгьяс]
+    cэтшӧм+Det+Dem+Sg+Cns+PxSg3: cэтшӧмысла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxSg3: cэтшӧмысся
+    cэтшӧм+Det+Dem+Sg+Ine+PxSg3: cэтшӧмас
+    cэтшӧм+Det+Dem+Sg+Ela+PxSg3: cэтшӧмсис
+    cэтшӧм+Det+Dem+Sg+Ill+PxSg3: cэтшӧмас
+    cэтшӧм+Det+Dem+Sg+Apr+PxSg3: [cэтшӧмыслань, cэтшӧмланяс]
+    cэтшӧм+Det+Dem+Sg+Egr+PxSg3: [cэтшӧмыссянь, cэтшӧмсяняс]
+    cэтшӧм+Det+Dem+Sg+Prl+PxSg3: [cэтшӧмӧттяс, cэтшӧмӧттис]
+    cэтшӧм+Det+Dem+Sg+TerI+PxSg3: [cэтшӧмӧдззас, cэтшӧмӧдззис]
+    cэтшӧм+Det+Dem+Sg+TerII+PxSg3: cэтшӧмысви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxSg3: [cэтшӧмланяс, cэтшӧмысланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxSg3: [cэтшӧмланьсис, cэтшӧмысланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxSg3: [cэтшӧмланяс, cэтшӧмысланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxSg3: [cэтшӧмысланьсянь, cэтшӧмланьсяняс] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxSg3: [cэтшӧмысланьӧт, cэтшӧмланьӧттяс, cэтшӧмланьӧттис]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxSg3: [cэтшӧмысланьӧдз, cэтшӧмланьӧдззас, cэтшӧмланьӧдззис]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxSg3: cэтшӧмысланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxPl1: cэтшӧмным
+    cэтшӧм+Det+Dem+Sg+Acc+PxPl1: cэтшӧмнымӧс
+    cэтшӧм+Det+Dem+Sg+Gen+PxPl1: cэтшӧмнымлӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxPl1: cэтшӧмнымлісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxPl1: cэтшӧмнымлӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxPl1: cэтшӧмнаным 
+    cэтшӧм+Det+Dem+Sg+Com+PxPl1: cэтшӧмнымкӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxPl1: [cэтшӧмнымтӧг, cэтшӧмтӧгьяным]
+    cэтшӧм+Det+Dem+Sg+Cns+PxPl1: cэтшӧмнымла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxPl1: cэтшӧмнымся
+    cэтшӧм+Det+Dem+Sg+Ine+PxPl1: cэтшӧманым
+    cэтшӧм+Det+Dem+Sg+Ela+PxPl1: cэтшӧмсиным
+    cэтшӧм+Det+Dem+Sg+Ill+PxPl1: cэтшӧманым
+    cэтшӧм+Det+Dem+Sg+Apr+PxPl1: [cэтшӧмнымлань, cэтшӧмланяным]
+    cэтшӧм+Det+Dem+Sg+Egr+PxPl1: [cэтшӧмнымсянь, cэтшӧмсяняным]
+    cэтшӧм+Det+Dem+Sg+Prl+PxPl1: [cэтшӧмӧттяным, cэтшӧмӧттиным]
+    cэтшӧм+Det+Dem+Sg+TerI+PxPl1: [cэтшӧмӧдззаным, cэтшӧмӧдззиным]
+    cэтшӧм+Det+Dem+Sg+TerII+PxPl1: cэтшӧмнымви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxPl1: [cэтшӧмланяным, cэтшӧмнымланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxPl1: [cэтшӧмланьсиным, cэтшӧмнымланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxPl1: [cэтшӧмланяным, cэтшӧмнымланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxPl1: [cэтшӧмнымланьсянь, cэтшӧмланьсяняным] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxPl1: [cэтшӧмнымланьӧт, cэтшӧмланьӧттяным, cэтшӧмланьӧттиным]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxPl1: [cэтшӧмнымланьӧдз, cэтшӧмланьӧдззаным, cэтшӧмланьӧдззиным]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxPl1: cэтшӧмнымланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxPl2: cэтшӧмныт
+    cэтшӧм+Det+Dem+Sg+Acc+PxPl2: cэтшӧмнытӧ
+    cэтшӧм+Det+Dem+Sg+Gen+PxPl2: cэтшӧмнытлӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxPl2: cэтшӧмнытлісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxPl2: cэтшӧмнытлӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxPl2: cэтшӧмнаныт 
+    cэтшӧм+Det+Dem+Sg+Com+PxPl2: cэтшӧмныткӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxPl2: [cэтшӧмныттӧг, cэтшӧмтӧгьяныт]
+    cэтшӧм+Det+Dem+Sg+Cns+PxPl2: cэтшӧмнытла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxPl2: cэтшӧмнытся
+    cэтшӧм+Det+Dem+Sg+Ine+PxPl2: cэтшӧманыт
+    cэтшӧм+Det+Dem+Sg+Ela+PxPl2: cэтшӧмсиныт
+    cэтшӧм+Det+Dem+Sg+Ill+PxPl2: cэтшӧманыт
+    cэтшӧм+Det+Dem+Sg+Apr+PxPl2: [cэтшӧмнытлань, cэтшӧмланяныт]
+    cэтшӧм+Det+Dem+Sg+Egr+PxPl2: [cэтшӧмнытсянь, cэтшӧмсяняныт]
+    cэтшӧм+Det+Dem+Sg+Prl+PxPl2: [cэтшӧмӧттяныт, cэтшӧмӧттиныт]
+    cэтшӧм+Det+Dem+Sg+TerI+PxPl2: [cэтшӧмӧдззаныт, cэтшӧмӧдззиныт]
+    cэтшӧм+Det+Dem+Sg+TerII+PxPl2: cэтшӧмнытви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxPl2: [cэтшӧмланяныт, cэтшӧмнытланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxPl2: [cэтшӧмланьсиныт, cэтшӧмнытланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxPl2: [cэтшӧмланяныт, cэтшӧмнытланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxPl2: [cэтшӧмнытланьсянь, cэтшӧмланьсяняныт] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxPl2: [cэтшӧмнытланьӧт, cэтшӧмланьӧттяныт, cэтшӧмланьӧттиныт]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxPl2: [cэтшӧмнытланьӧдз, cэтшӧмланьӧдззаныт, cэтшӧмланьӧдззиныт]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxPl2: cэтшӧмнытланьви
+
+
+    cэтшӧм+Det+Dem+Sg+Nom+PxPl3: cэтшӧмныс
+    cэтшӧм+Det+Dem+Sg+Acc+PxPl3: cэтшӧмнысӧ
+    cэтшӧм+Det+Dem+Sg+Gen+PxPl3: cэтшӧмныслӧн
+    cэтшӧм+Det+Dem+Sg+Abl+PxPl3: cэтшӧмныслісь
+    cэтшӧм+Det+Dem+Sg+Dat+PxPl3: cэтшӧмныслӧ
+    cэтшӧм+Det+Dem+Sg+Ins+PxPl3: cэтшӧмнаныс 
+    cэтшӧм+Det+Dem+Sg+Com+PxPl3: cэтшӧмныскӧт
+    cэтшӧм+Det+Dem+Sg+Car+PxPl3: [cэтшӧмныстӧг, cэтшӧмтӧгьяныс]
+    cэтшӧм+Det+Dem+Sg+Cns+PxPl3: cэтшӧмнысла
+    cэтшӧм+Det+Dem+Sg+Cmpr+PxPl3: cэтшӧмнысся
+    cэтшӧм+Det+Dem+Sg+Ine+PxPl3: cэтшӧманыс
+    cэтшӧм+Det+Dem+Sg+Ela+PxPl3: cэтшӧмсиныс
+    cэтшӧм+Det+Dem+Sg+Ill+PxPl3: cэтшӧманыс
+    cэтшӧм+Det+Dem+Sg+Apr+PxPl3: [cэтшӧмныслань, cэтшӧмланяныс]
+    cэтшӧм+Det+Dem+Sg+Egr+PxPl3: [cэтшӧмныссянь, cэтшӧмсяняныс]
+    cэтшӧм+Det+Dem+Sg+Prl+PxPl3: [cэтшӧмӧттяныс, cэтшӧмӧттиныс]
+    cэтшӧм+Det+Dem+Sg+TerI+PxPl3: [cэтшӧмӧдззаныс, cэтшӧмӧдззиныс]
+    cэтшӧм+Det+Dem+Sg+TerII+PxPl3: cэтшӧмнысви
+    cэтшӧм+Det+Dem+Sg+AprIne+PxPl3: [cэтшӧмланяныс, cэтшӧмнысланьын]
+    cэтшӧм+Det+Dem+Sg+AprEla+PxPl3: [cэтшӧмланьсиныс, cэтшӧмнысланись]
+    cэтшӧм+Det+Dem+Sg+AprIll+PxPl3: [cэтшӧмланяныс, cэтшӧмнысланьӧ]
+    cэтшӧм+Det+Dem+Sg+AprEgr+PxPl3: [cэтшӧмнысланьсянь, cэтшӧмланьсяняныс] 
+    cэтшӧм+Det+Dem+Sg+AprPrl+PxPl3: [cэтшӧмнысланьӧт, cэтшӧмланьӧттяныс, cэтшӧмланьӧттиныс]
+    cэтшӧм+Det+Dem+Sg+AprTerI+PxPl3: [cэтшӧмнысланьӧдз, cэтшӧмланьӧдззаныс, cэтшӧмланьӧдззиныс]
+    cэтшӧм+Det+Dem+Sg+AprTerII+PxPl3: cэтшӧмнысланьви
+
+
+    cэтшӧм+Det+Dem+Pl+Nom: cэтшӧммез
+    cэтшӧм+Det+Dem+Pl+Acc: [cэтшӧммезӧ, cэтшӧммезӧс]
+    cэтшӧм+Det+Dem+Pl+Gen: cэтшӧммезлӧн
+    cэтшӧм+Det+Dem+Pl+Abl: cэтшӧммезлісь
+    cэтшӧм+Det+Dem+Pl+Dat: cэтшӧммезлӧ
+    cэтшӧм+Det+Dem+Pl+Ins: cэтшӧммезӧн 
+    cэтшӧм+Det+Dem+Pl+Com: cэтшӧммезкӧт
+    cэтшӧм+Det+Dem+Pl+Car: cэтшӧммезтӧг
+    cэтшӧм+Det+Dem+Pl+Cns: cэтшӧммезла
+    cэтшӧм+Det+Dem+Pl+Cmpr: cэтшӧммезся
+    cэтшӧм+Det+Dem+Pl+Ine: cэтшӧммезын
+    cэтшӧм+Det+Dem+Pl+Ela: cэтшӧммезісь
+    cэтшӧм+Det+Dem+Pl+Ill: cэтшӧммезӧ
+    cэтшӧм+Det+Dem+Pl+Apr: cэтшӧммезлань
+    cэтшӧм+Det+Dem+Pl+Egr: cэтшӧммезсянь
+    cэтшӧм+Det+Dem+Pl+Prl: cэтшӧммезӧт
+    cэтшӧм+Det+Dem+Pl+TerI: cэтшӧммезӧдз
+    cэтшӧм+Det+Dem+Pl+TerII: cэтшӧммезви
+    cэтшӧм+Det+Dem+Pl+AprIne: cэтшӧммезланьын
+    cэтшӧм+Det+Dem+Pl+AprEla: cэтшӧммезланись
+    cэтшӧм+Det+Dem+Pl+AprIll: cэтшӧммезланьӧ
+    cэтшӧм+Det+Dem+Pl+AprEgr: cэтшӧммезланьсянь
+    cэтшӧм+Det+Dem+Pl+AprPrl: cэтшӧммезланьӧт
+    cэтшӧм+Det+Dem+Pl+AprTerI: cэтшӧммезланьӧдз
+    cэтшӧм+Det+Dem+Pl+AprTerII: cэтшӧммезланьви
+
+
+    cэтшӧм+Det+Dem+Pl+Nom+PxSg1: cэтшӧммезӧ
+    cэтшӧм+Det+Dem+Pl+Acc+PxSg1: cэтшӧммезӧс
+    cэтшӧм+Det+Dem+Pl+Gen+PxSg1: cэтшӧммезӧлӧн
+    cэтшӧм+Det+Dem+Pl+Abl+PxSg1: cэтшӧммезӧлісь
+    cэтшӧм+Det+Dem+Pl+Dat+PxSg1: cэтшӧммезӧлӧ
+    cэтшӧм+Det+Dem+Pl+Ins+PxSg1: cэтшӧммезнам 
+    cэтшӧм+Det+Dem+Pl+Com+PxSg1: cэтшӧммезӧкӧт
+    cэтшӧм+Det+Dem+Pl+Car+PxSg1: [cэтшӧммезӧтӧг, cэтшӧммезтӧгьям]
+    cэтшӧм+Det+Dem+Pl+Cns+PxSg1: cэтшӧммезӧла
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxSg1: cэтшӧммезӧся
+    cэтшӧм+Det+Dem+Pl+Ine+PxSg1: cэтшӧммезам
+    cэтшӧм+Det+Dem+Pl+Ela+PxSg1: [cэтшӧммесим, cэтшӧммезсим]
+    cэтшӧм+Det+Dem+Pl+Ill+PxSg1: cэтшӧммезам
+    cэтшӧм+Det+Dem+Pl+Apr+PxSg1: [cэтшӧммезӧлань, этшшӧммезланям]
+    cэтшӧм+Det+Dem+Pl+Egr+PxSg1: [cэтшӧммезӧсянь, cэтшӧммезсяням]
+    cэтшӧм+Det+Dem+Pl+Prl+PxSg1: [cэтшӧммезӧттям, cэтшӧммезӧттим]
+    cэтшӧм+Det+Dem+Pl+TerI+PxSg1: [cэтшӧммезӧдззам, cэтшӧммезӧдззим]
+    cэтшӧм+Det+Dem+Pl+TerII+PxSg1: cэтшӧммезӧви
+    cэтшӧм+Det+Dem+Pl+AprIne+PxSg1: [cэтшӧммезланям, cэтшӧммезӧланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxSg1: [cэтшӧммезланьсим, cэтшӧммезӧланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxSg1: [cэтшӧммезланям, cэтшӧммезӧланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxSg1: [cэтшӧммезӧланьсянь, cэтшӧммезланьсяням]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxSg1: [cэтшӧммезӧланьӧт, cэтшӧммезланьӧттям, cэтшӧммезланьӧттим]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxSg1: [cэтшӧммезӧланьӧдз, cэтшӧммезланьӧдззам, cэтшӧммезланьӧдззим]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxSg1: cэтшӧммезӧланьви 
+
+
+    cэтшӧм+Det+Dem+Pl+Nom+PxSg2: [cэтшӧммет, cэтшӧммезыт]
+    cэтшӧм+Det+Dem+Pl+Acc+PxSg2: [cэтшӧмметӧ, cэтшӧммезтӧ]
+    cэтшӧм+Det+Dem+Pl+Gen+PxSg2: [cэтшӧмметлӧн, cэтшӧммезытлӧн]
+    cэтшӧм+Det+Dem+Pl+Abl+PxSg2: [cэтшӧмметлісь, cэтшӧммезытлісь]
+    cэтшӧм+Det+Dem+Pl+Dat+PxSg2: [cэтшӧмметлӧ, cэтшӧммезытлӧ]
+    cэтшӧм+Det+Dem+Pl+Ins+PxSg2: cэтшӧммезнат 
+    cэтшӧм+Det+Dem+Pl+Com+PxSg2: [cэтшӧмметкӧт, cэтшӧммезыткӧт]
+    cэтшӧм+Det+Dem+Pl+Car+PxSg2: [cэтшӧмметтӧг, cэтшӧммезыттӧг, cэтшӧммезтӧгьят]
+    cэтшӧм+Det+Dem+Pl+Cns+PxSg2: [cэтшӧмметла, cэтшӧммезытла]
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxSg2: [cэтшӧммется, cэтшӧммезытся]
+    cэтшӧм+Det+Dem+Pl+Ine+PxSg2: cэтшӧммезат
+    cэтшӧм+Det+Dem+Pl+Ela+PxSg2: [cэтшӧммесит, cэтшӧммезсит]
+    cэтшӧм+Det+Dem+Pl+Ill+PxSg2: cэтшӧммезат
+    cэтшӧм+Det+Dem+Pl+Apr+PxSg2: [cэтшӧмметлань, cэтшӧммезытлань, этшшӧммезланят]
+    cэтшӧм+Det+Dem+Pl+Egr+PxSg2: [cэтшӧмметсянь, cэтшӧммезытсянь, cэтшӧммезсянят]
+    cэтшӧм+Det+Dem+Pl+Prl+PxSg2: [cэтшӧммезӧттят, cэтшӧммезӧттит]
+    cэтшӧм+Det+Dem+Pl+TerI+PxSg2: [cэтшӧммезӧдззат, cэтшӧммезӧдззит]
+    cэтшӧм+Det+Dem+Pl+TerII+PxSg2: [cэтшӧмметви, cэтшӧммезытви]
+    cэтшӧм+Det+Dem+Pl+AprIne+PxSg2: [cэтшӧммезланят, cэтшӧмметланьын, cэтшӧммезытланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxSg2: [cэтшӧммезланьсит, cэтшӧмметланись, cэтшӧммезытланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxSg2: [cэтшӧммезланят, cэтшӧмметланьӧ, cэтшӧммезытланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxSg2: [cэтшӧмметланьсянь, cэтшӧммезытланьсянь, cэтшӧммезланьсянят]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxSg2: [cэтшӧмметланьӧт, cэтшӧммезытланьӧт, cэтшӧммезланьӧттят, cэтшӧммезланьӧттит]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxSg2: [cэтшӧмметланьӧдз, cэтшӧммезытланьӧдз, cэтшӧммезланьӧдззат, cэтшӧммезланьӧдззит]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxSg2: [cэтшӧмметланьви, cэтшӧммезытланьви] 
+
+
+    cэтшӧм+Det+Dem+Pl+Nom+PxSg3: [cэтшӧммес, cэтшӧммезыс]
+    cэтшӧм+Det+Dem+Pl+Acc+PxSg3: [cэтшӧммесӧ, cэтшӧммезсӧ]
+    cэтшӧм+Det+Dem+Pl+Gen+PxSg3: [cэтшӧммеслӧн, cэтшӧммезыслӧн]
+    cэтшӧм+Det+Dem+Pl+Abl+PxSg3: [cэтшӧммеслісь, cэтшӧммезыслісь]
+    cэтшӧм+Det+Dem+Pl+Dat+PxSg3: [cэтшӧммеслӧ, cэтшӧммезыслӧ]
+    cэтшӧм+Det+Dem+Pl+Ins+PxSg3: cэтшӧммезнас 
+    cэтшӧм+Det+Dem+Pl+Com+PxSg3: [cэтшӧммескӧт, cэтшӧммезыскӧт]
+    cэтшӧм+Det+Dem+Pl+Car+PxSg3: [cэтшӧмместӧг, cэтшӧммезыстӧг, cэтшӧммезтӧгьяс]
+    cэтшӧм+Det+Dem+Pl+Cns+PxSg3: [cэтшӧммесла, cэтшӧммезысла]
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxSg3: [cэтшӧммесся, cэтшӧммезысся]
+    cэтшӧм+Det+Dem+Pl+Ine+PxSg3: cэтшӧммезас
+    cэтшӧм+Det+Dem+Pl+Ela+PxSg3: [cэтшӧммесис, cэтшӧммезсис]
+    cэтшӧм+Det+Dem+Pl+Ill+PxSg3: cэтшӧммезас
+    cэтшӧм+Det+Dem+Pl+Apr+PxSg3: [cэтшӧммеслань, cэтшӧммезыслань, этшшӧммезланяс]
+    cэтшӧм+Det+Dem+Pl+Egr+PxSg3: [cэтшӧммессянь, cэтшӧммезыссянь, cэтшӧммезсяняс]
+    cэтшӧм+Det+Dem+Pl+Prl+PxSg3: [cэтшӧммезӧттяс, cэтшӧммезӧттис]
+    cэтшӧм+Det+Dem+Pl+TerI+PxSg3: [cэтшӧммезӧдззас, cэтшӧммезӧдззис]
+    cэтшӧм+Det+Dem+Pl+TerII+PxSg3: [cэтшӧммесви, cэтшӧммезысви]
+    cэтшӧм+Det+Dem+Pl+AprIne+PxSg3: [cэтшӧммезланяс, cэтшӧммесланьын, cэтшӧммезысланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxSg3: [cэтшӧммезланьсис, cэтшӧммесланись, cэтшӧммезысланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxSg3: [cэтшӧммезланяс, cэтшӧммесланьӧ, cэтшӧммезысланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxSg3: [cэтшӧммесланьсянь, cэтшӧммезысланьсянь, cэтшӧммезланьсяняс]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxSg3: [cэтшӧммесланьӧт, cэтшӧммезысланьӧт, cэтшӧммезланьӧттяс, cэтшӧммезланьӧттис]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxSg3: [cэтшӧммесланьӧдз, cэтшӧммезысланьӧдз, cэтшӧммезланьӧдззас, cэтшӧммезланьӧдззис]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxSg3: [cэтшӧммесланьви, cэтшӧммезысланьви]
+
+ 
+    cэтшӧм+Det+Dem+Pl+Nom+PxPl1: cэтшӧммезным
+    cэтшӧм+Det+Dem+Pl+Acc+PxPl1: cэтшӧммезнымӧс
+    cэтшӧм+Det+Dem+Pl+Gen+PxPl1: cэтшӧммезнымлӧн
+    cэтшӧм+Det+Dem+Pl+Abl+PxPl1: cэтшӧммезнымлісь
+    cэтшӧм+Det+Dem+Pl+Dat+PxPl1: cэтшӧммезнымлӧ
+    cэтшӧм+Det+Dem+Pl+Ins+PxPl1: cэтшӧммезнаным 
+    cэтшӧм+Det+Dem+Pl+Com+PxPl1: cэтшӧммезнымкӧт
+    cэтшӧм+Det+Dem+Pl+Car+PxPl1: [cэтшӧммезнымтӧг, cэтшӧммезтӧгьяным]
+    cэтшӧм+Det+Dem+Pl+Cns+PxPl1: cэтшӧммезнымла
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxPl1: cэтшӧммезнымся
+    cэтшӧм+Det+Dem+Pl+Ine+PxPl1: cэтшӧммезаным
+    cэтшӧм+Det+Dem+Pl+Ela+PxPl1: [cэтшӧммесиным, cэтшӧммезсиным]
+    cэтшӧм+Det+Dem+Pl+Ill+PxPl1: cэтшӧммезаным
+    cэтшӧм+Det+Dem+Pl+Apr+PxPl1: [cэтшӧммезнымлань, этшшӧммезланяным]
+    cэтшӧм+Det+Dem+Pl+Egr+PxPl1: [cэтшӧммезнымсянь, cэтшӧммезсяняным]
+    cэтшӧм+Det+Dem+Pl+Prl+PxPl1: [cэтшӧммезӧттяным, cэтшӧммезӧттиным]
+    cэтшӧм+Det+Dem+Pl+TerI+PxPl1: [cэтшӧммезӧдззаным, cэтшӧммезӧдззиным]
+    cэтшӧм+Det+Dem+Pl+TerII+PxPl1: cэтшӧммезнымви
+    cэтшӧм+Det+Dem+Pl+AprIne+PxPl1: [cэтшӧммезланяным, cэтшӧммезнымланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxPl1: [cэтшӧммезланьсиным, cэтшӧммезнымланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxPl1: [cэтшӧммезланяным, cэтшӧммезнымланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxPl1: [cэтшӧммезнымланьсянь, cэтшӧммезланьсяняным]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxPl1: [cэтшӧммезнымланьӧт, cэтшӧммезланьӧттяным, cэтшӧммезланьӧттиным]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxPl1: [cэтшӧммезнымланьӧдз, cэтшӧммезланьӧдззаным, cэтшӧммезланьӧдззиным]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxPl1: cэтшӧммезнымланьви 
+
+
+    cэтшӧм+Det+Dem+Pl+Nom+PxPl2: cэтшӧммезныт
+    cэтшӧм+Det+Dem+Pl+Acc+PxPl2: cэтшӧммезнытӧ
+    cэтшӧм+Det+Dem+Pl+Gen+PxPl2: cэтшӧммезнытлӧн
+    cэтшӧм+Det+Dem+Pl+Abl+PxPl2: cэтшӧммезнытлісь
+    cэтшӧм+Det+Dem+Pl+Dat+PxPl2: cэтшӧммезнытлӧ
+    cэтшӧм+Det+Dem+Pl+Ins+PxPl2: cэтшӧммезнаныт 
+    cэтшӧм+Det+Dem+Pl+Com+PxPl2: cэтшӧммезныткӧт
+    cэтшӧм+Det+Dem+Pl+Car+PxPl2: [cэтшӧммезныттӧг, cэтшӧммезтӧгьяныт]
+    cэтшӧм+Det+Dem+Pl+Cns+PxPl2: cэтшӧммезнытла
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxPl2: cэтшӧммезнытся
+    cэтшӧм+Det+Dem+Pl+Ine+PxPl2: cэтшӧммезаныт
+    cэтшӧм+Det+Dem+Pl+Ela+PxPl2: [cэтшӧммесиныт, cэтшӧммезсиныт]
+    cэтшӧм+Det+Dem+Pl+Ill+PxPl2: cэтшӧммезаныт
+    cэтшӧм+Det+Dem+Pl+Apr+PxPl2: [cэтшӧммезнытлань, этшшӧммезланяныт]
+    cэтшӧм+Det+Dem+Pl+Egr+PxPl2: [cэтшӧммезнытсянь, cэтшӧммезсяняныт]
+    cэтшӧм+Det+Dem+Pl+Prl+PxPl2: [cэтшӧммезӧттяныт, cэтшӧммезӧттиныт]
+    cэтшӧм+Det+Dem+Pl+TerI+PxPl2: [cэтшӧммезӧдззаныт, cэтшӧммезӧдззиныт]
+    cэтшӧм+Det+Dem+Pl+TerII+PxPl2: cэтшӧммезнытви
+    cэтшӧм+Det+Dem+Pl+AprIne+PxPl2: [cэтшӧммезланяныт, cэтшӧммезнытланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxPl2: [cэтшӧммезланьсиныт, cэтшӧммезнытланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxPl2: [cэтшӧммезланяныт, cэтшӧммезнытланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxPl2: [cэтшӧммезнытланьсянь, cэтшӧммезланьсяняныт]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxPl2: [cэтшӧммезнытланьӧт, cэтшӧммезланьӧттяныт, cэтшӧммезланьӧттиныт]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxPl2: [cэтшӧммезнытланьӧдз, cэтшӧммезланьӧдззаныт, cэтшӧммезланьӧдззиныт]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxPl2: cэтшӧммезнытланьви 
+
+
+    cэтшӧм+Det+Dem+Pl+Nom+PxPl3: cэтшӧммезныс
+    cэтшӧм+Det+Dem+Pl+Acc+PxPl3: cэтшӧммезнысӧ
+    cэтшӧм+Det+Dem+Pl+Gen+PxPl3: cэтшӧммезныслӧн
+    cэтшӧм+Det+Dem+Pl+Abl+PxPl3: cэтшӧммезныслісь
+    cэтшӧм+Det+Dem+Pl+Dat+PxPl3: cэтшӧммезныслӧ
+    cэтшӧм+Det+Dem+Pl+Ins+PxPl3: cэтшӧммезнаныс 
+    cэтшӧм+Det+Dem+Pl+Com+PxPl3: cэтшӧммезныскӧт
+    cэтшӧм+Det+Dem+Pl+Car+PxPl3: [cэтшӧммезныстӧг, cэтшӧммезтӧгьяныс]
+    cэтшӧм+Det+Dem+Pl+Cns+PxPl3: cэтшӧммезнысла
+    cэтшӧм+Det+Dem+Pl+Cmpr+PxPl3: cэтшӧммезнысся
+    cэтшӧм+Det+Dem+Pl+Ine+PxPl3: cэтшӧммезаныс
+    cэтшӧм+Det+Dem+Pl+Ela+PxPl3: [cэтшӧммесиныс, cэтшӧммезсиныс]
+    cэтшӧм+Det+Dem+Pl+Ill+PxPl3: cэтшӧммезаныс
+    cэтшӧм+Det+Dem+Pl+Apr+PxPl3: [cэтшӧммезныслань, этшшӧммезланяныс]
+    cэтшӧм+Det+Dem+Pl+Egr+PxPl3: [cэтшӧммезныссянь, cэтшӧммезсяняныс]
+    cэтшӧм+Det+Dem+Pl+Prl+PxPl3: [cэтшӧммезӧттяныс, cэтшӧммезӧттиныс]
+    cэтшӧм+Det+Dem+Pl+TerI+PxPl3: [cэтшӧммезӧдззаныс, cэтшӧммезӧдззиныс]
+    cэтшӧм+Det+Dem+Pl+TerII+PxPl3: cэтшӧммезнысви
+    cэтшӧм+Det+Dem+Pl+AprIne+PxPl3: [cэтшӧммезланяныс, cэтшӧммезнысланьын]
+    cэтшӧм+Det+Dem+Pl+AprEla+PxPl3: [cэтшӧммезланьсиныс, cэтшӧммезнысланись]
+    cэтшӧм+Det+Dem+Pl+AprIll+PxPl3: [cэтшӧммезланяныс, cэтшӧммезнысланьӧ]
+    cэтшӧм+Det+Dem+Pl+AprEgr+PxPl3: [cэтшӧммезнысланьсянь, cэтшӧммезланьсяняныс]
+    cэтшӧм+Det+Dem+Pl+AprPrl+PxPl3: [cэтшӧммезнысланьӧт, cэтшӧммезланьӧттяныс, cэтшӧммезланьӧттиныс]
+    cэтшӧм+Det+Dem+Pl+AprTerI+PxPl3: [cэтшӧммезнысланьӧдз, cэтшӧммезланьӧдззаныс, cэтшӧммезланьӧдззиныс]
+    cэтшӧм+Det+Dem+Pl+AprTerII+PxPl3: cэтшӧммезнысланьви 
+

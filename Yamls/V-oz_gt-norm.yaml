@@ -1,0 +1,62 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-23
+# Then: run analyser, then correct. 
+
+
+  Verb - оз: # negative verb 'does not' / 'ei' / 'не'
+     оз+V+Neg+Ind+Prs+Sg1: ог
+     оз+V+Neg+Ind+Prs+Sg1+Comp: огжык
+     оз+V+Neg+Ind+Prs+Sg2: он
+     оз+V+Neg+Ind+Prs+Sg2+Comp: онжык
+     оз+V+Neg+Ind+Prs+Sg3: оз
+     оз+V+Neg+Ind+Prs+Sg3+Comp: озжык
+     оз+V+Neg+Ind+Prs+Pl1: [ог, огӧ]
+     оз+V+Neg+Ind+Prs+Pl1+Comp: [огжык, огӧжык]
+     оз+V+Neg+Ind+Prs+Pl2: [од, одӧ]
+     оз+V+Neg+Ind+Prs+Pl2+Comp: [оджык, одӧжык]
+     оз+V+Neg+Ind+Prs+Pl3: [оз, озӧ]
+     оз+V+Neg+Ind+Prs+Pl3+Comp: [озжык, озӧжык]
+     оз+V+Neg+Ind+Fut+Sg1: ог
+     оз+V+Neg+Ind+Fut+Sg1+Comp: огжык 
+     оз+V+Neg+Ind+Fut+Sg2: он 
+     оз+V+Neg+Ind+Fut+Sg2+Comp: онжык
+     оз+V+Neg+Ind+Fut+Sg3: оз 
+     оз+V+Neg+Ind+Fut+Sg3+Comp: озжык
+     оз+V+Neg+Ind+Fut+Pl1: [ог, огӧ]
+     оз+V+Neg+Ind+Fut+Pl1+Comp: [огжык, огӧжык] 
+     оз+V+Neg+Ind+Fut+Pl2: [од, одӧ] 
+     оз+V+Neg+Ind+Fut+Pl2+Comp: [оджык, одӧжык]
+     оз+V+Neg+Ind+Fut+Pl3: [оз, озӧ] 
+     оз+V+Neg+Ind+Fut+Pl3+Comp: [озжык, озӧжык]
+     оз+V+Neg+Ind+Prt+Sg1: эг
+     оз+V+Neg+Ind+Prt+Sg1+Comp: эгжык
+     оз+V+Neg+Ind+Prt+Sg2: эн
+     оз+V+Neg+Ind+Prt+Sg2+Comp: энжык
+     оз+V+Neg+Ind+Prt+Sg3: эз
+     оз+V+Neg+Ind+Prt+Sg3+Comp: эзжык
+     оз+V+Neg+Ind+Prt+Pl1: [эг, эгӧ]
+     оз+V+Neg+Ind+Prt+Pl1+Comp: [эгжык, эгӧжык]
+     оз+V+Neg+Ind+Prt+Pl2: [эд, эдӧ]
+     оз+V+Neg+Ind+Prt+Pl2+Comp: [эджык, эдӧжык]
+#
+     абу+V+Aux+Neg+Prs+Sg: абу
+     абу+V+Aux+Neg+Prs+Sg+Comp: абужык  
+     абу+V+Aux+Neg+Prs+Pl: [абу, абуӧсь]
+     абу+V+Aux+Neg+Prs+Pl+Comp: [абужык, абужыкӧсь, абуӧсьжык]
+     эм+V+Aux+Prs+Sg: эм
+     эм+V+Aux+Prs+Sg+Comp: эмжык
+     эм+V+Aux+Prs+Pl: эмӧсь
+     эм+V+Aux+Prs+Pl+Comp: [эмжыкӧсь, эмӧсьжык]
+
+

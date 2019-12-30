@@ -1,0 +1,70 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – быдӧс: # Total Pronoun 'Kaikki / Всё'
+    быдӧс+Pron+Tot+Sg+Nom: быдӧс
+    быдӧс+Pron+Tot+Sg+Acc: быдӧс
+    быдӧс+Pron+Tot+Sg+Gen: быдӧслӧн
+    быдӧс+Pron+Tot+Sg+Abl: быдӧслісь
+    быдӧс+Pron+Tot+Sg+Dat: быдӧслӧ
+    быдӧс+Pron+Tot+Sg+Ins: быдӧсӧн 
+    быдӧс+Pron+Tot+Sg+Com: быдӧскӧт
+    быдӧс+Pron+Tot+Sg+Car: быдӧстӧг
+    быдӧс+Pron+Tot+Sg+Cns: быдӧсла
+    быдӧс+Pron+Tot+Sg+Cmpr: быдӧсся
+    быдӧс+Pron+Tot+Sg+Ine: быдӧсын
+    быдӧс+Pron+Tot+Sg+Ela: быдӧсісь
+    быдӧс+Pron+Tot+Sg+Ill: быдӧсӧ
+    быдӧс+Pron+Tot+Sg+Apr: быдӧслань
+    быдӧс+Pron+Tot+Sg+Egr: быдӧссянь
+    быдӧс+Pron+Tot+Sg+Prl: быдӧсӧт
+    быдӧс+Pron+Tot+Sg+TerI: быдӧсӧдз
+    быдӧс+Pron+Tot+Sg+TerII: быдӧсви
+    быдӧс+Pron+Tot+Sg+AprIne: быдӧсланьын
+    быдӧс+Pron+Tot+Sg+AprEla: быдӧсланись
+    быдӧс+Pron+Tot+Sg+AprIll: быдӧсланьӧ
+    быдӧс+Pron+Tot+Sg+AprEgr: быдӧсланьсянь
+    быдӧс+Pron+Tot+Sg+AprPrl: быдӧсланьӧт
+    быдӧс+Pron+Tot+Sg+AprTerI: быдӧсланьӧдз
+    быдӧс+Pron+Tot+Sg+AprTerII: быдӧсланьви
+
+
+    быдӧс+Pron+Tot+Sg+Nom+PxSg3: быдӧсыс
+    быдӧс+Pron+Tot+Sg+Acc+PxSg3: быдӧссӧ
+    быдӧс+Pron+Tot+Sg+Gen+PxSg3: быдӧсыслӧн
+    быдӧс+Pron+Tot+Sg+Abl+PxSg3: быдӧсыслісь
+    быдӧс+Pron+Tot+Sg+Dat+PxSg3: быдӧсыслӧ
+    быдӧс+Pron+Tot+Sg+Ins+PxSg3: быдӧснас 
+    быдӧс+Pron+Tot+Sg+Com+PxSg3: быдӧсыскӧт
+    быдӧс+Pron+Tot+Sg+Car+PxSg3: быдӧсыстӧг
+    быдӧс+Pron+Tot+Sg+Cns+PxSg3: быдӧсысла
+    быдӧс+Pron+Tot+Sg+Cmpr+PxSg3: быдӧсысся
+    быдӧс+Pron+Tot+Sg+Ine+PxSg3: быдӧсас
+    быдӧс+Pron+Tot+Sg+Ela+PxSg3: быдӧссис
+    быдӧс+Pron+Tot+Sg+Ill+PxSg3: быдӧсас
+    быдӧс+Pron+Tot+Sg+Apr+PxSg3: быдӧсыслань
+    быдӧс+Pron+Tot+Sg+Egr+PxSg3: быдӧсыссянь
+    быдӧс+Pron+Tot+Sg+Prl+PxSg3: [быдӧсӧттяс, быдӧсӧттис]
+    быдӧс+Pron+Tot+Sg+TerI+PxSg3: [быдӧсӧдззас, быдӧсӧдззис]
+    быдӧс+Pron+Tot+Sg+TerII+PxSg3: быдӧсысви
+    быдӧс+Pron+Tot+Sg+AprIne+PxSg3: [быдӧсысланьын, быдӧсланяс]
+    быдӧс+Pron+Tot+Sg+AprEla+PxSg3: [быдӧсысланись, быдӧсланьсис]
+    быдӧс+Pron+Tot+Sg+AprIll+PxSg3: [быдӧсысланьӧ, быдӧсланяс]
+    быдӧс+Pron+Tot+Sg+AprEgr+PxSg3: быдӧсысланьсянь
+    быдӧс+Pron+Tot+Sg+AprPrl+PxSg3: быдӧсысланьӧт
+    быдӧс+Pron+Tot+Sg+AprTerI+PxSg3: быдӧсысланьӧдз
+    быдӧс+Pron+Tot+Sg+AprTerII+PxSg3: быдӧсысланьви
+

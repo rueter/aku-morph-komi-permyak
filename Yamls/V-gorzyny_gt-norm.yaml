@@ -1,0 +1,114 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-28
+# Then: run analyser, then correct. 
+
+  Verb - горзыны 'to cry'/ 'itkeä'/ 'плакать': # Inf. suff. –ыны. Verb in paired hard consonants: д, з, л, н, с, т / Inf. suff. -ыны. Sanavartalon lopussa ovat kovat konsonantit: д, з, л, н, с, т / Инф. суфф. –ыны. Основа глагола заканчивается на твердые парные согласные: д, з, л, н, с, т. 
+     горзыны+V+Inf: горзыны
+     горзыны+V+Inf+PxSg2: горзыныт
+     горзыны+V+Inf+Acc+PxSg2: горзынытӧ
+     горзыны+V+Inf+PxSg3: горзыныс
+     горзыны+V+Inf+Acc+PxSg3: горзынысӧ 
+     горзыны+V+ConNeg+Pl: горзӧ 
+     горзыны+V+ConNeg+Sg: горзы
+     горзыны+V+Imprt+Sg2: [горзы, горзы-ко]
+     горзыны+V+Imprt+Pl1: [горзам, горзамӧ, горзам-ко, горзамӧ-ко, горзамте, горзамӧте]
+     горзыны+V+Imprt+Pl2: [горзӧ, горзӧ-ко, горзӧте]
+     горзыны+V+Ind+Prs+Sg1: горза
+     горзыны+V+Ind+Prs+Sg2: горзан
+     горзыны+V+Ind+Prs+Sg3: горзӧ
+     горзыны+V+Ind+Prs+Pl1: [горзам, горзамӧ]
+     горзыны+V+Ind+Prs+Pl2: [горзат, горзатӧ]
+     горзыны+V+Ind+Prs+Pl3: [горзӧн, горзӧны]
+     горзыны+V+Ind+Fut+Sg1: горза
+     горзыны+V+Ind+Fut+Sg2: горзан
+     горзыны+V+Ind+Fut+Sg3: горзас
+     горзыны+V+Ind+Fut+Pl1: [горзам, горзамӧ]
+     горзыны+V+Ind+Fut+Pl2: [горзат, горзатӧ]
+     горзыны+V+Ind+Fut+Pl3: горзасӧ
+     горзыны+V+Ind+Prt1+Sg1: горзі
+     горзыны+V+Ind+Prt1+Sg2: горзін
+     горзыны+V+Ind+Prt1+Sg3: горзіс
+     горзыны+V+Ind+Prt1+Pl1: [горзім, горзімӧ]
+     горзыны+V+Ind+Prt1+Pl2: [горзіт, горзітӧ]
+     горзыны+V+Ind+Prt1+Pl3: горзісӧ
+     горзыны+V+Ind+Prt2+Sg2: [горзӧмыт, горзӧмат]
+     горзыны+V+Ind+Prt2+Sg3: [горзӧм, горзӧма]
+     горзыны+V+Ind+Prt2+Pl2: [горзӧмныт, горзӧмась]
+     горзыны+V+Ind+Prt2+Pl3: горзӧмась
+     горзыны+V+Inf+Comp: горзыныжык
+     горзыны+V+Ind+Prs+Sg1+Comp: горзажык
+     горзыны+V+Ind+Prs+Sg2+Comp: горзанжык
+     горзыны+V+Ind+Prs+Sg3+Comp: горзӧжык
+     горзыны+V+Ind+Prs+Pl1+Comp: [горзамжык, горзамӧжык]
+     горзыны+V+Ind+Prs+Pl2+Comp: [горзатжык, горзатӧжык]
+     горзыны+V+Ind+Prs+Pl3+Comp: [горзӧнжык, горзӧныжык]
+     горзыны+V+Ind+Fut+Sg1+Comp: горзажык
+     горзыны+V+Ind+Fut+Sg2+Comp: горзанжык
+     горзыны+V+Ind+Fut+Sg3+Comp: горзасжык
+     горзыны+V+Ind+Fut+Pl1+Comp: [горзамжык, горзамӧжык]
+     горзыны+V+Ind+Fut+Pl2+Comp: [горзатжык, горзатӧжык]
+     горзыны+V+Ind+Fut+Pl3+Comp: горзасӧжык
+     горзыны+V+Ind+Prt1+Sg1+Comp: горзіжык
+     горзыны+V+Ind+Prt1+Sg2+Comp: горзінжык
+     горзыны+V+Ind+Prt1+Sg3+Comp: горзісжык
+     горзыны+V+Ind+Prt1+Pl1+Comp: [горзімжык, горзімӧжык]
+     горзыны+V+Ind+Prt1+Pl2+Comp: [горзітжык, горзітӧжык]
+     горзыны+V+Ind+Prt1+Pl3+Comp: горзісӧжык
+     горзыны+V+Ind+Prt2+Sg2+Comp: [горзӧмытжык, горзӧматжык]
+     горзыны+V+Ind+Prt2+Sg3+Comp: [горзӧмжык, горзӧмажык]
+     горзыны+V+Ind+Prt2+Pl2+Comp: [горзӧмнытжык, горзӧмасьжык]
+     горзыны+V+Ind+Prt2+Pl3+Comp: горзӧмасьжык
+    
+     горзыны+V+Der/ік+Ger+Compl: горзік
+     горзыны+V+Der/ік+Ger+Ill: горзікӧ
+     горзыны+V+Der/ік+Ger+Ill+PxSg1: горзікам
+     горзыны+V+Der/ік+Ger+Ill+PxSg2: горзікат
+     горзыны+V+Der/ік+Ger+Ill+PxSg3: горзікас
+     горзыны+V+Der/ік+Ger+Ill+PxPl1: горзіканым
+     горзыны+V+Der/ік+Ger+Ill+PxPl2: горзіканыт
+     горзыны+V+Der/ік+Ger+Ill+PxPl3: горзіканыс
+     горзыны+V+Der/ӧмӧн+Ger: горзӧмӧн
+     горзыны+V+Der/ӧмӧн+Ger+Comp: горзӧмӧнжык  
+     горзыны+V+Der/тӧдз+Ger: горзытӧдз
+     горзыны+V+Der/тӧдз+Ger+PxSg1: [горзытӧдззам, горзытӧдззим]
+     горзыны+V+Der/тӧдз+Ger+PxSg2: [горзытӧдззат, горзытӧдззит]
+     горзыны+V+Der/тӧдз+Ger+PxSg3: [горзытӧдззас, горзытӧдззис]
+     горзыны+V+Der/тӧдз+Ger+PxPl1: [горзытӧдззаным, горзытӧдззиным]
+     горзыны+V+Der/тӧдз+Ger+PxPl2: [горзытӧдззаныт, горзытӧдззиныт]
+     горзыны+V+Der/тӧдз+Ger+PxPl3: [горзытӧдззаныс, горзытӧдззиныс]
+     горзыны+V+Der/тӧн+Ger: горзытӧн
+     горзыны+V+Der/тӧн+Ger+PxSg1: [горзытӧнням, горзытӧнним]
+     горзыны+V+Der/тӧн+Ger+PxSg2: [горзытӧннят, горзытӧннит]
+     горзыны+V+Der/тӧн+Ger+PxSg3: [горзытӧнняс, горзытӧннис]
+     горзыны+V+Der/тӧн+Ger+PxPl1: [горзытӧнняным, горзытӧнниным]
+     горзыны+V+Der/тӧн+Ger+PxPl2: [горзытӧнняныт, горзытӧнниныт]
+     горзыны+V+Der/тӧн+Ger+PxPl3: [горзытӧнняныс, горзытӧнниныс]
+     горзыны+V+Der/тӧг+Car+Ger: горзытӧг
+     горзыны+V+Der/тӧг+Car+Ger+PxSg1: горзытӧгьям
+     горзыны+V+Der/тӧг+Car+Ger+PxSg2: горзытӧгьят
+     горзыны+V+Der/тӧг+Car+Ger+PxSg3: горзытӧгьяс
+     горзыны+V+Der/тӧг+Car+Ger+PxPl1: горзытӧгьяным
+     горзыны+V+Der/тӧг+Car+Ger+PxPl2: горзытӧгьяныт
+     горзыны+V+Der/тӧг+Car+Ger+PxPl3: горзытӧгьяныс
+     
+     горзыны+V+Der/ӧм+PrfPrc+Sg: горзӧм
+     горзыны+V+Der/ӧм+PrfPrc+Pl: горзӧмӧсь
+     горзыны+V+Der/ісь+Act+PrsPrc+Sg: горзісь
+     горзыны+V+Der/ісь+Act+PrsPrc+Pl: горзісьӧсь
+     горзыны+V+Der/ан+PrsPrc+Sg: горзан
+     горзыны+V+Der/ан+PrsPrc+Pl: горзанӧсь
+     горзыны+V+Der/ана+PrsPrc+Sg: горзана
+     горзыны+V+Der/ана+PrsPrc+Pl: горзанаӧсь
+     горзыны+V+Der/тӧм+PrivPrc+Sg: горзытӧм
+     горзыны+V+Der/тӧм+PrivPrc+Pl: горзытӧмӧсь

@@ -1,0 +1,396 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – эттшӧм: # Demonstrative Pronoun 'Tällainen / Вот такой'
+    эттшӧм+Pron+Dem+Sg+Nom: эттшӧм
+    эттшӧм+Pron+Dem+Pl+Nom: эттшӧмӧсь
+    эттшӧм+Pron+Dem+Sg+Acc: [эттшӧмӧ, эттшӧмӧс]
+    эттшӧм+Pron+Dem+Sg+Gen: эттшӧмлӧн
+    эттшӧм+Pron+Dem+Sg+Abl: эттшӧмлісь
+    эттшӧм+Pron+Dem+Sg+Dat: эттшӧмлӧ
+    эттшӧм+Pron+Dem+Sg+Ins: эттшӧмӧн 
+    эттшӧм+Pron+Dem+Sg+Com: эттшӧмкӧт
+    эттшӧм+Pron+Dem+Sg+Car: эттшӧмтӧг
+    эттшӧм+Pron+Dem+Sg+Cns: эттшӧмла
+    эттшӧм+Pron+Dem+Sg+Cmpr: эттшӧмся
+    эттшӧм+Pron+Dem+Sg+Ine: эттшӧмын
+    эттшӧм+Pron+Dem+Sg+Ela: эттшӧмись
+    эттшӧм+Pron+Dem+Sg+Ill: эттшӧмӧ
+    эттшӧм+Pron+Dem+Sg+Apr: эттшӧмлань
+    эттшӧм+Pron+Dem+Sg+Egr: эттшӧмсянь
+    эттшӧм+Pron+Dem+Sg+Prl: эттшӧмӧт
+    эттшӧм+Pron+Dem+Sg+TerI: эттшӧмӧдз
+    эттшӧм+Pron+Dem+Sg+TerII: эттшӧмви
+    эттшӧм+Pron+Dem+Sg+AprIne: эттшӧмланьын
+    эттшӧм+Pron+Dem+Sg+AprEla: эттшӧмланись
+    эттшӧм+Pron+Dem+Sg+AprIll: эттшӧмланьӧ
+    эттшӧм+Pron+Dem+Sg+AprEgr: эттшӧмланьсянь
+    эттшӧм+Pron+Dem+Sg+AprPrl: эттшӧмланьӧт
+    эттшӧм+Pron+Dem+Sg+AprTerI: эттшӧмланьӧдз
+    эттшӧм+Pron+Dem+Sg+AprTerII: эттшӧмланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxSg1: эттшӧмӧ
+    эттшӧм+Pron+Dem+Sg+Acc+PxSg1: эттшӧмӧс
+    эттшӧм+Pron+Dem+Sg+Gen+PxSg1: эттшӧмӧлӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxSg1: эттшӧмӧлісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxSg1: эттшӧмӧлӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxSg1: эттшӧмнам 
+    эттшӧм+Pron+Dem+Sg+Com+PxSg1: эттшӧмӧкӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxSg1: [эттшӧмӧтӧг, эттшӧмтӧгьям] 
+    эттшӧм+Pron+Dem+Sg+Cns+PxSg1: эттшӧмӧла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxSg1: эттшӧмӧся
+    эттшӧм+Pron+Dem+Sg+Ine+PxSg1: эттшӧмам
+    эттшӧм+Pron+Dem+Sg+Ela+PxSg1: эттшӧмсим
+    эттшӧм+Pron+Dem+Sg+Ill+PxSg1: эттшӧмам
+    эттшӧм+Pron+Dem+Sg+Apr+PxSg1: [эттшӧмӧлань, эттшӧмланям]
+    эттшӧм+Pron+Dem+Sg+Egr+PxSg1: [эттшӧмӧсянь, эттшӧмсяням]
+    эттшӧм+Pron+Dem+Sg+Prl+PxSg1: [эттшӧмӧттям, эттшӧмӧттим]
+    эттшӧм+Pron+Dem+Sg+TerI+PxSg1: [эттшӧмӧдззам, эттшӧмӧдззим]
+    эттшӧм+Pron+Dem+Sg+TerII+PxSg1: эттшӧмӧви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxSg1: [эттшӧмланям, эттшӧмӧланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxSg1: [эттшӧмланьсим, эттшӧмӧланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxSg1: [эттшӧмланям, эттшӧмӧланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxSg1: [эттшӧмӧланьсянь, эттшӧмланьсяням] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxSg1: [эттшӧмӧланьӧт, эттшӧмланьӧттям, эттшӧмланьӧттим]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxSg1: [эттшӧмӧланьӧдз, эттшӧмланьӧдззам, эттшӧмланьӧдззим]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxSg1: эттшӧмӧланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxSg2: эттшӧмыт
+    эттшӧм+Pron+Dem+Sg+Acc+PxSg2: эттшӧмтӧ
+    эттшӧм+Pron+Dem+Sg+Gen+PxSg2: эттшӧмытлӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxSg2: эттшӧмытлісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxSg2: эттшӧмытлӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxSg2: эттшӧмнат 
+    эттшӧм+Pron+Dem+Sg+Com+PxSg2: эттшӧмыткӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxSg2: [эттшӧмыттӧг, эттшӧмтӧгьят]
+    эттшӧм+Pron+Dem+Sg+Cns+PxSg2: эттшӧмытла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxSg2: эттшӧмытся
+    эттшӧм+Pron+Dem+Sg+Ine+PxSg2: эттшӧмат
+    эттшӧм+Pron+Dem+Sg+Ela+PxSg2: эттшӧмсит
+    эттшӧм+Pron+Dem+Sg+Ill+PxSg2: эттшӧмат
+    эттшӧм+Pron+Dem+Sg+Apr+PxSg2: [эттшӧмытлань, эттшӧмланят]
+    эттшӧм+Pron+Dem+Sg+Egr+PxSg2: [эттшӧмытсянь, эттшӧмсянят]
+    эттшӧм+Pron+Dem+Sg+Prl+PxSg2: [эттшӧмӧттят, эттшӧмӧттит]
+    эттшӧм+Pron+Dem+Sg+TerI+PxSg2: [эттшӧмӧдззат, эттшӧмӧдззит]
+    эттшӧм+Pron+Dem+Sg+TerII+PxSg2: эттшӧмытви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxSg2: [эттшӧмланят, эттшӧмытланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxSg2: [эттшӧмланьсит, эттшӧмытланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxSg2: [эттшӧмланят, эттшӧмытланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxSg2: [эттшӧмытланьсянь, эттшӧмланьсянят] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxSg2: [эттшӧмытланьӧт, эттшӧмланьӧттят, эттшӧмланьӧттит]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxSg2: [эттшӧмытланьӧдз, эттшӧмланьӧдззат, эттшӧмланьӧдззит]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxSg2: эттшӧмытланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxSg3: эттшӧмыс
+    эттшӧм+Pron+Dem+Sg+Acc+PxSg3: эттшӧмсӧ
+    эттшӧм+Pron+Dem+Sg+Gen+PxSg3: эттшӧмыслӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxSg3: эттшӧмыслісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxSg3: эттшӧмыслӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxSg3: эттшӧмнас 
+    эттшӧм+Pron+Dem+Sg+Com+PxSg3: эттшӧмыскӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxSg3: [эттшӧмыстӧг, эттшӧмтӧгьяс]
+    эттшӧм+Pron+Dem+Sg+Cns+PxSg3: эттшӧмысла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxSg3: эттшӧмысся
+    эттшӧм+Pron+Dem+Sg+Ine+PxSg3: эттшӧмас
+    эттшӧм+Pron+Dem+Sg+Ela+PxSg3: эттшӧмсис
+    эттшӧм+Pron+Dem+Sg+Ill+PxSg3: эттшӧмас
+    эттшӧм+Pron+Dem+Sg+Apr+PxSg3: [эттшӧмыслань, эттшӧмланяс]
+    эттшӧм+Pron+Dem+Sg+Egr+PxSg3: [эттшӧмыссянь, эттшӧмсяняс]
+    эттшӧм+Pron+Dem+Sg+Prl+PxSg3: [эттшӧмӧттяс, эттшӧмӧттис]
+    эттшӧм+Pron+Dem+Sg+TerI+PxSg3: [эттшӧмӧдззас, эттшӧмӧдззис]
+    эттшӧм+Pron+Dem+Sg+TerII+PxSg3: эттшӧмысви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxSg3: [эттшӧмланяс, эттшӧмысланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxSg3: [эттшӧмланьсис, эттшӧмысланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxSg3: [эттшӧмланяс, эттшӧмысланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxSg3: [эттшӧмысланьсянь, эттшӧмланьсяняс] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxSg3: [эттшӧмысланьӧт, эттшӧмланьӧттяс, эттшӧмланьӧттис]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxSg3: [эттшӧмысланьӧдз, эттшӧмланьӧдззас, эттшӧмланьӧдззис]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxSg3: эттшӧмысланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxPl1: эттшӧмным
+    эттшӧм+Pron+Dem+Sg+Acc+PxPl1: эттшӧмнымӧс
+    эттшӧм+Pron+Dem+Sg+Gen+PxPl1: эттшӧмнымлӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxPl1: эттшӧмнымлісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxPl1: эттшӧмнымлӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxPl1: эттшӧмнаным 
+    эттшӧм+Pron+Dem+Sg+Com+PxPl1: эттшӧмнымкӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxPl1: [эттшӧмнымтӧг, эттшӧмтӧгьяным]
+    эттшӧм+Pron+Dem+Sg+Cns+PxPl1: эттшӧмнымла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxPl1: эттшӧмнымся
+    эттшӧм+Pron+Dem+Sg+Ine+PxPl1: эттшӧманым
+    эттшӧм+Pron+Dem+Sg+Ela+PxPl1: эттшӧмсиным
+    эттшӧм+Pron+Dem+Sg+Ill+PxPl1: эттшӧманым
+    эттшӧм+Pron+Dem+Sg+Apr+PxPl1: [эттшӧмнымлань, эттшӧмланяным]
+    эттшӧм+Pron+Dem+Sg+Egr+PxPl1: [эттшӧмнымсянь, эттшӧмсяняным]
+    эттшӧм+Pron+Dem+Sg+Prl+PxPl1: [эттшӧмӧттяным, эттшӧмӧттиным]
+    эттшӧм+Pron+Dem+Sg+TerI+PxPl1: [эттшӧмӧдззаным, эттшӧмӧдззиным]
+    эттшӧм+Pron+Dem+Sg+TerII+PxPl1: эттшӧмнымви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxPl1: [эттшӧмланяным, эттшӧмнымланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxPl1: [эттшӧмланьсиным, эттшӧмнымланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxPl1: [эттшӧмланяным, эттшӧмнымланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxPl1: [эттшӧмнымланьсянь, эттшӧмланьсяняным] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxPl1: [эттшӧмнымланьӧт, эттшӧмланьӧттяным, эттшӧмланьӧттиным]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxPl1: [эттшӧмнымланьӧдз, эттшӧмланьӧдззаным, эттшӧмланьӧдззиным]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxPl1: эттшӧмнымланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxPl2: эттшӧмныт
+    эттшӧм+Pron+Dem+Sg+Acc+PxPl2: эттшӧмнытӧ
+    эттшӧм+Pron+Dem+Sg+Gen+PxPl2: эттшӧмнытлӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxPl2: эттшӧмнытлісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxPl2: эттшӧмнытлӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxPl2: эттшӧмнаныт 
+    эттшӧм+Pron+Dem+Sg+Com+PxPl2: эттшӧмныткӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxPl2: [эттшӧмныттӧг, эттшӧмтӧгьяныт]
+    эттшӧм+Pron+Dem+Sg+Cns+PxPl2: эттшӧмнытла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxPl2: эттшӧмнытся
+    эттшӧм+Pron+Dem+Sg+Ine+PxPl2: эттшӧманыт
+    эттшӧм+Pron+Dem+Sg+Ela+PxPl2: эттшӧмсиныт
+    эттшӧм+Pron+Dem+Sg+Ill+PxPl2: эттшӧманыт
+    эттшӧм+Pron+Dem+Sg+Apr+PxPl2: [эттшӧмнытлань, эттшӧмланяныт]
+    эттшӧм+Pron+Dem+Sg+Egr+PxPl2: [эттшӧмнытсянь, эттшӧмсяняныт]
+    эттшӧм+Pron+Dem+Sg+Prl+PxPl2: [эттшӧмӧттяныт, эттшӧмӧттиныт]
+    эттшӧм+Pron+Dem+Sg+TerI+PxPl2: [эттшӧмӧдззаныт, эттшӧмӧдззиныт]
+    эттшӧм+Pron+Dem+Sg+TerII+PxPl2: эттшӧмнытви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxPl2: [эттшӧмланяныт, эттшӧмнытланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxPl2: [эттшӧмланьсиныт, эттшӧмнытланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxPl2: [эттшӧмланяныт, эттшӧмнытланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxPl2: [эттшӧмнытланьсянь, эттшӧмланьсяняныт] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxPl2: [эттшӧмнытланьӧт, эттшӧмланьӧттяныт, эттшӧмланьӧттиныт]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxPl2: [эттшӧмнытланьӧдз, эттшӧмланьӧдззаныт, эттшӧмланьӧдззиныт]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxPl2: эттшӧмнытланьви
+
+
+    эттшӧм+Pron+Dem+Sg+Nom+PxPl3: эттшӧмныс
+    эттшӧм+Pron+Dem+Sg+Acc+PxPl3: эттшӧмнысӧ
+    эттшӧм+Pron+Dem+Sg+Gen+PxPl3: эттшӧмныслӧн
+    эттшӧм+Pron+Dem+Sg+Abl+PxPl3: эттшӧмныслісь
+    эттшӧм+Pron+Dem+Sg+Dat+PxPl3: эттшӧмныслӧ
+    эттшӧм+Pron+Dem+Sg+Ins+PxPl3: эттшӧмнаныс 
+    эттшӧм+Pron+Dem+Sg+Com+PxPl3: эттшӧмныскӧт
+    эттшӧм+Pron+Dem+Sg+Car+PxPl3: [эттшӧмныстӧг, эттшӧмтӧгьяныс]
+    эттшӧм+Pron+Dem+Sg+Cns+PxPl3: эттшӧмнысла
+    эттшӧм+Pron+Dem+Sg+Cmpr+PxPl3: эттшӧмнысся
+    эттшӧм+Pron+Dem+Sg+Ine+PxPl3: эттшӧманыс
+    эттшӧм+Pron+Dem+Sg+Ela+PxPl3: эттшӧмсиныс
+    эттшӧм+Pron+Dem+Sg+Ill+PxPl3: эттшӧманыс
+    эттшӧм+Pron+Dem+Sg+Apr+PxPl3: [эттшӧмныслань, эттшӧмланяныс]
+    эттшӧм+Pron+Dem+Sg+Egr+PxPl3: [эттшӧмныссянь, эттшӧмсяняныс]
+    эттшӧм+Pron+Dem+Sg+Prl+PxPl3: [эттшӧмӧттяныс, эттшӧмӧттиныс]
+    эттшӧм+Pron+Dem+Sg+TerI+PxPl3: [эттшӧмӧдззаныс, эттшӧмӧдззиныс]
+    эттшӧм+Pron+Dem+Sg+TerII+PxPl3: эттшӧмнысви
+    эттшӧм+Pron+Dem+Sg+AprIne+PxPl3: [эттшӧмланяныс, эттшӧмнысланьын]
+    эттшӧм+Pron+Dem+Sg+AprEla+PxPl3: [эттшӧмланьсиныс, эттшӧмнысланись]
+    эттшӧм+Pron+Dem+Sg+AprIll+PxPl3: [эттшӧмланяныс, эттшӧмнысланьӧ]
+    эттшӧм+Pron+Dem+Sg+AprEgr+PxPl3: [эттшӧмнысланьсянь, эттшӧмланьсяняныс] 
+    эттшӧм+Pron+Dem+Sg+AprPrl+PxPl3: [эттшӧмнысланьӧт, эттшӧмланьӧттяныс, эттшӧмланьӧттиныс]
+    эттшӧм+Pron+Dem+Sg+AprTerI+PxPl3: [эттшӧмнысланьӧдз, эттшӧмланьӧдззаныс, эттшӧмланьӧдззиныс]
+    эттшӧм+Pron+Dem+Sg+AprTerII+PxPl3: эттшӧмнысланьви
+
+
+    эттшӧм+Pron+Dem+Pl+Nom: эттшӧммез
+    эттшӧм+Pron+Dem+Pl+Acc: [эттшӧммезӧ, эттшӧммезӧс]
+    эттшӧм+Pron+Dem+Pl+Gen: эттшӧммезлӧн
+    эттшӧм+Pron+Dem+Pl+Abl: эттшӧммезлісь
+    эттшӧм+Pron+Dem+Pl+Dat: эттшӧммезлӧ
+    эттшӧм+Pron+Dem+Pl+Ins: эттшӧммезӧн 
+    эттшӧм+Pron+Dem+Pl+Com: эттшӧммезкӧт
+    эттшӧм+Pron+Dem+Pl+Car: эттшӧммезтӧг
+    эттшӧм+Pron+Dem+Pl+Cns: эттшӧммезла
+    эттшӧм+Pron+Dem+Pl+Cmpr: эттшӧммезся
+    эттшӧм+Pron+Dem+Pl+Ine: эттшӧммезын
+    эттшӧм+Pron+Dem+Pl+Ela: эттшӧммезісь
+    эттшӧм+Pron+Dem+Pl+Ill: эттшӧммезӧ
+    эттшӧм+Pron+Dem+Pl+Apr: эттшӧммезлань
+    эттшӧм+Pron+Dem+Pl+Egr: эттшӧммезсянь
+    эттшӧм+Pron+Dem+Pl+Prl: эттшӧммезӧт
+    эттшӧм+Pron+Dem+Pl+TerI: эттшӧммезӧдз
+    эттшӧм+Pron+Dem+Pl+TerII: эттшӧммезви
+    эттшӧм+Pron+Dem+Pl+AprIne: эттшӧммезланьын
+    эттшӧм+Pron+Dem+Pl+AprEla: эттшӧммезланись
+    эттшӧм+Pron+Dem+Pl+AprIll: эттшӧммезланьӧ
+    эттшӧм+Pron+Dem+Pl+AprEgr: эттшӧммезланьсянь
+    эттшӧм+Pron+Dem+Pl+AprPrl: эттшӧммезланьӧт
+    эттшӧм+Pron+Dem+Pl+AprTerI: эттшӧммезланьӧдз
+    эттшӧм+Pron+Dem+Pl+AprTerII: эттшӧммезланьви
+
+
+    эттшӧм+Pron+Dem+Pl+Nom+PxSg1: эттшӧммезӧ
+    эттшӧм+Pron+Dem+Pl+Acc+PxSg1: эттшӧммезӧс
+    эттшӧм+Pron+Dem+Pl+Gen+PxSg1: эттшӧммезӧлӧн
+    эттшӧм+Pron+Dem+Pl+Abl+PxSg1: эттшӧммезӧлісь
+    эттшӧм+Pron+Dem+Pl+Dat+PxSg1: эттшӧммезӧлӧ
+    эттшӧм+Pron+Dem+Pl+Ins+PxSg1: эттшӧммезнам 
+    эттшӧм+Pron+Dem+Pl+Com+PxSg1: эттшӧммезӧкӧт
+    эттшӧм+Pron+Dem+Pl+Car+PxSg1: [эттшӧммезӧтӧг, эттшӧммезтӧгьям]
+    эттшӧм+Pron+Dem+Pl+Cns+PxSg1: эттшӧммезӧла
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxSg1: эттшӧммезӧся
+    эттшӧм+Pron+Dem+Pl+Ine+PxSg1: эттшӧммезам
+    эттшӧм+Pron+Dem+Pl+Ela+PxSg1: [эттшӧммесим, эттшӧммезсим]
+    эттшӧм+Pron+Dem+Pl+Ill+PxSg1: эттшӧммезам
+    эттшӧм+Pron+Dem+Pl+Apr+PxSg1: [эттшӧммезӧлань, этшшӧммезланям]
+    эттшӧм+Pron+Dem+Pl+Egr+PxSg1: [эттшӧммезӧсянь, эттшӧммезсяням]
+    эттшӧм+Pron+Dem+Pl+Prl+PxSg1: [эттшӧммезӧттям, эттшӧммезӧттим]
+    эттшӧм+Pron+Dem+Pl+TerI+PxSg1: [эттшӧммезӧдззам, эттшӧммезӧдззим]
+    эттшӧм+Pron+Dem+Pl+TerII+PxSg1: эттшӧммезӧви
+    эттшӧм+Pron+Dem+Pl+AprIne+PxSg1: [эттшӧммезланям, эттшӧммезӧланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxSg1: [эттшӧммезланьсим, эттшӧммезӧланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxSg1: [эттшӧммезланям, эттшӧммезӧланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxSg1: [эттшӧммезӧланьсянь, эттшӧммезланьсяням]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxSg1: [эттшӧммезӧланьӧт, эттшӧммезланьӧттям, эттшӧммезланьӧттим]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxSg1: [эттшӧммезӧланьӧдз, эттшӧммезланьӧдззам, эттшӧммезланьӧдззим]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxSg1: эттшӧммезӧланьви 
+
+
+    эттшӧм+Pron+Dem+Pl+Nom+PxSg2: [эттшӧммет, эттшӧммезыт]
+    эттшӧм+Pron+Dem+Pl+Acc+PxSg2: [эттшӧмметӧ, эттшӧммезтӧ]
+    эттшӧм+Pron+Dem+Pl+Gen+PxSg2: [эттшӧмметлӧн, эттшӧммезытлӧн]
+    эттшӧм+Pron+Dem+Pl+Abl+PxSg2: [эттшӧмметлісь, эттшӧммезытлісь]
+    эттшӧм+Pron+Dem+Pl+Dat+PxSg2: [эттшӧмметлӧ, эттшӧммезытлӧ]
+    эттшӧм+Pron+Dem+Pl+Ins+PxSg2: эттшӧммезнат 
+    эттшӧм+Pron+Dem+Pl+Com+PxSg2: [эттшӧмметкӧт, эттшӧммезыткӧт]
+    эттшӧм+Pron+Dem+Pl+Car+PxSg2: [эттшӧмметтӧг, эттшӧммезыттӧг, эттшӧммезтӧгьят]
+    эттшӧм+Pron+Dem+Pl+Cns+PxSg2: [эттшӧмметла, эттшӧммезытла]
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxSg2: [эттшӧммется, эттшӧммезытся]
+    эттшӧм+Pron+Dem+Pl+Ine+PxSg2: эттшӧммезат
+    эттшӧм+Pron+Dem+Pl+Ela+PxSg2: [эттшӧммесит, эттшӧммезсит]
+    эттшӧм+Pron+Dem+Pl+Ill+PxSg2: эттшӧммезат
+    эттшӧм+Pron+Dem+Pl+Apr+PxSg2: [эттшӧмметлань, эттшӧммезытлань, этшшӧммезланят]
+    эттшӧм+Pron+Dem+Pl+Egr+PxSg2: [эттшӧмметсянь, эттшӧммезытсянь, эттшӧммезсянят]
+    эттшӧм+Pron+Dem+Pl+Prl+PxSg2: [эттшӧммезӧттят, эттшӧммезӧттит]
+    эттшӧм+Pron+Dem+Pl+TerI+PxSg2: [эттшӧммезӧдззат, эттшӧммезӧдззит]
+    эттшӧм+Pron+Dem+Pl+TerII+PxSg2: [эттшӧмметви, эттшӧммезытви]
+    эттшӧм+Pron+Dem+Pl+AprIne+PxSg2: [эттшӧммезланят, эттшӧмметланьын, эттшӧммезытланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxSg2: [эттшӧммезланьсит, эттшӧмметланись, эттшӧммезытланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxSg2: [эттшӧммезланят, эттшӧмметланьӧ, эттшӧммезытланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxSg2: [эттшӧмметланьсянь, эттшӧммезытланьсянь, эттшӧммезланьсянят]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxSg2: [эттшӧмметланьӧт, эттшӧммезытланьӧт, эттшӧммезланьӧттят, эттшӧммезланьӧттит]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxSg2: [эттшӧмметланьӧдз, эттшӧммезытланьӧдз, эттшӧммезланьӧдззат, эттшӧммезланьӧдззит]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxSg2: [эттшӧмметланьви, эттшӧммезытланьви] 
+
+
+    эттшӧм+Pron+Dem+Pl+Nom+PxSg3: [эттшӧммес, эттшӧммезыс]
+    эттшӧм+Pron+Dem+Pl+Acc+PxSg3: [эттшӧммесӧ, эттшӧммезсӧ]
+    эттшӧм+Pron+Dem+Pl+Gen+PxSg3: [эттшӧммеслӧн, эттшӧммезыслӧн]
+    эттшӧм+Pron+Dem+Pl+Abl+PxSg3: [эттшӧммеслісь, эттшӧммезыслісь]
+    эттшӧм+Pron+Dem+Pl+Dat+PxSg3: [эттшӧммеслӧ, эттшӧммезыслӧ]
+    эттшӧм+Pron+Dem+Pl+Ins+PxSg3: эттшӧммезнас 
+    эттшӧм+Pron+Dem+Pl+Com+PxSg3: [эттшӧммескӧт, эттшӧммезыскӧт]
+    эттшӧм+Pron+Dem+Pl+Car+PxSg3: [эттшӧмместӧг, эттшӧммезыстӧг, эттшӧммезтӧгьяс]
+    эттшӧм+Pron+Dem+Pl+Cns+PxSg3: [эттшӧммесла, эттшӧммезысла]
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxSg3: [эттшӧммесся, эттшӧммезысся]
+    эттшӧм+Pron+Dem+Pl+Ine+PxSg3: эттшӧммезас
+    эттшӧм+Pron+Dem+Pl+Ela+PxSg3: [эттшӧммесис, эттшӧммезсис]
+    эттшӧм+Pron+Dem+Pl+Ill+PxSg3: эттшӧммезас
+    эттшӧм+Pron+Dem+Pl+Apr+PxSg3: [эттшӧммеслань, эттшӧммезыслань, этшшӧммезланяс]
+    эттшӧм+Pron+Dem+Pl+Egr+PxSg3: [эттшӧммессянь, эттшӧммезыссянь, эттшӧммезсяняс]
+    эттшӧм+Pron+Dem+Pl+Prl+PxSg3: [эттшӧммезӧттяс, эттшӧммезӧттис]
+    эттшӧм+Pron+Dem+Pl+TerI+PxSg3: [эттшӧммезӧдззас, эттшӧммезӧдззис]
+    эттшӧм+Pron+Dem+Pl+TerII+PxSg3: [эттшӧммесви, эттшӧммезысви]
+    эттшӧм+Pron+Dem+Pl+AprIne+PxSg3: [эттшӧммезланяс, эттшӧммесланьын, эттшӧммезысланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxSg3: [эттшӧммезланьсис, эттшӧммесланись, эттшӧммезысланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxSg3: [эттшӧммезланяс, эттшӧммесланьӧ, эттшӧммезысланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxSg3: [эттшӧммесланьсянь, эттшӧммезысланьсянь, эттшӧммезланьсяняс]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxSg3: [эттшӧммесланьӧт, эттшӧммезысланьӧт, эттшӧммезланьӧттяс, эттшӧммезланьӧттис]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxSg3: [эттшӧммесланьӧдз, эттшӧммезысланьӧдз, эттшӧммезланьӧдззас, эттшӧммезланьӧдззис]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxSg3: [эттшӧммесланьви, эттшӧммезысланьви]
+
+ 
+    эттшӧм+Pron+Dem+Pl+Nom+PxPl1: эттшӧммезным
+    эттшӧм+Pron+Dem+Pl+Acc+PxPl1: эттшӧммезнымӧс
+    эттшӧм+Pron+Dem+Pl+Gen+PxPl1: эттшӧммезнымлӧн
+    эттшӧм+Pron+Dem+Pl+Abl+PxPl1: эттшӧммезнымлісь
+    эттшӧм+Pron+Dem+Pl+Dat+PxPl1: эттшӧммезнымлӧ
+    эттшӧм+Pron+Dem+Pl+Ins+PxPl1: эттшӧммезнаным 
+    эттшӧм+Pron+Dem+Pl+Com+PxPl1: эттшӧммезнымкӧт
+    эттшӧм+Pron+Dem+Pl+Car+PxPl1: [эттшӧммезнымтӧг, эттшӧммезтӧгьяным]
+    эттшӧм+Pron+Dem+Pl+Cns+PxPl1: эттшӧммезнымла
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxPl1: эттшӧммезнымся
+    эттшӧм+Pron+Dem+Pl+Ine+PxPl1: эттшӧммезаным
+    эттшӧм+Pron+Dem+Pl+Ela+PxPl1: [эттшӧммесиным, эттшӧммезсиным]
+    эттшӧм+Pron+Dem+Pl+Ill+PxPl1: эттшӧммезаным
+    эттшӧм+Pron+Dem+Pl+Apr+PxPl1: [эттшӧммезнымлань, этшшӧммезланяным]
+    эттшӧм+Pron+Dem+Pl+Egr+PxPl1: [эттшӧммезнымсянь, эттшӧммезсяняным]
+    эттшӧм+Pron+Dem+Pl+Prl+PxPl1: [эттшӧммезӧттяным, эттшӧммезӧттиным]
+    эттшӧм+Pron+Dem+Pl+TerI+PxPl1: [эттшӧммезӧдззаным, эттшӧммезӧдззиным]
+    эттшӧм+Pron+Dem+Pl+TerII+PxPl1: эттшӧммезнымви
+    эттшӧм+Pron+Dem+Pl+AprIne+PxPl1: [эттшӧммезланяным, эттшӧммезнымланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxPl1: [эттшӧммезланьсиным, эттшӧммезнымланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxPl1: [эттшӧммезланяным, эттшӧммезнымланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxPl1: [эттшӧммезнымланьсянь, эттшӧммезланьсяняным]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxPl1: [эттшӧммезнымланьӧт, эттшӧммезланьӧттяным, эттшӧммезланьӧттиным]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxPl1: [эттшӧммезнымланьӧдз, эттшӧммезланьӧдззаным, эттшӧммезланьӧдззиным]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxPl1: эттшӧммезнымланьви 
+
+
+    эттшӧм+Pron+Dem+Pl+Nom+PxPl2: эттшӧммезныт
+    эттшӧм+Pron+Dem+Pl+Acc+PxPl2: эттшӧммезнытӧ
+    эттшӧм+Pron+Dem+Pl+Gen+PxPl2: эттшӧммезнытлӧн
+    эттшӧм+Pron+Dem+Pl+Abl+PxPl2: эттшӧммезнытлісь
+    эттшӧм+Pron+Dem+Pl+Dat+PxPl2: эттшӧммезнытлӧ
+    эттшӧм+Pron+Dem+Pl+Ins+PxPl2: эттшӧммезнаныт 
+    эттшӧм+Pron+Dem+Pl+Com+PxPl2: эттшӧммезныткӧт
+    эттшӧм+Pron+Dem+Pl+Car+PxPl2: [эттшӧммезныттӧг, эттшӧммезтӧгьяныт]
+    эттшӧм+Pron+Dem+Pl+Cns+PxPl2: эттшӧммезнытла
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxPl2: эттшӧммезнытся
+    эттшӧм+Pron+Dem+Pl+Ine+PxPl2: эттшӧммезаныт
+    эттшӧм+Pron+Dem+Pl+Ela+PxPl2: [эттшӧммесиныт, эттшӧммезсиныт]
+    эттшӧм+Pron+Dem+Pl+Ill+PxPl2: эттшӧммезаныт
+    эттшӧм+Pron+Dem+Pl+Apr+PxPl2: [эттшӧммезнытлань, этшшӧммезланяныт]
+    эттшӧм+Pron+Dem+Pl+Egr+PxPl2: [эттшӧммезнытсянь, эттшӧммезсяняныт]
+    эттшӧм+Pron+Dem+Pl+Prl+PxPl2: [эттшӧммезӧттяныт, эттшӧммезӧттиныт]
+    эттшӧм+Pron+Dem+Pl+TerI+PxPl2: [эттшӧммезӧдззаныт, эттшӧммезӧдззиныт]
+    эттшӧм+Pron+Dem+Pl+TerII+PxPl2: эттшӧммезнытви
+    эттшӧм+Pron+Dem+Pl+AprIne+PxPl2: [эттшӧммезланяныт, эттшӧммезнытланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxPl2: [эттшӧммезланьсиныт, эттшӧммезнытланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxPl2: [эттшӧммезланяныт, эттшӧммезнытланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxPl2: [эттшӧммезнытланьсянь, эттшӧммезланьсяняныт]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxPl2: [эттшӧммезнытланьӧт, эттшӧммезланьӧттяныт, эттшӧммезланьӧттиныт]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxPl2: [эттшӧммезнытланьӧдз, эттшӧммезланьӧдззаныт, эттшӧммезланьӧдззиныт]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxPl2: эттшӧммезнытланьви 
+
+
+    эттшӧм+Pron+Dem+Pl+Nom+PxPl3: эттшӧммезныс
+    эттшӧм+Pron+Dem+Pl+Acc+PxPl3: эттшӧммезнысӧ
+    эттшӧм+Pron+Dem+Pl+Gen+PxPl3: эттшӧммезныслӧн
+    эттшӧм+Pron+Dem+Pl+Abl+PxPl3: эттшӧммезныслісь
+    эттшӧм+Pron+Dem+Pl+Dat+PxPl3: эттшӧммезныслӧ
+    эттшӧм+Pron+Dem+Pl+Ins+PxPl3: эттшӧммезнаныс 
+    эттшӧм+Pron+Dem+Pl+Com+PxPl3: эттшӧммезныскӧт
+    эттшӧм+Pron+Dem+Pl+Car+PxPl3: [эттшӧммезныстӧг, эттшӧммезтӧгьяныс]
+    эттшӧм+Pron+Dem+Pl+Cns+PxPl3: эттшӧммезнысла
+    эттшӧм+Pron+Dem+Pl+Cmpr+PxPl3: эттшӧммезнысся
+    эттшӧм+Pron+Dem+Pl+Ine+PxPl3: эттшӧммезаныс
+    эттшӧм+Pron+Dem+Pl+Ela+PxPl3: [эттшӧммесиныс, эттшӧммезсиныс]
+    эттшӧм+Pron+Dem+Pl+Ill+PxPl3: эттшӧммезаныс
+    эттшӧм+Pron+Dem+Pl+Apr+PxPl3: [эттшӧммезныслань, этшшӧммезланяныс]
+    эттшӧм+Pron+Dem+Pl+Egr+PxPl3: [эттшӧммезныссянь, эттшӧммезсяняныс]
+    эттшӧм+Pron+Dem+Pl+Prl+PxPl3: [эттшӧммезӧттяныс, эттшӧммезӧттиныс]
+    эттшӧм+Pron+Dem+Pl+TerI+PxPl3: [эттшӧммезӧдззаныс, эттшӧммезӧдззиныс]
+    эттшӧм+Pron+Dem+Pl+TerII+PxPl3: эттшӧммезнысви
+    эттшӧм+Pron+Dem+Pl+AprIne+PxPl3: [эттшӧммезланяныс, эттшӧммезнысланьын]
+    эттшӧм+Pron+Dem+Pl+AprEla+PxPl3: [эттшӧммезланьсиныс, эттшӧммезнысланись]
+    эттшӧм+Pron+Dem+Pl+AprIll+PxPl3: [эттшӧммезланяныс, эттшӧммезнысланьӧ]
+    эттшӧм+Pron+Dem+Pl+AprEgr+PxPl3: [эттшӧммезнысланьсянь, эттшӧммезланьсяняныс]
+    эттшӧм+Pron+Dem+Pl+AprPrl+PxPl3: [эттшӧммезнысланьӧт, эттшӧммезланьӧттяныс, эттшӧммезланьӧттиныс]
+    эттшӧм+Pron+Dem+Pl+AprTerI+PxPl3: [эттшӧммезнысланьӧдз, эттшӧммезланьӧдззаныс, эттшӧммезланьӧдззиныс]
+    эттшӧм+Pron+Dem+Pl+AprTerII+PxPl3: эттшӧммезнысланьви 
+
+

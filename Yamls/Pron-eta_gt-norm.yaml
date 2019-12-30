@@ -1,0 +1,136 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+
+   Pronoun – эта: # Demonstrative Pronoun 'Tämä / Этот, эта, это'
+    эта+Pron+Dem+Sg+Nom: эта
+    эта+Pron+Dem+Sg+Acc: [этӧ, этаӧс, этӧс] 
+    эта+Pron+Dem+Sg+Gen: эталӧн
+    эта+Pron+Dem+Sg+Abl: эталісь
+    эта+Pron+Dem+Sg+Dat: эталӧ
+    эта+Pron+Dem+Sg+Ins: [этӧн, этаӧн] 
+    эта+Pron+Dem+Sg+Com: этакӧт
+    эта+Pron+Dem+Sg+Car: этатӧг
+    эта+Pron+Dem+Sg+Cns: этала
+    эта+Pron+Dem+Sg+Cmpr: этася
+    эта+Pron+Dem+Sg+Ine: этаын
+    эта+Pron+Dem+Sg+Ela: этаись
+    эта+Pron+Dem+Sg+Ill: этаӧ
+    эта+Pron+Dem+Sg+Apr: эталань
+    эта+Pron+Dem+Sg+Apr+Comp: [эталаньжык, этажыклань] # Comp muodot eivät esiinny teksteissä
+    эта+Pron+Dem+Sg+Egr: этасянь
+    эта+Pron+Dem+Sg+Egr+Comp: [этасяньжык, этажыксянь] 
+    эта+Pron+Dem+Sg+Prl: этаӧт
+    эта+Pron+Dem+Sg+Prl+Comp: [этаӧтжык, этажыкӧт]
+    эта+Pron+Dem+Sg+TerI: этаӧдз
+    эта+Pron+Dem+Sg+TerI+Comp: [этаӧдзжык, этажыкӧдз]
+    эта+Pron+Dem+Sg+TerII: этави
+    эта+Pron+Dem+Sg+TerII+Comp: [этавижык, этажыкви]
+    эта+Pron+Dem+Sg+AprIne: эталаньын
+    эта+Pron+Dem+Sg+AprIne+Comp: [эталаньынжык, эталаньжыкын, этажыкланьын]
+    эта+Pron+Dem+Sg+AprEla: эталанись
+    эта+Pron+Dem+Sg+AprEla+Comp: [эталанисьжык, эталаньжыкись, этажыкланись]
+    эта+Pron+Dem+Sg+AprIll: эталаньӧ
+    эта+Pron+Dem+Sg+AprIll+Comp: [эталаньӧжык, эталаньжыкӧ, этажыкланьӧ]
+    эта+Pron+Dem+Sg+AprEgr: эталаньсянь
+    эта+Pron+Dem+Sg+AprEgr+Comp: [эталаньсяньжык, эталаньжыксянь, этажыкланьсянь] 
+    эта+Pron+Dem+Sg+AprPrl: эталаньӧт
+    эта+Pron+Dem+Sg+AprPrl+Comp: [эталаньӧтжык, эталаньжыкӧт, этажыкланьӧт]
+    эта+Pron+Dem+Sg+AprTerI: эталаньӧдз
+    эта+Pron+Dem+Sg+AprTerI+Comp: [эталаньӧдзжык, эталаньжыкӧдз, этажыкланьӧдз] 
+    эта+Pron+Dem+Sg+AprTerII: эталаньви
+    эта+Pron+Dem+Sg+AprTerII+Comp: [эталаньвижык, эталаньжыкви, этажыкланьви]
+
+
+
+#Pronoun – этна: # Demonstrative Pronoun 'Nämä / Эти'
+    эта+Pron+Dem+Pl+Nom: этна
+    эта+Pron+Dem+Pl+Acc: [этнӧ, этнӧс, этнаӧс] 
+    эта+Pron+Dem+Pl+Gen: этналӧн
+    эта+Pron+Dem+Pl+Abl: этналісь
+    эта+Pron+Dem+Pl+Dat: этналӧ
+    эта+Pron+Dem+Pl+Ins: [этнӧн, этнаӧн] 
+    эта+Pron+Dem+Pl+Com: этнакӧт
+    эта+Pron+Dem+Pl+Car: этнатӧг
+    эта+Pron+Dem+Pl+Cns: этнала
+    эта+Pron+Dem+Pl+Cmpr: этнася
+    эта+Pron+Dem+Pl+Ine: этнаын
+    эта+Pron+Dem+Pl+Ela: этнаись
+    эта+Pron+Dem+Pl+Ill: этнаӧ
+    эта+Pron+Dem+Pl+Apr: этналань
+    эта+Pron+Dem+Pl+Apr+Comp: [этналаньжык, этнажыклань] # Comp muodot eivät esiinny teksteissä
+    эта+Pron+Dem+Pl+Egr: этнасянь
+    эта+Pron+Dem+Pl+Egr+Comp: [этнасяньжык, этнажыксянь] 
+    эта+Pron+Dem+Pl+Prl: этнаӧт
+    эта+Pron+Dem+Pl+Prl+Comp: [этнаӧтжык, этнажыкӧт]
+    эта+Pron+Dem+Pl+TerI: этнаӧдз
+    эта+Pron+Dem+Pl+TerI+Comp: [этнаӧдзжык, этнажыкӧдз]
+    эта+Pron+Dem+Pl+TerII: этнави
+    эта+Pron+Dem+Pl+TerII+Comp: [этнавижык, этнажыкви]
+    эта+Pron+Dem+Pl+AprIne: этналаньын
+    эта+Pron+Dem+Pl+AprIne+Comp: [этналаньынжык, этналаньжыкын, этнажыкланьын]
+    эта+Pron+Dem+Pl+AprEla: этналанись
+    эта+Pron+Dem+Pl+AprEla+Comp: [этналанисьжык, этналаньжыкись, этнажыкланись]
+    эта+Pron+Dem+Pl+AprIll: этналаньӧ
+    эта+Pron+Dem+Pl+AprIll+Comp: [этналаньӧжык, этналаньжыкӧ, этнажыкланьӧ]
+    эта+Pron+Dem+Pl+AprEgr: этналаньсянь
+    эта+Pron+Dem+Pl+AprEgr+Comp: [этналаньсяньжык, этналаньжыксянь, этнажыкланьсянь] 
+    эта+Pron+Dem+Pl+AprPrl: этналаньӧт
+    эта+Pron+Dem+Pl+AprPrl+Comp: [этналаньӧтжык, этналаньжыкӧт, этнажыкланьӧт]
+    эта+Pron+Dem+Pl+AprTerI: этналаньӧдз
+    эта+Pron+Dem+Pl+AprTerI+Comp: [этналаньӧдзжык, этналаньжыкӧдз, этнажыкланьӧдз] 
+    эта+Pron+Dem+Pl+AprTerII: этналаньви
+    эта+Pron+Dem+Pl+AprTerII+Comp: [этналаньвижык, этналаньжыкви, этнажыкланьви]
+
+
+#Pronoun – эна: # Demonstrative Pronoun 'Nämä / Эти'
+    эта+Pron+Dem+Pl+Nom: эна
+    эта+Pron+Dem+Pl+Acc: [энӧ, энӧс, энаӧс] 
+    эта+Pron+Dem+Pl+Gen: эналӧн
+    эта+Pron+Dem+Pl+Abl: эналісь
+    эта+Pron+Dem+Pl+Dat: эналӧ
+    эта+Pron+Dem+Pl+Ins: [энӧн, энаӧн] 
+    эта+Pron+Dem+Pl+Com: энакӧт
+    эта+Pron+Dem+Pl+Car: энатӧг
+    эта+Pron+Dem+Pl+Cns: энала
+    эта+Pron+Dem+Pl+Cmpr: энася
+    эта+Pron+Dem+Pl+Ine: энаын
+    эта+Pron+Dem+Pl+Ela: энаись
+    эта+Pron+Dem+Pl+Ill: энаӧ
+    эта+Pron+Dem+Pl+Apr: эналань
+    эта+Pron+Dem+Pl+Apr+Comp: [эналаньжык, энажыклань] # Comp muodot eivät esiinny teksteissä
+    эта+Pron+Dem+Pl+Egr: энасянь
+    эта+Pron+Dem+Pl+Egr+Comp: [энасяньжык, энажыксянь] 
+    эта+Pron+Dem+Pl+Prl: энаӧт
+    эта+Pron+Dem+Pl+Prl+Comp: [энаӧтжык, энажыкӧт]
+    эта+Pron+Dem+Pl+TerI: энаӧдз
+    эта+Pron+Dem+Pl+TerI+Comp: [энаӧдзжык, энажыкӧдз]
+    эта+Pron+Dem+Pl+TerII: энави
+    эта+Pron+Dem+Pl+TerII+Comp: [энавижык, энажыкви]
+    эта+Pron+Dem+Pl+AprIne: эналаньын
+    эта+Pron+Dem+Pl+AprIne+Comp: [эналаньынжык, эналаньжыкын, энажыкланьын]
+    эта+Pron+Dem+Pl+AprEla: эналанись
+    эта+Pron+Dem+Pl+AprEla+Comp: [эналанисьжык, эналаньжыкись, энажыкланись]
+    эта+Pron+Dem+Pl+AprIll: эналаньӧ
+    эта+Pron+Dem+Pl+AprIll+Comp: [эналаньӧжык, эналаньжыкӧ, энажыкланьӧ]
+    эта+Pron+Dem+Pl+AprEgr: эналаньсянь
+    эта+Pron+Dem+Pl+AprEgr+Comp: [эналаньсяньжык, эналаньжыксянь, энажыкланьсянь] 
+    эта+Pron+Dem+Pl+AprPrl: эналаньӧт
+    эта+Pron+Dem+Pl+AprPrl+Comp: [эналаньӧтжык, эналаньжыкӧт, энажыкланьӧт]
+    эта+Pron+Dem+Pl+AprTerI: эналаньӧдз
+    эта+Pron+Dem+Pl+AprTerI+Comp: [эналаньӧдзжык, эналаньжыкӧдз, энажыкланьӧдз] 
+    эта+Pron+Dem+Pl+AprTerII: эналаньви
+    эта+Pron+Dem+Pl+AprTerII+Comp: [эналаньвижык, эналаньжыкви, энажыкланьви]
+

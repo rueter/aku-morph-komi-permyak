@@ -1,0 +1,1467 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-12-22
+# Then: run analyser, then correct. 
+
+Pronoun – кытшӧм: # Interrogative Pronoun 'Millainen / Какой'
+    кытшӧм+Det+Interr+Sg+Nom: кытшӧм
+    кытшӧм+Det+Interr+Pl+Nom: кытшӧмӧсь
+    кытшӧм+Det+Interr+Sg+Acc: [кытшӧмӧ, кытшӧмӧс]
+    кытшӧм+Det+Interr+Sg+Gen: кытшӧмлӧн
+    кытшӧм+Det+Interr+Sg+Abl: кытшӧмлісь
+    кытшӧм+Det+Interr+Sg+Dat: кытшӧмлӧ
+    кытшӧм+Det+Interr+Sg+Ins: кытшӧмӧн 
+    кытшӧм+Det+Interr+Sg+Com: кытшӧмкӧт
+    кытшӧм+Det+Interr+Sg+Car: кытшӧмтӧг
+    кытшӧм+Det+Interr+Sg+Cns: кытшӧмла
+    кытшӧм+Det+Interr+Sg+Cmpr: кытшӧмся
+    кытшӧм+Det+Interr+Sg+Ine: кытшӧмын
+    кытшӧм+Det+Interr+Sg+Ela: кытшӧмись
+    кытшӧм+Det+Interr+Sg+Ill: кытшӧмӧ
+    кытшӧм+Det+Interr+Sg+Apr: кытшӧмлань
+    кытшӧм+Det+Interr+Sg+Egr: кытшӧмсянь
+    кытшӧм+Det+Interr+Sg+Prl: кытшӧмӧт
+    кытшӧм+Det+Interr+Sg+TerI: кытшӧмӧдз
+    кытшӧм+Det+Interr+Sg+TerII: кытшӧмви
+    кытшӧм+Det+Interr+Sg+AprIne: кытшӧмланьын
+    кытшӧм+Det+Interr+Sg+AprEla: кытшӧмланись
+    кытшӧм+Det+Interr+Sg+AprIll: кытшӧмланьӧ
+    кытшӧм+Det+Interr+Sg+AprEgr: кытшӧмланьсянь
+    кытшӧм+Det+Interr+Sg+AprPrl: кытшӧмланьӧт
+    кытшӧм+Det+Interr+Sg+AprTerI: кытшӧмланьӧдз
+    кытшӧм+Det+Interr+Sg+AprTerII: кытшӧмланьви
+
+
+    кытшӧм+Det+Interr+Sg+Nom+PxSg1: кытшӧмӧ
+    кытшӧм+Det+Interr+Sg+Acc+PxSg1: кытшӧмӧс
+    кытшӧм+Det+Interr+Sg+Gen+PxSg1: кытшӧмӧлӧн
+    кытшӧм+Det+Interr+Sg+Abl+PxSg1: кытшӧмӧлісь
+    кытшӧм+Det+Interr+Sg+Dat+PxSg1: кытшӧмӧлӧ
+    кытшӧм+Det+Interr+Sg+Ins+PxSg1: кытшӧмнам 
+    кытшӧм+Det+Interr+Sg+Com+PxSg1: кытшӧмӧкӧт
+    кытшӧм+Det+Interr+Sg+Car+PxSg1: [кытшӧмӧтӧг, кытшӧмтӧгьям] 
+    кытшӧм+Det+Interr+Sg+Cns+PxSg1: кытшӧмӧла
+    кытшӧм+Det+Interr+Sg+Cmpr+PxSg1: кытшӧмӧся
+    кытшӧм+Det+Interr+Sg+Ine+PxSg1: кытшӧмам
+    кытшӧм+Det+Interr+Sg+Ela+PxSg1: кытшӧмсим
+    кытшӧм+Det+Interr+Sg+Ill+PxSg1: кытшӧмам
+    кытшӧм+Det+Interr+Sg+Apr+PxSg1: [кытшӧмӧлань, кытшӧмланям]
+    кытшӧм+Det+Interr+Sg+Egr+PxSg1: [кытшӧмӧсянь, кытшӧмсяням]
+    кытшӧм+Det+Interr+Sg+Prl+PxSg1: [кытшӧмӧттям, кытшӧмӧттим]
+    кытшӧм+Det+Interr+Sg+TerI+PxSg1: [кытшӧмӧдззам, кытшӧмӧдззим]
+    кытшӧм+Det+Interr+Sg+TerII+PxSg1: кытшӧмӧви
+    кытшӧм+Det+Interr+Sg+AprIne+PxSg1: [кытшӧмланям, кытшӧмӧланьын]
+    кытшӧм+Det+Interr+Sg+AprEla+PxSg1: [кытшӧмланьсим, кытшӧмӧланись]
+    кытшӧм+Det+Interr+Sg+AprIll+PxSg1: [кытшӧмланям, кытшӧмӧланьӧ]
+    кытшӧм+Det+Interr+Sg+AprEgr+PxSg1: [кытшӧмӧланьсянь, кытшӧмланьсяням] 
+    кытшӧм+Det+Interr+Sg+AprPrl+PxSg1: [кытшӧмӧланьӧт, кытшӧмланьӧттям, кытшӧмланьӧттим]
+    кытшӧм+Det+Interr+Sg+AprTerI+PxSg1: [кытшӧмӧланьӧдз, кытшӧмланьӧдззам, кытшӧмланьӧдззим]
+    кытшӧм+Det+Interr+Sg+AprTerII+PxSg1: кытшӧмӧланьви
+
+
+    кытшӧм+Det+Interr+Sg+Nom+PxSg2: кытшӧмыт
+    кытшӧм+Det+Interr+Sg+Acc+PxSg2: кытшӧмтӧ
+    кытшӧм+Det+Interr+Sg+Gen+PxSg2: кытшӧмытлӧн
+    кытшӧм+Det+Interr+Sg+Abl+PxSg2: кытшӧмытлісь
+    кытшӧм+Det+Interr+Sg+Dat+PxSg2: кытшӧмытлӧ
+    кытшӧм+Det+Interr+Sg+Ins+PxSg2: кытшӧмнат 
+    кытшӧм+Det+Interr+Sg+Com+PxSg2: кытшӧмыткӧт
+    кытшӧм+Det+Interr+Sg+Car+PxSg2: [кытшӧмыттӧг, кытшӧмтӧгьят]
+    кытшӧм+Det+Interr+Sg+Cns+PxSg2: кытшӧмытла
+    кытшӧм+Det+Interr+Sg+Cmpr+PxSg2: кытшӧмытся
+    кытшӧм+Det+Interr+Sg+Ine+PxSg2: кытшӧмат
+    кытшӧм+Det+Interr+Sg+Ela+PxSg2: кытшӧмсит
+    кытшӧм+Det+Interr+Sg+Ill+PxSg2: кытшӧмат
+    кытшӧм+Det+Interr+Sg+Apr+PxSg2: [кытшӧмытлань, кытшӧмланят]
+    кытшӧм+Det+Interr+Sg+Egr+PxSg2: [кытшӧмытсянь, кытшӧмсянят]
+    кытшӧм+Det+Interr+Sg+Prl+PxSg2: [кытшӧмӧттят, кытшӧмӧттит]
+    кытшӧм+Det+Interr+Sg+TerI+PxSg2: [кытшӧмӧдззат, кытшӧмӧдззит]
+    кытшӧм+Det+Interr+Sg+TerII+PxSg2: кытшӧмытви
+    кытшӧм+Det+Interr+Sg+AprIne+PxSg2: [кытшӧмланят, кытшӧмытланьын]
+    кытшӧм+Det+Interr+Sg+AprEla+PxSg2: [кытшӧмланьсит, кытшӧмытланись]
+    кытшӧм+Det+Interr+Sg+AprIlerr+Sg+Ins+PxPl2: кытшӧмнаныт 
+    кытшӧм+Det+Interr+Sg+Com+PxPl2: кытшӧмныткӧт
+    кытшӧм+Det+Interr+Sg+Car+PxPl2: [кытшӧмныттӧг, кытшӧмтӧгьяныт]
+    кытшӧм+Det+Interr+Sg+Cns+PxPl2: кытшӧмнытла
+    кытшӧм+Det+Interr+Sg+Cmpr+PxPl2: кытшӧмнытся
+    кытшӧм+Det+Interr+Sg+Ine+PxPl2: кытшӧманыт
+    кытшӧм+Det+Interr+Sg+Ela+PxPl2: кытшӧмсиныт
+    кытшӧм+Det+Interr+Sg+Ill+PxPl2: кытшӧманыт
+    кытшӧм+Det+Interr+Sg+Apr+PxPl2: [кытшӧмнытлань, кытшӧмланяныт]
+    кытшӧм+Det+Interr+Sg+Egr+PxPl2: [кытшӧмнытсянь, кытшӧмсяняныт]
+    кытшӧм+Det+Interr+Sg+Prl+PxPl2: [кытшӧмӧттяныт, кытшӧмӧттиныт]
+    кытшӧм+Det+Interr+Sg+TerI+PxPl2: [кытшӧмӧдззаныт, кытшӧмӧдззиныт]
+    кытшӧм+Det+Interr+Sg+TerII+PxPl2: кытшӧмнытви
+    кытшӧм+Det+Interr+Sg+AprIne+PxPl2: [кытшӧмланяныт, кытшӧмнытланьын]
+    кытшӧм+Det+Interr+Sg+AprEla+PxPl2: [кытшӧмланьсиныт, кытшӧмнытланись]
+    кытшӧм+Det+Interr+Sg+AprIll+PxPl2: [кытшӧмланяныт, кытшӧмнытланьӧ]
+    кытшӧм+Det+Interr+Sg+AprEgr+PxPl2: [кытшӧмнытланьсянь, кытшӧмланьсяняныт] 
+    кытшӧм+Det+Interr+Sg+AprPrl+PxPl2: [кытшӧмнытланьӧт, кытшӧмланьӧттяныт, кытшӧмланьӧттиныт]
+    кытшӧм+Det+Interr+Sg+AprTerI+PxPl2: [кытшӧмнытланьӧдз, кытшӧмланьӧдззаныт, кытшӧмланьӧдззиныт]
+    кытшӧм+Det+Interr+Sg+AprTerII+PxPl2: кытшӧмнытланьви
+
+
+    кытшӧм+Det+Interr+Sg+Nom+PxPl3: кытшӧмныс
+    кытшӧм+Det+Interr+Sg+Acc+PxPl3: кытшӧмнысӧ
+    кытшӧм+Det+Interr+Sg+Gen+PxPl3: кытшӧмныслӧн
+    кытшӧм+Det+Interr+Sg+Abl+PxPl3: кытшӧмныслісь
+    кытшӧм+Det+Interr+Sg+Dat+PxPl3: кытшӧмныслӧ
+    кытшӧм+Det+Interr+Sg+Ins+PxPl3: кытшӧмнаныс 
+    кытшӧм+Det+Interr+Sg+Com+PxPl3: кытшӧмныскӧт
+    кытшӧм+Det+Interr+Sg+Car+PxPl3: [кытшӧмныстӧг, кытшӧмтӧгьяныс]
+    кытшӧм+Det+Interr+Sg+Cns+PxPl3: кытшӧмнысла
+    кытшӧм+Det+Interr+Sg+Cmpr+PxPl3: кытшӧмнысся
+    кытшӧм+Det+Interr+Sg+Ine+PxPl3: кытшӧманыс
+    кытшӧм+Det+Interr+Sg+Ela+PxPl3: кытшӧмсиныс
+    кытшӧм+Det+Interr+Sg+Ill+PxPl3: кытшӧманыс
+    кытшӧм+Det+Interr+Sg+Apr+PxPl3: [кытшӧмныслань, кытшӧмланяныс]
+    кытшӧм+Det+Interr+Sg+Egr+PxPl3: [кытшӧмныссянь, кытшӧмсяняныс]
+    кытшӧм+Det+Interr+Sg+Prl+PxPl3: [кытшӧмӧттяныс, кытшӧмӧттиныс]
+    кытшӧм+Det+Interr+Sg+TerI+PxPl3: [кытшӧмӧдззаныс, кытшӧмӧдззиныс]
+    кытшӧм+Det+Interr+Sg+TerII+PxPl3: кытшӧмнысви
+    кытшӧм+Det+Interr+Sg+AprIne+PxPl3: [кытшӧмланяныс, кытшӧмнысланьын]
+    кытшӧм+Det+Interr+Sg+AprEla+PxPl3: [кытшӧмланьсиныс, кытшӧмнысланись]
+    кытшӧм+Det+Interr+Sg+AprIll+PxPl3: [кытшӧмланяныс, кытшӧмнысланьӧ]
+    кытшӧм+Det+Interr+Sg+AprEgr+PxPl3: [кытшӧмнысланьсянь, кытшӧмланьсяняныс] 
+    кытшӧм+Det+Interr+Sg+AprPrl+PxPl3: [кытшӧмнысланьӧт, кытшӧмланьӧттяныс, кытшӧмланьӧттиныс]
+    кытшӧм+Det+Interr+Sg+AprTerI+PxPl3: [кытшӧмнысланьӧдз, кытшӧмланьӧдззаныс, кытшӧмланьӧдззиныс]
+    кытшӧм+Det+Interr+Sg+AprTerII+PxPl3: кытшӧмнысланьви
+
+
+    кытшӧм+Det+Interr+Pl+Nom: кытшӧммез
+    кытшӧм+Det+Interr+Pl+Acc: [кытшӧммезӧ, кытшӧммезӧс]
+    кытшӧм+Det+Interr+Pl+Gen: кытшӧммезлӧн
+    кытшӧм+Det+Interr+Pl+Abl: кытшӧммезлісь
+    кытшӧм+Det+Interr+Pl+Dat: кытшӧммезлӧ
+    кытшӧм+Det+Interr+Pl+Ins: кытшӧммезӧн 
+    кытшӧм+Det+Interr+Pl+Com: кытшӧммезкӧт
+    кытшӧм+Det+Interr+Pl+Car: кытшӧммезтӧг
+    кытшӧм+Det+Interr+Pl+Cns: кытшӧммезла
+    кытшӧм+Det+Interr+Pl+Cmpr: кытшӧммезся
+    кытшӧм+Det+Interr+Pl+Ine: кытшӧммезын
+    кытшӧм+Det+Interr+Pl+Ela: кытшӧммезісь
+    кытшӧм+Det+Interr+Pl+Ill: кытшӧммезӧ
+    кытшӧм+Det+Interr+Pl+Apr: кытшӧммезлань
+    кытшӧм+Det+Interr+Pl+Egr: кытшӧммезсянь
+    кытшӧм+Det+Interr+Pl+Prl: кытшӧммезӧт
+    кытшӧм+Det+Interr+Pl+TerI: кытшӧммезӧдз
+    кытшӧм+Det+Interr+Pl+TerII: кытшӧммезви
+    кытшӧм+Det+Interr+Pl+AprIne: кытшӧммезланьын
+    кытшӧм+Det+Interr+Pl+AprEla: кытшӧммезланись
+    кытшӧм+Det+Interr+Pl+AprIll: кытшӧммезланьӧ
+    кытшӧм+Det+Interr+Pl+AprEgr: кытшӧммезланьсянь
+    кытшӧм+Det+Interr+Pl+AprPrl: кытшӧммезланьӧт
+    кытшӧм+Det+Interr+Pl+AprTerI: кытшӧммезланьӧдз
+    кытшӧм+Det+Interr+Pl+AprTerII: кытшӧммезланьви
+
+
+    кытшӧм+Det+Interr+Pl+Nom+PxSg1: кытшӧммезӧ
+    кытшӧм+Det+Interr+Pl+Acc+PxSg1: кытшӧммезӧс
+    кытшӧм+Det+Interr+Pl+Gen+PxSg1: кытшӧммезӧлӧн
+    кытшӧм+Det+Interr+Pl+Abl+PxSg1: кытшӧммезӧлісь
+    кытшӧм+Det+Interr+Pl+Dat+PxSg1: кытшӧммезӧлӧ
+    кытшӧм+Det+Interr+Pl+Ins+PxSg1: кытшӧммезнам 
+    кытшӧм+Det+Interr+Pl+Com+PxSg1: кытшӧммезӧкӧт
+    кытшӧм+Det+Interr+Pl+Car+PxSg1: [кытшӧммезӧтӧг, кытшӧммезтӧгьям]
+    кытшӧм+Det+Interr+Pl+Cns+PxSg1: кытшӧммезӧла
+    кытшӧм+Det+Interr+Pl+Cmpr+PxSg1: кытшӧммезӧся
+    кытшӧм+Det+Interr+Pl+Ine+PxSg1: кытшӧммезам
+    кытшӧм+Det+Interr+Pl+Ela+PxSg1: [кытшӧммесим, кытшӧммезсим]
+    кытшӧм+Det+Interr+Pl+Ill+PxSg1: кытшӧммезам
+    кытшӧм+Det+Interr+Pl+Apr+PxSg1: [кытшӧммезӧлань, кытшӧммезланям]
+    кытшӧм+Det+Interr+Pl+Egr+PxSg1: [кытшӧммезӧсянь, кытшӧммезсяням]
+    кытшӧм+Det+Interr+Pl+Prl+PxSg1: [кытшӧммезӧттям, кытшӧммезӧттим]
+    кытшӧм+Det+Interr+Pl+TerI+PxSg1: [кытшӧммезӧдззам, кытшӧммезӧдззим]
+    кытшӧм+Det+Interr+Pl+TerII+PxSg1: кытшӧммезӧви
+    кытшӧм+Det+Interr+Pl+AprIne+PxSg1: [кытшӧммезланям, кытшӧммезӧланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxSg1: [кытшӧммезланьсим, кытшӧммезӧланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxSg1: [кытшӧммезланям, кытшӧммезӧланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxSg1: [кытшӧммезӧланьсянь, кытшӧммезланьсяням]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxSg1: [кытшӧммезӧланьӧт, кытшӧммезланьӧттям, кытшӧммезланьӧттим]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxSg1: [кытшӧммезӧланьӧдз, кытшӧммезланьӧдззам, кытшӧммезланьӧдззим]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxSg1: кытшӧммезӧланьви 
+
+
+    кытшӧм+Det+Interr+Pl+Nom+PxSg2: [кытшӧммет, кытшӧммезыт]
+    кытшӧм+Det+Interr+Pl+Acc+PxSg2: [кытшӧмметӧ, кытшӧммезтӧ]
+    кытшӧм+Det+Interr+Pl+Gen+PxSg2: [кытшӧмметлӧн, кытшӧммезытлӧн]
+    кытшӧм+Det+Interr+Pl+Abl+PxSg2: [кытшӧмметлісь, кытшӧммезытлісь]
+    кытшӧм+Det+Interr+Pl+Dat+PxSg2: [кытшӧмметлӧ, кытшӧммезытлӧ]
+    кытшӧм+Det+Interr+Pl+Ins+PxSg2: кытшӧммезнат 
+    кытшӧм+Det+Interr+Pl+Com+PxSg2: [кытшӧмметкӧт, кытшӧммезыткӧт]
+    кытшӧм+Det+Interr+Pl+Car+PxSg2: [кытшӧмметтӧг, кытшӧммезыттӧг, кытшӧммезтӧгьят]
+    кытшӧм+Det+Interr+Pl+Cns+PxSg2: [кытшӧмметла, кытшӧммезытла]
+    кытшӧм+Det+Interr+Pl+Cmpr+PxSg2: [кытшӧммется, кытшӧммезытся]
+    кытшӧм+Det+Interr+Pl+Ine+PxSg2: кытшӧммезат
+    кытшӧм+Det+Interr+Pl+Ela+PxSg2: [кытшӧммесит, кытшӧммезсит]
+    кытшӧм+Det+Interr+Pl+Ill+PxSg2: кытшӧммезат
+    кытшӧм+Det+Interr+Pl+Apr+PxSg2: [кытшӧмметлань, кытшӧммезытлань, кытшӧммезланят]
+    кытшӧм+Det+Interr+Pl+Egr+PxSg2: [кытшӧмметсянь, кытшӧммезытсянь, кытшӧммезсянят]
+    кытшӧм+Det+Interr+Pl+Prl+PxSg2: [кытшӧммезӧттят, кытшӧммезӧттит]
+    кытшӧм+Det+Interr+Pl+TerI+PxSg2: [кытшӧммезӧдззат, кытшӧммезӧдззит]
+    кытшӧм+Det+Interr+Pl+TerII+PxSg2: [кытшӧмметви, кытшӧммезытви]
+    кытшӧм+Det+Interr+Pl+AprIne+PxSg2: [кытшӧммезланят, кытшӧмметланьын, кытшӧммезытланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxSg2: [кытшӧммезланьсит, кытшӧмметланись, кытшӧммезытланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxSg2: [кытшӧммезланят, кытшӧмметланьӧ, кытшӧммезытланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxSg2: [кытшӧмметланьсянь, кытшӧммезытланьсянь, кытшӧммезланьсянят]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxSg2: [кытшӧмметланьӧт, кытшӧммезытланьӧт, кытшӧммезланьӧттят, кытшӧммезланьӧттит]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxSg2: [кытшӧмметланьӧдз, кытшӧммезытланьӧдз, кытшӧммезланьӧдззат, кытшӧммезланьӧдззит]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxSg2: [кытшӧмметланьви, кытшӧммезытланьви] 
+
+
+    кытшӧм+Det+Interr+Pl+Nom+PxSg3: [кытшӧммес, кытшӧммезыс]
+    кытшӧм+Det+Interr+Pl+Acc+PxSg3: [кытшӧммесӧ, кытшӧммезсӧ]
+    кытшӧм+Det+Interr+Pl+Gen+PxSg3: [кытшӧммеслӧн, кытшӧммезыслӧн]
+    кытшӧм+Det+Interr+Pl+Abl+PxSg3: [кытшӧммеслісь, кытшӧммезыслісь]
+    кытшӧм+Det+Interr+Pl+Dat+PxSg3: [кытшӧммеслӧ, кытшӧммезыслӧ]
+    кытшӧм+Det+Interr+Pl+Ins+PxSg3: кытшӧммезнас 
+    кытшӧм+Det+Interr+Pl+Com+PxSg3: [кытшӧммескӧт, кытшӧммезыскӧт]
+    кытшӧм+Det+Interr+Pl+Car+PxSg3: [кытшӧмместӧг, кытшӧммезыстӧг, кытшӧммезтӧгьяс]
+    кытшӧм+Det+Interr+Pl+Cns+PxSg3: [кытшӧммесла, кытшӧммезысла]
+    кытшӧм+Det+Interr+Pl+Cmpr+PxSg3: [кытшӧммесся, кытшӧммезысся]
+    кытшӧм+Det+Interr+Pl+Ine+PxSg3: кытшӧммезас
+    кытшӧм+Det+Interr+Pl+Ela+PxSg3: [кытшӧммесис, кытшӧммезсис]
+    кытшӧм+Det+Interr+Pl+Ill+PxSg3: кытшӧммезас
+    кытшӧм+Det+Interr+Pl+Apr+PxSg3: [кытшӧммеслань, кытшӧммезыслань, кытшӧммезланяс]
+    кытшӧм+Det+Interr+Pl+Egr+PxSg3: [кытшӧммессянь, кытшӧммезыссянь, кытшӧммезсяняс]
+    кытшӧм+Det+Interr+Pl+Prl+PxSg3: [кытшӧммезӧттяс, кытшӧммезӧттис]
+    кытшӧм+Det+Interr+Pl+TerI+PxSg3: [кытшӧммезӧдззас, кытшӧммезӧдззис]
+    кытшӧм+Det+Interr+Pl+TerII+PxSg3: [кытшӧммесви, кытшӧммезысви]
+    кытшӧм+Det+Interr+Pl+AprIne+PxSg3: [кытшӧммезланяс, кытшӧммесланьын, кытшӧммезысланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxSg3: [кытшӧммезланьсис, кытшӧммесланись, кытшӧммезысланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxSg3: [кытшӧммезланяс, кытшӧммесланьӧ, кытшӧммезысланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxSg3: [кытшӧммесланьсянь, кытшӧммезысланьсянь, кытшӧммезланьсяняс]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxSg3: [кытшӧммесланьӧт, кытшӧммезысланьӧт, кытшӧммезланьӧттяс, кытшӧммезланьӧттис]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxSg3: [кытшӧммесланьӧдз, кытшӧммезысланьӧдз, кытшӧммезланьӧдззас, кытшӧммезланьӧдззис]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxSg3: [кытшӧммесланьви, кытшӧммезысланьви]
+
+ 
+    кытшӧм+Det+Interr+Pl+Nom+PxPl1: кытшӧммезным
+    кытшӧм+Det+Interr+Pl+Acc+PxPl1: кытшӧммезнымӧс
+    кытшӧм+Det+Interr+Pl+Gen+PxPl1: кытшӧммезнымлӧн
+    кытшӧм+Det+Interr+Pl+Abl+PxPl1: кытшӧммезнымлісь
+    кытшӧм+Det+Interr+Pl+Dat+PxPl1: кытшӧммезнымлӧ
+    кытшӧм+Det+Interr+Pl+Ins+PxPl1: кытшӧммезнаным 
+    кытшӧм+Det+Interr+Pl+Com+PxPl1: кытшӧммезнымкӧт
+    кытшӧм+Det+Interr+Pl+Car+PxPl1: [кытшӧммезнымтӧг, кытшӧммезтӧгьяным]
+    кытшӧм+Det+Interr+Pl+Cns+PxPl1: кытшӧммезнымла
+    кытшӧм+Det+Interr+Pl+Cmpr+PxPl1: кытшӧммезнымся
+    кытшӧм+Det+Interr+Pl+Ine+PxPl1: кытшӧммезаным
+    кытшӧм+Det+Interr+Pl+Ela+PxPl1: [кытшӧммесиным, кытшӧммезсиным]
+    кытшӧм+Det+Interr+Pl+Ill+PxPl1: кытшӧммезаным
+    кытшӧм+Det+Interr+Pl+Apr+PxPl1: [кытшӧммезнымлань, кытшӧммезланяным]
+    кытшӧм+Det+Interr+Pl+Egr+PxPl1: [кытшӧммезнымсянь, кытшӧммезсяняным]
+    кытшӧм+Det+Interr+Pl+Prl+PxPl1: [кытшӧммезӧттяным, кытшӧммезӧттиным]
+    кытшӧм+Det+Interr+Pl+TerI+PxPl1: [кытшӧммезӧдззаным, кытшӧммезӧдззиным]
+    кытшӧм+Det+Interr+Pl+TerII+PxPl1: кытшӧммезнымви
+    кытшӧм+Det+Interr+Pl+AprIne+PxPl1: [кытшӧммезланяным, кытшӧммезнымланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxPl1: [кытшӧммезланьсиным, кытшӧммезнымланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxPl1: [кытшӧммезланяным, кытшӧммезнымланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxPl1: [кытшӧммезнымланьсянь, кытшӧммезланьсяняным]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxPl1: [кытшӧммезнымланьӧт, кытшӧммезланьӧттяным, кытшӧммезланьӧттиным]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxPl1: [кытшӧммезнымланьӧдз, кытшӧммезланьӧдззаным, кытшӧммезланьӧдззиным]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxPl1: кытшӧммезнымланьви 
+
+
+    кытшӧм+Det+Interr+Pl+Nom+PxPl2: кытшӧммезныт
+    кытшӧм+Det+Interr+Pl+Acc+PxPl2: кытшӧммезнытӧ
+    кытшӧм+Det+Interr+Pl+Gen+PxPl2: кытшӧммезнытлӧн
+    кытшӧм+Det+Interr+Pl+Abl+PxPl2: кытшӧммезнытлісь
+    кытшӧм+Det+Interr+Pl+Dat+PxPl2: кытшӧммезнытлӧ
+    кытшӧм+Det+Interr+Pl+Ins+PxPl2: кытшӧммезнаныт 
+    кытшӧм+Det+Interr+Pl+Com+PxPl2: кытшӧммезныткӧт
+    кытшӧм+Det+Interr+Pl+Car+PxPl2: [кытшӧммезныттӧг, кытшӧммезтӧгьяныт]
+    кытшӧм+Det+Interr+Pl+Cns+PxPl2: кытшӧммезнытла
+    кытшӧм+Det+Interr+Pl+Cmpr+PxPl2: кытшӧммезнытся
+    кытшӧм+Det+Interr+Pl+Ine+PxPl2: кытшӧммезаныт
+    кытшӧм+Det+Interr+Pl+Ela+PxPl2: [кытшӧммесиныт, кытшӧммезсиныт]
+    кытшӧм+Det+Interr+Pl+Ill+PxPl2: кытшӧммезаныт
+    кытшӧм+Det+Interr+Pl+Apr+PxPl2: [кытшӧммезнытлань, кытшӧммезланяныт]
+    кытшӧм+Det+Interr+Pl+Egr+PxPl2: [кытшӧммезнытсянь, кытшӧммезсяняныт]
+    кытшӧм+Det+Interr+Pl+Prl+PxPl2: [кытшӧммезӧттяныт, кытшӧммезӧттиныт]
+    кытшӧм+Det+Interr+Pl+TerI+PxPl2: [кытшӧммезӧдззаныт, кытшӧммезӧдззиныт]
+    кытшӧм+Det+Interr+Pl+TerII+PxPl2: кытшӧммезнытви
+    кытшӧм+Det+Interr+Pl+AprIne+PxPl2: [кытшӧммезланяныт, кытшӧммезнытланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxPl2: [кытшӧммезланьсиныт, кытшӧммезнытланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxPl2: [кытшӧммезланяныт, кытшӧммезнытланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxPl2: [кытшӧммезнытланьсянь, кытшӧммезланьсяняныт]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxPl2: [кытшӧммезнытланьӧт, кытшӧммезланьӧттяныт, кытшӧммезланьӧттиныт]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxPl2: [кытшӧммезнытланьӧдз, кытшӧммезланьӧдззаныт, кытшӧммезланьӧдззиныт]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxPl2: кытшӧммезнытланьви 
+
+
+    кытшӧм+Det+Interr+Pl+Nom+PxPl3: кытшӧммезныс
+    кытшӧм+Det+Interr+Pl+Acc+PxPl3: кытшӧммезнысӧ
+    кытшӧм+Det+Interr+Pl+Gen+PxPl3: кытшӧммезныслӧн
+    кытшӧм+Det+Interr+Pl+Abl+PxPl3: кытшӧммезныслісь
+    кытшӧм+Det+Interr+Pl+Dat+PxPl3: кытшӧммезныслӧ
+    кытшӧм+Det+Interr+Pl+Ins+PxPl3: кытшӧммезнаныс 
+    кытшӧм+Det+Interr+Pl+Com+PxPl3: кытшӧммезныскӧт
+    кытшӧм+Det+Interr+Pl+Car+PxPl3: [кытшӧммезныстӧг, кытшӧммезтӧгьяныс]
+    кытшӧм+Det+Interr+Pl+Cns+PxPl3: кытшӧммезнысла
+    кытшӧм+Det+Interr+Pl+Cmpr+PxPl3: кытшӧммезнысся
+    кытшӧм+Det+Interr+Pl+Ine+PxPl3: кытшӧммезаныс
+    кытшӧм+Det+Interr+Pl+Ela+PxPl3: [кытшӧммесиныс, кытшӧммезсиныс]
+    кытшӧм+Det+Interr+Pl+Ill+PxPl3: кытшӧммезаныс
+    кытшӧм+Det+Interr+Pl+Apr+PxPl3: [кытшӧммезныслань, кытшӧммезланяныс]
+    кытшӧм+Det+Interr+Pl+Egr+PxPl3: [кытшӧммезныссянь, кытшӧммезсяняныс]
+    кытшӧм+Det+Interr+Pl+Prl+PxPl3: [кытшӧммезӧттяныс, кытшӧммезӧттиныс]
+    кытшӧм+Det+Interr+Pl+TerI+PxPl3: [кытшӧммезӧдззаныс, кытшӧммезӧдззиныс]
+    кытшӧм+Det+Interr+Pl+TerII+PxPl3: кытшӧммезнысви
+    кытшӧм+Det+Interr+Pl+AprIne+PxPl3: [кытшӧммезланяныс, кытшӧммезнысланьын]
+    кытшӧм+Det+Interr+Pl+AprEla+PxPl3: [кытшӧммезланьсиныс, кытшӧммезнысланись]
+    кытшӧм+Det+Interr+Pl+AprIll+PxPl3: [кытшӧммезланяныс, кытшӧммезнысланьӧ]
+    кытшӧм+Det+Interr+Pl+AprEgr+PxPl3: [кытшӧммезнысланьсянь, кытшӧммезланьсяняныс]
+    кытшӧм+Det+Interr+Pl+AprPrl+PxPl3: [кытшӧммезнысланьӧт, кытшӧммезланьӧттяныс, кытшӧммезланьӧттиныс]
+    кытшӧм+Det+Interr+Pl+AprTerI+PxPl3: [кытшӧммезнысланьӧдз, кытшӧммезланьӧдззаныс, кытшӧммезланьӧдззиныс]
+    кытшӧм+Det+Interr+Pl+AprTerII+PxPl3: кытшӧммезнысланьви 
+
+
+Pronoun – кытшӧм: # Relative Pronoun 'Millainen / Какой'
+    кытшӧм+Det+Rel+Sg+Nom: кытшӧм
+    кытшӧм+Det+Rel+Pl+Nom: кытшӧмӧсь
+    кытшӧм+Det+Rel+Sg+Acc: [кытшӧмӧ, кытшӧмӧс]
+    кытшӧм+Det+Rel+Sg+Gen: кытшӧмлӧн
+    кытшӧм+Det+Rel+Sg+Abl: кытшӧмлісь
+    кытшӧм+Det+Rel+Sg+Dat: кытшӧмлӧ
+    кытшӧм+Det+Rel+Sg+Ins: кытшӧмӧн 
+    кытшӧм+Det+Rel+Sg+Com: кытшӧмкӧт
+    кытшӧм+Det+Rel+Sg+Car: кытшӧмтӧг
+    кытшӧм+Det+Rel+Sg+Cns: кытшӧмла
+    кытшӧм+Det+Rel+Sg+Cmpr: кытшӧмся
+    кытшӧм+Det+Rel+Sg+Ine: кытшӧмын
+    кытшӧм+Det+Rel+Sg+Ela: кытшӧмись
+    кытшӧм+Det+Rel+Sg+Ill: кытшӧмӧ
+    кытшӧм+Det+Rel+Sg+Apr: кытшӧмлань
+    кытшӧм+Det+Rel+Sg+Egr: кытшӧмсянь
+    кытшӧм+Det+Rel+Sg+Prl: кытшӧмӧт
+    кытшӧм+Det+Rel+Sg+TerI: кытшӧмӧдз
+    кытшӧм+Det+Rel+Sg+TerII: кытшӧмви
+    кытшӧм+Det+Rel+Sg+AprIne: кытшӧмланьын
+    кытшӧм+Det+Rel+Sg+AprEla: кытшӧмланись
+    кытшӧм+Det+Rel+Sg+AprIll: кытшӧмланьӧ
+    кытшӧм+Det+Rel+Sg+AprEgr: кытшӧмланьсянь
+    кытшӧм+Det+Rel+Sg+AprPrl: кытшӧмланьӧт
+    кытшӧм+Det+Rel+Sg+AprTerI: кытшӧмланьӧдз
+    кытшӧм+Det+Rel+Sg+AprTerII: кытшӧмланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxSg1: кытшӧмӧ
+    кытшӧм+Det+Rel+Sg+Acc+PxSg1: кытшӧмӧс
+    кытшӧм+Det+Rel+Sg+Gen+PxSg1: кытшӧмӧлӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxSg1: кытшӧмӧлісь
+    кытшӧм+Det+Rel+Sg+Dat+PxSg1: кытшӧмӧлӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxSg1: кытшӧмнам 
+    кытшӧм+Det+Rel+Sg+Com+PxSg1: кытшӧмӧкӧт
+    кытшӧм+Det+Rel+Sg+Car+PxSg1: [кытшӧмӧтӧг, кытшӧмтӧгьям] 
+    кытшӧм+Det+Rel+Sg+Cns+PxSg1: кытшӧмӧла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxSg1: кытшӧмӧся
+    кытшӧм+Det+Rel+Sg+Ine+PxSg1: кытшӧмам
+    кытшӧм+Det+Rel+Sg+Ela+PxSg1: кытшӧмсим
+    кытшӧм+Det+Rel+Sg+Ill+PxSg1: кытшӧмам
+    кытшӧм+Det+Rel+Sg+Apr+PxSg1: [кытшӧмӧлань, кытшӧмланям]
+    кытшӧм+Det+Rel+Sg+Egr+PxSg1: [кытшӧмӧсянь, кытшӧмсяням]
+    кытшӧм+Det+Rel+Sg+Prl+PxSg1: [кытшӧмӧттям, кытшӧмӧттим]
+    кытшӧм+Det+Rel+Sg+TerI+PxSg1: [кытшӧмӧдззам, кытшӧмӧдззим]
+    кытшӧм+Det+Rel+Sg+TerII+PxSg1: кытшӧмӧви
+    кытшӧм+Det+Rel+Sg+AprIne+PxSg1: [кытшӧмланям, кытшӧмӧланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxSg1: [кытшӧмланьсим, кытшӧмӧланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxSg1: [кытшӧмланям, кытшӧмӧланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxSg1: [кытшӧмӧланьсянь, кытшӧмланьсяням] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxSg1: [кытшӧмӧланьӧт, кытшӧмланьӧттям, кытшӧмланьӧттим]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxSg1: [кытшӧмӧланьӧдз, кытшӧмланьӧдззам, кытшӧмланьӧдззим]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxSg1: кытшӧмӧланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxSg2: кытшӧмыт
+    кытшӧм+Det+Rel+Sg+Acc+PxSg2: кытшӧмтӧ
+    кытшӧм+Det+Rel+Sg+Gen+PxSg2: кытшӧмытлӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxSg2: кытшӧмытлісь
+    кытшӧм+Det+Rel+Sg+Dat+PxSg2: кытшӧмытлӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxSg2: кытшӧмнат 
+    кытшӧм+Det+Rel+Sg+Com+PxSg2: кытшӧмыткӧт
+    кытшӧм+Det+Rel+Sg+Car+PxSg2: [кытшӧмыттӧг, кытшӧмтӧгьят]
+    кытшӧм+Det+Rel+Sg+Cns+PxSg2: кытшӧмытла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxSg2: кытшӧмытся
+    кытшӧм+Det+Rel+Sg+Ine+PxSg2: кытшӧмат
+    кытшӧм+Det+Rel+Sg+Ela+PxSg2: кытшӧмсит
+    кытшӧм+Det+Rel+Sg+Ill+PxSg2: кытшӧмат
+    кытшӧм+Det+Rel+Sg+Apr+PxSg2: [кытшӧмытлань, кытшӧмланят]
+    кытшӧм+Det+Rel+Sg+Egr+PxSg2: [кытшӧмытсянь, кытшӧмсянят]
+    кытшӧм+Det+Rel+Sg+Prl+PxSg2: [кытшӧмӧттят, кытшӧмӧттит]
+    кытшӧм+Det+Rel+Sg+TerI+PxSg2: [кытшӧмӧдззат, кытшӧмӧдззит]
+    кытшӧм+Det+Rel+Sg+TerII+PxSg2: кытшӧмытви
+    кытшӧм+Det+Rel+Sg+AprIne+PxSg2: [кытшӧмланят, кытшӧмытланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxSg2: [кытшӧмланьсит, кытшӧмытланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxSg2: [кытшӧмланят, кытшӧмытланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxSg2: [кытшӧмытланьсянь, кытшӧмланьсянят] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxSg2: [кытшӧмытланьӧт, кытшӧмланьӧттят, кытшӧмланьӧттит]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxSg2: [кытшӧмытланьӧдз, кытшӧмланьӧдззат, кытшӧмланьӧдззит]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxSg2: кытшӧмытланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxSg3: кытшӧмыс
+    кытшӧм+Det+Rel+Sg+Acc+PxSg3: кытшӧмсӧ
+    кытшӧм+Det+Rel+Sg+Gen+PxSg3: кытшӧмыслӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxSg3: кытшӧмыслісь
+    кытшӧм+Det+Rel+Sg+Dat+PxSg3: кытшӧмыслӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxSg3: кытшӧмнас 
+    кытшӧм+Det+Rel+Sg+Com+PxSg3: кытшӧмыскӧт
+    кытшӧм+Det+Rel+Sg+Car+PxSg3: [кытшӧмыстӧг, кытшӧмтӧгьяс]
+    кытшӧм+Det+Rel+Sg+Cns+PxSg3: кытшӧмысла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxSg3: кытшӧмысся
+    кытшӧм+Det+Rel+Sg+Ine+PxSg3: кытшӧмас
+    кытшӧм+Det+Rel+Sg+Ela+PxSg3: кытшӧмсис
+    кытшӧм+Det+Rel+Sg+Ill+PxSg3: кытшӧмас
+    кытшӧм+Det+Rel+Sg+Apr+PxSg3: [кытшӧмыслань, кытшӧмланяс]
+    кытшӧм+Det+Rel+Sg+Egr+PxSg3: [кытшӧмыссянь, кытшӧмсяняс]
+    кытшӧм+Det+Rel+Sg+Prl+PxSg3: [кытшӧмӧттяс, кытшӧмӧттис]
+    кытшӧм+Det+Rel+Sg+TerI+PxSg3: [кытшӧмӧдззас, кытшӧмӧдззис]
+    кытшӧм+Det+Rel+Sg+TerII+PxSg3: кытшӧмысви
+    кытшӧм+Det+Rel+Sg+AprIne+PxSg3: [кытшӧмланяс, кытшӧмысланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxSg3: [кытшӧмланьсис, кытшӧмысланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxSg3: [кытшӧмланяс, кытшӧмысланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxSg3: [кытшӧмысланьсянь, кытшӧмланьсяняс] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxSg3: [кытшӧмысланьӧт, кытшӧмланьӧттяс, кытшӧмланьӧттис]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxSg3: [кытшӧмысланьӧдз, кытшӧмланьӧдззас, кытшӧмланьӧдззис]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxSg3: кытшӧмысланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxPl1: кытшӧмным
+    кытшӧм+Det+Rel+Sg+Acc+PxPl1: кытшӧмнымӧс
+    кытшӧм+Det+Rel+Sg+Gen+PxPl1: кытшӧмнымлӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxPl1: кытшӧмнымлісь
+    кытшӧм+Det+Rel+Sg+Dat+PxPl1: кытшӧмнымлӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxPl1: кытшӧмнаным 
+    кытшӧм+Det+Rel+Sg+Com+PxPl1: кытшӧмнымкӧт
+    кытшӧм+Det+Rel+Sg+Car+PxPl1: [кытшӧмнымтӧг, кытшӧмтӧгьяным]
+    кытшӧм+Det+Rel+Sg+Cns+PxPl1: кытшӧмнымла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxPl1: кытшӧмнымся
+    кытшӧм+Det+Rel+Sg+Ine+PxPl1: кытшӧманым
+    кытшӧм+Det+Rel+Sg+Ela+PxPl1: кытшӧмсиным
+    кытшӧм+Det+Rel+Sg+Ill+PxPl1: кытшӧманым
+    кытшӧм+Det+Rel+Sg+Apr+PxPl1: [кытшӧмнымлань, кытшӧмланяным]
+    кытшӧм+Det+Rel+Sg+Egr+PxPl1: [кытшӧмнымсянь, кытшӧмсяняным]
+    кытшӧм+Det+Rel+Sg+Prl+PxPl1: [кытшӧмӧттяным, кытшӧмӧттиным]
+    кытшӧм+Det+Rel+Sg+TerI+PxPl1: [кытшӧмӧдззаным, кытшӧмӧдззиным]
+    кытшӧм+Det+Rel+Sg+TerII+PxPl1: кытшӧмнымви
+    кытшӧм+Det+Rel+Sg+AprIne+PxPl1: [кытшӧмланяным, кытшӧмнымланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxPl1: [кытшӧмланьсиным, кытшӧмнымланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxPl1: [кытшӧмланяным, кытшӧмнымланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxPl1: [кытшӧмнымланьсянь, кытшӧмланьсяняным] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxPl1: [кытшӧмнымланьӧт, кытшӧмланьӧттяным, кытшӧмланьӧттиным]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxPl1: [кытшӧмнымланьӧдз, кытшӧмланьӧдззаным, кытшӧмланьӧдззиным]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxPl1: кытшӧмнымланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxPl2: кытшӧмныт
+    кытшӧм+Det+Rel+Sg+Acc+PxPl2: кытшӧмнытӧ
+    кытшӧм+Det+Rel+Sg+Gen+PxPl2: кытшӧмнытлӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxPl2: кытшӧмнытлісь
+    кытшӧм+Det+Rel+Sg+Dat+PxPl2: кытшӧмнытлӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxPl2: кытшӧмнаныт 
+    кытшӧм+Det+Rel+Sg+Com+PxPl2: кытшӧмныткӧт
+    кытшӧм+Det+Rel+Sg+Car+PxPl2: [кытшӧмныттӧг, кытшӧмтӧгьяныт]
+    кытшӧм+Det+Rel+Sg+Cns+PxPl2: кытшӧмнытла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxPl2: кытшӧмнытся
+    кытшӧм+Det+Rel+Sg+Ine+PxPl2: кытшӧманыт
+    кытшӧм+Det+Rel+Sg+Ela+PxPl2: кытшӧмсиныт
+    кытшӧм+Det+Rel+Sg+Ill+PxPl2: кытшӧманыт
+    кытшӧм+Det+Rel+Sg+Apr+PxPl2: [кытшӧмнытлань, кытшӧмланяныт]
+    кытшӧм+Det+Rel+Sg+Egr+PxPl2: [кытшӧмнытсянь, кытшӧмсяняныт]
+    кытшӧм+Det+Rel+Sg+Prl+PxPl2: [кытшӧмӧттяныт, кытшӧмӧттиныт]
+    кытшӧм+Det+Rel+Sg+TerI+PxPl2: [кытшӧмӧдззаныт, кытшӧмӧдззиныт]
+    кытшӧм+Det+Rel+Sg+TerII+PxPl2: кытшӧмнытви
+    кытшӧм+Det+Rel+Sg+AprIne+PxPl2: [кытшӧмланяныт, кытшӧмнытланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxPl2: [кытшӧмланьсиныт, кытшӧмнытланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxPl2: [кытшӧмланяныт, кытшӧмнытланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxPl2: [кытшӧмнытланьсянь, кытшӧмланьсяняныт] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxPl2: [кытшӧмнытланьӧт, кытшӧмланьӧттяныт, кытшӧмланьӧттиныт]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxPl2: [кытшӧмнытланьӧдз, кытшӧмланьӧдззаныт, кытшӧмланьӧдззиныт]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxPl2: кытшӧмнытланьви
+
+
+    кытшӧм+Det+Rel+Sg+Nom+PxPl3: кытшӧмныс
+    кытшӧм+Det+Rel+Sg+Acc+PxPl3: кытшӧмнысӧ
+    кытшӧм+Det+Rel+Sg+Gen+PxPl3: кытшӧмныслӧн
+    кытшӧм+Det+Rel+Sg+Abl+PxPl3: кытшӧмныслісь
+    кытшӧм+Det+Rel+Sg+Dat+PxPl3: кытшӧмныслӧ
+    кытшӧм+Det+Rel+Sg+Ins+PxPl3: кытшӧмнаныс 
+    кытшӧм+Det+Rel+Sg+Com+PxPl3: кытшӧмныскӧт
+    кытшӧм+Det+Rel+Sg+Car+PxPl3: [кытшӧмныстӧг, кытшӧмтӧгьяныс]
+    кытшӧм+Det+Rel+Sg+Cns+PxPl3: кытшӧмнысла
+    кытшӧм+Det+Rel+Sg+Cmpr+PxPl3: кытшӧмнысся
+    кытшӧм+Det+Rel+Sg+Ine+PxPl3: кытшӧманыс
+    кытшӧм+Det+Rel+Sg+Ela+PxPl3: кытшӧмсиныс
+    кытшӧм+Det+Rel+Sg+Ill+PxPl3: кытшӧманыс
+    кытшӧм+Det+Rel+Sg+Apr+PxPl3: [кытшӧмныслань, кытшӧмланяныс]
+    кытшӧм+Det+Rel+Sg+Egr+PxPl3: [кытшӧмныссянь, кытшӧмсяняныс]
+    кытшӧм+Det+Rel+Sg+Prl+PxPl3: [кытшӧмӧттяныс, кытшӧмӧттиныс]
+    кытшӧм+Det+Rel+Sg+TerI+PxPl3: [кытшӧмӧдззаныс, кытшӧмӧдззиныс]
+    кытшӧм+Det+Rel+Sg+TerII+PxPl3: кытшӧмнысви
+    кытшӧм+Det+Rel+Sg+AprIne+PxPl3: [кытшӧмланяныс, кытшӧмнысланьын]
+    кытшӧм+Det+Rel+Sg+AprEla+PxPl3: [кытшӧмланьсиныс, кытшӧмнысланись]
+    кытшӧм+Det+Rel+Sg+AprIll+PxPl3: [кытшӧмланяныс, кытшӧмнысланьӧ]
+    кытшӧм+Det+Rel+Sg+AprEgr+PxPl3: [кытшӧмнысланьсянь, кытшӧмланьсяняныс] 
+    кытшӧм+Det+Rel+Sg+AprPrl+PxPl3: [кытшӧмнысланьӧт, кытшӧмланьӧттяныс, кытшӧмланьӧттиныс]
+    кытшӧм+Det+Rel+Sg+AprTerI+PxPl3: [кытшӧмнысланьӧдз, кытшӧмланьӧдззаныс, кытшӧмланьӧдззиныс]
+    кытшӧм+Det+Rel+Sg+AprTerII+PxPl3: кытшӧмнысланьви
+
+
+    кытшӧм+Det+Rel+Pl+Nom: кытшӧммез
+    кытшӧм+Det+Rel+Pl+Acc: [кытшӧммезӧ, кытшӧммезӧс]
+    кытшӧм+Det+Rel+Pl+Gen: кытшӧммезлӧн
+    кытшӧм+Det+Rel+Pl+Abl: кытшӧммезлісь
+    кытшӧм+Det+Rel+Pl+Dat: кытшӧммезлӧ
+    кытшӧм+Det+Rel+Pl+Ins: кытшӧммезӧн 
+    кытшӧм+Det+Rel+Pl+Com: кытшӧммезкӧт
+    кытшӧм+Det+Rel+Pl+Car: кытшӧммезтӧг
+    кытшӧм+Det+Rel+Pl+Cns: кытшӧммезла
+    кытшӧм+Det+Rel+Pl+Cmpr: кытшӧммезся
+    кытшӧм+Det+Rel+Pl+Ine: кытшӧммезын
+    кытшӧм+Det+Rel+Pl+Ela: кытшӧммезісь
+    кытшӧм+Det+Rel+Pl+Ill: кытшӧммезӧ
+    кытшӧм+Det+Rel+Pl+Apr: кытшӧммезлань
+    кытшӧм+Det+Rel+Pl+Egr: кытшӧммезсянь
+    кытшӧм+Det+Rel+Pl+Prl: кытшӧммезӧт
+    кытшӧм+Det+Rel+Pl+TerI: кытшӧммезӧдз
+    кытшӧм+Det+Rel+Pl+TerII: кытшӧммезви
+    кытшӧм+Det+Rel+Pl+AprIne: кытшӧммезланьын
+    кытшӧм+Det+Rel+Pl+AprEla: кытшӧммезланись
+    кытшӧм+Det+Rel+Pl+AprIll: кытшӧммезланьӧ
+    кытшӧм+Det+Rel+Pl+AprEgr: кытшӧммезланьсянь
+    кытшӧм+Det+Rel+Pl+AprPrl: кытшӧммезланьӧт
+    кытшӧм+Det+Rel+Pl+AprTerI: кытшӧммезланьӧдз
+    кытшӧм+Det+Rel+Pl+AprTerII: кытшӧммезланьви
+
+
+    кытшӧм+Det+Rel+Pl+Nom+PxSg1: кытшӧммезӧ
+    кытшӧм+Det+Rel+Pl+Acc+PxSg1: кытшӧммезӧс
+    кытшӧм+Det+Rel+Pl+Gen+PxSg1: кытшӧммезӧлӧн
+    кытшӧм+Det+Rel+Pl+Abl+PxSg1: кытшӧммезӧлісь
+    кытшӧм+Det+Rel+Pl+Dat+PxSg1: кытшӧммезӧлӧ
+    кытшӧм+Det+Rel+Pl+Ins+PxSg1: кытшӧммезнам 
+    кытшӧм+Det+Rel+Pl+Com+PxSg1: кытшӧммезӧкӧт
+    кытшӧм+Det+Rel+Pl+Car+PxSg1: [кытшӧммезӧтӧг, кытшӧммезтӧгьям]
+    кытшӧм+Det+Rel+Pl+Cns+PxSg1: кытшӧммезӧла
+    кытшӧм+Det+Rel+Pl+Cmpr+PxSg1: кытшӧммезӧся
+    кытшӧм+Det+Rel+Pl+Ine+PxSg1: кытшӧммезам
+    кытшӧм+Det+Rel+Pl+Ela+PxSg1: [кытшӧммесим, кытшӧммезсим]
+    кытшӧм+Det+Rel+Pl+Ill+PxSg1: кытшӧммезам
+    кытшӧм+Det+Rel+Pl+Apr+PxSg1: [кытшӧммезӧлань, кытшӧммезланям]
+    кытшӧм+Det+Rel+Pl+Egr+PxSg1: [кытшӧммезӧсянь, кытшӧммезсяням]
+    кытшӧм+Det+Rel+Pl+Prl+PxSg1: [кытшӧммезӧттям, кытшӧммезӧттим]
+    кытшӧм+Det+Rel+Pl+TerI+PxSg1: [кытшӧммезӧдззам, кытшӧммезӧдззим]
+    кытшӧм+Det+Rel+Pl+TerII+PxSg1: кытшӧммезӧви
+    кытшӧм+Det+Rel+Pl+AprIne+PxSg1: [кытшӧммезланям, кытшӧммезӧланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxSg1: [кытшӧммезланьсим, кытшӧммезӧланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxSg1: [кытшӧммезланям, кытшӧммезӧланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxSg1: [кытшӧммезӧланьсянь, кытшӧммезланьсяням]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxSg1: [кытшӧммезӧланьӧт, кытшӧммезланьӧттям, кытшӧммезланьӧттим]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxSg1: [кытшӧммезӧланьӧдз, кытшӧммезланьӧдззам, кытшӧммезланьӧдззим]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxSg1: кытшӧммезӧланьви 
+
+
+    кытшӧм+Det+Rel+Pl+Nom+PxSg2: [кытшӧммет, кытшӧммезыт]
+    кытшӧм+Det+Rel+Pl+Acc+PxSg2: [кытшӧмметӧ, кытшӧммезтӧ]
+    кытшӧм+Det+Rel+Pl+Gen+PxSg2: [кытшӧмметлӧн, кытшӧммезытлӧн]
+    кытшӧм+Det+Rel+Pl+Abl+PxSg2: [кытшӧмметлісь, кытшӧммезытлісь]
+    кытшӧм+Det+Rel+Pl+Dat+PxSg2: [кытшӧмметлӧ, кытшӧммезытлӧ]
+    кытшӧм+Det+Rel+Pl+Ins+PxSg2: кытшӧммезнат 
+    кытшӧм+Det+Rel+Pl+Com+PxSg2: [кытшӧмметкӧт, кытшӧммезыткӧт]
+    кытшӧм+Det+Rel+Pl+Car+PxSg2: [кытшӧмметтӧг, кытшӧммезыттӧг, кытшӧммезтӧгьят]
+    кытшӧм+Det+Rel+Pl+Cns+PxSg2: [кытшӧмметла, кытшӧммезытла]
+    кытшӧм+Det+Rel+Pl+Cmpr+PxSg2: [кытшӧммется, кытшӧммезытся]
+    кытшӧм+Det+Rel+Pl+Ine+PxSg2: кытшӧммезат
+    кытшӧм+Det+Rel+Pl+Ela+PxSg2: [кытшӧммесит, кытшӧммезсит]
+    кытшӧм+Det+Rel+Pl+Ill+PxSg2: кытшӧммезат
+    кытшӧм+Det+Rel+Pl+Apr+PxSg2: [кытшӧмметлань, кытшӧммезытлань, кытшӧммезланят]
+    кытшӧм+Det+Rel+Pl+Egr+PxSg2: [кытшӧмметсянь, кытшӧммезытсянь, кытшӧммезсянят]
+    кытшӧм+Det+Rel+Pl+Prl+PxSg2: [кытшӧммезӧттят, кытшӧммезӧттит]
+    кытшӧм+Det+Rel+Pl+TerI+PxSg2: [кытшӧммезӧдззат, кытшӧммезӧдззит]
+    кытшӧм+Det+Rel+Pl+TerII+PxSg2: [кытшӧмметви, кытшӧммезытви]
+    кытшӧм+Det+Rel+Pl+AprIne+PxSg2: [кытшӧммезланят, кытшӧмметланьын, кытшӧммезытланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxSg2: [кытшӧммезланьсит, кытшӧмметланись, кытшӧммезытланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxSg2: [кытшӧммезланят, кытшӧмметланьӧ, кытшӧммезытланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxSg2: [кытшӧмметланьсянь, кытшӧммезытланьсянь, кытшӧммезланьсянят]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxSg2: [кытшӧмметланьӧт, кытшӧммезытланьӧт, кытшӧммезланьӧттят, кытшӧммезланьӧттит]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxSg2: [кытшӧмметланьӧдз, кытшӧммезытланьӧдз, кытшӧммезланьӧдззат, кытшӧммезланьӧдззит]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxSg2: [кытшӧмметланьви, кытшӧммезытланьви] 
+
+
+    кытшӧм+Det+Rel+Pl+Nom+PxSg3: [кытшӧммес, кытшӧммезыс]
+    кытшӧм+Det+Rel+Pl+Acc+PxSg3: [кытшӧммесӧ, кытшӧммезсӧ]
+    кытшӧм+Det+Rel+Pl+Gen+PxSg3: [кытшӧммеслӧн, кытшӧммезыслӧн]
+    кытшӧм+Det+Rel+Pl+Abl+PxSg3: [кытшӧммеслісь, кытшӧммезыслісь]
+    кытшӧм+Det+Rel+Pl+Dat+PxSg3: [кытшӧммеслӧ, кытшӧммезыслӧ]
+    кытшӧм+Det+Rel+Pl+Ins+PxSg3: кытшӧммезнас 
+    кытшӧм+Det+Rel+Pl+Com+PxSg3: [кытшӧммескӧт, кытшӧммезыскӧт]
+    кытшӧм+Det+Rel+Pl+Car+PxSg3: [кытшӧмместӧг, кытшӧммезыстӧг, кытшӧммезтӧгьяс]
+    кытшӧм+Det+Rel+Pl+Cns+PxSg3: [кытшӧммесла, кытшӧммезысла]
+    кытшӧм+Det+Rel+Pl+Cmpr+PxSg3: [кытшӧммесся, кытшӧммезысся]
+    кытшӧм+Det+Rel+Pl+Ine+PxSg3: кытшӧммезас
+    кытшӧм+Det+Rel+Pl+Ela+PxSg3: [кытшӧммесис, кытшӧммезсис]
+    кытшӧм+Det+Rel+Pl+Ill+PxSg3: кытшӧммезас
+    кытшӧм+Det+Rel+Pl+Apr+PxSg3: [кытшӧммеслань, кытшӧммезыслань, кытшӧммезланяс]
+    кытшӧм+Det+Rel+Pl+Egr+PxSg3: [кытшӧммессянь, кытшӧммезыссянь, кытшӧммезсяняс]
+    кытшӧм+Det+Rel+Pl+Prl+PxSg3: [кытшӧммезӧттяс, кытшӧммезӧттис]
+    кытшӧм+Det+Rel+Pl+TerI+PxSg3: [кытшӧммезӧдззас, кытшӧммезӧдззис]
+    кытшӧм+Det+Rel+Pl+TerII+PxSg3: [кытшӧммесви, кытшӧммезысви]
+    кытшӧм+Det+Rel+Pl+AprIne+PxSg3: [кытшӧммезланяс, кытшӧммесланьын, кытшӧммезысланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxSg3: [кытшӧммезланьсис, кытшӧммесланись, кытшӧммезысланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxSg3: [кытшӧммезланяс, кытшӧммесланьӧ, кытшӧммезысланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxSg3: [кытшӧммесланьсянь, кытшӧммезысланьсянь, кытшӧммезланьсяняс]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxSg3: [кытшӧммесланьӧт, кытшӧммезысланьӧт, кытшӧммезланьӧттяс, кытшӧммезланьӧттис]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxSg3: [кытшӧммесланьӧдз, кытшӧммезысланьӧдз, кытшӧммезланьӧдззас, кытшӧммезланьӧдззис]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxSg3: [кытшӧммесланьви, кытшӧммезысланьви]
+
+ 
+    кытшӧм+Det+Rel+Pl+Nom+PxPl1: кытшӧммезным
+    кытшӧм+Det+Rel+Pl+Acc+PxPl1: кытшӧммезнымӧс
+    кытшӧм+Det+Rel+Pl+Gen+PxPl1: кытшӧммезнымлӧн
+    кытшӧм+Det+Rel+Pl+Abl+PxPl1: кытшӧммезнымлісь
+    кытшӧм+Det+Rel+Pl+Dat+PxPl1: кытшӧммезнымлӧ
+    кытшӧм+Det+Rel+Pl+Ins+PxPl1: кытшӧммезнаным 
+    кытшӧм+Det+Rel+Pl+Com+PxPl1: кытшӧммезнымкӧт
+    кытшӧм+Det+Rel+Pl+Car+PxPl1: [кытшӧммезнымтӧг, кытшӧммезтӧгьяным]
+    кытшӧм+Det+Rel+Pl+Cns+PxPl1: кытшӧммезнымла
+    кытшӧм+Det+Rel+Pl+Cmpr+PxPl1: кытшӧммезнымся
+    кытшӧм+Det+Rel+Pl+Ine+PxPl1: кытшӧммезаным
+    кытшӧм+Det+Rel+Pl+Ela+PxPl1: [кытшӧммесиным, кытшӧммезсиным]
+    кытшӧм+Det+Rel+Pl+Ill+PxPl1: кытшӧммезаным
+    кытшӧм+Det+Rel+Pl+Apr+PxPl1: [кытшӧммезнымлань, кытшӧммезланяным]
+    кытшӧм+Det+Rel+Pl+Egr+PxPl1: [кытшӧммезнымсянь, кытшӧммезсяняным]
+    кытшӧм+Det+Rel+Pl+Prl+PxPl1: [кытшӧммезӧттяным, кытшӧммезӧттиным]
+    кытшӧм+Det+Rel+Pl+TerI+PxPl1: [кытшӧммезӧдззаным, кытшӧммезӧдззиным]
+    кытшӧм+Det+Rel+Pl+TerII+PxPl1: кытшӧммезнымви
+    кытшӧм+Det+Rel+Pl+AprIne+PxPl1: [кытшӧммезланяным, кытшӧммезнымланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxPl1: [кытшӧммезланьсиным, кытшӧммезнымланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxPl1: [кытшӧммезланяным, кытшӧммезнымланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxPl1: [кытшӧммезнымланьсянь, кытшӧммезланьсяняным]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxPl1: [кытшӧммезнымланьӧт, кытшӧммезланьӧттяным, кытшӧммезланьӧттиным]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxPl1: [кытшӧммезнымланьӧдз, кытшӧммезланьӧдззаным, кытшӧммезланьӧдззиным]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxPl1: кытшӧммезнымланьви 
+
+
+    кытшӧм+Det+Rel+Pl+Nom+PxPl2: кытшӧммезныт
+    кытшӧм+Det+Rel+Pl+Acc+PxPl2: кытшӧммезнытӧ
+    кытшӧм+Det+Rel+Pl+Gen+PxPl2: кытшӧммезнытлӧн
+    кытшӧм+Det+Rel+Pl+Abl+PxPl2: кытшӧммезнытлісь
+    кытшӧм+Det+Rel+Pl+Dat+PxPl2: кытшӧммезнытлӧ
+    кытшӧм+Det+Rel+Pl+Ins+PxPl2: кытшӧммезнаныт 
+    кытшӧм+Det+Rel+Pl+Com+PxPl2: кытшӧммезныткӧт
+    кытшӧм+Det+Rel+Pl+Car+PxPl2: [кытшӧммезныттӧг, кытшӧммезтӧгьяныт]
+    кытшӧм+Det+Rel+Pl+Cns+PxPl2: кытшӧммезнытла
+    кытшӧм+Det+Rel+Pl+Cmpr+PxPl2: кытшӧммезнытся
+    кытшӧм+Det+Rel+Pl+Ine+PxPl2: кытшӧммезаныт
+    кытшӧм+Det+Rel+Pl+Ela+PxPl2: [кытшӧммесиныт, кытшӧммезсиныт]
+    кытшӧм+Det+Rel+Pl+Ill+PxPl2: кытшӧммезаныт
+    кытшӧм+Det+Rel+Pl+Apr+PxPl2: [кытшӧммезнытлань, кытшӧммезланяныт]
+    кытшӧм+Det+Rel+Pl+Egr+PxPl2: [кытшӧммезнытсянь, кытшӧммезсяняныт]
+    кытшӧм+Det+Rel+Pl+Prl+PxPl2: [кытшӧммезӧттяныт, кытшӧммезӧттиныт]
+    кытшӧм+Det+Rel+Pl+TerI+PxPl2: [кытшӧммезӧдззаныт, кытшӧммезӧдззиныт]
+    кытшӧм+Det+Rel+Pl+TerII+PxPl2: кытшӧммезнытви
+    кытшӧм+Det+Rel+Pl+AprIne+PxPl2: [кытшӧммезланяныт, кытшӧммезнытланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxPl2: [кытшӧммезланьсиныт, кытшӧммезнытланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxPl2: [кытшӧммезланяныт, кытшӧммезнытланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxPl2: [кытшӧммезнытланьсянь, кытшӧммезланьсяняныт]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxPl2: [кытшӧммезнытланьӧт, кытшӧммезланьӧттяныт, кытшӧммезланьӧттиныт]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxPl2: [кытшӧммезнытланьӧдз, кытшӧммезланьӧдззаныт, кытшӧммезланьӧдззиныт]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxPl2: кытшӧммезнытланьви 
+
+
+    кытшӧм+Det+Rel+Pl+Nom+PxPl3: кытшӧммезныс
+    кытшӧм+Det+Rel+Pl+Acc+PxPl3: кытшӧммезнысӧ
+    кытшӧм+Det+Rel+Pl+Gen+PxPl3: кытшӧммезныслӧн
+    кытшӧм+Det+Rel+Pl+Abl+PxPl3: кытшӧммезныслісь
+    кытшӧм+Det+Rel+Pl+Dat+PxPl3: кытшӧммезныслӧ
+    кытшӧм+Det+Rel+Pl+Ins+PxPl3: кытшӧммезнаныс 
+    кытшӧм+Det+Rel+Pl+Com+PxPl3: кытшӧммезныскӧт
+    кытшӧм+Det+Rel+Pl+Car+PxPl3: [кытшӧммезныстӧг, кытшӧммезтӧгьяныс]
+    кытшӧм+Det+Rel+Pl+Cns+PxPl3: кытшӧммезнысла
+    кытшӧм+Det+Rel+Pl+Cmpr+PxPl3: кытшӧммезнысся
+    кытшӧм+Det+Rel+Pl+Ine+PxPl3: кытшӧммезаныс
+    кытшӧм+Det+Rel+Pl+Ela+PxPl3: [кытшӧммесиныс, кытшӧммезсиныс]
+    кытшӧм+Det+Rel+Pl+Ill+PxPl3: кытшӧммезаныс
+    кытшӧм+Det+Rel+Pl+Apr+PxPl3: [кытшӧммезныслань, кытшӧммезланяныс]
+    кытшӧм+Det+Rel+Pl+Egr+PxPl3: [кытшӧммезныссянь, кытшӧммезсяняныс]
+    кытшӧм+Det+Rel+Pl+Prl+PxPl3: [кытшӧммезӧттяныс, кытшӧммезӧттиныс]
+    кытшӧм+Det+Rel+Pl+TerI+PxPl3: [кытшӧммезӧдззаныс, кытшӧммезӧдззиныс]
+    кытшӧм+Det+Rel+Pl+TerII+PxPl3: кытшӧммезнысви
+    кытшӧм+Det+Rel+Pl+AprIne+PxPl3: [кытшӧммезланяныс, кытшӧммезнысланьын]
+    кытшӧм+Det+Rel+Pl+AprEla+PxPl3: [кытшӧммезланьсиныс, кытшӧммезнысланись]
+    кытшӧм+Det+Rel+Pl+AprIll+PxPl3: [кытшӧммезланяныс, кытшӧммезнысланьӧ]
+    кытшӧм+Det+Rel+Pl+AprEgr+PxPl3: [кытшӧммезнысланьсянь, кытшӧммезланьсяняныс]
+    кытшӧм+Det+Rel+Pl+AprPrl+PxPl3: [кытшӧммезнысланьӧт, кытшӧммезланьӧттяныс, кытшӧммезланьӧттиныс]
+    кытшӧм+Det+Rel+Pl+AprTerI+PxPl3: [кытшӧммезнысланьӧдз, кытшӧммезланьӧдззаныс, кытшӧммезланьӧдззиныс]
+    кытшӧм+Det+Rel+Pl+AprTerII+PxPl3: кытшӧммезнысланьви 
+
+
+##Pronoun – кытшӧмкӧ: # Indefinite Pronoun 'Jonkinlainen / Какой-то'
+    кытшӧмкӧ+Det+Indef+Sg+Nom: кытшӧмкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Nom: кытшӧмӧськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc: [кытшӧмӧкӧ, кытшӧмӧскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Gen: кытшӧмлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl: кытшӧмліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat: кытшӧмлӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins: кытшӧмӧнкӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com: кытшӧмкӧкӧт
+    кытшӧмкӧ+Det+Indef+Sg+Car: кытшӧмкӧтӧг
+    кытшӧмкӧ+Det+Indef+Sg+Cns: кытшӧмлакӧ
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr: [кытшӧмкӧся, кытшӧмсякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine: кытшӧмынкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela: кытшӧмиськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill: кытшӧмӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr: [кытшӧмкӧлань, кытшӧмланькӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr: [кытшӧмкӧсянь, кытшӧмсянькӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl: кытшӧмӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+TerI: кытшӧмӧдзкӧ
+    кытшӧмкӧ+Det+Indef+Sg+TerII: [кытшӧмкӧви, кытшӧмвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne: [кытшӧмкӧланьын, кытшӧмланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla: [кытшӧмкӧланись, кытшӧмланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll: [кытшӧмкӧланьӧ, кытшӧмланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr: [кытшӧмкӧланьсянь, кытшӧмланьсянькӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl: [кытшӧмкӧланьӧт, кытшӧмланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI: [кытшӧмкӧланьӧдз, кытшӧмланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII: [кытшӧмкӧланьви, кытшӧмланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxSg1: кытшӧмӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxSg1: кытшӧмӧскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxSg1: кытшӧмӧлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxSg1: кытшӧмӧліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxSg1: кытшӧмӧлӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxSg1: кытшӧмнамкӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxSg1: [кытшӧмӧкӧкӧт, кытшӧмӧкӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxSg1: [кытшӧмӧкӧтӧг, кытшӧмкӧтӧгьям, кытшӧмтӧгьямкӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxSg1: [кытшӧмӧкӧла, кытшӧмӧлакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxSg1: [кытшӧмӧкӧся, кытшӧмӧсякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxSg1: кытшӧмамкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxSg1: кытшӧмсимкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxSg1: кытшӧмамкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxSg1: [кытшӧмӧкӧлань, кытшӧмӧланькӧ, кытшӧмкӧланям, кытшӧмланямкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxSg1: [кытшӧмӧкӧсянь, кытшӧмӧсянькӧ, кытшӧмкӧсяням, кытшӧмсянямкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxSg1: [кытшӧмӧттямкӧ, кытшӧмӧттимкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxSg1: [кытшӧмӧдззамкӧ, кытшӧмӧдззимкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxSg1: [кытшӧмӧкӧви, кытшӧмӧвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxSg1: [кытшӧмкӧланям, кытшӧмланямкӧ, кытшӧмӧкӧланьын, кытшӧмӧланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxSg1: [кытшӧмкӧланьсим, кытшӧмланьсимкӧ, кытшӧмӧкӧланись, кытшӧмӧланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxSg1: [кытшӧмкӧланям, кытшӧмланямкӧ, кытшӧмӧкӧланьӧ, кытшӧмӧланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxSg1: [кытшӧмкӧланьсяням, кытшӧмланьсянямкӧ, кытшӧмӧкӧланьсянь, кытшӧмӧланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxSg1: [кытшӧмкӧланьӧттям, кытшӧмкӧланьӧттим, кытшӧмланьӧттямкӧ, кытшӧмланьӧттимкӧ, кытшӧмӧкӧланьӧт, кытшӧмӧланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxSg1: [кытшӧмкӧланьӧдззам, кытшӧмкӧланьӧдззим, кытшӧмланьӧдззамкӧ, кытшӧмланьӧдззимкӧ, кытшӧмӧкӧланьӧдз, кытшӧмӧланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxSg1: [кытшӧмӧкӧланьви, кытшӧмӧланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxSg2: кытшӧмыткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxSg2: кытшӧмтӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxSg2: кытшӧмытлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxSg2: кытшӧмытліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxSg2: кытшӧмытлӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxSg2: кытшӧмнаткӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxSg2: кытшӧмыткӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxSg2: [кытшӧмыткӧтӧг, кытшӧмкӧтӧгьят, кытшӧмтӧгьяткӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxSg2: [кытшӧмыткӧла, кытшӧмытлакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxSg2: [кытшӧмыткӧся, кытшӧмытсякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxSg2: кытшӧматкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxSg2: кытшӧмситкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxSg2: кытшӧматкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxSg2: [кытшӧмыткӧлань, кытшӧмытланькӧ, кытшӧмкӧланят, кытшӧмланяткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxSg2: [кытшӧмыткӧсянь, кытшӧмытсянькӧ, кытшӧмкӧсянят, кытшӧмсяняткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxSg2: [кытшӧмӧттяткӧ, кытшӧмӧттиткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxSg2: [кытшӧмӧдззаткӧ, кытшӧмӧдззиткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxSg2: [кытшӧмыткӧви, кытшӧмытвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxSg2: [кытшӧмкӧланят, кытшӧмланяткӧ, кытшӧмыткӧланьын, кытшӧмытланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxSg2: [кытшӧмкӧланьсит, кытшӧмланьситкӧ, кытшӧмыткӧланись, кытшӧмытланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxSg2: [кытшӧмкӧланят, кытшӧмланяткӧ, кытшӧмыткӧланьӧ, кытшӧмытланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxSg2: [кытшӧмкӧланьсянят, кытшӧмланьсяняткӧ, кытшӧмыткӧланьсянь, кытшӧмытланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxSg2: [кытшӧмкӧланьӧттят, кытшӧмкӧланьӧттит, кытшӧмланьӧттяткӧ, кытшӧмланьӧттиткӧ, кытшӧмыткӧланьӧт, кытшӧмытланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxSg2: [кытшӧмкӧланьӧдззат, кытшӧмкӧланьӧдззит, кытшӧмланьӧдззаткӧ, кытшӧмланьӧдззиткӧ, кытшӧмыткӧланьӧдз, кытшӧмытланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxSg2: [кытшӧмыткӧланьви, кытшӧмытланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxSg3: кытшӧмыскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxSg3: кытшӧмсӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxSg3: кытшӧмыслӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxSg3: кытшӧмысліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxSg3: кытшӧмыслӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxSg3: кытшӧмнаскӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxSg3: кытшӧмыскӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxSg3: [кытшӧмыскӧтӧг, кытшӧмкӧтӧгьяс, кытшӧмтӧгьяскӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxSg3: [кытшӧмыскӧла, кытшӧмыслакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxSg3: [кытшӧмыскӧся, кытшӧмыссякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxSg3: кытшӧмаскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxSg3: кытшӧмсискӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxSg3: кытшӧмаскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxSg3: [кытшӧмыскӧлань, кытшӧмысланькӧ, кытшӧмкӧланяс, кытшӧмланяскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxSg3: [кытшӧмыскӧсянь, кытшӧмыссянькӧ, кытшӧмкӧсяняс, кытшӧмсяняскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxSg3: [кытшӧмӧттяскӧ, кытшӧмӧттискӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxSg3: [кытшӧмӧдззаскӧ, кытшӧмӧдззискӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxSg3: [кытшӧмыскӧви, кытшӧмысвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxSg3: [кытшӧмкӧланяс, кытшӧмланяскӧ, кытшӧмыскӧланьын, кытшӧмысланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxSg3: [кытшӧмкӧланьсис, кытшӧмланьсискӧ, кытшӧмыскӧланись, кытшӧмысланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxSg3: [кытшӧмкӧланяс, кытшӧмланяскӧ, кытшӧмыскӧланьӧ, кытшӧмысланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxSg3: [кытшӧмкӧланьсяняс, кытшӧмланьсяняскӧ, кытшӧмыскӧланьсянь, кытшӧмысланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxSg3: [кытшӧмкӧланьӧттяс, кытшӧмкӧланьӧттис, кытшӧмланьӧттяскӧ, кытшӧмланьӧттискӧ, кытшӧмыскӧланьӧт, кытшӧмысланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxSg3: [кытшӧмкӧланьӧдззас, кытшӧмкӧланьӧдззис, кытшӧмланьӧдззаскӧ, кытшӧмланьӧдззискӧ, кытшӧмыскӧланьӧдз, кытшӧмысланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxSg3: [кытшӧмыскӧланьви, кытшӧмысланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxPl1: кытшӧмнымкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxPl1: кытшӧмнымӧскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxPl1: кытшӧмнымлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxPl1: кытшӧмнымліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxPl1: кытшӧмнымлӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxPl1: кытшӧмнанымкӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxPl1: кытшӧмнымкӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxPl1: [кытшӧмнымкӧтӧг, кытшӧмкӧтӧгьяным, кытшӧмтӧгьянымкӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxPl1: [кытшӧмнымкӧла, кытшӧмнымлакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxPl1: [кытшӧмнымкӧся, кытшӧмнымсякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxPl1: кытшӧманымкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxPl1: кытшӧмсинымкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxPl1: кытшӧманымкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxPl1: [кытшӧмнымкӧлань, кытшӧмнымланькӧ, кытшӧмкӧланяным, кытшӧмланянымкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxPl1: [кытшӧмнымкӧсянь, кытшӧмнымсянькӧ, кытшӧмкӧсяняным, кытшӧмсянянымкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxPl1: [кытшӧмӧттянымкӧ, кытшӧмӧттинымкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxPl1: [кытшӧмӧдззанымкӧ, кытшӧмӧдззинымкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxPl1: [кытшӧмнымкӧви, кытшӧмнымвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxPl1: [кытшӧмкӧланяным, кытшӧмланянымкӧ, кытшӧмнымкӧланьын, кытшӧмнымланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxPl1: [кытшӧмкӧланьсиным, кытшӧмланьсинымкӧ, кытшӧмнымкӧланись, кытшӧмнымланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxPl1: [кытшӧмкӧланяным, кытшӧмланянымкӧ, кытшӧмнымкӧланьӧ, кытшӧмнымланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxPl1: [кытшӧмкӧланьсяняным, кытшӧмланьсянянымкӧ, кытшӧмнымкӧланьсянь, кытшӧмнымланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxPl1: [кытшӧмкӧланьӧттяным, кытшӧмкӧланьӧттиным, кытшӧмланьӧттянымкӧ, кытшӧмланьӧттинымкӧ, кытшӧмнымкӧланьӧт, кытшӧмнымланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxPl1: [кытшӧмкӧланьӧдззаным, кытшӧмкӧланьӧдззиным, кытшӧмланьӧдззанымкӧ, кытшӧмланьӧдззинымкӧ, кытшӧмнымкӧланьӧдз, кытшӧмнымланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxPl1: [кытшӧмнымкӧланьви, кытшӧмнымланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxPl2: кытшӧмныткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxPl2: кытшӧмнытӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxPl2: кытшӧмнытлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxPl2: кытшӧмнытліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxPl2: кытшӧмнытлӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxPl2: кытшӧмнаныткӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxPl2: кытшӧмныткӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxPl2: [кытшӧмныткӧтӧг, кытшӧмкӧтӧгьяныт, кытшӧмтӧгьяныткӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxPl2: [кытшӧмныткӧла, кытшӧмнытлакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxPl2: [кытшӧмныткӧся, кытшӧмнытсякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxPl2: кытшӧманыткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxPl2: кытшӧмсиныткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxPl2: кытшӧманыткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxPl2: [кытшӧмныткӧлань, кытшӧмнытланькӧ, кытшӧмкӧланяныт, кытшӧмланяныткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxPl2: [кытшӧмныткӧсянь, кытшӧмнытсянькӧ, кытшӧмкӧсяняныт, кытшӧмсяняныткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxPl2: [кытшӧмӧттяныткӧ, кытшӧмӧттиныткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxPl2: [кытшӧмӧдззаныткӧ, кытшӧмӧдззиныткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxPl2: [кытшӧмныткӧви, кытшӧмнытвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxPl2: [кытшӧмкӧланяныт, кытшӧмланяныткӧ, кытшӧмныткӧланьын, кытшӧмнытланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxPl2: [кытшӧмкӧланьсиныт, кытшӧмланьсиныткӧ, кытшӧмныткӧланись, кытшӧмнытланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxPl2: [кытшӧмкӧланяныт, кытшӧмланяныткӧ, кытшӧмныткӧланьӧ, кытшӧмнытланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxPl2: [кытшӧмкӧланьсяняныт, кытшӧмланьсяняныткӧ, кытшӧмныткӧланьсянь, кытшӧмнытланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxPl2: [кытшӧмкӧланьӧттяныт, кытшӧмкӧланьӧттиныт, кытшӧмланьӧттяныткӧ, кытшӧмланьӧттиныткӧ, кытшӧмныткӧланьӧт, кытшӧмнытланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxPl2: [кытшӧмкӧланьӧдззаныт, кытшӧмкӧланьӧдззиныт, кытшӧмланьӧдззаныткӧ, кытшӧмланьӧдззиныткӧ, кытшӧмныткӧланьӧдз, кытшӧмнытланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxPl2: [кытшӧмныткӧланьви, кытшӧмнытланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Sg+Nom+PxPl3: кытшӧмныскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Acc+PxPl3: кытшӧмнысӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Gen+PxPl3: кытшӧмныслӧнкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Abl+PxPl3: кытшӧмнысліськӧ
+    кытшӧмкӧ+Det+Indef+Sg+Dat+PxPl3: кытшӧмныслӧкӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ins+PxPl3: кытшӧмнаныскӧ 
+    кытшӧмкӧ+Det+Indef+Sg+Com+PxPl3: кытшӧмныскӧткӧ
+    кытшӧмкӧ+Det+Indef+Sg+Car+PxPl3: [кытшӧмныскӧтӧг, кытшӧмкӧтӧгьяныс, кытшӧмтӧгьяныскӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+Cns+PxPl3: [кытшӧмныскӧла, кытшӧмныслакӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Cmpr+PxPl3: [кытшӧмныскӧся, кытшӧмныссякӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Ine+PxPl3: кытшӧманыскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ela+PxPl3: кытшӧмсиныскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Ill+PxPl3: кытшӧманыскӧ
+    кытшӧмкӧ+Det+Indef+Sg+Apr+PxPl3: [кытшӧмныскӧлань, кытшӧмнысланькӧ, кытшӧмкӧланяныс, кытшӧмланяныскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Egr+PxPl3: [кытшӧмныскӧсянь, кытшӧмныссянькӧ, кытшӧмкӧсяняныс, кытшӧмсяняныскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+Prl+PxPl3: [кытшӧмӧттяныскӧ, кытшӧмӧттиныскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerI+PxPl3: [кытшӧмӧдззаныскӧ, кытшӧмӧдззиныскӧ]
+    кытшӧмкӧ+Det+Indef+Sg+TerII+PxPl3: [кытшӧмныскӧви, кытшӧмнысвикӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIne+PxPl3: [кытшӧмкӧланяныс, кытшӧмланяныскӧ, кытшӧмныскӧланьын, кытшӧмнысланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEla+PxPl3: [кытшӧмкӧланьсиныс, кытшӧмланьсиныскӧ, кытшӧмныскӧланись, кытшӧмнысланиськӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprIll+PxPl3: [кытшӧмкӧланяныс, кытшӧмланяныскӧ, кытшӧмныскӧланьӧ, кытшӧмнысланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprEgr+PxPl3: [кытшӧмкӧланьсяняныс, кытшӧмланьсяняныскӧ, кытшӧмныскӧланьсянь, кытшӧмнысланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Sg+AprPrl+PxPl3: [кытшӧмкӧланьӧттяныс, кытшӧмкӧланьӧттиныс, кытшӧмланьӧттяныскӧ, кытшӧмланьӧттиныскӧ, кытшӧмныскӧланьӧт, кытшӧмнысланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerI+PxPl3: [кытшӧмкӧланьӧдззаныс, кытшӧмкӧланьӧдззиныс, кытшӧмланьӧдззаныскӧ, кытшӧмланьӧдззиныскӧ, кытшӧмныскӧланьӧдз, кытшӧмнысланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Sg+AprTerII+PxPl3: [кытшӧмныскӧланьви, кытшӧмнысланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom: кытшӧммезкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Acc: [кытшӧммезӧкӧ, кытшӧммезӧскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Gen: кытшӧммезлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Abl: кытшӧммезліськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Dat: кытшӧммезлӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ins: кытшӧммезӧнкӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com: кытшӧммезкӧткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Car: кытшӧммезкӧтӧг
+    кытшӧмкӧ+Det+Indef+Pl+Cns: [кытшӧммезкӧла, кытшӧммезлакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr: [кытшӧммезкӧся, кытшӧммезсякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine: кытшӧммезынкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela: кытшӧммезіськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ill: кытшӧммезӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr: [кытшӧммезкӧлань, кытшӧммезланькӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr: [кытшӧммезкӧсянь, кытшӧммезсянькӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl: кытшӧммезӧткӧ
+    кытшӧмкӧ+Det+Indef+Pl+TerI: кытшӧммезӧдзкӧ
+    кытшӧмкӧ+Det+Indef+Pl+TerII: [кытшӧммезкӧви, кытшӧммезвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne: [кытшӧммезкӧланьын, кытшӧммезланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla: [кытшӧммезкӧланись, кытшӧммезланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll: [кытшӧммезкӧланьӧ, кытшӧммезланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr: [кытшӧммезкӧланьсянь, кытшӧммезланьсянькӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl: [кытшӧммезкӧланьӧт, кытшӧммезланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI: [кытшӧммезкӧланьӧдз, кытшӧммезланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII: [кытшӧммезкӧланьви, кытшӧммезланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxSg1: кытшӧммезӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxSg1: кытшӧммезӧскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxSg1: кытшӧммезӧлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxSg1: кытшӧммезӧліськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxSg1: кытшӧммезӧлӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxSg1: кытшӧммезнамкӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxSg1: [кытшӧммезӧкӧкӧт, кытшӧммезӧкӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxSg1: [кытшӧммезӧкӧтӧг, кытшӧммезкӧтӧгьям, кытшӧммезтӧгьямкӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxSg1: [кытшӧммезӧкӧла, кытшӧммезӧлакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxSg1: [кытшӧммезӧкӧся, кытшӧммезӧсякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxSg1: кытшӧммезамкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxSg1: [кытшӧммесимкӧ, кытшӧммезсимкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxSg1: кытшӧммезамкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxSg1: [кытшӧммезӧкӧлань, кытшӧммезӧланькӧ, кытшӧммезкӧланям, кытшӧммезланямкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxSg1: [кытшӧммезӧкӧсянь, кытшӧммезӧсянькӧ, кытшӧммезкӧсяням, кытшӧммезсянямкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxSg1: [кытшӧммезӧттямкӧ, кытшӧммезӧттимкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxSg1: [кытшӧммезӧдззамкӧ, кытшӧммезӧдззимкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxSg1: [кытшӧммезӧкӧви, кытшӧммезӧвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxSg1: [кытшӧммезкӧланям, кытшӧммезланямкӧ, кытшӧммезӧкӧланьын, кытшӧммезӧланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxSg1: [кытшӧммезкӧланьсим, кытшӧммезланьсимкӧ, кытшӧммезӧкӧланись, кытшӧммезӧланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxSg1: [кытшӧммезкӧланям, кытшӧммезланямкӧ, кытшӧммезӧкӧланьӧ, кытшӧммезӧланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxSg1: [кытшӧммезкӧланьсяням, кытшӧммезланьсянямкӧ, кытшӧммезӧкӧланьсянь, кытшӧммезӧланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxSg1: [кытшӧммезкӧланьӧттям, кытшӧммезкӧланьӧттим, кытшӧммезланьӧттямкӧ, кытшӧммезланьӧттимкӧ, кытшӧммезӧкӧланьӧт, кытшӧммезӧланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxSg1: [кытшӧммезкӧланьӧдззам, кытшӧммезкӧланьӧдззим, кытшӧммезланьӧдззамкӧ, кытшӧммезланьӧдззимкӧ, кытшӧммезӧкӧланьӧдз, кытшӧммезӧланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxSg1: [кытшӧммезӧкӧланьви, кытшӧммезӧланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxSg2: [кытшӧмметкӧ, кытшӧммезыткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxSg2: [кытшӧмметӧкӧ, кытшӧммезтӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxSg2: [кытшӧмметлӧнкӧ, кытшӧммезытлӧнкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxSg2: [кытшӧмметліськӧ, кытшӧммезытліськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxSg2: [кытшӧмметлӧкӧ, кытшӧммезытлӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxSg2: кытшӧммезнаткӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxSg2: [кытшӧмметкӧткӧ, кытшӧммезыткӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxSg2: [кытшӧмметкӧтӧг, кытшӧммезыткӧтӧг, кытшӧммезкӧтӧгьят, кытшӧммезтӧгьяткӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxSg2: [кытшӧмметкӧла, кытшӧммезыткӧла, кытшӧмметлакӧ, кытшӧммезытлакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxSg2: [кытшӧмметкӧся, кытшӧммезыткӧся, кытшӧмметсякӧ, кытшӧммезытсякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxSg2: кытшӧммезаткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxSg2: [кытшӧммеситкӧ, кытшӧммезситкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxSg2: кытшӧммезаткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxSg2: [кытшӧмметкӧлань, кытшӧммезыткӧлань, кытшӧмметланькӧ, кытшӧммезытланькӧ, кытшӧммезкӧланят, кытшӧммезланяткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxSg2: [кытшӧмметкӧсянь, кытшӧммезыткӧсянь, кытшӧмметсянькӧ, кытшӧммезытсянькӧ, кытшӧммезкӧсянят, кытшӧммезсяняткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxSg2: [кытшӧммезӧттяткӧ, кытшӧммезӧттиткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxSg2: [кытшӧммезӧдззаткӧ, кытшӧммезӧдззиткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxSg2: [кытшӧмметкӧви, кытшӧммезыткӧви, кытшӧмметвикӧ, кытшӧммезытвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxSg2: [кытшӧммезкӧланят, кытшӧммезланяткӧ, кытшӧмметкӧланьын, кытшӧммезыткӧланьын, кытшӧмметланьынкӧ, кытшӧммезытланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxSg2: [кытшӧммезкӧланьсит, кытшӧммезланьситкӧ, кытшӧмметкӧланись, кытшӧммезыткӧланись, кытшӧмметланиськӧ, кытшӧммезытланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxSg2: [кытшӧммезкӧланят, кытшӧммезланяткӧ, кытшӧмметкӧланьӧ, кытшӧммезыткӧланьӧ, кытшӧмметланьӧкӧ, кытшӧммезытланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxSg2: [кытшӧммезкӧланьсянят, кытшӧммезланьсяняткӧ, кытшӧмметкӧланьсянь, кытшӧммезыткӧланьсянь, кытшӧмметланьсянькӧ, кытшӧммезытланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxSg2: [кытшӧммезкӧланьӧттят, кытшӧммезкӧланьӧттит, кытшӧммезланьӧттяткӧ, кытшӧммезланьӧттиткӧ, кытшӧмметкӧланьӧт, кытшӧммезыткӧланьӧт, кытшӧмметланьӧткӧ, кытшӧммезытланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxSg2: [кытшӧммезкӧланьӧдззат, кытшӧммезкӧланьӧдззит, кытшӧммезланьӧдззаткӧ, кытшӧммезланьӧдззиткӧ, кытшӧмметкӧланьӧдз, кытшӧммезыткӧланьӧдз, кытшӧмметланьӧдзкӧ, кытшӧммезытланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxSg2: [кытшӧмметкӧланьви, кытшӧммезыткӧланьви, кытшӧмметланьвикӧ, кытшӧммезытланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxSg3: [кытшӧммеcкӧ, кытшӧммезыcкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxSg3: [кытшӧммеcӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxSg3: [кытшӧммеслӧнкӧ, кытшӧммезыслӧнкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxSg3: [кытшӧммесліськӧ, кытшӧммезысліськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxSg3: [кытшӧммеслӧкӧ, кытшӧммезыслӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxSg3: кытшӧммезнаскӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxSg3: [кытшӧммескӧткӧ, кытшӧммезыскӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxSg3: [кытшӧммескӧтӧг, кытшӧммезыскӧтӧг, кытшӧммезкӧтӧгьяс, кытшӧммезтӧгьяскӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxSg3: [кытшӧммескӧла, кытшӧммезыскӧла, кытшӧммеслакӧ, кытшӧммезыслакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxSg3: [кытшӧммескӧся, кытшӧммезыскӧся, кытшӧммессякӧ, кытшӧммезыссякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxSg3: кытшӧммезаскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxSg3: [кытшӧммесискӧ, кытшӧммезсискӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxSg3: кытшӧммезаскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxSg3: [кытшӧммескӧлань, кытшӧммезыскӧлань, кытшӧммесланькӧ, кытшӧммезысланькӧ, кытшӧммезкӧланяс, кытшӧммезланяскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxSg3: [кытшӧммескӧсянь, кытшӧммезыскӧсянь, кытшӧммессянькӧ, кытшӧммезыссянькӧ, кытшӧммезкӧсяняс, кытшӧммезсяняскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxSg3: [кытшӧммезӧттяскӧ, кытшӧммезӧттискӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxSg3: [кытшӧммезӧдззаскӧ, кытшӧммезӧдззискӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxSg3: [кытшӧммескӧви, кытшӧммезыскӧви, кытшӧммесвикӧ, кытшӧммезысвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxSg3: [кытшӧммезкӧланяс, кытшӧммезланяскӧ, кытшӧммескӧланьын, кытшӧммезыскӧланьын, кытшӧммесланьынкӧ, кытшӧммезысланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxSg3: [кытшӧммезкӧланьсис, кытшӧммезланьсискӧ, кытшӧммескӧланись, кытшӧммезыскӧланись, кытшӧммесланиськӧ, кытшӧммезысланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxSg3: [кытшӧммезкӧланяс, кытшӧммезланяскӧ, кытшӧммескӧланьӧ, кытшӧммезыскӧланьӧ, кытшӧммесланьӧкӧ, кытшӧммезысланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxSg3: [кытшӧммезкӧланьсяняс, кытшӧммезланьсяняскӧ, кытшӧммескӧланьсянь, кытшӧммезыскӧланьсянь, кытшӧммесланьсянькӧ, кытшӧммезысланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxSg3: [кытшӧммезкӧланьӧттяс, кытшӧммезкӧланьӧттис, кытшӧммезланьӧттяскӧ, кытшӧммезланьӧттискӧ, кытшӧммескӧланьӧт, кытшӧммезыскӧланьӧт, кытшӧммесланьӧткӧ, кытшӧммезысланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxSg3: [кытшӧммезкӧланьӧдззас, кытшӧммезкӧланьӧдззис, кытшӧммезланьӧдззаскӧ, кытшӧммезланьӧдззискӧ, кытшӧммескӧланьӧдз, кытшӧммезыскӧланьӧдз, кытшӧммесланьӧдзкӧ, кытшӧммезысланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxSg3: [кытшӧммескӧланьви, кытшӧммезыскӧланьви, кытшӧммесланьвикӧ, кытшӧммезысланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxPl1: кытшӧммезнымкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxPl1: кытшӧммезнымӧскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxPl1: кытшӧммезнымлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxPl1: кытшӧммезнымліськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxPl1: кытшӧммезнымлӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxPl1: кытшӧммезнанымкӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxPl1: кытшӧммезнымкӧткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxPl1: [кытшӧммезнымкӧтӧг, кытшӧммезкӧтӧгьяным, кытшӧммезтӧгьянымкӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxPl1: [кытшӧммезнымкӧла, кытшӧммезнымлакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxPl1: [кытшӧммезнымкӧся, кытшӧммезнымсякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxPl1: кытшӧммезанымкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxPl1: [кытшӧммесинымкӧ, кытшӧммезсинымкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxPl1: кытшӧммезанымкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxPl1: [кытшӧммезнымкӧлань, кытшӧммезнымланькӧ, кытшӧммезкӧланяным, кытшӧммезланянымкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxPl1: [кытшӧммезнымкӧсянь, кытшӧммезнымсянькӧ, кытшӧммезкӧсяняным, кытшӧммезсянянымкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxPl1: [кытшӧммезӧттянымкӧ, кытшӧммезӧттинымкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxPl1: [кытшӧммезӧдззанымкӧ, кытшӧммезӧдззинымкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxPl1: [кытшӧммезнымкӧви, кытшӧммезнымвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxPl1: [кытшӧммезкӧланяным, кытшӧммезланянымкӧ, кытшӧммезнымкӧланьын, кытшӧммезнымланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxPl1: [кытшӧммезкӧланьсиным, кытшӧммезланьсинымкӧ, кытшӧммезнымкӧланись, кытшӧммезнымланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxPl1: [кытшӧммезкӧланяным, кытшӧммезланянымкӧ, кытшӧммезнымкӧланьӧ, кытшӧммезнымланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxPl1: [кытшӧммезкӧланьсяняным, кытшӧммезланьсянянымкӧ, кытшӧммезнымкӧланьсянь, кытшӧммезнымланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxPl1: [кытшӧммезкӧланьӧттяным, кытшӧммезкӧланьӧттиным, кытшӧммезланьӧттянымкӧ, кытшӧммезланьӧттинымкӧ, кытшӧммезнымкӧланьӧт, кытшӧммезнымланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxPl1: [кытшӧммезкӧланьӧдззаным, кытшӧммезкӧланьӧдззиным, кытшӧммезланьӧдззанымкӧ, кытшӧммезланьӧдззинымкӧ, кытшӧммезнымкӧланьӧдз, кытшӧммезнымланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxPl1: [кытшӧммезнымкӧланьви, кытшӧммезнымланьвикӧ]
+
+
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxPl2: кытшӧммезныткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxPl2: кытшӧммезнытӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxPl2: кытшӧммезнытлӧнкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxPl2: кытшӧммезнытліськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxPl2: кытшӧммезнытлӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxPl2: кытшӧммезнаныткӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxPl2: кытшӧммезныткӧткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxPl2: [кытшӧммезныткӧтӧг, кытшӧммезкӧтӧгьяныт, кытшӧммезтӧгьяныткӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxPl2: [кытшӧммезныткӧла, кытшӧммезнытлакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxPl2: [кытшӧммезныткӧся, кытшӧммезнытсякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxPl2: кытшӧммезаныткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxPl2: [кытшӧммесиныткӧ, кытшӧммезсиныткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxPl2: кытшӧммезаныткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxPl2: [кытшӧммезныткӧлань, кытшӧммезнытланькӧ, кытшӧммезкӧланяныт, кытшӧммезланяныткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxPl2: [кытшӧммезныткӧсянь, кытшӧммезнытсянькӧ, кытшӧммезкӧсяняныт, кытшӧммезсяняныткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxPl2: [кытшӧммезӧттяныткӧ, кытшӧммезӧттиныткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxPl2: [кытшӧммезӧдззаныткӧ, кытшӧммезӧдззиныткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxPl2: [кытшӧммезныткӧви, кытшӧммезнытвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxPl2: [кытшӧммезкӧланяныт, кытшӧммезланяныткӧ, кытшӧммезныткӧланьын, кытшӧммезнытланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxPl2: [кытшӧммезкӧланьсиныт, кытшӧммезланьсиныткӧ, кытшӧммезныткӧланись, кытшӧммезнытланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxPl2: [кытшӧммезкӧланяныт, кытшӧммезланяныткӧ, кытшӧммезныткӧланьӧ, кытшӧммезнытланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxPl2: [кытшӧммезкӧланьсяняныт, кытшӧммезланьсяняныткӧ, кытшӧммезныткӧланьсянь, кытшӧммезнытланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxPl2: [кытшӧммезкӧланьӧттяныт, кытшӧммезкӧланьӧттиныт, кытшӧммезланьӧттяныткӧ, кытшӧммезланьӧттиныткӧ, кытшӧммезныткӧланьӧт, кытшӧммезнытланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxPl2: [кытшӧммезкӧланьӧдззаныт, кытшӧммезкӧланьӧдззиныт, кытшӧммезланьӧдззаныткӧ, кытшӧммезланьӧдззиныткӧ, кытшӧммезныткӧланьӧдз, кытшӧммезнытланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxPl2: [кытшӧммезныткӧланьви, кытшӧммезнытланьвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Nom+PxPl3: кытшӧммезныскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Acc+PxPl3: кытшӧммезнысӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Gen+PxPl3: кытшӧммезныслӧнкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Abl+PxPl3: кытшӧммезнысліськӧ
+    кытшӧмкӧ+Det+Indef+Pl+Dat+PxPl3: кытшӧммезныслӧкӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ins+PxPl3: кытшӧммезнаныскӧ 
+    кытшӧмкӧ+Det+Indef+Pl+Com+PxPl3: кытшӧммезныскӧткӧ
+    кытшӧмкӧ+Det+Indef+Pl+Car+PxPl3: [кытшӧммезныскӧтӧг, кытшӧммезкӧтӧгьяныс, кытшӧммезтӧгьяныскӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+Cns+PxPl3: [кытшӧммезныскӧла, кытшӧммезныслакӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Cmpr+PxPl3: [кытшӧммезныскӧся, кытшӧммезныссякӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ine+PxPl3: кытшӧммезаныскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Ela+PxPl3: [кытшӧммесиныскӧ, кытшӧммезсиныскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Ill+PxPl3: кытшӧммезаныскӧ
+    кытшӧмкӧ+Det+Indef+Pl+Apr+PxPl3: [кытшӧммезныскӧлань, кытшӧммезнысланькӧ, кытшӧммезкӧланяныс, кытшӧммезланяныскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Egr+PxPl3: [кытшӧммезныскӧсянь, кытшӧммезныссянькӧ, кытшӧммезкӧсяняныс, кытшӧммезсяняныскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+Prl+PxPl3: [кытшӧммезӧттяныскӧ, кытшӧммезӧттиныскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerI+PxPl3: [кытшӧммезӧдззаныскӧ, кытшӧммезӧдззиныскӧ]
+    кытшӧмкӧ+Det+Indef+Pl+TerII+PxPl3: [кытшӧммезныскӧви, кытшӧммезнысвикӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIne+PxPl3: [кытшӧммезкӧланяныс, кытшӧммезланяныскӧ, кытшӧммезныскӧланьын, кытшӧммезнысланьынкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEla+PxPl3: [кытшӧммезкӧланьсиныс, кытшӧммезланьсиныскӧ, кытшӧммезныскӧланись, кытшӧммезнысланиськӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprIll+PxPl3: [кытшӧммезкӧланяныс, кытшӧммезланяныскӧ, кытшӧммезныскӧланьӧ, кытшӧммезнысланьӧкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprEgr+PxPl3: [кытшӧммезкӧланьсяняныс, кытшӧммезланьсяняныскӧ, кытшӧммезныскӧланьсянь, кытшӧммезнысланьсянькӧ] 
+    кытшӧмкӧ+Det+Indef+Pl+AprPrl+PxPl3: [кытшӧммезкӧланьӧттяныс, кытшӧммезкӧланьӧттиныс, кытшӧммезланьӧттяныскӧ, кытшӧммезланьӧттиныскӧ, кытшӧммезныскӧланьӧт, кытшӧммезнысланьӧткӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerI+PxPl3: [кытшӧммезкӧланьӧдззаныс, кытшӧммезкӧланьӧдззиныс, кытшӧммезланьӧдззаныскӧ, кытшӧммезланьӧдззиныскӧ, кытшӧммезныскӧланьӧдз, кытшӧммезнысланьӧдзкӧ]
+    кытшӧмкӧ+Det+Indef+Pl+AprTerII+PxPl3: [кытшӧммезныскӧланьви, кытшӧммезнысланьвикӧ]
+
+
+##Pronoun – некытшӧм: # Negative Pronoun 'Ei minkälainen / Никакой'
+    некытшӧм+Det+Neg+Sg+Nom: некытшӧм
+    некытшӧм+Det+Neg+Pl+Nom: некытшӧмӧсь
+    некытшӧм+Det+Neg+Sg+Acc: [некытшӧмӧ, некытшӧмӧс]
+    некытшӧм+Det+Neg+Sg+Gen: некытшӧмлӧн
+    некытшӧм+Det+Neg+Sg+Abl: некытшӧмлісь
+    некытшӧм+Det+Neg+Sg+Dat: некытшӧмлӧ
+    некытшӧм+Det+Neg+Sg+Ins: некытшӧмӧн 
+    некытшӧм+Det+Neg+Sg+Com: некытшӧмкӧт
+    некытшӧм+Det+Neg+Sg+Car: некытшӧмтӧг
+    некытшӧм+Det+Neg+Sg+Cns: некытшӧмла
+    некытшӧм+Det+Neg+Sg+Cmpr: некытшӧмся
+    некытшӧм+Det+Neg+Sg+Ine: некытшӧмын
+    некытшӧм+Det+Neg+Sg+Ela: некытшӧмись
+    некытшӧм+Det+Neg+Sg+Ill: некытшӧмӧ
+    некытшӧм+Det+Neg+Sg+Apr: некытшӧмлань
+    некытшӧм+Det+Neg+Sg+Egr: некытшӧмсянь
+    некытшӧм+Det+Neg+Sg+Prl: некытшӧмӧт
+    некытшӧм+Det+Neg+Sg+TerI: некытшӧмӧдз
+    некытшӧм+Det+Neg+Sg+TerII: некытшӧмви
+    некытшӧм+Det+Neg+Sg+AprIne: некытшӧмланьын
+    некытшӧм+Det+Neg+Sg+AprEla: некытшӧмланись
+    некытшӧм+Det+Neg+Sg+AprIll: некытшӧмланьӧ
+    некытшӧм+Det+Neg+Sg+AprEgr: некытшӧмланьсянь
+    некытшӧм+Det+Neg+Sg+AprPrl: некытшӧмланьӧт
+    некытшӧм+Det+Neg+Sg+AprTerI: некытшӧмланьӧдз
+    некытшӧм+Det+Neg+Sg+AprTerII: некытшӧмланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxSg1: некытшӧмӧ
+    некытшӧм+Det+Neg+Sg+Acc+PxSg1: некытшӧмӧс
+    некытшӧм+Det+Neg+Sg+Gen+PxSg1: некытшӧмӧлӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxSg1: некытшӧмӧлісь
+    некытшӧм+Det+Neg+Sg+Dat+PxSg1: некытшӧмӧлӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxSg1: некытшӧмнам 
+    некытшӧм+Det+Neg+Sg+Com+PxSg1: некытшӧмӧкӧт
+    некытшӧм+Det+Neg+Sg+Car+PxSg1: [некытшӧмӧтӧг, некытшӧмтӧгьям] 
+    некытшӧм+Det+Neg+Sg+Cns+PxSg1: некытшӧмӧла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxSg1: некытшӧмӧся
+    некытшӧм+Det+Neg+Sg+Ine+PxSg1: некытшӧмам
+    некытшӧм+Det+Neg+Sg+Ela+PxSg1: некытшӧмсим
+    некытшӧм+Det+Neg+Sg+Ill+PxSg1: некытшӧмам
+    некытшӧм+Det+Neg+Sg+Apr+PxSg1: [некытшӧмӧлань, некытшӧмланям]
+    некытшӧм+Det+Neg+Sg+Egr+PxSg1: [некытшӧмӧсянь, некытшӧмсяням]
+    некытшӧм+Det+Neg+Sg+Prl+PxSg1: [некытшӧмӧттям, некытшӧмӧттим]
+    некытшӧм+Det+Neg+Sg+TerI+PxSg1: [некытшӧмӧдззам, некытшӧмӧдззим]
+    некытшӧм+Det+Neg+Sg+TerII+PxSg1: некытшӧмӧви
+    некытшӧм+Det+Neg+Sg+AprIne+PxSg1: [некытшӧмланям, некытшӧмӧланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxSg1: [некытшӧмланьсим, некытшӧмӧланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxSg1: [некытшӧмланям, некытшӧмӧланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxSg1: [некытшӧмӧланьсянь, некытшӧмланьсяням] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxSg1: [некытшӧмӧланьӧт, некытшӧмланьӧттям, некытшӧмланьӧттим]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxSg1: [некытшӧмӧланьӧдз, некытшӧмланьӧдззам, некытшӧмланьӧдззим]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxSg1: некытшӧмӧланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxSg2: некытшӧмыт
+    некытшӧм+Det+Neg+Sg+Acc+PxSg2: некытшӧмтӧ
+    некытшӧм+Det+Neg+Sg+Gen+PxSg2: некытшӧмытлӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxSg2: некытшӧмытлісь
+    некытшӧм+Det+Neg+Sg+Dat+PxSg2: некытшӧмытлӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxSg2: некытшӧмнат 
+    некытшӧм+Det+Neg+Sg+Com+PxSg2: некытшӧмыткӧт
+    некытшӧм+Det+Neg+Sg+Car+PxSg2: [некытшӧмыттӧг, некытшӧмтӧгьят]
+    некытшӧм+Det+Neg+Sg+Cns+PxSg2: некытшӧмытла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxSg2: некытшӧмытся
+    некытшӧм+Det+Neg+Sg+Ine+PxSg2: некытшӧмат
+    некытшӧм+Det+Neg+Sg+Ela+PxSg2: некытшӧмсит
+    некытшӧм+Det+Neg+Sg+Ill+PxSg2: некытшӧмат
+    некытшӧм+Det+Neg+Sg+Apr+PxSg2: [некытшӧмытлань, некытшӧмланят]
+    некытшӧм+Det+Neg+Sg+Egr+PxSg2: [некытшӧмытсянь, некытшӧмсянят]
+    некытшӧм+Det+Neg+Sg+Prl+PxSg2: [некытшӧмӧттят, некытшӧмӧттит]
+    некытшӧм+Det+Neg+Sg+TerI+PxSg2: [некытшӧмӧдззат, некытшӧмӧдззит]
+    некытшӧм+Det+Neg+Sg+TerII+PxSg2: некытшӧмытви
+    некытшӧм+Det+Neg+Sg+AprIne+PxSg2: [некытшӧмланят, некытшӧмытланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxSg2: [некытшӧмланьсит, некытшӧмытланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxSg2: [некытшӧмланят, некытшӧмытланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxSg2: [некытшӧмытланьсянь, некытшӧмланьсянят] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxSg2: [некытшӧмытланьӧт, некытшӧмланьӧттят, некытшӧмланьӧттит]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxSg2: [некытшӧмытланьӧдз, некытшӧмланьӧдззат, некытшӧмланьӧдззит]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxSg2: некытшӧмытланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxSg3: некытшӧмыс
+    некытшӧм+Det+Neg+Sg+Acc+PxSg3: некытшӧмсӧ
+    некытшӧм+Det+Neg+Sg+Gen+PxSg3: некытшӧмыслӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxSg3: некытшӧмыслісь
+    некытшӧм+Det+Neg+Sg+Dat+PxSg3: некытшӧмыслӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxSg3: некытшӧмнас 
+    некытшӧм+Det+Neg+Sg+Com+PxSg3: некытшӧмыскӧт
+    некытшӧм+Det+Neg+Sg+Car+PxSg3: [некытшӧмыстӧг, некытшӧмтӧгьяс]
+    некытшӧм+Det+Neg+Sg+Cns+PxSg3: некытшӧмысла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxSg3: некытшӧмысся
+    некытшӧм+Det+Neg+Sg+Ine+PxSg3: некытшӧмас
+    некытшӧм+Det+Neg+Sg+Ela+PxSg3: некытшӧмсис
+    некытшӧм+Det+Neg+Sg+Ill+PxSg3: некытшӧмас
+    некытшӧм+Det+Neg+Sg+Apr+PxSg3: [некытшӧмыслань, некытшӧмланяс]
+    некытшӧм+Det+Neg+Sg+Egr+PxSg3: [некытшӧмыссянь, некытшӧмсяняс]
+    некытшӧм+Det+Neg+Sg+Prl+PxSg3: [некытшӧмӧттяс, некытшӧмӧттис]
+    некытшӧм+Det+Neg+Sg+TerI+PxSg3: [некытшӧмӧдззас, некытшӧмӧдззис]
+    некытшӧм+Det+Neg+Sg+TerII+PxSg3: некытшӧмысви
+    некытшӧм+Det+Neg+Sg+AprIne+PxSg3: [некытшӧмланяс, некытшӧмысланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxSg3: [некытшӧмланьсис, некытшӧмысланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxSg3: [некытшӧмланяс, некытшӧмысланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxSg3: [некытшӧмысланьсянь, некытшӧмланьсяняс] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxSg3: [некытшӧмысланьӧт, некытшӧмланьӧттяс, некытшӧмланьӧттис]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxSg3: [некытшӧмысланьӧдз, некытшӧмланьӧдззас, некытшӧмланьӧдззис]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxSg3: некытшӧмысланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxPl1: некытшӧмным
+    некытшӧм+Det+Neg+Sg+Acc+PxPl1: некытшӧмнымӧс
+    некытшӧм+Det+Neg+Sg+Gen+PxPl1: некытшӧмнымлӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxPl1: некытшӧмнымлісь
+    некытшӧм+Det+Neg+Sg+Dat+PxPl1: некытшӧмнымлӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxPl1: некытшӧмнаным 
+    некытшӧм+Det+Neg+Sg+Com+PxPl1: некытшӧмнымкӧт
+    некытшӧм+Det+Neg+Sg+Car+PxPl1: [некытшӧмнымтӧг, некытшӧмтӧгьяным]
+    некытшӧм+Det+Neg+Sg+Cns+PxPl1: некытшӧмнымла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxPl1: некытшӧмнымся
+    некытшӧм+Det+Neg+Sg+Ine+PxPl1: некытшӧманым
+    некытшӧм+Det+Neg+Sg+Ela+PxPl1: некытшӧмсиным
+    некытшӧм+Det+Neg+Sg+Ill+PxPl1: некытшӧманым
+    некытшӧм+Det+Neg+Sg+Apr+PxPl1: [некытшӧмнымлань, некытшӧмланяным]
+    некытшӧм+Det+Neg+Sg+Egr+PxPl1: [некытшӧмнымсянь, некытшӧмсяняным]
+    некытшӧм+Det+Neg+Sg+Prl+PxPl1: [некытшӧмӧттяным, некытшӧмӧттиным]
+    некытшӧм+Det+Neg+Sg+TerI+PxPl1: [некытшӧмӧдззаным, некытшӧмӧдззиным]
+    некытшӧм+Det+Neg+Sg+TerII+PxPl1: некытшӧмнымви
+    некытшӧм+Det+Neg+Sg+AprIne+PxPl1: [некытшӧмланяным, некытшӧмнымланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxPl1: [некытшӧмланьсиным, некытшӧмнымланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxPl1: [некытшӧмланяным, некытшӧмнымланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxPl1: [некытшӧмнымланьсянь, некытшӧмланьсяняным] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxPl1: [некытшӧмнымланьӧт, некытшӧмланьӧттяным, некытшӧмланьӧттиным]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxPl1: [некытшӧмнымланьӧдз, некытшӧмланьӧдззаным, некытшӧмланьӧдззиным]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxPl1: некытшӧмнымланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxPl2: некытшӧмныт
+    некытшӧм+Det+Neg+Sg+Acc+PxPl2: некытшӧмнытӧ
+    некытшӧм+Det+Neg+Sg+Gen+PxPl2: некытшӧмнытлӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxPl2: некытшӧмнытлісь
+    некытшӧм+Det+Neg+Sg+Dat+PxPl2: некытшӧмнытлӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxPl2: некытшӧмнаныт 
+    некытшӧм+Det+Neg+Sg+Com+PxPl2: некытшӧмныткӧт
+    некытшӧм+Det+Neg+Sg+Car+PxPl2: [некытшӧмныттӧг, некытшӧмтӧгьяныт]
+    некытшӧм+Det+Neg+Sg+Cns+PxPl2: некытшӧмнытла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxPl2: некытшӧмнытся
+    некытшӧм+Det+Neg+Sg+Ine+PxPl2: некытшӧманыт
+    некытшӧм+Det+Neg+Sg+Ela+PxPl2: некытшӧмсиныт
+    некытшӧм+Det+Neg+Sg+Ill+PxPl2: некытшӧманыт
+    некытшӧм+Det+Neg+Sg+Apr+PxPl2: [некытшӧмнытлань, некытшӧмланяныт]
+    некытшӧм+Det+Neg+Sg+Egr+PxPl2: [некытшӧмнытсянь, некытшӧмсяняныт]
+    некытшӧм+Det+Neg+Sg+Prl+PxPl2: [некытшӧмӧттяныт, некытшӧмӧттиныт]
+    некытшӧм+Det+Neg+Sg+TerI+PxPl2: [некытшӧмӧдззаныт, некытшӧмӧдззиныт]
+    некытшӧм+Det+Neg+Sg+TerII+PxPl2: некытшӧмнытви
+    некытшӧм+Det+Neg+Sg+AprIne+PxPl2: [некытшӧмланяныт, некытшӧмнытланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxPl2: [некытшӧмланьсиныт, некытшӧмнытланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxPl2: [некытшӧмланяныт, некытшӧмнытланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxPl2: [некытшӧмнытланьсянь, некытшӧмланьсяняныт] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxPl2: [некытшӧмнытланьӧт, некытшӧмланьӧттяныт, некытшӧмланьӧттиныт]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxPl2: [некытшӧмнытланьӧдз, некытшӧмланьӧдззаныт, некытшӧмланьӧдззиныт]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxPl2: некытшӧмнытланьви
+
+
+    некытшӧм+Det+Neg+Sg+Nom+PxPl3: некытшӧмныс
+    некытшӧм+Det+Neg+Sg+Acc+PxPl3: некытшӧмнысӧ
+    некытшӧм+Det+Neg+Sg+Gen+PxPl3: некытшӧмныслӧн
+    некытшӧм+Det+Neg+Sg+Abl+PxPl3: некытшӧмныслісь
+    некытшӧм+Det+Neg+Sg+Dat+PxPl3: некытшӧмныслӧ
+    некытшӧм+Det+Neg+Sg+Ins+PxPl3: некытшӧмнаныс 
+    некытшӧм+Det+Neg+Sg+Com+PxPl3: некытшӧмныскӧт
+    некытшӧм+Det+Neg+Sg+Car+PxPl3: [некытшӧмныстӧг, некытшӧмтӧгьяныс]
+    некытшӧм+Det+Neg+Sg+Cns+PxPl3: некытшӧмнысла
+    некытшӧм+Det+Neg+Sg+Cmpr+PxPl3: некытшӧмнысся
+    некытшӧм+Det+Neg+Sg+Ine+PxPl3: некытшӧманыс
+    некытшӧм+Det+Neg+Sg+Ela+PxPl3: некытшӧмсиныс
+    некытшӧм+Det+Neg+Sg+Ill+PxPl3: некытшӧманыс
+    некытшӧм+Det+Neg+Sg+Apr+PxPl3: [некытшӧмныслань, некытшӧмланяныс]
+    некытшӧм+Det+Neg+Sg+Egr+PxPl3: [некытшӧмныссянь, некытшӧмсяняныс]
+    некытшӧм+Det+Neg+Sg+Prl+PxPl3: [некытшӧмӧттяныс, некытшӧмӧттиныс]
+    некытшӧм+Det+Neg+Sg+TerI+PxPl3: [некытшӧмӧдззаныс, некытшӧмӧдззиныс]
+    некытшӧм+Det+Neg+Sg+TerII+PxPl3: некытшӧмнысви
+    некытшӧм+Det+Neg+Sg+AprIne+PxPl3: [некытшӧмланяныс, некытшӧмнысланьын]
+    некытшӧм+Det+Neg+Sg+AprEla+PxPl3: [некытшӧмланьсиныс, некытшӧмнысланись]
+    некытшӧм+Det+Neg+Sg+AprIll+PxPl3: [некытшӧмланяныс, некытшӧмнысланьӧ]
+    некытшӧм+Det+Neg+Sg+AprEgr+PxPl3: [некытшӧмнысланьсянь, некытшӧмланьсяняныс] 
+    некытшӧм+Det+Neg+Sg+AprPrl+PxPl3: [некытшӧмнысланьӧт, некытшӧмланьӧттяныс, некытшӧмланьӧттиныс]
+    некытшӧм+Det+Neg+Sg+AprTerI+PxPl3: [некытшӧмнысланьӧдз, некытшӧмланьӧдззаныс, некытшӧмланьӧдззиныс]
+    некытшӧм+Det+Neg+Sg+AprTerII+PxPl3: некытшӧмнысланьви
+
+
+    некытшӧм+Det+Neg+Pl+Nom: некытшӧммез
+    некытшӧм+Det+Neg+Pl+Acc: [некытшӧммезӧ, некытшӧммезӧс]
+    некытшӧм+Det+Neg+Pl+Gen: некытшӧммезлӧн
+    некытшӧм+Det+Neg+Pl+Abl: некытшӧммезлісь
+    некытшӧм+Det+Neg+Pl+Dat: некытшӧммезлӧ
+    некытшӧм+Det+Neg+Pl+Ins: некытшӧммезӧн 
+    некытшӧм+Det+Neg+Pl+Com: некытшӧммезкӧт
+    некытшӧм+Det+Neg+Pl+Car: некытшӧммезтӧг
+    некытшӧм+Det+Neg+Pl+Cns: некытшӧммезла
+    некытшӧм+Det+Neg+Pl+Cmpr: некытшӧммезся
+    некытшӧм+Det+Neg+Pl+Ine: некытшӧммезын
+    некытшӧм+Det+Neg+Pl+Ela: некытшӧммезісь
+    некытшӧм+Det+Neg+Pl+Ill: некытшӧммезӧ
+    некытшӧм+Det+Neg+Pl+Apr: некытшӧммезлань
+    некытшӧм+Det+Neg+Pl+Egr: некытшӧммезсянь
+    некытшӧм+Det+Neg+Pl+Prl: некытшӧммезӧт
+    некытшӧм+Det+Neg+Pl+TerI: некытшӧммезӧдз
+    некытшӧм+Det+Neg+Pl+TerII: некытшӧммезви
+    некытшӧм+Det+Neg+Pl+AprIne: некытшӧммезланьын
+    некытшӧм+Det+Neg+Pl+AprEla: некытшӧммезланись
+    некытшӧм+Det+Neg+Pl+AprIll: некытшӧммезланьӧ
+    некытшӧм+Det+Neg+Pl+AprEgr: некытшӧммезланьсянь
+    некытшӧм+Det+Neg+Pl+AprPrl: некытшӧммезланьӧт
+    некытшӧм+Det+Neg+Pl+AprTerI: некытшӧммезланьӧдз
+    некытшӧм+Det+Neg+Pl+AprTerII: некытшӧммезланьви
+
+
+    некытшӧм+Det+Neg+Pl+Nom+PxSg1: некытшӧммезӧ
+    некытшӧм+Det+Neg+Pl+Acc+PxSg1: некытшӧммезӧс
+    некытшӧм+Det+Neg+Pl+Gen+PxSg1: некытшӧммезӧлӧн
+    некытшӧм+Det+Neg+Pl+Abl+PxSg1: некытшӧммезӧлісь
+    некытшӧм+Det+Neg+Pl+Dat+PxSg1: некытшӧммезӧлӧ
+    некытшӧм+Det+Neg+Pl+Ins+PxSg1: некытшӧммезнам 
+    некытшӧм+Det+Neg+Pl+Com+PxSg1: некытшӧммезӧкӧт
+    некытшӧм+Det+Neg+Pl+Car+PxSg1: [некытшӧммезӧтӧг, некытшӧммезтӧгьям]
+    некытшӧм+Det+Neg+Pl+Cns+PxSg1: некытшӧммезӧла
+    некытшӧм+Det+Neg+Pl+Cmpr+PxSg1: некытшӧммезӧся
+    некытшӧм+Det+Neg+Pl+Ine+PxSg1: некытшӧммезам
+    некытшӧм+Det+Neg+Pl+Ela+PxSg1: [некытшӧммесим, некытшӧммезсим]
+    некытшӧм+Det+Neg+Pl+Ill+PxSg1: некытшӧммезам
+    некытшӧм+Det+Neg+Pl+Apr+PxSg1: [некытшӧммезӧлань, некытшӧммезланям]
+    некытшӧм+Det+Neg+Pl+Egr+PxSg1: [некытшӧммезӧсянь, некытшӧммезсяням]
+    некытшӧм+Det+Neg+Pl+Prl+PxSg1: [некытшӧммезӧттям, некытшӧммезӧттим]
+    некытшӧм+Det+Neg+Pl+TerI+PxSg1: [некытшӧммезӧдззам, некытшӧммезӧдззим]
+    некытшӧм+Det+Neg+Pl+TerII+PxSg1: некытшӧммезӧви
+    некытшӧм+Det+Neg+Pl+AprIne+PxSg1: [некытшӧммезланям, некытшӧммезӧланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxSg1: [некытшӧммезланьсим, некытшӧммезӧланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxSg1: [некытшӧммезланям, некытшӧммезӧланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxSg1: [некытшӧммезӧланьсянь, некытшӧммезланьсяням]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxSg1: [некытшӧммезӧланьӧт, некытшӧммезланьӧттям, некытшӧммезланьӧттим]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxSg1: [некытшӧммезӧланьӧдз, некытшӧммезланьӧдззам, некытшӧммезланьӧдззим]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxSg1: некытшӧммезӧланьви 
+
+
+    некытшӧм+Det+Neg+Pl+Nom+PxSg2: [некытшӧммет, некытшӧммезыт]
+    некытшӧм+Det+Neg+Pl+Acc+PxSg2: [некытшӧмметӧ, некытшӧммезтӧ]
+    некытшӧм+Det+Neg+Pl+Gen+PxSg2: [некытшӧмметлӧн, некытшӧммезытлӧн]
+    некытшӧм+Det+Neg+Pl+Abl+PxSg2: [некытшӧмметлісь, некытшӧммезытлісь]
+    некытшӧм+Det+Neg+Pl+Dat+PxSg2: [некытшӧмметлӧ, некытшӧммезытлӧ]
+    некытшӧм+Det+Neg+Pl+Ins+PxSg2: некытшӧммезнат 
+    некытшӧм+Det+Neg+Pl+Com+PxSg2: [некытшӧмметкӧт, некытшӧммезыткӧт]
+    некытшӧм+Det+Neg+Pl+Car+PxSg2: [некытшӧмметтӧг, некытшӧммезыттӧг, некытшӧммезтӧгьят]
+    некытшӧм+Det+Neg+Pl+Cns+PxSg2: [некытшӧмметла, некытшӧммезытла]
+    некытшӧм+Det+Neg+Pl+Cmpr+PxSg2: [некытшӧммется, некытшӧммезытся]
+    некытшӧм+Det+Neg+Pl+Ine+PxSg2: некытшӧммезат
+    некытшӧм+Det+Neg+Pl+Ela+PxSg2: [некытшӧммесит, некытшӧммезсит]
+    некытшӧм+Det+Neg+Pl+Ill+PxSg2: некытшӧммезат
+    некытшӧм+Det+Neg+Pl+Apr+PxSg2: [некытшӧмметлань, некытшӧммезытлань, некытшӧммезланят]
+    некытшӧм+Det+Neg+Pl+Egr+PxSg2: [некытшӧмметсянь, некытшӧммезытсянь, некытшӧммезсянят]
+    некытшӧм+Det+Neg+Pl+Prl+PxSg2: [некытшӧммезӧттят, некытшӧммезӧттит]
+    некытшӧм+Det+Neg+Pl+TerI+PxSg2: [некытшӧммезӧдззат, некытшӧммезӧдззит]
+    некытшӧм+Det+Neg+Pl+TerII+PxSg2: [некытшӧмметви, некытшӧммезытви]
+    некытшӧм+Det+Neg+Pl+AprIne+PxSg2: [некытшӧммезланят, некытшӧмметланьын, некытшӧммезытланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxSg2: [некытшӧммезланьсит, некытшӧмметланись, некытшӧммезытланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxSg2: [некытшӧммезланят, некытшӧмметланьӧ, некытшӧммезытланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxSg2: [некытшӧмметланьсянь, некытшӧммезытланьсянь, некытшӧммезланьсянят]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxSg2: [некытшӧмметланьӧт, некытшӧммезытланьӧт, некытшӧммезланьӧттят, некытшӧммезланьӧттит]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxSg2: [некытшӧмметланьӧдз, некытшӧммезытланьӧдз, некытшӧммезланьӧдззат, некытшӧммезланьӧдззит]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxSg2: [некытшӧмметланьви, некытшӧммезытланьви] 
+
+
+    некытшӧм+Det+Neg+Pl+Nom+PxSg3: [некытшӧммес, некытшӧммезыс]
+    некытшӧм+Det+Neg+Pl+Acc+PxSg3: [некытшӧммесӧ, некытшӧммезсӧ]
+    некытшӧм+Det+Neg+Pl+Gen+PxSg3: [некытшӧммеслӧн, некытшӧммезыслӧн]
+    некытшӧм+Det+Neg+Pl+Abl+PxSg3: [некытшӧммеслісь, некытшӧммезыслісь]
+    некытшӧм+Det+Neg+Pl+Dat+PxSg3: [некытшӧммеслӧ, некытшӧммезыслӧ]
+    некытшӧм+Det+Neg+Pl+Ins+PxSg3: некытшӧммезнас 
+    некытшӧм+Det+Neg+Pl+Com+PxSg3: [некытшӧммескӧт, некытшӧммезыскӧт]
+    некытшӧм+Det+Neg+Pl+Car+PxSg3: [некытшӧмместӧг, некытшӧммезыстӧг, некытшӧммезтӧгьяс]
+    некытшӧм+Det+Neg+Pl+Cns+PxSg3: [некытшӧммесла, некытшӧммезысла]
+    некытшӧм+Det+Neg+Pl+Cmpr+PxSg3: [некытшӧммесся, некытшӧммезысся]
+    некытшӧм+Det+Neg+Pl+Ine+PxSg3: некытшӧммезас
+    некытшӧм+Det+Neg+Pl+Ela+PxSg3: [некытшӧммесис, некытшӧммезсис]
+    некытшӧм+Det+Neg+Pl+Ill+PxSg3: некытшӧммезас
+    некытшӧм+Det+Neg+Pl+Apr+PxSg3: [некытшӧммеслань, некытшӧммезыслань, некытшӧммезланяс]
+    некытшӧм+Det+Neg+Pl+Egr+PxSg3: [некытшӧммессянь, некытшӧммезыссянь, некытшӧммезсяняс]
+    некытшӧм+Det+Neg+Pl+Prl+PxSg3: [некытшӧммезӧттяс, некытшӧммезӧттис]
+    некытшӧм+Det+Neg+Pl+TerI+PxSg3: [некытшӧммезӧдззас, некытшӧммезӧдззис]
+    некытшӧм+Det+Neg+Pl+TerII+PxSg3: [некытшӧммесви, некытшӧммезысви]
+    некытшӧм+Det+Neg+Pl+AprIne+PxSg3: [некытшӧммезланяс, некытшӧммесланьын, некытшӧммезысланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxSg3: [некытшӧммезланьсис, некытшӧммесланись, некытшӧммезысланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxSg3: [некытшӧммезланяс, некытшӧммесланьӧ, некытшӧммезысланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxSg3: [некытшӧммесланьсянь, некытшӧммезысланьсянь, некытшӧммезланьсяняс]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxSg3: [некытшӧммесланьӧт, некытшӧммезысланьӧт, некытшӧммезланьӧттяс, некытшӧммезланьӧттис]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxSg3: [некытшӧммесланьӧдз, некытшӧммезысланьӧдз, некытшӧммезланьӧдззас, некытшӧммезланьӧдззис]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxSg3: [некытшӧммесланьви, некытшӧммезысланьви]
+
+ 
+    некытшӧм+Det+Neg+Pl+Nom+PxPl1: некытшӧммезным
+    некытшӧм+Det+Neg+Pl+Acc+PxPl1: некытшӧммезнымӧс
+    некытшӧм+Det+Neg+Pl+Gen+PxPl1: некытшӧммезнымлӧн
+    некытшӧм+Det+Neg+Pl+Abl+PxPl1: некытшӧммезнымлісь
+    некытшӧм+Det+Neg+Pl+Dat+PxPl1: некытшӧммезнымлӧ
+    некытшӧм+Det+Neg+Pl+Ins+PxPl1: некытшӧммезнаным 
+    некытшӧм+Det+Neg+Pl+Com+PxPl1: некытшӧммезнымкӧт
+    некытшӧм+Det+Neg+Pl+Car+PxPl1: [некытшӧммезнымтӧг, некытшӧммезтӧгьяным]
+    некытшӧм+Det+Neg+Pl+Cns+PxPl1: некытшӧммезнымла
+    некытшӧм+Det+Neg+Pl+Cmpr+PxPl1: некытшӧммезнымся
+    некытшӧм+Det+Neg+Pl+Ine+PxPl1: некытшӧммезаным
+    некытшӧм+Det+Neg+Pl+Ela+PxPl1: [некытшӧммесиным, некытшӧммезсиным]
+    некытшӧм+Det+Neg+Pl+Ill+PxPl1: некытшӧммезаным
+    некытшӧм+Det+Neg+Pl+Apr+PxPl1: [некытшӧммезнымлань, некытшӧммезланяным]
+    некытшӧм+Det+Neg+Pl+Egr+PxPl1: [некытшӧммезнымсянь, некытшӧммезсяняным]
+    некытшӧм+Det+Neg+Pl+Prl+PxPl1: [некытшӧммезӧттяным, некытшӧммезӧттиным]
+    некытшӧм+Det+Neg+Pl+TerI+PxPl1: [некытшӧммезӧдззаным, некытшӧммезӧдззиным]
+    некытшӧм+Det+Neg+Pl+TerII+PxPl1: некытшӧммезнымви
+    некытшӧм+Det+Neg+Pl+AprIne+PxPl1: [некытшӧммезланяным, некытшӧммезнымланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxPl1: [некытшӧммезланьсиным, некытшӧммезнымланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxPl1: [некытшӧммезланяным, некытшӧммезнымланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxPl1: [некытшӧммезнымланьсянь, некытшӧммезланьсяняным]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxPl1: [некытшӧммезнымланьӧт, некытшӧммезланьӧттяным, некытшӧммезланьӧттиным]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxPl1: [некытшӧммезнымланьӧдз, некытшӧммезланьӧдззаным, некытшӧммезланьӧдззиным]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxPl1: некытшӧммезнымланьви 
+
+
+    некытшӧм+Det+Neg+Pl+Nom+PxPl2: некытшӧммезныт
+    некытшӧм+Det+Neg+Pl+Acc+PxPl2: некытшӧммезнытӧ
+    некытшӧм+Det+Neg+Pl+Gen+PxPl2: некытшӧммезнытлӧн
+    некытшӧм+Det+Neg+Pl+Abl+PxPl2: некытшӧммезнытлісь
+    некытшӧм+Det+Neg+Pl+Dat+PxPl2: некытшӧммезнытлӧ
+    некытшӧм+Det+Neg+Pl+Ins+PxPl2: некытшӧммезнаныт 
+    некытшӧм+Det+Neg+Pl+Com+PxPl2: некытшӧммезныткӧт
+    некытшӧм+Det+Neg+Pl+Car+PxPl2: [некытшӧммезныттӧг, некытшӧммезтӧгьяныт]
+    некытшӧм+Det+Neg+Pl+Cns+PxPl2: некытшӧммезнытла
+    некытшӧм+Det+Neg+Pl+Cmpr+PxPl2: некытшӧммезнытся
+    некытшӧм+Det+Neg+Pl+Ine+PxPl2: некытшӧммезаныт
+    некытшӧм+Det+Neg+Pl+Ela+PxPl2: [некытшӧммесиныт, некытшӧммезсиныт]
+    некытшӧм+Det+Neg+Pl+Ill+PxPl2: некытшӧммезаныт
+    некытшӧм+Det+Neg+Pl+Apr+PxPl2: [некытшӧммезнытлань, некытшӧммезланяныт]
+    некытшӧм+Det+Neg+Pl+Egr+PxPl2: [некытшӧммезнытсянь, некытшӧммезсяняныт]
+    некытшӧм+Det+Neg+Pl+Prl+PxPl2: [некытшӧммезӧттяныт, некытшӧммезӧттиныт]
+    некытшӧм+Det+Neg+Pl+TerI+PxPl2: [некытшӧммезӧдззаныт, некытшӧммезӧдззиныт]
+    некытшӧм+Det+Neg+Pl+TerII+PxPl2: некытшӧммезнытви
+    некытшӧм+Det+Neg+Pl+AprIne+PxPl2: [некытшӧммезланяныт, некытшӧммезнытланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxPl2: [некытшӧммезланьсиныт, некытшӧммезнытланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxPl2: [некытшӧммезланяныт, некытшӧммезнытланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxPl2: [некытшӧммезнытланьсянь, некытшӧммезланьсяняныт]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxPl2: [некытшӧммезнытланьӧт, некытшӧммезланьӧттяныт, некытшӧммезланьӧттиныт]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxPl2: [некытшӧммезнытланьӧдз, некытшӧммезланьӧдззаныт, некытшӧммезланьӧдззиныт]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxPl2: некытшӧммезнытланьви 
+
+
+    некытшӧм+Det+Neg+Pl+Nom+PxPl3: некытшӧммезныс
+    некытшӧм+Det+Neg+Pl+Acc+PxPl3: некытшӧммезнысӧ
+    некытшӧм+Det+Neg+Pl+Gen+PxPl3: некытшӧммезныслӧн
+    некытшӧм+Det+Neg+Pl+Abl+PxPl3: некытшӧммезныслісь
+    некытшӧм+Det+Neg+Pl+Dat+PxPl3: некытшӧммезныслӧ
+    некытшӧм+Det+Neg+Pl+Ins+PxPl3: некытшӧммезнаныс 
+    некытшӧм+Det+Neg+Pl+Com+PxPl3: некытшӧммезныскӧт
+    некытшӧм+Det+Neg+Pl+Car+PxPl3: [некытшӧммезныстӧг, некытшӧммезтӧгьяныс]
+    некытшӧм+Det+Neg+Pl+Cns+PxPl3: некытшӧммезнысла
+    некытшӧм+Det+Neg+Pl+Cmpr+PxPl3: некытшӧммезнысся
+    некытшӧм+Det+Neg+Pl+Ine+PxPl3: некытшӧммезаныс
+    некытшӧм+Det+Neg+Pl+Ela+PxPl3: [некытшӧммесиныс, некытшӧммезсиныс]
+    некытшӧм+Det+Neg+Pl+Ill+PxPl3: некытшӧммезаныс
+    некытшӧм+Det+Neg+Pl+Apr+PxPl3: [некытшӧммезныслань, некытшӧммезланяныс]
+    некытшӧм+Det+Neg+Pl+Egr+PxPl3: [некытшӧммезныссянь, некытшӧммезсяняныс]
+    некытшӧм+Det+Neg+Pl+Prl+PxPl3: [некытшӧммезӧттяныс, некытшӧммезӧттиныс]
+    некытшӧм+Det+Neg+Pl+TerI+PxPl3: [некытшӧммезӧдззаныс, некытшӧммезӧдззиныс]
+    некытшӧм+Det+Neg+Pl+TerII+PxPl3: некытшӧммезнысви
+    некытшӧм+Det+Neg+Pl+AprIne+PxPl3: [некытшӧммезланяныс, некытшӧммезнысланьын]
+    некытшӧм+Det+Neg+Pl+AprEla+PxPl3: [некытшӧммезланьсиныс, некытшӧммезнысланись]
+    некытшӧм+Det+Neg+Pl+AprIll+PxPl3: [некытшӧммезланяныс, некытшӧммезнысланьӧ]
+    некытшӧм+Det+Neg+Pl+AprEgr+PxPl3: [некытшӧммезнысланьсянь, некытшӧммезланьсяняныс]
+    некытшӧм+Det+Neg+Pl+AprPrl+PxPl3: [некытшӧммезнысланьӧт, некытшӧммезланьӧттяныс, некытшӧммезланьӧттиныс]
+    некытшӧм+Det+Neg+Pl+AprTerI+PxPl3: [некытшӧммезнысланьӧдз, некытшӧммезланьӧдззаныс, некытшӧммезланьӧдззиныс]
+    некытшӧм+Det+Neg+Pl+AprTerII+PxPl3: некытшӧммезнысланьви 
+
+   

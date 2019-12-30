@@ -1,0 +1,369 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-14
+
+  
+  Noun - кань: # Ordinary nouns основа слова заканчивается на мягкий парный согласный, с мягким знаком на конце: дь, зь, ль, нь, сь, ть. - full paradigm 'cat / kissa / кошка'
+     кань+N+Anim+Sg+Nom: кань
+     кань+N+Anim+Sg+Acc: кань
+     кань+N+Anim+Sg+Gen: каньлӧн
+     кань+N+Anim+Sg+Abl: каньлісь
+     кань+N+Anim+Sg+Dat: каньлӧ
+     кань+N+Anim+Sg+Ins: каньӧн
+     кань+N+Anim+Sg+Com: канькӧт
+     кань+N+Anim+Sg+Car: каньтӧг
+     кань+N+Anim+Sg+Cns: каньла
+     кань+N+Anim+Sg+Cmpr: канься
+     кань+N+Anim+Sg+Ine: каньын
+     кань+N+Anim+Sg+Ela: панись
+     кань+N+Anim+Sg+Ill: каньӧ
+     кань+N+Anim+Sg+Apr: каньлань
+     кань+N+Anim+Sg+Egr: каньсянь
+     кань+N+Anim+Sg+Prl: каньӧт
+     кань+N+Anim+Sg+TerI: каньӧдз
+     кань+N+Anim+Sg+TerII: каньви
+     кань+N+Anim+Sg+AprIne: каньланьын
+     кань+N+Anim+Sg+AprEla: каньланись
+     кань+N+Anim+Sg+AprIll: каньланьӧ
+     кань+N+Anim+Sg+AprEgr: каньланьсянь
+     кань+N+Anim+Sg+AprPrl: каньланьӧт
+     кань+N+Anim+Sg+AprTerI: каньланьӧдз
+     кань+N+Anim+Sg+AprTerII: каньланьви
+     кань+N+Anim+Sg+Nom+PxSg1: каньӧ
+     кань+N+Anim+Sg+Gen+PxSg1: каньӧлӧн
+     кань+N+Anim+Sg+Abl+PxSg1: каньӧлісь
+     кань+N+Anim+Sg+Dat+PxSg1: каньӧлӧ
+     кань+N+Anim+Sg+Acc+PxSg1: каньӧс
+     кань+N+Anim+Sg+Ins+PxSg1: каньнам
+     кань+N+Anim+Sg+Com+PxSg1: каньӧкӧт
+     кань+N+Anim+Sg+Car+PxSg1: [каньӧтӧг, каньтӧгьям]
+     кань+N+Anim+Sg+Cns+PxSg1: каньӧла
+     кань+N+Anim+Sg+Cmpr+PxSg1: каньӧся
+     кань+N+Anim+Sg+Ine+PxSg1: паням
+     кань+N+Anim+Sg+Ela+PxSg1: каньсим
+     кань+N+Anim+Sg+Ill+PxSg1: паням
+     кань+N+Anim+Sg+Apr+PxSg1: [каньӧлань, каньланям]
+     кань+N+Anim+Sg+Egr+PxSg1: [каньӧсянь, каньсяням]
+     кань+N+Anim+Sg+Prl+PxSg1: [каньӧттям, каньӧттим]
+     кань+N+Anim+Sg+TerI+PxSg1: [каньӧдззам, каньӧдззим]
+     кань+N+Anim+Sg+TerII+PxSg1: каньӧви
+     кань+N+Anim+Sg+AprIne+PxSg1: каньланям
+     кань+N+Anim+Sg+AprEla+PxSg1: каньланьсим
+     кань+N+Anim+Sg+AprIll+PxSg1: каньланям
+     кань+N+Anim+Sg+AprEgr+PxSg1: [каньланьсяням, каньӧланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxSg1: [каньланьӧттям, каньланьӧттим, каньӧланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxSg1: [каньланьӧдззам, каньланьӧдззим, каньӧланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxSg1: каньӧланьви
+     кань+N+Anim+Sg+Nom+PxSg2: каньыт
+     кань+N+Anim+Sg+Gen+PxSg2: каньытлӧн
+     кань+N+Anim+Sg+Abl+PxSg2: каньытлісь
+     кань+N+Anim+Sg+Dat+PxSg2: каньытлӧ
+     кань+N+Anim+Sg+Acc+PxSg2: каньтӧ
+     кань+N+Anim+Sg+Ins+PxSg2: каньнат
+     кань+N+Anim+Sg+Com+PxSg2: каньыткӧт
+     кань+N+Anim+Sg+Car+PxSg2: [каньыттӧг, каньтӧгьят]
+     кань+N+Anim+Sg+Cns+PxSg2: каньытла
+     кань+N+Anim+Sg+Cmpr+PxSg2: каньытся
+     кань+N+Anim+Sg+Ine+PxSg2: панят
+     кань+N+Anim+Sg+Ela+PxSg2: каньсит
+     кань+N+Anim+Sg+Ill+PxSg2: панят
+     кань+N+Anim+Sg+Apr+PxSg2: [каньытлань, каньланят]
+     кань+N+Anim+Sg+Egr+PxSg2: [каньытсянь, каньсянят]
+     кань+N+Anim+Sg+Prl+PxSg2: [каньӧттят, каньӧттит]
+     кань+N+Anim+Sg+TerI+PxSg2: [каньӧдззат, каньӧдззит]
+     кань+N+Anim+Sg+TerII+PxSg2: каньытви
+     кань+N+Anim+Sg+AprIne+PxSg2: каньланят
+     кань+N+Anim+Sg+AprEla+PxSg2: каньланьсит
+     кань+N+Anim+Sg+AprIll+PxSg2: каньланят
+     кань+N+Anim+Sg+AprEgr+PxSg2: [каньланьсянят, каньытланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxSg2: [каньланьӧттят, каньланьӧттит, каньытланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxSg2: [каньланьӧдззат, каньланьӧдззит, каньытланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxSg2: каньытланьви
+     кань+N+Anim+Sg+Nom+PxSg3: каньыс
+     кань+N+Anim+Sg+Gen+PxSg3: каньыслӧн
+     кань+N+Anim+Sg+Abl+PxSg3: каньыслісь
+     кань+N+Anim+Sg+Dat+PxSg3: каньыслӧ
+     кань+N+Anim+Sg+Acc+PxSg3: каньсӧ
+     кань+N+Anim+Sg+Ins+PxSg3: каньнас
+     кань+N+Anim+Sg+Com+PxSg3: каньыскӧт
+     кань+N+Anim+Sg+Car+PxSg3: [каньыстӧг, каньтӧгьяс]
+     кань+N+Anim+Sg+Cns+PxSg3: каньысла
+     кань+N+Anim+Sg+Cmpr+PxSg3: каньысся
+     кань+N+Anim+Sg+Ine+PxSg3: паняс
+     кань+N+Anim+Sg+Ela+PxSg3: каньсис
+     кань+N+Anim+Sg+Ill+PxSg3: паняс
+     кань+N+Anim+Sg+Apr+PxSg3: [каньыслань, каньланяс]
+     кань+N+Anim+Sg+Egr+PxSg3: [каньыссянь, каньсяняс]
+     кань+N+Anim+Sg+Prl+PxSg3: [каньӧттяс, каньӧттис]
+     кань+N+Anim+Sg+TerI+PxSg3: [каньӧдззас, каньӧдззис]
+     кань+N+Anim+Sg+TerII+PxSg3: каньысви
+     кань+N+Anim+Sg+AprIne+PxSg3: каньланяс
+     кань+N+Anim+Sg+AprEla+PxSg3: каньланьсис
+     кань+N+Anim+Sg+AprIll+PxSg3: каньланяс
+     кань+N+Anim+Sg+AprEgr+PxSg3: [каньланьсяняс, каньысланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxSg3: [каньланьӧттяc, каньланьӧттиc, каньысланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxSg3: [каньланьӧдззаc, каньланьӧдззиc, каньысланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxSg3: каньысланьви
+     кань+N+Anim+Sg+Nom+PxPl1: каньным
+     кань+N+Anim+Sg+Gen+PxPl1: каньнымлӧн
+     кань+N+Anim+Sg+Abl+PxPl1: каньнымлісь
+     кань+N+Anim+Sg+Dat+PxPl1: каньнымлӧ
+     кань+N+Anim+Sg+Acc+PxPl1: каньнымӧс
+     кань+N+Anim+Sg+Ins+PxPl1: каньнаным
+     кань+N+Anim+Sg+Com+PxPl1: каньнымкӧт
+     кань+N+Anim+Sg+Car+PxPl1: [каньнымтӧг, каньтӧгьяным]
+     кань+N+Anim+Sg+Cns+PxPl1: каньнымла
+     кань+N+Anim+Sg+Cmpr+PxPl1: каньнымся
+     кань+N+Anim+Sg+Ine+PxPl1: паняным
+     кань+N+Anim+Sg+Ela+PxPl1: каньсиным
+     кань+N+Anim+Sg+Ill+PxPl1: паняным
+     кань+N+Anim+Sg+Apr+PxPl1: [каньнымлань, каньланяным]
+     кань+N+Anim+Sg+Egr+PxPl1: [каньнымсянь, каньсяняным]
+     кань+N+Anim+Sg+Prl+PxPl1: [каньӧттяным, каньӧттиным]
+     кань+N+Anim+Sg+TerI+PxPl1: [каньӧдззаным, каньӧдззиным]
+     кань+N+Anim+Sg+TerII+PxPl1: каньнымви
+     кань+N+Anim+Sg+AprIne+PxPl1: каньланяным
+     кань+N+Anim+Sg+AprEla+PxPl1: каньланьсиным
+     кань+N+Anim+Sg+AprIll+PxPl1: каньланяным
+     кань+N+Anim+Sg+AprEgr+PxPl1: [каньланьсяняным, каньнымланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxPl1: [каньланьӧттяным, каньланьӧттиным, каньнымланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxPl1: [каньланьӧдззаным, каньланьӧдззиным,  каньнымланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxPl1: каньнымланьви
+     кань+N+Anim+Sg+Nom+PxPl2: каньныт
+     кань+N+Anim+Sg+Gen+PxPl2: каньнытлӧн
+     кань+N+Anim+Sg+Abl+PxPl2: каньнытлісь
+     кань+N+Anim+Sg+Dat+PxPl2: каньнытлӧ
+     кань+N+Anim+Sg+Acc+PxPl2: каньнытӧ
+     кань+N+Anim+Sg+Ins+PxPl2: каньнаныт
+     кань+N+Anim+Sg+Com+PxPl2: каньныткӧт
+     кань+N+Anim+Sg+Car+PxPl2: [каньныттӧг, каньтӧгьяныт]
+     кань+N+Anim+Sg+Cns+PxPl2: каньнытла
+     кань+N+Anim+Sg+Cmpr+PxPl2: каньнытся
+     кань+N+Anim+Sg+Ine+PxPl2: паняныт
+     кань+N+Anim+Sg+Ela+PxPl2: каньсиныт
+     кань+N+Anim+Sg+Ill+PxPl2: паняныт
+     кань+N+Anim+Sg+Apr+PxPl2: [каньнытлань, каньланяныт]
+     кань+N+Anim+Sg+Egr+PxPl2: [каньнытсянь, каньсяняныт]
+     кань+N+Anim+Sg+Prl+PxPl2: [каньӧттяныт, каньӧттиныт]
+     кань+N+Anim+Sg+TerI+PxPl2: [каньӧдззаныт, каньӧдззиныт]
+     кань+N+Anim+Sg+TerII+PxPl2: каньнытви
+     кань+N+Anim+Sg+AprIne+PxPl2: каньланяныт
+     кань+N+Anim+Sg+AprEla+PxPl2: каньланьсиныт
+     кань+N+Anim+Sg+AprIll+PxPl2: каньланяныт
+     кань+N+Anim+Sg+AprEgr+PxPl2: [каньланьсяняныт, каньнытланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxPl2: [каньланьӧттяныт, каньланьӧттиныт, каньнытланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxPl2: [каньланьӧдззаныт, каньланьӧдззиныт, каньнытланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxPl2: каньнытланьви
+     кань+N+Anim+Sg+Nom+PxPl3: каньныс
+     кань+N+Anim+Sg+Gen+PxPl3: каньныслӧн
+     кань+N+Anim+Sg+Abl+PxPl3: каньныслісь
+     кань+N+Anim+Sg+Dat+PxPl3: каньныслӧ
+     кань+N+Anim+Sg+Acc+PxPl3: каньнысӧ
+     кань+N+Anim+Sg+Ins+PxPl3: каньнаныс
+     кань+N+Anim+Sg+Com+PxPl3: каньныскӧт
+     кань+N+Anim+Sg+Car+PxPl3: [каньныстӧг, каньтӧгьяныс]
+     кань+N+Anim+Sg+Cns+PxPl3: каньнысла
+     кань+N+Anim+Sg+Cmpr+PxPl3: каньнысся
+     кань+N+Anim+Sg+Ine+PxPl3: паняныс
+     кань+N+Anim+Sg+Ela+PxPl3: каньсиныс
+     кань+N+Anim+Sg+Ill+PxPl3: паняныс
+     кань+N+Anim+Sg+Apr+PxPl3: [каньныслань, каньланяныс]
+     кань+N+Anim+Sg+Egr+PxPl3: [каньныссянь, каньсяняныс]
+     кань+N+Anim+Sg+Prl+PxPl3: [каньӧттяныс, каньӧттиныс]
+     кань+N+Anim+Sg+TerI+PxPl3: [каньӧдззаныс, каньӧдззиныс]
+     кань+N+Anim+Sg+TerII+PxPl3: каньнысви
+     кань+N+Anim+Sg+AprIne+PxPl3: каньланяныс
+     кань+N+Anim+Sg+AprEla+PxPl3: каньланьсиныс
+     кань+N+Anim+Sg+AprIll+PxPl3: каньланяныс
+     кань+N+Anim+Sg+AprEgr+PxPl3: [каньланьсяняныс, каньнысланьсянь]
+     кань+N+Anim+Sg+AprPrl+PxPl3: [каньланьӧттяныс, каньланьӧттиныс, каньнысланьӧт]
+     кань+N+Anim+Sg+AprTerI+PxPl3: [каньланьӧдззаныс, каньланьӧдззиныс, каньнысланьӧдз]
+     кань+N+Anim+Sg+AprTerII+PxPl3: каньнысланьви
+     кань+N+Anim+Pl+Nom: паннез
+     кань+N+Anim+Pl+Acc: паннез
+     кань+N+Anim+Pl+Gen: паннезлӧн
+     кань+N+Anim+Pl+Abl: паннезлісь
+     кань+N+Anim+Pl+Dat: паннезлӧ
+     кань+N+Anim+Pl+Ins: паннезӧн
+     кань+N+Anim+Pl+Com: паннезкӧт
+     кань+N+Anim+Pl+Car: паннезтӧг
+     кань+N+Anim+Pl+Cns: паннезла
+     кань+N+Anim+Pl+Cmpr: паннезся
+     кань+N+Anim+Pl+Ine: паннезын
+     кань+N+Anim+Pl+Ela: паннезісь
+     кань+N+Anim+Pl+Ill: паннезӧ
+     кань+N+Anim+Pl+Apr: паннезлань
+     кань+N+Anim+Pl+Egr: паннезсянь
+     кань+N+Anim+Pl+Prl: паннезӧт
+     кань+N+Anim+Pl+TerI: паннезӧдз
+     кань+N+Anim+Pl+TerII: паннезви
+     кань+N+Anim+Pl+AprIne: паннезланьын
+     кань+N+Anim+Pl+AprEla: паннезланись
+     кань+N+Anim+Pl+AprIll: паннезланьӧ
+     кань+N+Anim+Pl+AprEgr: паннезланьсянь
+     кань+N+Anim+Pl+AprPrl: паннезланьӧт
+     кань+N+Anim+Pl+AprTerI: паннезланьӧдз
+     кань+N+Anim+Pl+AprTerII: паннезланьви
+     кань+N+Anim+Pl+Nom+PxSg1: паннезӧ
+     кань+N+Anim+Pl+Gen+PxSg1: паннезӧлӧн
+     кань+N+Anim+Pl+Abl+PxSg1: паннезӧлісь
+     кань+N+Anim+Pl+Dat+PxSg1: паннезӧлӧ
+     кань+N+Anim+Pl+Acc+PxSg1: паннезӧс
+     кань+N+Anim+Pl+Ins+PxSg1: паннезнам
+     кань+N+Anim+Pl+Com+PxSg1: паннезӧкӧт
+     кань+N+Anim+Pl+Car+PxSg1: [паннезӧтӧг, паннезтӧгьям]
+     кань+N+Anim+Pl+Cns+PxSg1: паннезӧла
+     кань+N+Anim+Pl+Cmpr+PxSg1: паннезӧся
+     кань+N+Anim+Pl+Ine+PxSg1: паннезам
+     кань+N+Anim+Pl+Ela+PxSg1: [паннезсим, паннесим]
+     кань+N+Anim+Pl+Ill+PxSg1: паннезам
+     кань+N+Anim+Pl+Apr+PxSg1: [паннезӧлань, паннезланям]
+     кань+N+Anim+Pl+Egr+PxSg1: [паннезӧсянь, паннезсяням]
+     кань+N+Anim+Pl+Prl+PxSg1: [паннезӧттям, паннезӧттим]
+     кань+N+Anim+Pl+TerI+PxSg1: [паннезӧдззам, паннезӧдззим]
+     кань+N+Anim+Pl+TerII+PxSg1: паннезӧви
+     кань+N+Anim+Pl+AprIne+PxSg1: паннезланям
+     кань+N+Anim+Pl+AprEla+PxSg1: паннезланьсим
+     кань+N+Anim+Pl+AprIll+PxSg1: паннезланям
+     кань+N+Anim+Pl+AprEgr+PxSg1: [паннезланьсяням, паннезӧланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxSg1: [паннезланьӧттям, паннезланьӧттим, паннезӧланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxSg1: [паннезланьӧдззам, паннезланьӧдззим, паннезӧланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxSg1: паннезӧланьви
+     кань+N+Anim+Pl+Nom+PxSg2: [паннет, паннезыт]
+     кань+N+Anim+Pl+Gen+PxSg2: [паннетлӧн, паннезытлӧн]
+     кань+N+Anim+Pl+Abl+PxSg2: [паннетлісь, паннезытлісь]
+     кань+N+Anim+Pl+Dat+PxSg2: [паннетлӧ, паннезытлӧ]
+     кань+N+Anim+Pl+Acc+PxSg2: [паннетӧ, паннезтӧ]
+     кань+N+Anim+Pl+Ins+PxSg2: паннезнат
+     кань+N+Anim+Pl+Com+PxSg2: [паннеткӧт, паннезыткӧт]
+     кань+N+Anim+Pl+Car+PxSg2: [паннеттӧг, паннезыттӧг, паннезтӧгьят]
+     кань+N+Anim+Pl+Cns+PxSg2: [паннетла, паннезытла]
+     кань+N+Anim+Pl+Cmpr+PxSg2: [паннется, паннезытся]
+     кань+N+Anim+Pl+Ine+PxSg2: паннезат
+     кань+N+Anim+Pl+Ela+PxSg2: [паннезсит, паннесит]
+     кань+N+Anim+Pl+Ill+PxSg2: паннезат
+     кань+N+Anim+Pl+Apr+PxSg2: [паннетлань, паннезытлань, паннезланят]
+     кань+N+Anim+Pl+Egr+PxSg2: [паннетсянь, паннезытсянь, паннезсянят]
+     кань+N+Anim+Pl+Prl+PxSg2: [паннезӧттят, паннезӧттит]
+     кань+N+Anim+Pl+TerI+PxSg2: [паннезӧдззат, паннезӧдззит]
+     кань+N+Anim+Pl+TerII+PxSg2: [паннетви, паннезытви]
+     кань+N+Anim+Pl+AprIne+PxSg2: паннезланят
+     кань+N+Anim+Pl+AprEla+PxSg2: паннезланьсит
+     кань+N+Anim+Pl+AprIll+PxSg2: паннезланят
+     кань+N+Anim+Pl+AprEgr+PxSg2: [паннезланьсянят, паннетланьсянь, паннезытланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxSg2: [паннезланьӧттят, паннезланьӧттит, паннетланьӧт, паннезытланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxSg2: [паннезланьӧдззат, паннезланьӧдззит, паннетланьӧдз, паннезытланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxSg2: [паннетланьви, паннезытланьви]
+     кань+N+Anim+Pl+Nom+PxSg3: [паннес, паннезыс]
+     кань+N+Anim+Pl+Gen+PxSg3: [паннеслӧн, паннезыслӧн]
+     кань+N+Anim+Pl+Abl+PxSg3: [паннеслісь, паннезыслісь]
+     кань+N+Anim+Pl+Dat+PxSg3: [паннеслӧ, паннезыслӧ]
+     кань+N+Anim+Pl+Acc+PxSg3: [паннесӧ, паннезсӧ]
+     кань+N+Anim+Pl+Ins+PxSg3: паннезнас
+     кань+N+Anim+Pl+Com+PxSg3: [паннескӧт, паннезыскӧт]
+     кань+N+Anim+Pl+Car+PxSg3: [паннестӧг, паннезыстӧг, паннезтӧгьяс]
+     кань+N+Anim+Pl+Cns+PxSg3: [паннесла, паннезысла]
+     кань+N+Anim+Pl+Cmpr+PxSg3: [паннесся, паннезысся]
+     кань+N+Anim+Pl+Ine+PxSg3: паннезас
+     кань+N+Anim+Pl+Ela+PxSg3: [паннезсис, паннесис]
+     кань+N+Anim+Pl+Ill+PxSg3: паннезас
+     кань+N+Anim+Pl+Apr+PxSg3: [паннеслань, паннезыслань, паннезланяс]
+     кань+N+Anim+Pl+Egr+PxSg3: [паннессянь, паннезыссянь, паннезсяняс]
+     кань+N+Anim+Pl+Prl+PxSg3: [паннезӧттяс, паннезӧттис]
+     кань+N+Anim+Pl+TerI+PxSg3: [паннезӧдззас, паннезӧдззис]
+     кань+N+Anim+Pl+TerII+PxSg3: паннесви
+     кань+N+Anim+Pl+AprIne+PxSg3: паннезланяс
+     кань+N+Anim+Pl+AprEla+PxSg3: паннезланьсис
+     кань+N+Anim+Pl+AprIll+PxSg3: паннезланяс
+     кань+N+Anim+Pl+AprEgr+PxSg3: [паннезланьсяняс, паннесланьсянь, паннезысланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxSg3: [паннезланьӧттяс, паннезланьӧттис, паннесланьӧт, паннезысланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxSg3: [паннезланьӧдззаc, паннезланьӧдззиc, паннесланьӧдз, паннезысланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxSg3: паннесланьви
+     кань+N+Anim+Pl+Nom+PxPl1: паннезным
+     кань+N+Anim+Pl+Gen+PxPl1: паннезнымлӧн
+     кань+N+Anim+Pl+Abl+PxPl1: паннезнымлісь
+     кань+N+Anim+Pl+Dat+PxPl1: паннезнымлӧ
+     кань+N+Anim+Pl+Acc+PxPl1: паннезнымӧс
+     кань+N+Anim+Pl+Ins+PxPl1: паннезнаным
+     кань+N+Anim+Pl+Com+PxPl1: паннезнымкӧт
+     кань+N+Anim+Pl+Car+PxPl1: [паннезнымтӧг, паннезтӧгьяным]
+     кань+N+Anim+Pl+Cns+PxPl1: паннезнымла
+     кань+N+Anim+Pl+Cmpr+PxPl1: паннезнымся
+     кань+N+Anim+Pl+Ine+PxPl1: паннезаным
+     кань+N+Anim+Pl+Ela+PxPl1: [паннезсиным, паннесиным]
+     кань+N+Anim+Pl+Ill+PxPl1: паннезаным
+     кань+N+Anim+Pl+Apr+PxPl1: [паннезнымлань, паннезланяным]
+     кань+N+Anim+Pl+Egr+PxPl1: [паннезнымсянь, паннезсяняным]
+     кань+N+Anim+Pl+Prl+PxPl1: [паннезӧттяным, паннезӧттиным]
+     кань+N+Anim+Pl+TerI+PxPl1: [паннезӧдззаным, паннезӧдззиным]
+     кань+N+Anim+Pl+TerII+PxPl1: паннезнымви
+     кань+N+Anim+Pl+AprIne+PxPl1: паннезланяным
+     кань+N+Anim+Pl+AprEla+PxPl1: паннезланьсиным
+     кань+N+Anim+Pl+AprIll+PxPl1: паннезланяным
+     кань+N+Anim+Pl+AprEgr+PxPl1: [паннезланьсяняным, паннезнымланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxPl1: [паннезланьӧттяным, паннезланьӧттиным, паннезнымланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxPl1: [паннезланьӧдззаным, паннезланьӧдззиным, паннезнымланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxPl1: паннезнымланьви
+     кань+N+Anim+Pl+Nom+PxPl2: паннезныт
+     кань+N+Anim+Pl+Gen+PxPl2: паннезнытлӧн
+     кань+N+Anim+Pl+Abl+PxPl2: паннезнытлісь
+     кань+N+Anim+Pl+Dat+PxPl2: паннезнытлӧ
+     кань+N+Anim+Pl+Acc+PxPl2: паннезнытӧ
+     кань+N+Anim+Pl+Ins+PxPl2: паннезнаныт
+     кань+N+Anim+Pl+Com+PxPl2: паннезныткӧт
+     кань+N+Anim+Pl+Car+PxPl2: [паннезныттӧг, паннезтӧгьяныт]
+     кань+N+Anim+Pl+Cns+PxPl2: паннезнытла
+     кань+N+Anim+Pl+Cmpr+PxPl2: паннезнытся
+     кань+N+Anim+Pl+Ine+PxPl2: паннезаныт
+     кань+N+Anim+Pl+Ela+PxPl2: [паннезсиныт, паннесиныт]
+     кань+N+Anim+Pl+Ill+PxPl2: паннезаныт
+     кань+N+Anim+Pl+Apr+PxPl2: [паннезнытлань, паннезланяныт]
+     кань+N+Anim+Pl+Egr+PxPl2: [паннезнытсянь, паннезсяняныт]
+     кань+N+Anim+Pl+Prl+PxPl2: [паннезӧттяныт, паннезӧттиныт]
+     кань+N+Anim+Pl+TerI+PxPl2: [паннезӧдззаныт, паннезӧдззиныт]
+     кань+N+Anim+Pl+TerII+PxPl2: паннезнытви
+     кань+N+Anim+Pl+AprIne+PxPl2: паннезланяныт
+     кань+N+Anim+Pl+AprEla+PxPl2: паннезланьсиныт
+     кань+N+Anim+Pl+AprIll+PxPl2: паннезланяныт
+     кань+N+Anim+Pl+AprEgr+PxPl2: [паннезланьсяняныт, паннезнытланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxPl2: [паннезланьӧттяныт, паннезланьӧттиныт, паннезнытланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxPl2: [паннезланьӧдззаныт, паннезланьӧдззиныт, паннезнытланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxPl2: паннезнытланьви
+     кань+N+Anim+Pl+Nom+PxPl3: паннезныс
+     кань+N+Anim+Pl+Gen+PxPl3: паннезныслӧн
+     кань+N+Anim+Pl+Abl+PxPl3: паннезныслісь
+     кань+N+Anim+Pl+Dat+PxPl3: паннезныслӧ
+     кань+N+Anim+Pl+Acc+PxPl3: паннезнысӧ
+     кань+N+Anim+Pl+Ins+PxPl3: паннезнаныс
+     кань+N+Anim+Pl+Com+PxPl3: паннезныскӧт
+     кань+N+Anim+Pl+Car+PxPl3: [паннезныстӧг, паннезтӧгьяныс]
+     кань+N+Anim+Pl+Cns+PxPl3: паннезнысла
+     кань+N+Anim+Pl+Cmpr+PxPl3: паннезнысся
+     кань+N+Anim+Pl+Ine+PxPl3: паннезаныс
+     кань+N+Anim+Pl+Ela+PxPl3: [паннезсиныс, паннесиныс]
+     кань+N+Anim+Pl+Ill+PxPl3: паннезаныс
+     кань+N+Anim+Pl+Apr+PxPl3: [паннезныслань, паннезланяныс]
+     кань+N+Anim+Pl+Egr+PxPl3: [паннезныссянь, паннезсяняныс]
+     кань+N+Anim+Pl+Prl+PxPl3: [паннезӧттяныс, паннезӧттиныс]
+     кань+N+Anim+Pl+TerI+PxPl3: [паннезӧдззаныс, паннезӧдззиныс]
+     кань+N+Anim+Pl+TerII+PxPl3: паннезнысви
+     кань+N+Anim+Pl+AprIne+PxPl3: паннезланяныс
+     кань+N+Anim+Pl+AprEla+PxPl3: паннезланьсиныс
+     кань+N+Anim+Pl+AprIll+PxPl3: паннезланяныс
+     кань+N+Anim+Pl+AprEgr+PxPl3: [паннезланьсяняныс, паннезнысланьсянь]
+     кань+N+Anim+Pl+AprPrl+PxPl3: [паннезланьӧттяныс, паннезланьӧттиныс, паннезнысланьӧт]
+     кань+N+Anim+Pl+AprTerI+PxPl3: [паннезланьӧдззаныс, паннезланьӧдззиныс, паннезнысланьӧдз]
+     кань+N+Anim+Pl+AprTerII+PxPl3: паннезнысланьви
+

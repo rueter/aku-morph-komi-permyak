@@ -1,0 +1,369 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# The were proofread for golden standard by Larisa Ponomareva 2019-10-11
+
+  
+  Noun - пань: # Ordinary nouns основа слова заканчивается на мягкий парный согласный, с мягким знаком на конце: дь, зь, ль, нь, сь, ть. - full paradigm 'spoon / lusikka / ложка'
+     пань+N+Inan+Sg+Nom: пань
+     пань+N+Inan+Sg+Acc: пань
+     пань+N+Inan+Sg+Gen: паньлӧн
+     пань+N+Inan+Sg+Abl: паньлісь
+     пань+N+Inan+Sg+Dat: паньлӧ
+     пань+N+Inan+Sg+Ins: паньӧн
+     пань+N+Inan+Sg+Com: панькӧт
+     пань+N+Inan+Sg+Car: паньтӧг
+     пань+N+Inan+Sg+Cns: паньла
+     пань+N+Inan+Sg+Cmpr: панься
+     пань+N+Inan+Sg+Ine: паньын
+     пань+N+Inan+Sg+Ela: панись
+     пань+N+Inan+Sg+Ill: паньӧ
+     пань+N+Inan+Sg+Apr: паньлань
+     пань+N+Inan+Sg+Egr: паньсянь
+     пань+N+Inan+Sg+Prl: паньӧт
+     пань+N+Inan+Sg+TerI: паньӧдз
+     пань+N+Inan+Sg+TerII: паньви
+     пань+N+Inan+Sg+AprIne: паньланьын
+     пань+N+Inan+Sg+AprEla: паньланись
+     пань+N+Inan+Sg+AprIll: паньланьӧ
+     пань+N+Inan+Sg+AprEgr: паньланьсянь
+     пань+N+Inan+Sg+AprPrl: паньланьӧт
+     пань+N+Inan+Sg+AprTerI: паньланьӧдз
+     пань+N+Inan+Sg+AprTerII: паньланьви
+     пань+N+Inan+Sg+Nom+PxSg1: паньӧ
+     пань+N+Inan+Sg+Gen+PxSg1: паньӧлӧн
+     пань+N+Inan+Sg+Abl+PxSg1: паньӧлісь
+     пань+N+Inan+Sg+Dat+PxSg1: паньӧлӧ
+     пань+N+Inan+Sg+Acc+PxSg1: паньӧс
+     пань+N+Inan+Sg+Ins+PxSg1: паньнам
+     пань+N+Inan+Sg+Com+PxSg1: паньӧкӧт
+     пань+N+Inan+Sg+Car+PxSg1: [паньӧтӧг, паньтӧгьям]
+     пань+N+Inan+Sg+Cns+PxSg1: паньӧла
+     пань+N+Inan+Sg+Cmpr+PxSg1: паньӧся
+     пань+N+Inan+Sg+Ine+PxSg1: паням
+     пань+N+Inan+Sg+Ela+PxSg1: паньсим
+     пань+N+Inan+Sg+Ill+PxSg1: паням
+     пань+N+Inan+Sg+Apr+PxSg1: [паньӧлань, паньланям]
+     пань+N+Inan+Sg+Egr+PxSg1: [паньӧсянь, паньсяням]
+     пань+N+Inan+Sg+Prl+PxSg1: [паньӧттям, паньӧттим]
+     пань+N+Inan+Sg+TerI+PxSg1: [паньӧдззам, паньӧдззим]
+     пань+N+Inan+Sg+TerII+PxSg1: паньӧви
+     пань+N+Inan+Sg+AprIne+PxSg1: паньланям
+     пань+N+Inan+Sg+AprEla+PxSg1: паньланьсим
+     пань+N+Inan+Sg+AprIll+PxSg1: паньланям
+     пань+N+Inan+Sg+AprEgr+PxSg1: [паньланьсяням, паньӧланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxSg1: [паньланьӧттям, паньланьӧттим, паньӧланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxSg1: [паньланьӧдззам, паньланьӧдззим, паньӧланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxSg1: паньӧланьви
+     пань+N+Inan+Sg+Nom+PxSg2: паньыт
+     пань+N+Inan+Sg+Gen+PxSg2: паньытлӧн
+     пань+N+Inan+Sg+Abl+PxSg2: паньытлісь
+     пань+N+Inan+Sg+Dat+PxSg2: паньытлӧ
+     пань+N+Inan+Sg+Acc+PxSg2: паньтӧ
+     пань+N+Inan+Sg+Ins+PxSg2: паньнат
+     пань+N+Inan+Sg+Com+PxSg2: паньыткӧт
+     пань+N+Inan+Sg+Car+PxSg2: [паньыттӧг, паньтӧгьят]
+     пань+N+Inan+Sg+Cns+PxSg2: паньытла
+     пань+N+Inan+Sg+Cmpr+PxSg2: паньытся
+     пань+N+Inan+Sg+Ine+PxSg2: панят
+     пань+N+Inan+Sg+Ela+PxSg2: паньсит
+     пань+N+Inan+Sg+Ill+PxSg2: панят
+     пань+N+Inan+Sg+Apr+PxSg2: [паньытлань, паньланят]
+     пань+N+Inan+Sg+Egr+PxSg2: [паньытсянь, паньсянят]
+     пань+N+Inan+Sg+Prl+PxSg2: [паньӧттят, паньӧттит]
+     пань+N+Inan+Sg+TerI+PxSg2: [паньӧдззат, паньӧдззит]
+     пань+N+Inan+Sg+TerII+PxSg2: паньытви
+     пань+N+Inan+Sg+AprIne+PxSg2: паньланят
+     пань+N+Inan+Sg+AprEla+PxSg2: паньланьсит
+     пань+N+Inan+Sg+AprIll+PxSg2: паньланят
+     пань+N+Inan+Sg+AprEgr+PxSg2: [паньланьсянят, паньытланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxSg2: [паньланьӧттят, паньланьӧттит, паньытланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxSg2: [паньланьӧдззат, паньланьӧдззит, паньытланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxSg2: паньытланьви
+     пань+N+Inan+Sg+Nom+PxSg3: паньыс
+     пань+N+Inan+Sg+Gen+PxSg3: паньыслӧн
+     пань+N+Inan+Sg+Abl+PxSg3: паньыслісь
+     пань+N+Inan+Sg+Dat+PxSg3: паньыслӧ
+     пань+N+Inan+Sg+Acc+PxSg3: паньсӧ
+     пань+N+Inan+Sg+Ins+PxSg3: паньнас
+     пань+N+Inan+Sg+Com+PxSg3: паньыскӧт
+     пань+N+Inan+Sg+Car+PxSg3: [паньыстӧг, паньтӧгьяс]
+     пань+N+Inan+Sg+Cns+PxSg3: паньысла
+     пань+N+Inan+Sg+Cmpr+PxSg3: паньысся
+     пань+N+Inan+Sg+Ine+PxSg3: паняс
+     пань+N+Inan+Sg+Ela+PxSg3: паньсис
+     пань+N+Inan+Sg+Ill+PxSg3: паняс
+     пань+N+Inan+Sg+Apr+PxSg3: [паньыслань, паньланяс]
+     пань+N+Inan+Sg+Egr+PxSg3: [паньыссянь, паньсяняс]
+     пань+N+Inan+Sg+Prl+PxSg3: [паньӧттяс, паньӧттис]
+     пань+N+Inan+Sg+TerI+PxSg3: [паньӧдззас, паньӧдззис]
+     пань+N+Inan+Sg+TerII+PxSg3: паньысви
+     пань+N+Inan+Sg+AprIne+PxSg3: паньланяс
+     пань+N+Inan+Sg+AprEla+PxSg3: паньланьсис
+     пань+N+Inan+Sg+AprIll+PxSg3: паньланяс
+     пань+N+Inan+Sg+AprEgr+PxSg3: [паньланьсяняс, паньысланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxSg3: [паньланьӧттяc, паньланьӧттиc, паньысланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxSg3: [паньланьӧдззаc, паньланьӧдззиc, паньысланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxSg3: паньысланьви
+     пань+N+Inan+Sg+Nom+PxPl1: паньным
+     пань+N+Inan+Sg+Gen+PxPl1: паньнымлӧн
+     пань+N+Inan+Sg+Abl+PxPl1: паньнымлісь
+     пань+N+Inan+Sg+Dat+PxPl1: паньнымлӧ
+     пань+N+Inan+Sg+Acc+PxPl1: паньнымӧс
+     пань+N+Inan+Sg+Ins+PxPl1: паньнаным
+     пань+N+Inan+Sg+Com+PxPl1: паньнымкӧт
+     пань+N+Inan+Sg+Car+PxPl1: [паньнымтӧг, паньтӧгьяным]
+     пань+N+Inan+Sg+Cns+PxPl1: паньнымла
+     пань+N+Inan+Sg+Cmpr+PxPl1: паньнымся
+     пань+N+Inan+Sg+Ine+PxPl1: паняным
+     пань+N+Inan+Sg+Ela+PxPl1: паньсиным
+     пань+N+Inan+Sg+Ill+PxPl1: паняным
+     пань+N+Inan+Sg+Apr+PxPl1: [паньнымлань, паньланяным]
+     пань+N+Inan+Sg+Egr+PxPl1: [паньнымсянь, паньсяняным]
+     пань+N+Inan+Sg+Prl+PxPl1: [паньӧттяным, паньӧттиным]
+     пань+N+Inan+Sg+TerI+PxPl1: [паньӧдззаным, паньӧдззиным]
+     пань+N+Inan+Sg+TerII+PxPl1: паньнымви
+     пань+N+Inan+Sg+AprIne+PxPl1: паньланяным
+     пань+N+Inan+Sg+AprEla+PxPl1: паньланьсиным
+     пань+N+Inan+Sg+AprIll+PxPl1: паньланяным
+     пань+N+Inan+Sg+AprEgr+PxPl1: [паньланьсяняным, паньнымланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxPl1: [паньланьӧттяным, паньланьӧттиным, паньнымланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxPl1: [паньланьӧдззаным, паньланьӧдззиным,  паньнымланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxPl1: паньнымланьви
+     пань+N+Inan+Sg+Nom+PxPl2: паньныт
+     пань+N+Inan+Sg+Gen+PxPl2: паньнытлӧн
+     пань+N+Inan+Sg+Abl+PxPl2: паньнытлісь
+     пань+N+Inan+Sg+Dat+PxPl2: паньнытлӧ
+     пань+N+Inan+Sg+Acc+PxPl2: паньнытӧ
+     пань+N+Inan+Sg+Ins+PxPl2: паньнаныт
+     пань+N+Inan+Sg+Com+PxPl2: паньныткӧт
+     пань+N+Inan+Sg+Car+PxPl2: [паньныттӧг, паньтӧгьяныт]
+     пань+N+Inan+Sg+Cns+PxPl2: паньнытла
+     пань+N+Inan+Sg+Cmpr+PxPl2: паньнытся
+     пань+N+Inan+Sg+Ine+PxPl2: паняныт
+     пань+N+Inan+Sg+Ela+PxPl2: паньсиныт
+     пань+N+Inan+Sg+Ill+PxPl2: паняныт
+     пань+N+Inan+Sg+Apr+PxPl2: [паньнытлань, паньланяныт]
+     пань+N+Inan+Sg+Egr+PxPl2: [паньнытсянь, паньсяняныт]
+     пань+N+Inan+Sg+Prl+PxPl2: [паньӧттяныт, паньӧттиныт]
+     пань+N+Inan+Sg+TerI+PxPl2: [паньӧдззаныт, паньӧдззиныт]
+     пань+N+Inan+Sg+TerII+PxPl2: паньнытви
+     пань+N+Inan+Sg+AprIne+PxPl2: паньланяныт
+     пань+N+Inan+Sg+AprEla+PxPl2: паньланьсиныт
+     пань+N+Inan+Sg+AprIll+PxPl2: паньланяныт
+     пань+N+Inan+Sg+AprEgr+PxPl2: [паньланьсяняныт, паньнытланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxPl2: [паньланьӧттяныт, паньланьӧттиныт, паньнытланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxPl2: [паньланьӧдззаныт, паньланьӧдззиныт, паньнытланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxPl2: паньнытланьви
+     пань+N+Inan+Sg+Nom+PxPl3: паньныс
+     пань+N+Inan+Sg+Gen+PxPl3: паньныслӧн
+     пань+N+Inan+Sg+Abl+PxPl3: паньныслісь
+     пань+N+Inan+Sg+Dat+PxPl3: паньныслӧ
+     пань+N+Inan+Sg+Acc+PxPl3: паньнысӧ
+     пань+N+Inan+Sg+Ins+PxPl3: паньнаныс
+     пань+N+Inan+Sg+Com+PxPl3: паньныскӧт
+     пань+N+Inan+Sg+Car+PxPl3: [паньныстӧг, паньтӧгьяныс]
+     пань+N+Inan+Sg+Cns+PxPl3: паньнысла
+     пань+N+Inan+Sg+Cmpr+PxPl3: паньнысся
+     пань+N+Inan+Sg+Ine+PxPl3: паняныс
+     пань+N+Inan+Sg+Ela+PxPl3: паньсиныс
+     пань+N+Inan+Sg+Ill+PxPl3: паняныс
+     пань+N+Inan+Sg+Apr+PxPl3: [паньныслань, паньланяныс]
+     пань+N+Inan+Sg+Egr+PxPl3: [паньныссянь, паньсяняныс]
+     пань+N+Inan+Sg+Prl+PxPl3: [паньӧттяныс, паньӧттиныс]
+     пань+N+Inan+Sg+TerI+PxPl3: [паньӧдззаныс, паньӧдззиныс]
+     пань+N+Inan+Sg+TerII+PxPl3: паньнысви
+     пань+N+Inan+Sg+AprIne+PxPl3: паньланяныс
+     пань+N+Inan+Sg+AprEla+PxPl3: паньланьсиныс
+     пань+N+Inan+Sg+AprIll+PxPl3: паньланяныс
+     пань+N+Inan+Sg+AprEgr+PxPl3: [паньланьсяняныс, паньнысланьсянь]
+     пань+N+Inan+Sg+AprPrl+PxPl3: [паньланьӧттяныс, паньланьӧттиныс, паньнысланьӧт]
+     пань+N+Inan+Sg+AprTerI+PxPl3: [паньланьӧдззаныс, паньланьӧдззиныс, паньнысланьӧдз]
+     пань+N+Inan+Sg+AprTerII+PxPl3: паньнысланьви
+     пань+N+Inan+Pl+Nom: паннез
+     пань+N+Inan+Pl+Acc: паннез
+     пань+N+Inan+Pl+Gen: паннезлӧн
+     пань+N+Inan+Pl+Abl: паннезлісь
+     пань+N+Inan+Pl+Dat: паннезлӧ
+     пань+N+Inan+Pl+Ins: паннезӧн
+     пань+N+Inan+Pl+Com: паннезкӧт
+     пань+N+Inan+Pl+Car: паннезтӧг
+     пань+N+Inan+Pl+Cns: паннезла
+     пань+N+Inan+Pl+Cmpr: паннезся
+     пань+N+Inan+Pl+Ine: паннезын
+     пань+N+Inan+Pl+Ela: паннезісь
+     пань+N+Inan+Pl+Ill: паннезӧ
+     пань+N+Inan+Pl+Apr: паннезлань
+     пань+N+Inan+Pl+Egr: паннезсянь
+     пань+N+Inan+Pl+Prl: паннезӧт
+     пань+N+Inan+Pl+TerI: паннезӧдз
+     пань+N+Inan+Pl+TerII: паннезви
+     пань+N+Inan+Pl+AprIne: паннезланьын
+     пань+N+Inan+Pl+AprEla: паннезланись
+     пань+N+Inan+Pl+AprIll: паннезланьӧ
+     пань+N+Inan+Pl+AprEgr: паннезланьсянь
+     пань+N+Inan+Pl+AprPrl: паннезланьӧт
+     пань+N+Inan+Pl+AprTerI: паннезланьӧдз
+     пань+N+Inan+Pl+AprTerII: паннезланьви
+     пань+N+Inan+Pl+Nom+PxSg1: паннезӧ
+     пань+N+Inan+Pl+Gen+PxSg1: паннезӧлӧн
+     пань+N+Inan+Pl+Abl+PxSg1: паннезӧлісь
+     пань+N+Inan+Pl+Dat+PxSg1: паннезӧлӧ
+     пань+N+Inan+Pl+Acc+PxSg1: паннезӧс
+     пань+N+Inan+Pl+Ins+PxSg1: паннезнам
+     пань+N+Inan+Pl+Com+PxSg1: паннезӧкӧт
+     пань+N+Inan+Pl+Car+PxSg1: [паннезӧтӧг, паннезтӧгьям]
+     пань+N+Inan+Pl+Cns+PxSg1: паннезӧла
+     пань+N+Inan+Pl+Cmpr+PxSg1: паннезӧся
+     пань+N+Inan+Pl+Ine+PxSg1: паннезам
+     пань+N+Inan+Pl+Ela+PxSg1: [паннезсим, паннесим]
+     пань+N+Inan+Pl+Ill+PxSg1: паннезам
+     пань+N+Inan+Pl+Apr+PxSg1: [паннезӧлань, паннезланям]
+     пань+N+Inan+Pl+Egr+PxSg1: [паннезӧсянь, паннезсяням]
+     пань+N+Inan+Pl+Prl+PxSg1: [паннезӧттям, паннезӧттим]
+     пань+N+Inan+Pl+TerI+PxSg1: [паннезӧдззам, паннезӧдззим]
+     пань+N+Inan+Pl+TerII+PxSg1: паннезӧви
+     пань+N+Inan+Pl+AprIne+PxSg1: паннезланям
+     пань+N+Inan+Pl+AprEla+PxSg1: паннезланьсим
+     пань+N+Inan+Pl+AprIll+PxSg1: паннезланям
+     пань+N+Inan+Pl+AprEgr+PxSg1: [паннезланьсяням, паннезӧланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxSg1: [паннезланьӧттям, паннезланьӧттим, паннезӧланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxSg1: [паннезланьӧдззам, паннезланьӧдззим, паннезӧланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxSg1: паннезӧланьви
+     пань+N+Inan+Pl+Nom+PxSg2: [паннет, паннезыт]
+     пань+N+Inan+Pl+Gen+PxSg2: [паннетлӧн, паннезытлӧн]
+     пань+N+Inan+Pl+Abl+PxSg2: [паннетлісь, паннезытлісь]
+     пань+N+Inan+Pl+Dat+PxSg2: [паннетлӧ, паннезытлӧ]
+     пань+N+Inan+Pl+Acc+PxSg2: [паннетӧ, паннезтӧ]
+     пань+N+Inan+Pl+Ins+PxSg2: паннезнат
+     пань+N+Inan+Pl+Com+PxSg2: [паннеткӧт, паннезыткӧт]
+     пань+N+Inan+Pl+Car+PxSg2: [паннеттӧг, паннезыттӧг, паннезтӧгьят]
+     пань+N+Inan+Pl+Cns+PxSg2: [паннетла, паннезытла]
+     пань+N+Inan+Pl+Cmpr+PxSg2: [паннется, паннезытся]
+     пань+N+Inan+Pl+Ine+PxSg2: паннезат
+     пань+N+Inan+Pl+Ela+PxSg2: [паннезсит, паннесит]
+     пань+N+Inan+Pl+Ill+PxSg2: паннезат
+     пань+N+Inan+Pl+Apr+PxSg2: [паннетлань, паннезытлань, паннезланят]
+     пань+N+Inan+Pl+Egr+PxSg2: [паннетсянь, паннезытсянь, паннезсянят]
+     пань+N+Inan+Pl+Prl+PxSg2: [паннезӧттят, паннезӧттит]
+     пань+N+Inan+Pl+TerI+PxSg2: [паннезӧдззат, паннезӧдззит]
+     пань+N+Inan+Pl+TerII+PxSg2: [паннетви, паннезытви]
+     пань+N+Inan+Pl+AprIne+PxSg2: паннезланят
+     пань+N+Inan+Pl+AprEla+PxSg2: паннезланьсит
+     пань+N+Inan+Pl+AprIll+PxSg2: паннезланят
+     пань+N+Inan+Pl+AprEgr+PxSg2: [паннезланьсянят, паннетланьсянь, паннезытланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxSg2: [паннезланьӧттят, паннезланьӧттит, паннетланьӧт, паннезытланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxSg2: [паннезланьӧдззат, паннезланьӧдззит, паннетланьӧдз, паннезытланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxSg2: [паннетланьви, паннезытланьви]
+     пань+N+Inan+Pl+Nom+PxSg3: [паннес, паннезыс]
+     пань+N+Inan+Pl+Gen+PxSg3: [паннеслӧн, паннезыслӧн]
+     пань+N+Inan+Pl+Abl+PxSg3: [паннеслісь, паннезыслісь]
+     пань+N+Inan+Pl+Dat+PxSg3: [паннеслӧ, паннезыслӧ]
+     пань+N+Inan+Pl+Acc+PxSg3: [паннесӧ, паннезсӧ]
+     пань+N+Inan+Pl+Ins+PxSg3: паннезнас
+     пань+N+Inan+Pl+Com+PxSg3: [паннескӧт, паннезыскӧт]
+     пань+N+Inan+Pl+Car+PxSg3: [паннестӧг, паннезыстӧг, паннезтӧгьяс]
+     пань+N+Inan+Pl+Cns+PxSg3: [паннесла, паннезысла]
+     пань+N+Inan+Pl+Cmpr+PxSg3: [паннесся, паннезысся]
+     пань+N+Inan+Pl+Ine+PxSg3: паннезас
+     пань+N+Inan+Pl+Ela+PxSg3: [паннезсис, паннесис]
+     пань+N+Inan+Pl+Ill+PxSg3: паннезас
+     пань+N+Inan+Pl+Apr+PxSg3: [паннеслань, паннезыслань, паннезланяс]
+     пань+N+Inan+Pl+Egr+PxSg3: [паннессянь, паннезыссянь, паннезсяняс]
+     пань+N+Inan+Pl+Prl+PxSg3: [паннезӧттяс, паннезӧттис]
+     пань+N+Inan+Pl+TerI+PxSg3: [паннезӧдззас, паннезӧдззис]
+     пань+N+Inan+Pl+TerII+PxSg3: паннесви
+     пань+N+Inan+Pl+AprIne+PxSg3: паннезланяс
+     пань+N+Inan+Pl+AprEla+PxSg3: паннезланьсис
+     пань+N+Inan+Pl+AprIll+PxSg3: паннезланяс
+     пань+N+Inan+Pl+AprEgr+PxSg3: [паннезланьсяняс, паннесланьсянь, паннезысланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxSg3: [паннезланьӧттяс, паннезланьӧттис, паннесланьӧт, паннезысланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxSg3: [паннезланьӧдззаc, паннезланьӧдззиc, паннесланьӧдз, паннезысланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxSg3: паннесланьви
+     пань+N+Inan+Pl+Nom+PxPl1: паннезным
+     пань+N+Inan+Pl+Gen+PxPl1: паннезнымлӧн
+     пань+N+Inan+Pl+Abl+PxPl1: паннезнымлісь
+     пань+N+Inan+Pl+Dat+PxPl1: паннезнымлӧ
+     пань+N+Inan+Pl+Acc+PxPl1: паннезнымӧс
+     пань+N+Inan+Pl+Ins+PxPl1: паннезнаным
+     пань+N+Inan+Pl+Com+PxPl1: паннезнымкӧт
+     пань+N+Inan+Pl+Car+PxPl1: [паннезнымтӧг, паннезтӧгьяным]
+     пань+N+Inan+Pl+Cns+PxPl1: паннезнымла
+     пань+N+Inan+Pl+Cmpr+PxPl1: паннезнымся
+     пань+N+Inan+Pl+Ine+PxPl1: паннезаным
+     пань+N+Inan+Pl+Ela+PxPl1: [паннезсиным, паннесиным]
+     пань+N+Inan+Pl+Ill+PxPl1: паннезаным
+     пань+N+Inan+Pl+Apr+PxPl1: [паннезнымлань, паннезланяным]
+     пань+N+Inan+Pl+Egr+PxPl1: [паннезнымсянь, паннезсяняным]
+     пань+N+Inan+Pl+Prl+PxPl1: [паннезӧттяным, паннезӧттиным]
+     пань+N+Inan+Pl+TerI+PxPl1: [паннезӧдззаным, паннезӧдззиным]
+     пань+N+Inan+Pl+TerII+PxPl1: паннезнымви
+     пань+N+Inan+Pl+AprIne+PxPl1: паннезланяным
+     пань+N+Inan+Pl+AprEla+PxPl1: паннезланьсиным
+     пань+N+Inan+Pl+AprIll+PxPl1: паннезланяным
+     пань+N+Inan+Pl+AprEgr+PxPl1: [паннезланьсяняным, паннезнымланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxPl1: [паннезланьӧттяным, паннезланьӧттиным, паннезнымланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxPl1: [паннезланьӧдззаным, паннезланьӧдззиным, паннезнымланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxPl1: паннезнымланьви
+     пань+N+Inan+Pl+Nom+PxPl2: паннезныт
+     пань+N+Inan+Pl+Gen+PxPl2: паннезнытлӧн
+     пань+N+Inan+Pl+Abl+PxPl2: паннезнытлісь
+     пань+N+Inan+Pl+Dat+PxPl2: паннезнытлӧ
+     пань+N+Inan+Pl+Acc+PxPl2: паннезнытӧ
+     пань+N+Inan+Pl+Ins+PxPl2: паннезнаныт
+     пань+N+Inan+Pl+Com+PxPl2: паннезныткӧт
+     пань+N+Inan+Pl+Car+PxPl2: [паннезныттӧг, паннезтӧгьяныт]
+     пань+N+Inan+Pl+Cns+PxPl2: паннезнытла
+     пань+N+Inan+Pl+Cmpr+PxPl2: паннезнытся
+     пань+N+Inan+Pl+Ine+PxPl2: паннезаныт
+     пань+N+Inan+Pl+Ela+PxPl2: [паннезсиныт, паннесиныт]
+     пань+N+Inan+Pl+Ill+PxPl2: паннезаныт
+     пань+N+Inan+Pl+Apr+PxPl2: [паннезнытлань, паннезланяныт]
+     пань+N+Inan+Pl+Egr+PxPl2: [паннезнытсянь, паннезсяняныт]
+     пань+N+Inan+Pl+Prl+PxPl2: [паннезӧттяныт, паннезӧттиныт]
+     пань+N+Inan+Pl+TerI+PxPl2: [паннезӧдззаныт, паннезӧдззиныт]
+     пань+N+Inan+Pl+TerII+PxPl2: паннезнытви
+     пань+N+Inan+Pl+AprIne+PxPl2: паннезланяныт
+     пань+N+Inan+Pl+AprEla+PxPl2: паннезланьсиныт
+     пань+N+Inan+Pl+AprIll+PxPl2: паннезланяныт
+     пань+N+Inan+Pl+AprEgr+PxPl2: [паннезланьсяняныт, паннезнытланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxPl2: [паннезланьӧттяныт, паннезланьӧттиныт, паннезнытланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxPl2: [паннезланьӧдззаныт, паннезланьӧдззиныт, паннезнытланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxPl2: паннезнытланьви
+     пань+N+Inan+Pl+Nom+PxPl3: паннезныс
+     пань+N+Inan+Pl+Gen+PxPl3: паннезныслӧн
+     пань+N+Inan+Pl+Abl+PxPl3: паннезныслісь
+     пань+N+Inan+Pl+Dat+PxPl3: паннезныслӧ
+     пань+N+Inan+Pl+Acc+PxPl3: паннезнысӧ
+     пань+N+Inan+Pl+Ins+PxPl3: паннезнаныс
+     пань+N+Inan+Pl+Com+PxPl3: паннезныскӧт
+     пань+N+Inan+Pl+Car+PxPl3: [паннезныстӧг, паннезтӧгьяныс]
+     пань+N+Inan+Pl+Cns+PxPl3: паннезнысла
+     пань+N+Inan+Pl+Cmpr+PxPl3: паннезнысся
+     пань+N+Inan+Pl+Ine+PxPl3: паннезаныс
+     пань+N+Inan+Pl+Ela+PxPl3: [паннезсиныс, паннесиныс]
+     пань+N+Inan+Pl+Ill+PxPl3: паннезаныс
+     пань+N+Inan+Pl+Apr+PxPl3: [паннезныслань, паннезланяныс]
+     пань+N+Inan+Pl+Egr+PxPl3: [паннезныссянь, паннезсяняныс]
+     пань+N+Inan+Pl+Prl+PxPl3: [паннезӧттяныс, паннезӧттиныс]
+     пань+N+Inan+Pl+TerI+PxPl3: [паннезӧдззаныс, паннезӧдззиныс]
+     пань+N+Inan+Pl+TerII+PxPl3: паннезнысви
+     пань+N+Inan+Pl+AprIne+PxPl3: паннезланяныс
+     пань+N+Inan+Pl+AprEla+PxPl3: паннезланьсиныс
+     пань+N+Inan+Pl+AprIll+PxPl3: паннезланяныс
+     пань+N+Inan+Pl+AprEgr+PxPl3: [паннезланьсяняныс, паннезнысланьсянь]
+     пань+N+Inan+Pl+AprPrl+PxPl3: [паннезланьӧттяныс, паннезланьӧттиныс, паннезнысланьӧт]
+     пань+N+Inan+Pl+AprTerI+PxPl3: [паннезланьӧдззаныс, паннезланьӧдззиныс, паннезнысланьӧдз]
+     пань+N+Inan+Pl+AprTerII+PxPl3: паннезнысланьви
+

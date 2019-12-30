@@ -1,0 +1,117 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-25
+# Then: run analyser, then correct. 
+
+
+  Verb - дорйыны 'to defend'/ 'puolustaa'/ 'защищать': 
+# Inf. suff. –ыны. Verb in –j, preceded by consonants: б, в, г, ж, к, м, п, р, ш, / Inf. suff. -ыны. Sanavartalon lopussa on –й, jonka edessä ovat konsonantit: б, в, г, ж, к, м, п, р, ш. 
+     дорйыны+V+Inf: дорйыны
+     дорйыны+V+Inf+PxSg2: дорйыныт
+     дорйыны+V+Inf+Acc+PxSg2: дорйынытӧ
+     дорйыны+V+Inf+PxSg3: дорйыныс
+     дорйыны+V+Inf+Acc+PxSg3: дорйынысӧ 
+     дорйыны+V+ConNeg+Pl: дорйӧ 
+     дорйыны+V+ConNeg+Sg: дорйы
+     дорйыны+V+Imprt+Sg2: [дорйы, дорйы-ко]
+     дорйыны+V+Imprt+Pl1: [дорьям, дорьямӧ, дорьямӧ-ко, дорьямте, дорьямӧте]
+     дорйыны+V+Imprt+Pl2: [дорйӧ, дорйӧ-ко, дорйӧте]
+     дорйыны+V+Ind+Prs+Sg1: дорья
+     дорйыны+V+Ind+Prs+Sg2: дорьян
+     дорйыны+V+Ind+Prs+Sg3: дорйӧ
+     дорйыны+V+Ind+Prs+Pl1: [дорьям, дорьямӧ]
+     дорйыны+V+Ind+Prs+Pl2: [дорьят, дорьятӧ]
+     дорйыны+V+Ind+Prs+Pl3: [дорйӧн, дорйӧны]
+     дорйыны+V+Ind+Fut+Sg1: дорья
+     дорйыны+V+Ind+Fut+Sg2: дорьян
+     дорйыны+V+Ind+Fut+Sg3: дорьяс
+     дорйыны+V+Ind+Fut+Pl1: [дорьям, дорьямӧ]
+     дорйыны+V+Ind+Fut+Pl2: [дорьят, дорьятӧ]
+     дорйыны+V+Ind+Fut+Pl3: дорьясӧ
+     дорйыны+V+Ind+Prt1+Sg1: дорйи
+     дорйыны+V+Ind+Prt1+Sg2: дорйин
+     дорйыны+V+Ind+Prt1+Sg3: дорйис
+     дорйыны+V+Ind+Prt1+Pl1: [дорйим, дорйимӧ]
+     дорйыны+V+Ind+Prt1+Pl2: [дорйит, дорйитӧ]
+     дорйыны+V+Ind+Prt1+Pl3: дорйисӧ
+     дорйыны+V+Ind+Prt2+Sg2: [дорйӧмыт, дорйӧмат]
+     дорйыны+V+Ind+Prt2+Sg3: [дорйӧм, дорйӧма]
+     дорйыны+V+Ind+Prt2+Pl2: [дорйӧмныт, дорйӧмась]
+     дорйыны+V+Ind+Prt2+Pl3: дорйӧмась
+     дорйыны+V+Inf+Comp: дорйыныжык
+     дорйыны+V+Ind+Prs+Sg1+Comp: дорьяжык
+     дорйыны+V+Ind+Prs+Sg2+Comp: дорьянжык
+     дорйыны+V+Ind+Prs+Sg3+Comp: дорйӧжык
+     дорйыны+V+Ind+Prs+Pl1+Comp: [дорьямжык, дорьямӧжык]
+     дорйыны+V+Ind+Prs+Pl2+Comp: [дорьятжык, дорьятӧжык]
+     дорйыны+V+Ind+Prs+Pl3+Comp: [дорйӧнжык, дорйӧныжык]
+     дорйыны+V+Ind+Fut+Sg1+Comp: дорьяжык
+     дорйыны+V+Ind+Fut+Sg2+Comp: дорьянжык
+     дорйыны+V+Ind+Fut+Sg3+Comp: дорьясжык
+     дорйыны+V+Ind+Fut+Pl1+Comp: [дорьямжык, дорьямӧжык]
+     дорйыны+V+Ind+Fut+Pl2+Comp: [дорьятжык, дорьятӧжык]
+     дорйыны+V+Ind+Fut+Pl3+Comp: дорьясӧжык
+     дорйыны+V+Ind+Prt1+Sg1+Comp: дорйижык
+     дорйыны+V+Ind+Prt1+Sg2+Comp: дорйинжык
+     дорйыны+V+Ind+Prt1+Sg3+Comp: дорйисжык
+     дорйыны+V+Ind+Prt1+Pl1+Comp: [дорйимжык, дорйимӧжык]
+     дорйыны+V+Ind+Prt1+Pl2+Comp: [дорйитжык, дорйитӧжык]
+     дорйыны+V+Ind+Prt1+Pl3+Comp: дорйисӧжык
+     дорйыны+V+Ind+Prt2+Sg2+Comp: [дорйӧмытжык, дорйӧматжык]
+     дорйыны+V+Ind+Prt2+Sg3+Comp: [дорйӧмжык, дорйӧмажык]
+     дорйыны+V+Ind+Prt2+Pl2+Comp: [дорйӧмнытжык, дорйӧмасьжык]
+     дорйыны+V+Ind+Prt2+Pl3+Comp: дорйӧмасьжык
+    
+     дорйыны+V+Der/ик+Ger+Compl: дорйик
+     дорйыны+V+Der/ик+Ger+Ill: дорйикӧ
+     дорйыны+V+Der/ик+Ger+Ill+PxSg1: дорйикам
+     дорйыны+V+Der/ик+Ger+Ill+PxSg2: дорйикат
+     дорйыны+V+Der/ик+Ger+Ill+PxSg3: дорйикас
+     дорйыны+V+Der/ик+Ger+Ill+PxPl1: дорйиканым
+     дорйыны+V+Der/ик+Ger+Ill+PxPl2: дорйиканыт
+     дорйыны+V+Der/ик+Ger+Ill+PxPl3: дорйиканыс
+     дорйыны+V+Der/ӧмӧн+Ger: дорйӧмӧн
+     дорйыны+V+Der/ӧмӧн+Ger+Comp: дорйӧмӧнжык  
+     дорйыны+V+Der/тӧдз+Ger: дорйытӧдз
+     дорйыны+V+Der/тӧдз+Ger+PxSg1: [дорйытӧдззам, дорйытӧдззим]
+     дорйыны+V+Der/тӧдз+Ger+PxSg2: [дорйытӧдззат, дорйытӧдззит]
+     дорйыны+V+Der/тӧдз+Ger+PxSg3: [дорйытӧдззас, дорйытӧдззис]
+     дорйыны+V+Der/тӧдз+Ger+PxPl1: [дорйытӧдззаным, дорйытӧдззиным]
+     дорйыны+V+Der/тӧдз+Ger+PxPl2: [дорйытӧдззаныт, дорйытӧдззиныт]
+     дорйыны+V+Der/тӧдз+Ger+PxPl3: [дорйытӧдззаныс, дорйытӧдззиныс]
+     дорйыны+V+Der/тӧн+Ger: дорйытӧн
+     дорйыны+V+Der/тӧн+Ger+PxSg1: [дорйытӧнням, дорйытӧнним]
+     дорйыны+V+Der/тӧн+Ger+PxSg2: [дорйытӧннят, дорйытӧннит]
+     дорйыны+V+Der/тӧн+Ger+PxSg3: [дорйытӧнняс, дорйытӧннис]
+     дорйыны+V+Der/тӧн+Ger+PxPl1: [дорйытӧнняным, дорйытӧнниным]
+     дорйыны+V+Der/тӧн+Ger+PxPl2: [дорйытӧнняныт, дорйытӧнниныт]
+     дорйыны+V+Der/тӧн+Ger+PxPl3: [дорйытӧнняныс, дорйытӧнниныс]
+     дорйыны+V+Der/тӧг+Car+Ger: дорйытӧг
+     дорйыны+V+Der/тӧг+Car+Ger+PxSg1: дорйытӧгьям
+     дорйыны+V+Der/тӧг+Car+Ger+PxSg2: дорйытӧгьят
+     дорйыны+V+Der/тӧг+Car+Ger+PxSg3: дорйытӧгьяс
+     дорйыны+V+Der/тӧг+Car+Ger+PxPl1: дорйытӧгьяным
+     дорйыны+V+Der/тӧг+Car+Ger+PxPl2: дорйытӧгьяныт
+     дорйыны+V+Der/тӧг+Car+Ger+PxPl3: дорйытӧгьяныс
+     
+     дорйыны+V+Der/ӧм+PrfPrc+Sg: дорйӧм
+     дорйыны+V+Der/ӧм+PrfPrc+Pl: дорйӧмӧсь
+     дорйыны+V+Der/ись+Act+PrsPrc+Sg: дорйись
+     дорйыны+V+Der/ись+Act+PrsPrc+Pl: дорйисьӧсь
+     дорйыны+V+Der/ян+PrsPrc+Sg: дорьян
+     дорйыны+V+Der/ян+PrsPrc+Pl: дорьянӧсь
+     дорйыны+V+Der/яна+PrsPrc+Sg: дорьяна
+     дорйыны+V+Der/яна+PrsPrc+Pl: дорьянаӧсь
+     дорйыны+V+Der/тӧм+PrivPrc+Sg: дорйытӧм
+     дорйыны+V+Der/тӧм+PrivPrc+Pl: дорйытӧмӧсь
+
