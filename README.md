@@ -18,7 +18,7 @@ If you use this data in your work, I would be ever so grateful if you cited it a
 
 This repository can also be cited as:
 
-
+[![DOI](https://zenodo.org/badge/230929483.svg)](https://zenodo.org/badge/latestdoi/230929483)
 
 # Acknowledgements
 Work with the Komi-Permyak morphology, native evaluation, Larisa Ponomareva, University of Helsinki, Digital Humanities 2019–2020.
