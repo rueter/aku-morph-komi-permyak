@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+#  The were proofread for golden standard by Larisa Ponomareva 2019-10-22
+# Then: run analyser, then correct. 
+
+   Pronoun – нем: # Negative Pronoun 'Ei mikään / Ничто'
+    нем+Pron+Neg+Sg+Nom: нем
+    нем+Pron+Neg+Sg+Acc: нем
+    нем+Pron+Neg+Sg+Gen: немлӧн
+    нем+Pron+Neg+Sg+Abl: немлісь
+    нем+Pron+Neg+Sg+Dat: немлӧ
+    нем+Pron+Neg+Sg+Ins: немӧн 
+    нем+Pron+Neg+Sg+Com: немкӧт
+    нем+Pron+Neg+Sg+Car: немтӧг
+    нем+Pron+Neg+Sg+Cns: немла
+    нем+Pron+Neg+Sg+Cmpr: немся
+    нем+Pron+Neg+Sg+Ine: немын
+    нем+Pron+Neg+Sg+Ela: немись
+    нем+Pron+Neg+Sg+Ill: немӧ
+    нем+Pron+Neg+Sg+Apr: немлань
+    нем+Pron+Neg+Sg+Egr: немсянь
+    нем+Pron+Neg+Sg+Prl: немӧт
+    нем+Pron+Neg+Sg+TerI: немӧдз
+    нем+Pron+Neg+Sg+TerII: немви
+    нем+Pron+Neg+Sg+AprIne: немланьын
+    нем+Pron+Neg+Sg+AprEla: немланись
+    нем+Pron+Neg+Sg+AprIll: немланьӧ
+    нем+Pron+Neg+Sg+AprEgr: немланьсянь
+    нем+Pron+Neg+Sg+AprPrl: немланьӧт
+    нем+Pron+Neg+Sg+AprTerI: немланьӧдз
+    нем+Pron+Neg+Sg+AprTerII: немланьви
+

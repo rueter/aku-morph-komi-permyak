@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-Pronoun – кыным-нибудь: # Indefinite Pronoun 'Jonkin verran, jokin määrä / Сколько-нибудь'
+   Pronoun – кыным-нибудь: # Indefinite Pronoun 'Jonkin verran, jokin määrä / Сколько-нибудь'
 
     кыным-нибудь+Pron+Indef+Sg+Nom: кыным-нибудь
     кыным-нибудь+Pron+Indef+Cop+Sg: кыныма-нибудь
@@ -785,7 +785,7 @@ Pronoun – кыным-нибудь: # Indefinite Pronoun 'Jonkin verran, jokin 
     кыным+Pron+Interr+Sg+AprTerII+PxPl3: кынымнысланьви
 
 
-Pronoun – кыным: # Relative Pronoun 'Kuinka paljon / Сколько'
+##Pronoun – кыным: # Relative Pronoun 'Kuinka paljon / Сколько'
     кыным+Pron+Rel+Sg+Nom: кыным
     кыным+Pron+Rel+Sg+Nom+…: кыныма
     кыным+Pron+Rel+Sg+Nom+…+Pl: кынымаӧсь

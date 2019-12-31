@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-Pronoun – мукӧд: # Indefinite Pronoun 'Joku, muu / Иной'
+    Pronoun – мукӧд: # Indefinite Pronoun 'Joku, muu / Иной'
     мукӧд+Pron+Indef+Sg+Nom: мукӧд
     мукӧд+Pron+Indef+Sg+Nom+Der/моз: мукӧдмоз
     мукӧд+Pron+Indef+Sg+Nom+Der/кодь: мукӧдкодь
