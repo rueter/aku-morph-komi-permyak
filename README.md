@@ -22,3 +22,13 @@ This repository can also be cited as:
 
 # Acknowledgements
 Work with the Komi-Permyak morphology, native evaluation, Larisa Ponomareva, University of Helsinki, Digital Humanities 2019–2020.
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: 2019-12-31
+License: CC BY-SA 4.0
+Includes text: yes
+Contributors: Ponomareva, Larisa; Rueter, Jack; Partanen, Niko; 
+Contact: rueter.jack@gmail.com
+===============================================================================
+</pre>
